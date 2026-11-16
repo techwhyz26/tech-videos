@@ -71,4 +71,7 @@ jobs:
 
       - name: Tell me if something went wrong
         if: failure()
-        run: python run.py notify "Today's video failed. Details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python run.py notify "Today's video failed. Details: $RUN_URL"
