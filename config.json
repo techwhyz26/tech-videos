@@ -1,0 +1,17 @@
+{
+  "brand": {"name": "TechWhyz"},
+  "voice": {"name": "en-US-AndrewMultilingualNeural", "rate": "+14%", "pitch": "+2Hz"},
+  "script_model": "claude-opus-5-5",
+  "automation": {
+    "upload_post_user": "techwhyz",
+    "platforms": ["instagram", "youtube", "facebook"]
+  },
+  "niche": "how everyday technology works, new technology updates, and technology news, explained simply for a general audience",
+  "feeds": [
+    "https://hnrss.org/frontpage?points=150",
+    "https://techcrunch.com/feed/",
+    "https://www.theverge.com/rss/index.xml",
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.technologyreview.com/feed/"
+  ]
+}

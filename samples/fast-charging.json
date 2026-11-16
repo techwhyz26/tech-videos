@@ -1,0 +1,55 @@
+{
+  "slug": "fast-charging",
+  "title": "Why your phone charges slower after 80%",
+  "caption": "Your phone sprints to 80% and then crawls. It is not the charger being lazy, it is protecting the battery.\n\n#tech #howitworks #battery #smartphone #explained",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your phone races to eighty percent, then crawls. Here's why.",
+      "emphasis": ["eighty", "crawls"],
+      "props": {"kicker": "How it works", "headline": "Why charging slows at 80%", "highlight": ["80%"]}
+    },
+    {
+      "type": "crowd",
+      "narration": "Most people think the charger just gets lazy.",
+      "emphasis": ["lazy"],
+      "props": {"symbol": "?"}
+    },
+    {
+      "type": "steps",
+      "narration": "At first, the charger pushes a steady, high current into the battery.",
+      "emphasis": ["high"],
+      "props": {"steps": ["Fast", "Slow", "Full"], "active": 0, "icon": "bolt", "status": "Constant current", "progress": 0.8}
+    },
+    {
+      "type": "stat",
+      "narration": "But around eighty percent, the cell's voltage hits its safe limit.",
+      "emphasis": ["eighty", "limit"],
+      "props": {"value": 80, "suffix": "%", "ring": 0.8, "label": "Voltage reaches its safe limit"}
+    },
+    {
+      "type": "steps",
+      "narration": "So the charger holds the voltage steady, and the current has to fall.",
+      "emphasis": ["fall"],
+      "props": {"steps": ["Fast", "Slow", "Full"], "active": 1, "icon": "battery", "status": "Constant voltage", "progress": 0.45}
+    },
+    {
+      "type": "icon",
+      "narration": "Forcing more in would mean heat and lithium plating, which permanently damage the battery.",
+      "emphasis": ["heat", "permanently"],
+      "props": {"icon": "warning", "label": "Battery damage", "tags": ["Heat", "Lithium plating", "Shorter life"]}
+    },
+    {
+      "type": "hub",
+      "narration": "Phones, laptops, even electric cars all follow the same rule.",
+      "emphasis": ["same"],
+      "props": {"items": ["Phones", "Laptops", "Earbuds", "Electric cars", "Power banks"], "hub": {"label": "Lithium-ion battery", "icon": "battery"}}
+    },
+    {
+      "type": "title",
+      "narration": "Follow for more on how tech really works.",
+      "emphasis": ["Follow"],
+      "props": {"headline": "Follow for more", "highlight": ["Follow"], "sub": "How tech really works"}
+    }
+  ]
+}

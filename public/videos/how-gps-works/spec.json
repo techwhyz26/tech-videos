@@ -1,0 +1,616 @@
+{
+  "slug": "how-gps-works",
+  "title": "Your phone never talks to GPS satellites",
+  "caption": "Your phone never sends anything to a GPS satellite. It only listens, and does some very fast maths.\n\n#tech #howitworks #gps #space #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your phone never sends anything to a GPS satellite. It only listens.",
+      "emphasis": [
+        "never",
+        "listens"
+      ],
+      "props": {
+        "kicker": "How it works",
+        "headline": "Your phone never talks to GPS",
+        "highlight": [
+          "never"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your phone never sends anything to a GPS satellite. It only listens.",
+      "audio": "videos/how-gps-works/scene-01.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "phone",
+          "startMs": 164,
+          "endMs": 417
+        },
+        {
+          "text": "never",
+          "startMs": 417,
+          "endMs": 647
+        },
+        {
+          "text": "sends",
+          "startMs": 647,
+          "endMs": 1085
+        },
+        {
+          "text": "anything",
+          "startMs": 1206,
+          "endMs": 1743
+        },
+        {
+          "text": "to",
+          "startMs": 1743,
+          "endMs": 1886
+        },
+        {
+          "text": "a",
+          "startMs": 1886,
+          "endMs": 1963
+        },
+        {
+          "text": "GPS",
+          "startMs": 1963,
+          "endMs": 2566
+        },
+        {
+          "text": "satellite",
+          "startMs": 2566,
+          "endMs": 3114
+        },
+        {
+          "text": "It",
+          "startMs": 3465,
+          "endMs": 3520
+        },
+        {
+          "text": "only",
+          "startMs": 3520,
+          "endMs": 3706
+        },
+        {
+          "text": "listens",
+          "startMs": 3717,
+          "endMs": 4287
+        }
+      ],
+      "durationMs": 4547
+    },
+    {
+      "type": "stat",
+      "narration": "About thirty satellites circle the Earth, each carrying an atomic clock.",
+      "emphasis": [
+        "thirty"
+      ],
+      "props": {
+        "value": 30,
+        "prefix": "~",
+        "label": "GPS satellites in orbit"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|About thirty satellites circle the Earth, each carrying an atomic clock.",
+      "audio": "videos/how-gps-works/scene-02.mp3",
+      "words": [
+        {
+          "text": "About",
+          "startMs": 77,
+          "endMs": 318
+        },
+        {
+          "text": "thirty",
+          "startMs": 318,
+          "endMs": 636
+        },
+        {
+          "text": "satellites",
+          "startMs": 636,
+          "endMs": 1283
+        },
+        {
+          "text": "circle",
+          "startMs": 1371,
+          "endMs": 1732
+        },
+        {
+          "text": "the",
+          "startMs": 1743,
+          "endMs": 1831
+        },
+        {
+          "text": "Earth",
+          "startMs": 1842,
+          "endMs": 2215
+        },
+        {
+          "text": "each",
+          "startMs": 2588,
+          "endMs": 2785
+        },
+        {
+          "text": "carrying",
+          "startMs": 2796,
+          "endMs": 3333
+        },
+        {
+          "text": "an",
+          "startMs": 3344,
+          "endMs": 3399
+        },
+        {
+          "text": "atomic",
+          "startMs": 3399,
+          "endMs": 3794
+        },
+        {
+          "text": "clock",
+          "startMs": 3805,
+          "endMs": 4287
+        }
+      ],
+      "durationMs": 4547
+    },
+    {
+      "type": "icon",
+      "narration": "Each one constantly broadcasts the exact time and its own position.",
+      "emphasis": [
+        "time"
+      ],
+      "props": {
+        "icon": "clock",
+        "label": "Atomic clocks",
+        "tags": [
+          "Exact time",
+          "Own position"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Each one constantly broadcasts the exact time and its own position.",
+      "audio": "videos/how-gps-works/scene-03.mp3",
+      "words": [
+        {
+          "text": "Each",
+          "startMs": 88,
+          "endMs": 219
+        },
+        {
+          "text": "one",
+          "startMs": 219,
+          "endMs": 428
+        },
+        {
+          "text": "constantly",
+          "startMs": 428,
+          "endMs": 987
+        },
+        {
+          "text": "broadcasts",
+          "startMs": 998,
+          "endMs": 1700
+        },
+        {
+          "text": "the",
+          "startMs": 1700,
+          "endMs": 1754
+        },
+        {
+          "text": "exact",
+          "startMs": 1754,
+          "endMs": 2138
+        },
+        {
+          "text": "time",
+          "startMs": 2138,
+          "endMs": 2533
+        },
+        {
+          "text": "and",
+          "startMs": 2818,
+          "endMs": 2873
+        },
+        {
+          "text": "its",
+          "startMs": 2873,
+          "endMs": 2971
+        },
+        {
+          "text": "own",
+          "startMs": 2972,
+          "endMs": 3103
+        },
+        {
+          "text": "position",
+          "startMs": 3114,
+          "endMs": 3596
+        }
+      ],
+      "durationMs": 3856
+    },
+    {
+      "type": "steps",
+      "narration": "Your phone measures how long each signal took to arrive.",
+      "emphasis": [
+        "long"
+      ],
+      "props": {
+        "steps": [
+          "Signal",
+          "Delay",
+          "Distance"
+        ],
+        "active": 1,
+        "icon": "clock",
+        "status": "Measure the delay",
+        "progress": 0.6
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your phone measures how long each signal took to arrive.",
+      "audio": "videos/how-gps-works/scene-04.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "phone",
+          "startMs": 164,
+          "endMs": 428
+        },
+        {
+          "text": "measures",
+          "startMs": 428,
+          "endMs": 746
+        },
+        {
+          "text": "how",
+          "startMs": 757,
+          "endMs": 976
+        },
+        {
+          "text": "long",
+          "startMs": 987,
+          "endMs": 1414
+        },
+        {
+          "text": "each",
+          "startMs": 1546,
+          "endMs": 1743
+        },
+        {
+          "text": "signal",
+          "startMs": 1754,
+          "endMs": 2226
+        },
+        {
+          "text": "took",
+          "startMs": 2237,
+          "endMs": 2401
+        },
+        {
+          "text": "to",
+          "startMs": 2401,
+          "endMs": 2489
+        },
+        {
+          "text": "arrive",
+          "startMs": 2489,
+          "endMs": 2950
+        }
+      ],
+      "durationMs": 3210
+    },
+    {
+      "type": "steps",
+      "narration": "Because radio travels at the speed of light, that delay reveals the distance.",
+      "emphasis": [
+        "distance"
+      ],
+      "props": {
+        "steps": [
+          "Signal",
+          "Delay",
+          "Distance"
+        ],
+        "active": 2,
+        "icon": "globe",
+        "status": "Delay = distance",
+        "progress": 1
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because radio travels at the speed of light, that delay reveals the distance.",
+      "audio": "videos/how-gps-works/scene-05.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 406
+        },
+        {
+          "text": "radio",
+          "startMs": 417,
+          "endMs": 899
+        },
+        {
+          "text": "travels",
+          "startMs": 899,
+          "endMs": 1425
+        },
+        {
+          "text": "at",
+          "startMs": 1425,
+          "endMs": 1480
+        },
+        {
+          "text": "the",
+          "startMs": 1480,
+          "endMs": 1546
+        },
+        {
+          "text": "speed",
+          "startMs": 1546,
+          "endMs": 1875
+        },
+        {
+          "text": "of",
+          "startMs": 1875,
+          "endMs": 1952
+        },
+        {
+          "text": "light",
+          "startMs": 1952,
+          "endMs": 2281
+        },
+        {
+          "text": "that",
+          "startMs": 2632,
+          "endMs": 2752
+        },
+        {
+          "text": "delay",
+          "startMs": 2752,
+          "endMs": 3169
+        },
+        {
+          "text": "reveals",
+          "startMs": 3169,
+          "endMs": 3739
+        },
+        {
+          "text": "the",
+          "startMs": 3739,
+          "endMs": 3838
+        },
+        {
+          "text": "distance",
+          "startMs": 3838,
+          "endMs": 4430
+        }
+      ],
+      "durationMs": 4690
+    },
+    {
+      "type": "pills",
+      "narration": "With distances to four satellites, only one spot on Earth fits.",
+      "emphasis": [
+        "four"
+      ],
+      "props": {
+        "items": [
+          "Satellite 1",
+          "Satellite 2",
+          "Satellite 3",
+          "Satellite 4"
+        ],
+        "result": {
+          "value": "You",
+          "label": "One exact spot"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|With distances to four satellites, only one spot on Earth fits.",
+      "audio": "videos/how-gps-works/scene-06.mp3",
+      "words": [
+        {
+          "text": "With",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "distances",
+          "startMs": 208,
+          "endMs": 778
+        },
+        {
+          "text": "to",
+          "startMs": 789,
+          "endMs": 888
+        },
+        {
+          "text": "four",
+          "startMs": 888,
+          "endMs": 1206
+        },
+        {
+          "text": "satellites",
+          "startMs": 1217,
+          "endMs": 1908
+        },
+        {
+          "text": "only",
+          "startMs": 2281,
+          "endMs": 2489
+        },
+        {
+          "text": "one",
+          "startMs": 2489,
+          "endMs": 2796
+        },
+        {
+          "text": "spot",
+          "startMs": 2796,
+          "endMs": 3125
+        },
+        {
+          "text": "on",
+          "startMs": 3125,
+          "endMs": 3224
+        },
+        {
+          "text": "Earth",
+          "startMs": 3224,
+          "endMs": 3388
+        },
+        {
+          "text": "fits",
+          "startMs": 3388,
+          "endMs": 3925
+        }
+      ],
+      "durationMs": 4185
+    },
+    {
+      "type": "stat",
+      "narration": "Under open sky, that pins you down to within about five meters.",
+      "emphasis": [
+        "five"
+      ],
+      "props": {
+        "value": 5,
+        "suffix": " m",
+        "ring": 0.9,
+        "label": "Typical accuracy under open sky"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Under open sky, that pins you down to within about five meters.",
+      "audio": "videos/how-gps-works/scene-07.mp3",
+      "words": [
+        {
+          "text": "Under",
+          "startMs": 77,
+          "endMs": 285
+        },
+        {
+          "text": "open",
+          "startMs": 296,
+          "endMs": 548
+        },
+        {
+          "text": "sky",
+          "startMs": 548,
+          "endMs": 1075
+        },
+        {
+          "text": "that",
+          "startMs": 1316,
+          "endMs": 1469
+        },
+        {
+          "text": "pins",
+          "startMs": 1469,
+          "endMs": 1732
+        },
+        {
+          "text": "you",
+          "startMs": 1732,
+          "endMs": 1831
+        },
+        {
+          "text": "down",
+          "startMs": 1842,
+          "endMs": 2127
+        },
+        {
+          "text": "to",
+          "startMs": 2127,
+          "endMs": 2193
+        },
+        {
+          "text": "within",
+          "startMs": 2204,
+          "endMs": 2500
+        },
+        {
+          "text": "about",
+          "startMs": 2500,
+          "endMs": 2697
+        },
+        {
+          "text": "five",
+          "startMs": 2697,
+          "endMs": 3048
+        },
+        {
+          "text": "meters",
+          "startMs": 3059,
+          "endMs": 3553
+        }
+      ],
+      "durationMs": 3813
+    },
+    {
+      "type": "title",
+      "narration": "Follow for more on how tech really works.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "How tech really works"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow for more on how tech really works.",
+      "audio": "videos/how-gps-works/scene-08.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 143,
+          "endMs": 351
+        },
+        {
+          "text": "for",
+          "startMs": 351,
+          "endMs": 450
+        },
+        {
+          "text": "more",
+          "startMs": 450,
+          "endMs": 691
+        },
+        {
+          "text": "on",
+          "startMs": 691,
+          "endMs": 811
+        },
+        {
+          "text": "how",
+          "startMs": 822,
+          "endMs": 943
+        },
+        {
+          "text": "tech",
+          "startMs": 954,
+          "endMs": 1250
+        },
+        {
+          "text": "really",
+          "startMs": 1261,
+          "endMs": 1414
+        },
+        {
+          "text": "works",
+          "startMs": 1425,
+          "endMs": 1908
+        }
+      ],
+      "durationMs": 2168
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz",
+    "accent": "#8f7cff"
+  }
+}

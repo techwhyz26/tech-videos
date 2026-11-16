@@ -1,0 +1,608 @@
+{
+  "slug": "fast-charging",
+  "title": "Why your phone charges slower after 80%",
+  "caption": "Your phone sprints to 80% and then crawls. It is not the charger being lazy, it is protecting the battery.\n\n#tech #howitworks #battery #smartphone #explained",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your phone races to eighty percent, then crawls. Here's why.",
+      "emphasis": [
+        "eighty",
+        "crawls"
+      ],
+      "props": {
+        "kicker": "How it works",
+        "headline": "Why charging slows at 80%",
+        "highlight": [
+          "80%"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Your phone races to eighty percent, then crawls. Here's why.",
+      "audio": "videos/fast-charging/scene-01.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 80,
+          "endMs": 159
+        },
+        {
+          "text": "phone",
+          "startMs": 159,
+          "endMs": 443
+        },
+        {
+          "text": "races",
+          "startMs": 443,
+          "endMs": 852
+        },
+        {
+          "text": "to",
+          "startMs": 864,
+          "endMs": 1000
+        },
+        {
+          "text": "eighty",
+          "startMs": 1091,
+          "endMs": 1318
+        },
+        {
+          "text": "percent",
+          "startMs": 1330,
+          "endMs": 1818
+        },
+        {
+          "text": "then",
+          "startMs": 2057,
+          "endMs": 2227
+        },
+        {
+          "text": "crawls",
+          "startMs": 2227,
+          "endMs": 2807
+        },
+        {
+          "text": "Here's",
+          "startMs": 3182,
+          "endMs": 3330
+        },
+        {
+          "text": "why",
+          "startMs": 3341,
+          "endMs": 3670
+        }
+      ],
+      "durationMs": 4120
+    },
+    {
+      "type": "crowd",
+      "narration": "Most people think the charger just gets lazy.",
+      "emphasis": [
+        "lazy"
+      ],
+      "props": {
+        "symbol": "?"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Most people think the charger just gets lazy.",
+      "audio": "videos/fast-charging/scene-02.mp3",
+      "words": [
+        {
+          "text": "Most",
+          "startMs": 91,
+          "endMs": 250
+        },
+        {
+          "text": "people",
+          "startMs": 250,
+          "endMs": 443
+        },
+        {
+          "text": "think",
+          "startMs": 455,
+          "endMs": 648
+        },
+        {
+          "text": "the",
+          "startMs": 659,
+          "endMs": 727
+        },
+        {
+          "text": "charger",
+          "startMs": 727,
+          "endMs": 1216
+        },
+        {
+          "text": "just",
+          "startMs": 1432,
+          "endMs": 1568
+        },
+        {
+          "text": "gets",
+          "startMs": 1580,
+          "endMs": 1727
+        },
+        {
+          "text": "lazy",
+          "startMs": 1727,
+          "endMs": 2205
+        }
+      ],
+      "durationMs": 2655
+    },
+    {
+      "type": "steps",
+      "narration": "At first, the charger pushes a steady, high current into the battery.",
+      "emphasis": [
+        "high"
+      ],
+      "props": {
+        "steps": [
+          "Fast",
+          "Slow",
+          "Full"
+        ],
+        "active": 0,
+        "icon": "bolt",
+        "status": "Constant current",
+        "progress": 0.8
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|At first, the charger pushes a steady, high current into the battery.",
+      "audio": "videos/fast-charging/scene-03.mp3",
+      "words": [
+        {
+          "text": "At",
+          "startMs": 91,
+          "endMs": 193
+        },
+        {
+          "text": "first",
+          "startMs": 193,
+          "endMs": 739
+        },
+        {
+          "text": "the",
+          "startMs": 955,
+          "endMs": 1045
+        },
+        {
+          "text": "charger",
+          "startMs": 1057,
+          "endMs": 1489
+        },
+        {
+          "text": "pushes",
+          "startMs": 1489,
+          "endMs": 1830
+        },
+        {
+          "text": "a",
+          "startMs": 1830,
+          "endMs": 1875
+        },
+        {
+          "text": "steady",
+          "startMs": 1875,
+          "endMs": 2318
+        },
+        {
+          "text": "high",
+          "startMs": 2670,
+          "endMs": 2864
+        },
+        {
+          "text": "current",
+          "startMs": 2875,
+          "endMs": 3250
+        },
+        {
+          "text": "into",
+          "startMs": 3261,
+          "endMs": 3409
+        },
+        {
+          "text": "the",
+          "startMs": 3409,
+          "endMs": 3477
+        },
+        {
+          "text": "battery",
+          "startMs": 3477,
+          "endMs": 3909
+        }
+      ],
+      "durationMs": 4359
+    },
+    {
+      "type": "stat",
+      "narration": "But around eighty percent, the cell's voltage hits its safe limit.",
+      "emphasis": [
+        "eighty",
+        "limit"
+      ],
+      "props": {
+        "value": 80,
+        "suffix": "%",
+        "ring": 0.8,
+        "label": "Voltage reaches its safe limit"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|But around eighty percent, the cell's voltage hits its safe limit.",
+      "audio": "videos/fast-charging/scene-04.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 80,
+          "endMs": 159
+        },
+        {
+          "text": "around",
+          "startMs": 159,
+          "endMs": 500
+        },
+        {
+          "text": "eighty",
+          "startMs": 648,
+          "endMs": 830
+        },
+        {
+          "text": "percent",
+          "startMs": 830,
+          "endMs": 1341
+        },
+        {
+          "text": "the",
+          "startMs": 1591,
+          "endMs": 1682
+        },
+        {
+          "text": "cell's",
+          "startMs": 1693,
+          "endMs": 2011
+        },
+        {
+          "text": "voltage",
+          "startMs": 2011,
+          "endMs": 2500
+        },
+        {
+          "text": "hits",
+          "startMs": 2511,
+          "endMs": 2773
+        },
+        {
+          "text": "its",
+          "startMs": 2830,
+          "endMs": 2943
+        },
+        {
+          "text": "safe",
+          "startMs": 2955,
+          "endMs": 3284
+        },
+        {
+          "text": "limit",
+          "startMs": 3284,
+          "endMs": 3614
+        }
+      ],
+      "durationMs": 4064
+    },
+    {
+      "type": "steps",
+      "narration": "So the charger holds the voltage steady, and the current has to fall.",
+      "emphasis": [
+        "fall"
+      ],
+      "props": {
+        "steps": [
+          "Fast",
+          "Slow",
+          "Full"
+        ],
+        "active": 1,
+        "icon": "battery",
+        "status": "Constant voltage",
+        "progress": 0.45
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|So the charger holds the voltage steady, and the current has to fall.",
+      "audio": "videos/fast-charging/scene-05.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 91,
+          "endMs": 182
+        },
+        {
+          "text": "the",
+          "startMs": 182,
+          "endMs": 261
+        },
+        {
+          "text": "charger",
+          "startMs": 261,
+          "endMs": 693
+        },
+        {
+          "text": "holds",
+          "startMs": 693,
+          "endMs": 1068
+        },
+        {
+          "text": "the",
+          "startMs": 1068,
+          "endMs": 1148
+        },
+        {
+          "text": "voltage",
+          "startMs": 1159,
+          "endMs": 1670
+        },
+        {
+          "text": "steady",
+          "startMs": 1682,
+          "endMs": 2102
+        },
+        {
+          "text": "and",
+          "startMs": 2489,
+          "endMs": 2580
+        },
+        {
+          "text": "the",
+          "startMs": 2580,
+          "endMs": 2659
+        },
+        {
+          "text": "current",
+          "startMs": 2659,
+          "endMs": 2966
+        },
+        {
+          "text": "has",
+          "startMs": 2966,
+          "endMs": 3193
+        },
+        {
+          "text": "to",
+          "startMs": 3193,
+          "endMs": 3250
+        },
+        {
+          "text": "fall",
+          "startMs": 3250,
+          "endMs": 3614
+        }
+      ],
+      "durationMs": 4064
+    },
+    {
+      "type": "icon",
+      "narration": "Forcing more in would mean heat and lithium plating, which permanently damage the battery.",
+      "emphasis": [
+        "heat",
+        "permanently"
+      ],
+      "props": {
+        "icon": "warning",
+        "label": "Battery damage",
+        "tags": [
+          "Heat",
+          "Lithium plating",
+          "Shorter life"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Forcing more in would mean heat and lithium plating, which permanently damage the battery.",
+      "audio": "videos/fast-charging/scene-06.mp3",
+      "words": [
+        {
+          "text": "Forcing",
+          "startMs": 136,
+          "endMs": 455
+        },
+        {
+          "text": "more",
+          "startMs": 455,
+          "endMs": 841
+        },
+        {
+          "text": "in",
+          "startMs": 920,
+          "endMs": 1034
+        },
+        {
+          "text": "would",
+          "startMs": 1034,
+          "endMs": 1159
+        },
+        {
+          "text": "mean",
+          "startMs": 1170,
+          "endMs": 1375
+        },
+        {
+          "text": "heat",
+          "startMs": 1386,
+          "endMs": 1773
+        },
+        {
+          "text": "and",
+          "startMs": 1932,
+          "endMs": 2136
+        },
+        {
+          "text": "lithium",
+          "startMs": 2136,
+          "endMs": 2534
+        },
+        {
+          "text": "plating",
+          "startMs": 2534,
+          "endMs": 2920
+        },
+        {
+          "text": "which",
+          "startMs": 3284,
+          "endMs": 3443
+        },
+        {
+          "text": "permanently",
+          "startMs": 3443,
+          "endMs": 4000
+        },
+        {
+          "text": "damage",
+          "startMs": 4102,
+          "endMs": 4443
+        },
+        {
+          "text": "the",
+          "startMs": 4443,
+          "endMs": 4500
+        },
+        {
+          "text": "battery",
+          "startMs": 4511,
+          "endMs": 4932
+        }
+      ],
+      "durationMs": 5382
+    },
+    {
+      "type": "hub",
+      "narration": "Phones, laptops, even electric cars all follow the same rule.",
+      "emphasis": [
+        "same"
+      ],
+      "props": {
+        "items": [
+          "Phones",
+          "Laptops",
+          "Earbuds",
+          "Electric cars",
+          "Power banks"
+        ],
+        "hub": {
+          "label": "Lithium-ion battery",
+          "icon": "battery"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Phones, laptops, even electric cars all follow the same rule.",
+      "audio": "videos/fast-charging/scene-07.mp3",
+      "words": [
+        {
+          "text": "Phones",
+          "startMs": 125,
+          "endMs": 625
+        },
+        {
+          "text": "laptops",
+          "startMs": 773,
+          "endMs": 1443
+        },
+        {
+          "text": "even",
+          "startMs": 1670,
+          "endMs": 1807
+        },
+        {
+          "text": "electric",
+          "startMs": 1807,
+          "endMs": 2148
+        },
+        {
+          "text": "cars",
+          "startMs": 2148,
+          "endMs": 2568
+        },
+        {
+          "text": "all",
+          "startMs": 2670,
+          "endMs": 2886
+        },
+        {
+          "text": "follow",
+          "startMs": 2898,
+          "endMs": 3182
+        },
+        {
+          "text": "the",
+          "startMs": 3182,
+          "endMs": 3250
+        },
+        {
+          "text": "same",
+          "startMs": 3250,
+          "endMs": 3545
+        },
+        {
+          "text": "rule",
+          "startMs": 3545,
+          "endMs": 3830
+        }
+      ],
+      "durationMs": 4280
+    },
+    {
+      "type": "title",
+      "narration": "Follow for more on how tech really works.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "How tech really works"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Follow for more on how tech really works.",
+      "audio": "videos/fast-charging/scene-08.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 148,
+          "endMs": 352
+        },
+        {
+          "text": "for",
+          "startMs": 352,
+          "endMs": 455
+        },
+        {
+          "text": "more",
+          "startMs": 455,
+          "endMs": 716
+        },
+        {
+          "text": "on",
+          "startMs": 716,
+          "endMs": 795
+        },
+        {
+          "text": "how",
+          "startMs": 795,
+          "endMs": 943
+        },
+        {
+          "text": "tech",
+          "startMs": 943,
+          "endMs": 1261
+        },
+        {
+          "text": "really",
+          "startMs": 1273,
+          "endMs": 1455
+        },
+        {
+          "text": "works",
+          "startMs": 1455,
+          "endMs": 1966
+        }
+      ],
+      "durationMs": 2416
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz",
+    "accent": "#8f7cff"
+  },
+  "status": "rendered"
+}

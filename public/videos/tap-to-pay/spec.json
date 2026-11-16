@@ -1,0 +1,695 @@
+{
+  "slug": "tap-to-pay",
+  "title": "What really happens when you tap to pay",
+  "caption": "When you tap your phone to pay, the shop never sees your real card number. Here is what gets sent instead.\n\n#tech #howitworks #payments #nfc #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "When you tap your phone to pay, your real card number is never sent.",
+      "emphasis": [
+        "never"
+      ],
+      "props": {
+        "kicker": "How it works",
+        "headline": "What happens when you tap",
+        "highlight": [
+          "tap"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|When you tap your phone to pay, your real card number is never sent.",
+      "audio": "videos/tap-to-pay/scene-01.mp3",
+      "words": [
+        {
+          "text": "When",
+          "startMs": 91,
+          "endMs": 148
+        },
+        {
+          "text": "you",
+          "startMs": 159,
+          "endMs": 227
+        },
+        {
+          "text": "tap",
+          "startMs": 227,
+          "endMs": 420
+        },
+        {
+          "text": "your",
+          "startMs": 432,
+          "endMs": 511
+        },
+        {
+          "text": "phone",
+          "startMs": 523,
+          "endMs": 784
+        },
+        {
+          "text": "to",
+          "startMs": 784,
+          "endMs": 841
+        },
+        {
+          "text": "pay",
+          "startMs": 852,
+          "endMs": 1205
+        },
+        {
+          "text": "your",
+          "startMs": 1761,
+          "endMs": 1898
+        },
+        {
+          "text": "real",
+          "startMs": 1898,
+          "endMs": 2102
+        },
+        {
+          "text": "card",
+          "startMs": 2102,
+          "endMs": 2307
+        },
+        {
+          "text": "number",
+          "startMs": 2318,
+          "endMs": 2602
+        },
+        {
+          "text": "is",
+          "startMs": 2670,
+          "endMs": 2773
+        },
+        {
+          "text": "never",
+          "startMs": 2773,
+          "endMs": 3068
+        },
+        {
+          "text": "sent",
+          "startMs": 3068,
+          "endMs": 3466
+        }
+      ],
+      "durationMs": 3916
+    },
+    {
+      "type": "crowd",
+      "narration": "So what does the payment terminal actually receive?",
+      "emphasis": [
+        "actually"
+      ],
+      "props": {
+        "symbol": "?"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|So what does the payment terminal actually receive?",
+      "audio": "videos/tap-to-pay/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 91,
+          "endMs": 193
+        },
+        {
+          "text": "what",
+          "startMs": 193,
+          "endMs": 261
+        },
+        {
+          "text": "does",
+          "startMs": 261,
+          "endMs": 364
+        },
+        {
+          "text": "the",
+          "startMs": 375,
+          "endMs": 455
+        },
+        {
+          "text": "payment",
+          "startMs": 466,
+          "endMs": 807
+        },
+        {
+          "text": "terminal",
+          "startMs": 807,
+          "endMs": 1125
+        },
+        {
+          "text": "actually",
+          "startMs": 1125,
+          "endMs": 1443
+        },
+        {
+          "text": "receive",
+          "startMs": 1455,
+          "endMs": 2000
+        }
+      ],
+      "durationMs": 2450
+    },
+    {
+      "type": "icon",
+      "narration": "Your phone talks to the terminal over NFC, a radio that only reaches a few centimeters.",
+      "emphasis": [
+        "centimeters"
+      ],
+      "props": {
+        "icon": "wifi",
+        "label": "NFC radio",
+        "tags": [
+          "Very short range",
+          "A few centimeters"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Your phone talks to the terminal over NFC, a radio that only reaches a few centimeters.",
+      "audio": "videos/tap-to-pay/scene-03.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 91,
+          "endMs": 170
+        },
+        {
+          "text": "phone",
+          "startMs": 170,
+          "endMs": 420
+        },
+        {
+          "text": "talks",
+          "startMs": 420,
+          "endMs": 727
+        },
+        {
+          "text": "to",
+          "startMs": 727,
+          "endMs": 807
+        },
+        {
+          "text": "the",
+          "startMs": 818,
+          "endMs": 898
+        },
+        {
+          "text": "terminal",
+          "startMs": 898,
+          "endMs": 1307
+        },
+        {
+          "text": "over",
+          "startMs": 1375,
+          "endMs": 1625
+        },
+        {
+          "text": "NFC",
+          "startMs": 1705,
+          "endMs": 2398
+        },
+        {
+          "text": "a",
+          "startMs": 2761,
+          "endMs": 2830
+        },
+        {
+          "text": "radio",
+          "startMs": 2830,
+          "endMs": 3307
+        },
+        {
+          "text": "that",
+          "startMs": 3307,
+          "endMs": 3443
+        },
+        {
+          "text": "only",
+          "startMs": 3455,
+          "endMs": 3795
+        },
+        {
+          "text": "reaches",
+          "startMs": 3795,
+          "endMs": 4193
+        },
+        {
+          "text": "a",
+          "startMs": 4205,
+          "endMs": 4250
+        },
+        {
+          "text": "few",
+          "startMs": 4261,
+          "endMs": 4545
+        },
+        {
+          "text": "centimeters",
+          "startMs": 4557,
+          "endMs": 5261
+        }
+      ],
+      "durationMs": 5711
+    },
+    {
+      "type": "steps",
+      "narration": "Instead of your card number, it sends a stand-in number called a token, plus a one-time code.",
+      "emphasis": [
+        "token"
+      ],
+      "props": {
+        "steps": [
+          "Tap",
+          "Token",
+          "Bank",
+          "Paid"
+        ],
+        "active": 1,
+        "icon": "key",
+        "status": "One-time code",
+        "progress": 0.5
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Instead of your card number, it sends a stand-in number called a token, plus a one-time code.",
+      "audio": "videos/tap-to-pay/scene-04.mp3",
+      "words": [
+        {
+          "text": "Instead",
+          "startMs": 80,
+          "endMs": 341
+        },
+        {
+          "text": "of",
+          "startMs": 341,
+          "endMs": 386
+        },
+        {
+          "text": "your",
+          "startMs": 398,
+          "endMs": 489
+        },
+        {
+          "text": "card",
+          "startMs": 489,
+          "endMs": 716
+        },
+        {
+          "text": "number",
+          "startMs": 716,
+          "endMs": 1011
+        },
+        {
+          "text": "it",
+          "startMs": 1341,
+          "endMs": 1386
+        },
+        {
+          "text": "sends",
+          "startMs": 1386,
+          "endMs": 1648
+        },
+        {
+          "text": "a",
+          "startMs": 1648,
+          "endMs": 1693
+        },
+        {
+          "text": "stand-in",
+          "startMs": 1705,
+          "endMs": 2170
+        },
+        {
+          "text": "number",
+          "startMs": 2182,
+          "endMs": 2398
+        },
+        {
+          "text": "called",
+          "startMs": 2398,
+          "endMs": 2591
+        },
+        {
+          "text": "a",
+          "startMs": 2591,
+          "endMs": 2636
+        },
+        {
+          "text": "token",
+          "startMs": 2636,
+          "endMs": 3045
+        },
+        {
+          "text": "plus",
+          "startMs": 3409,
+          "endMs": 3716
+        },
+        {
+          "text": "a",
+          "startMs": 3807,
+          "endMs": 3875
+        },
+        {
+          "text": "one-time",
+          "startMs": 3886,
+          "endMs": 4545
+        },
+        {
+          "text": "code",
+          "startMs": 4557,
+          "endMs": 4943
+        }
+      ],
+      "durationMs": 5393
+    },
+    {
+      "type": "steps",
+      "narration": "Only the card network can match that token back to your real account.",
+      "emphasis": [
+        "Only"
+      ],
+      "props": {
+        "steps": [
+          "Tap",
+          "Token",
+          "Bank",
+          "Paid"
+        ],
+        "active": 2,
+        "icon": "shield",
+        "status": "Token matched",
+        "progress": 0.75
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Only the card network can match that token back to your real account.",
+      "audio": "videos/tap-to-pay/scene-05.mp3",
+      "words": [
+        {
+          "text": "Only",
+          "startMs": 80,
+          "endMs": 216
+        },
+        {
+          "text": "the",
+          "startMs": 227,
+          "endMs": 307
+        },
+        {
+          "text": "card",
+          "startMs": 307,
+          "endMs": 545
+        },
+        {
+          "text": "network",
+          "startMs": 545,
+          "endMs": 898
+        },
+        {
+          "text": "can",
+          "startMs": 1011,
+          "endMs": 1205
+        },
+        {
+          "text": "match",
+          "startMs": 1205,
+          "endMs": 1614
+        },
+        {
+          "text": "that",
+          "startMs": 1625,
+          "endMs": 1795
+        },
+        {
+          "text": "token",
+          "startMs": 1795,
+          "endMs": 2102
+        },
+        {
+          "text": "back",
+          "startMs": 2102,
+          "endMs": 2455
+        },
+        {
+          "text": "to",
+          "startMs": 2580,
+          "endMs": 2659
+        },
+        {
+          "text": "your",
+          "startMs": 2659,
+          "endMs": 2773
+        },
+        {
+          "text": "real",
+          "startMs": 2773,
+          "endMs": 2943
+        },
+        {
+          "text": "account",
+          "startMs": 2943,
+          "endMs": 3330
+        }
+      ],
+      "durationMs": 3780
+    },
+    {
+      "type": "icon",
+      "narration": "If a thief copies the signal, the code has already been used, so it is worthless.",
+      "emphasis": [
+        "worthless"
+      ],
+      "props": {
+        "icon": "lock",
+        "label": "Useless if stolen",
+        "tags": [
+          "Code works once"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|If a thief copies the signal, the code has already been used, so it is worthless.",
+      "audio": "videos/tap-to-pay/scene-06.mp3",
+      "words": [
+        {
+          "text": "If",
+          "startMs": 80,
+          "endMs": 159
+        },
+        {
+          "text": "a",
+          "startMs": 159,
+          "endMs": 227
+        },
+        {
+          "text": "thief",
+          "startMs": 227,
+          "endMs": 614
+        },
+        {
+          "text": "copies",
+          "startMs": 625,
+          "endMs": 1125
+        },
+        {
+          "text": "the",
+          "startMs": 1136,
+          "endMs": 1205
+        },
+        {
+          "text": "signal",
+          "startMs": 1216,
+          "endMs": 1670
+        },
+        {
+          "text": "the",
+          "startMs": 2000,
+          "endMs": 2080
+        },
+        {
+          "text": "code",
+          "startMs": 2080,
+          "endMs": 2330
+        },
+        {
+          "text": "has",
+          "startMs": 2341,
+          "endMs": 2477
+        },
+        {
+          "text": "already",
+          "startMs": 2489,
+          "endMs": 2761
+        },
+        {
+          "text": "been",
+          "startMs": 2761,
+          "endMs": 2909
+        },
+        {
+          "text": "used",
+          "startMs": 2920,
+          "endMs": 3409
+        },
+        {
+          "text": "so",
+          "startMs": 3761,
+          "endMs": 4080
+        },
+        {
+          "text": "it",
+          "startMs": 4375,
+          "endMs": 4420
+        },
+        {
+          "text": "is",
+          "startMs": 4420,
+          "endMs": 4500
+        },
+        {
+          "text": "worthless",
+          "startMs": 4511,
+          "endMs": 5182
+        }
+      ],
+      "durationMs": 5632
+    },
+    {
+      "type": "pills",
+      "narration": "Phones, watches and contactless cards all rely on one-time codes like this.",
+      "emphasis": [
+        "all"
+      ],
+      "props": {
+        "items": [
+          "Phones",
+          "Smartwatches",
+          "Chip cards"
+        ],
+        "result": {
+          "value": "1x",
+          "label": "Each code works once"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Phones, watches and contactless cards all rely on one-time codes like this.",
+      "audio": "videos/tap-to-pay/scene-07.mp3",
+      "words": [
+        {
+          "text": "Phones",
+          "startMs": 125,
+          "endMs": 636
+        },
+        {
+          "text": "watches",
+          "startMs": 966,
+          "endMs": 1432
+        },
+        {
+          "text": "and",
+          "startMs": 1432,
+          "endMs": 1511
+        },
+        {
+          "text": "contactless",
+          "startMs": 1511,
+          "endMs": 2159
+        },
+        {
+          "text": "cards",
+          "startMs": 2159,
+          "endMs": 2568
+        },
+        {
+          "text": "all",
+          "startMs": 2568,
+          "endMs": 2750
+        },
+        {
+          "text": "rely",
+          "startMs": 2750,
+          "endMs": 3114
+        },
+        {
+          "text": "on",
+          "startMs": 3125,
+          "endMs": 3273
+        },
+        {
+          "text": "one-time",
+          "startMs": 3284,
+          "endMs": 3784
+        },
+        {
+          "text": "codes",
+          "startMs": 3784,
+          "endMs": 4045
+        },
+        {
+          "text": "like",
+          "startMs": 4057,
+          "endMs": 4205
+        },
+        {
+          "text": "this",
+          "startMs": 4205,
+          "endMs": 4591
+        }
+      ],
+      "durationMs": 5041
+    },
+    {
+      "type": "title",
+      "narration": "Follow for more on how tech really works.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "How tech really works"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Follow for more on how tech really works.",
+      "audio": "videos/tap-to-pay/scene-08.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 148,
+          "endMs": 352
+        },
+        {
+          "text": "for",
+          "startMs": 352,
+          "endMs": 455
+        },
+        {
+          "text": "more",
+          "startMs": 455,
+          "endMs": 716
+        },
+        {
+          "text": "on",
+          "startMs": 716,
+          "endMs": 795
+        },
+        {
+          "text": "how",
+          "startMs": 795,
+          "endMs": 943
+        },
+        {
+          "text": "tech",
+          "startMs": 943,
+          "endMs": 1261
+        },
+        {
+          "text": "really",
+          "startMs": 1273,
+          "endMs": 1455
+        },
+        {
+          "text": "works",
+          "startMs": 1455,
+          "endMs": 1966
+        }
+      ],
+      "durationMs": 2416
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz",
+    "accent": "#8f7cff"
+  }
+}

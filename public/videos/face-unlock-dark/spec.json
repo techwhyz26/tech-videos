@@ -1,0 +1,1181 @@
+{
+  "slug": "face-unlock-dark",
+  "title": "How your phone sees your face in the dark",
+  "theme": "ocean",
+  "caption": "Your phone can recognise your face in a pitch black room. It is not using a camera the way you think.\n\n#tech #howitworks #faceid #iphone #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "words",
+      "narration": "Your iPhone can recognize your face in complete darkness.",
+      "emphasis": [
+        "darkness"
+      ],
+      "props": {
+        "lines": [
+          "It sees you",
+          "in the dark"
+        ],
+        "highlight": [
+          "dark"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your iPhone can recognize your face in complete darkness.",
+      "audio": "videos/face-unlock-dark/scene-01.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "iPhone",
+          "startMs": 219,
+          "endMs": 592
+        },
+        {
+          "text": "can",
+          "startMs": 592,
+          "endMs": 746
+        },
+        {
+          "text": "recognize",
+          "startMs": 746,
+          "endMs": 1239
+        },
+        {
+          "text": "your",
+          "startMs": 1239,
+          "endMs": 1349
+        },
+        {
+          "text": "face",
+          "startMs": 1349,
+          "endMs": 1864
+        },
+        {
+          "text": "in",
+          "startMs": 2018,
+          "endMs": 2105
+        },
+        {
+          "text": "complete",
+          "startMs": 2105,
+          "endMs": 2478
+        },
+        {
+          "text": "darkness",
+          "startMs": 2478,
+          "endMs": 3037
+        }
+      ],
+      "durationMs": 3297
+    },
+    {
+      "type": "crowd",
+      "narration": "So how does a camera see you with no light at all?",
+      "emphasis": [
+        "no"
+      ],
+      "props": {
+        "symbol": "?"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how does a camera see you with no light at all?",
+      "audio": "videos/face-unlock-dark/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "how",
+          "startMs": 208,
+          "endMs": 274
+        },
+        {
+          "text": "does",
+          "startMs": 285,
+          "endMs": 395
+        },
+        {
+          "text": "a",
+          "startMs": 395,
+          "endMs": 439
+        },
+        {
+          "text": "camera",
+          "startMs": 439,
+          "endMs": 789
+        },
+        {
+          "text": "see",
+          "startMs": 789,
+          "endMs": 965
+        },
+        {
+          "text": "you",
+          "startMs": 976,
+          "endMs": 1107
+        },
+        {
+          "text": "with",
+          "startMs": 1107,
+          "endMs": 1206
+        },
+        {
+          "text": "no",
+          "startMs": 1217,
+          "endMs": 1382
+        },
+        {
+          "text": "light",
+          "startMs": 1393,
+          "endMs": 1634
+        },
+        {
+          "text": "at",
+          "startMs": 1634,
+          "endMs": 1689
+        },
+        {
+          "text": "all",
+          "startMs": 1689,
+          "endMs": 1941
+        }
+      ],
+      "durationMs": 2201
+    },
+    {
+      "type": "icon",
+      "narration": "Because it isn't using light you can see. It's using infrared.",
+      "emphasis": [
+        "infrared"
+      ],
+      "props": {
+        "icon": "eye",
+        "label": "Invisible light",
+        "tags": [
+          "Infrared"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because it isn't using light you can see. It's using infrared.",
+      "audio": "videos/face-unlock-dark/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 318
+        },
+        {
+          "text": "it",
+          "startMs": 318,
+          "endMs": 395
+        },
+        {
+          "text": "isn't",
+          "startMs": 406,
+          "endMs": 614
+        },
+        {
+          "text": "using",
+          "startMs": 614,
+          "endMs": 921
+        },
+        {
+          "text": "light",
+          "startMs": 921,
+          "endMs": 1184
+        },
+        {
+          "text": "you",
+          "startMs": 1184,
+          "endMs": 1294
+        },
+        {
+          "text": "can",
+          "startMs": 1305,
+          "endMs": 1403
+        },
+        {
+          "text": "see",
+          "startMs": 1414,
+          "endMs": 1798
+        },
+        {
+          "text": "It's",
+          "startMs": 2149,
+          "endMs": 2270
+        },
+        {
+          "text": "using",
+          "startMs": 2270,
+          "endMs": 2621
+        },
+        {
+          "text": "infrared",
+          "startMs": 2632,
+          "endMs": 3158
+        }
+      ],
+      "durationMs": 3418
+    },
+    {
+      "type": "grid",
+      "narration": "Every time you glance at it, your phone sprays more than thirty thousand invisible dots onto your face.",
+      "emphasis": [
+        "thirty",
+        "thousand"
+      ],
+      "props": {
+        "count": 300,
+        "fraction": 1,
+        "value": "30,000+",
+        "label": "invisible dots"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Every time you glance at it, your phone sprays more than thirty thousand invisible dots onto your face.",
+      "audio": "videos/face-unlock-dark/scene-04.mp3",
+      "words": [
+        {
+          "text": "Every",
+          "startMs": 88,
+          "endMs": 241
+        },
+        {
+          "text": "time",
+          "startMs": 241,
+          "endMs": 439
+        },
+        {
+          "text": "you",
+          "startMs": 439,
+          "endMs": 504
+        },
+        {
+          "text": "glance",
+          "startMs": 504,
+          "endMs": 855
+        },
+        {
+          "text": "at",
+          "startMs": 855,
+          "endMs": 987
+        },
+        {
+          "text": "it",
+          "startMs": 987,
+          "endMs": 1085
+        },
+        {
+          "text": "your",
+          "startMs": 1458,
+          "endMs": 1557
+        },
+        {
+          "text": "phone",
+          "startMs": 1557,
+          "endMs": 1875
+        },
+        {
+          "text": "sprays",
+          "startMs": 1875,
+          "endMs": 2368
+        },
+        {
+          "text": "more",
+          "startMs": 2401,
+          "endMs": 2643
+        },
+        {
+          "text": "than",
+          "startMs": 2643,
+          "endMs": 2807
+        },
+        {
+          "text": "thirty",
+          "startMs": 2818,
+          "endMs": 3180
+        },
+        {
+          "text": "thousand",
+          "startMs": 3191,
+          "endMs": 3706
+        },
+        {
+          "text": "invisible",
+          "startMs": 3706,
+          "endMs": 4298
+        },
+        {
+          "text": "dots",
+          "startMs": 4298,
+          "endMs": 4792
+        },
+        {
+          "text": "onto",
+          "startMs": 4901,
+          "endMs": 5132
+        },
+        {
+          "text": "your",
+          "startMs": 5132,
+          "endMs": 5241
+        },
+        {
+          "text": "face",
+          "startMs": 5252,
+          "endMs": 5757
+        }
+      ],
+      "durationMs": 6017
+    },
+    {
+      "type": "phone",
+      "narration": "Then an infrared camera reads how those dots bend around your nose, your eyes, your jaw.",
+      "emphasis": [
+        "bend"
+      ],
+      "props": {
+        "icon": "user",
+        "title": "Reading depth",
+        "lines": [
+          "Nose",
+          "Eyes",
+          "Jaw"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then an infrared camera reads how those dots bend around your nose, your eyes, your jaw.",
+      "audio": "videos/face-unlock-dark/scene-05.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 77,
+          "endMs": 164
+        },
+        {
+          "text": "an",
+          "startMs": 164,
+          "endMs": 241
+        },
+        {
+          "text": "infrared",
+          "startMs": 241,
+          "endMs": 735
+        },
+        {
+          "text": "camera",
+          "startMs": 746,
+          "endMs": 1261
+        },
+        {
+          "text": "reads",
+          "startMs": 1535,
+          "endMs": 1820
+        },
+        {
+          "text": "how",
+          "startMs": 1831,
+          "endMs": 1996
+        },
+        {
+          "text": "those",
+          "startMs": 2050,
+          "endMs": 2336
+        },
+        {
+          "text": "dots",
+          "startMs": 2336,
+          "endMs": 2675
+        },
+        {
+          "text": "bend",
+          "startMs": 2686,
+          "endMs": 2895
+        },
+        {
+          "text": "around",
+          "startMs": 2895,
+          "endMs": 3147
+        },
+        {
+          "text": "your",
+          "startMs": 3147,
+          "endMs": 3202
+        },
+        {
+          "text": "nose",
+          "startMs": 3213,
+          "endMs": 3728
+        },
+        {
+          "text": "your",
+          "startMs": 4068,
+          "endMs": 4200
+        },
+        {
+          "text": "eyes",
+          "startMs": 4200,
+          "endMs": 4781
+        },
+        {
+          "text": "your",
+          "startMs": 5000,
+          "endMs": 5088
+        },
+        {
+          "text": "jaw",
+          "startMs": 5088,
+          "endMs": 5450
+        }
+      ],
+      "durationMs": 5710
+    },
+    {
+      "type": "steps",
+      "narration": "That builds a 3D map of your face, not a flat picture.",
+      "emphasis": [
+        "map"
+      ],
+      "props": {
+        "steps": [
+          "Dots",
+          "Map",
+          "Match"
+        ],
+        "active": 1,
+        "icon": "user",
+        "status": "3D face map",
+        "progress": 0.66
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That builds a 3D map of your face, not a flat picture.",
+      "audio": "videos/face-unlock-dark/scene-06.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "builds",
+          "startMs": 197,
+          "endMs": 406
+        },
+        {
+          "text": "a",
+          "startMs": 406,
+          "endMs": 471
+        },
+        {
+          "text": "3D",
+          "startMs": 472,
+          "endMs": 976
+        },
+        {
+          "text": "map",
+          "startMs": 987,
+          "endMs": 1305
+        },
+        {
+          "text": "of",
+          "startMs": 1305,
+          "endMs": 1360
+        },
+        {
+          "text": "your",
+          "startMs": 1360,
+          "endMs": 1469
+        },
+        {
+          "text": "face",
+          "startMs": 1469,
+          "endMs": 1996
+        },
+        {
+          "text": "not",
+          "startMs": 2204,
+          "endMs": 2336
+        },
+        {
+          "text": "a",
+          "startMs": 2336,
+          "endMs": 2368
+        },
+        {
+          "text": "flat",
+          "startMs": 2368,
+          "endMs": 2664
+        },
+        {
+          "text": "picture",
+          "startMs": 2664,
+          "endMs": 3125
+        }
+      ],
+      "durationMs": 3385
+    },
+    {
+      "type": "words",
+      "invert": true,
+      "narration": "Which is why holding up a photo of you doesn't fool it.",
+      "emphasis": [
+        "photo"
+      ],
+      "props": {
+        "lines": [
+          "A photo",
+          "won't work"
+        ],
+        "highlight": [
+          "photo"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Which is why holding up a photo of you doesn't fool it.",
+      "audio": "videos/face-unlock-dark/scene-07.mp3",
+      "words": [
+        {
+          "text": "Which",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "is",
+          "startMs": 164,
+          "endMs": 230
+        },
+        {
+          "text": "why",
+          "startMs": 230,
+          "endMs": 373
+        },
+        {
+          "text": "holding",
+          "startMs": 373,
+          "endMs": 647
+        },
+        {
+          "text": "up",
+          "startMs": 647,
+          "endMs": 724
+        },
+        {
+          "text": "a",
+          "startMs": 735,
+          "endMs": 779
+        },
+        {
+          "text": "photo",
+          "startMs": 789,
+          "endMs": 1206
+        },
+        {
+          "text": "of",
+          "startMs": 1217,
+          "endMs": 1272
+        },
+        {
+          "text": "you",
+          "startMs": 1272,
+          "endMs": 1349
+        },
+        {
+          "text": "doesn't",
+          "startMs": 1349,
+          "endMs": 1601
+        },
+        {
+          "text": "fool",
+          "startMs": 1601,
+          "endMs": 1831
+        },
+        {
+          "text": "it",
+          "startMs": 1831,
+          "endMs": 1963
+        }
+      ],
+      "durationMs": 2223
+    },
+    {
+      "type": "icon",
+      "narration": "But here's the part most people miss. That map never leaves your phone.",
+      "emphasis": [
+        "never"
+      ],
+      "props": {
+        "icon": "lock",
+        "label": "Stays on the phone",
+        "tags": [
+          "Never uploaded"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. That map never leaves your phone.",
+      "audio": "videos/face-unlock-dark/scene-08.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 154,
+          "endMs": 307
+        },
+        {
+          "text": "the",
+          "startMs": 307,
+          "endMs": 384
+        },
+        {
+          "text": "part",
+          "startMs": 395,
+          "endMs": 625
+        },
+        {
+          "text": "most",
+          "startMs": 625,
+          "endMs": 910
+        },
+        {
+          "text": "people",
+          "startMs": 921,
+          "endMs": 1162
+        },
+        {
+          "text": "miss",
+          "startMs": 1162,
+          "endMs": 1612
+        },
+        {
+          "text": "That",
+          "startMs": 1985,
+          "endMs": 2127
+        },
+        {
+          "text": "map",
+          "startMs": 2127,
+          "endMs": 2434
+        },
+        {
+          "text": "never",
+          "startMs": 2577,
+          "endMs": 2796
+        },
+        {
+          "text": "leaves",
+          "startMs": 2796,
+          "endMs": 3004
+        },
+        {
+          "text": "your",
+          "startMs": 3015,
+          "endMs": 3092
+        },
+        {
+          "text": "phone",
+          "startMs": 3103,
+          "endMs": 3432
+        }
+      ],
+      "durationMs": 3692
+    },
+    {
+      "type": "steps",
+      "narration": "It gets turned into math and locked inside a separate security chip.",
+      "emphasis": [
+        "math"
+      ],
+      "props": {
+        "steps": [
+          "Dots",
+          "Map",
+          "Match"
+        ],
+        "active": 2,
+        "icon": "chip",
+        "status": "Locked in a chip",
+        "progress": 1
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It gets turned into math and locked inside a separate security chip.",
+      "audio": "videos/face-unlock-dark/scene-09.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "gets",
+          "startMs": 132,
+          "endMs": 252
+        },
+        {
+          "text": "turned",
+          "startMs": 252,
+          "endMs": 450
+        },
+        {
+          "text": "into",
+          "startMs": 450,
+          "endMs": 548
+        },
+        {
+          "text": "math",
+          "startMs": 548,
+          "endMs": 1118
+        },
+        {
+          "text": "and",
+          "startMs": 1250,
+          "endMs": 1393
+        },
+        {
+          "text": "locked",
+          "startMs": 1393,
+          "endMs": 1743
+        },
+        {
+          "text": "inside",
+          "startMs": 1809,
+          "endMs": 2423
+        },
+        {
+          "text": "a",
+          "startMs": 2697,
+          "endMs": 2741
+        },
+        {
+          "text": "separate",
+          "startMs": 2752,
+          "endMs": 3125
+        },
+        {
+          "text": "security",
+          "startMs": 3136,
+          "endMs": 3542
+        },
+        {
+          "text": "chip",
+          "startMs": 3542,
+          "endMs": 3871
+        }
+      ],
+      "durationMs": 4131
+    },
+    {
+      "type": "compare",
+      "narration": "Apple says the odds of a stranger unlocking it are one in a million, versus one in fifty thousand for a fingerprint.",
+      "emphasis": [
+        "million"
+      ],
+      "props": {
+        "left": {
+          "label": "Fingerprint",
+          "value": 50000,
+          "display": "1 in 50K"
+        },
+        "right": {
+          "label": "Face",
+          "value": 1000000,
+          "display": "1 in 1M"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Apple says the odds of a stranger unlocking it are one in a million, versus one in fifty thousand for a fingerprint.",
+      "audio": "videos/face-unlock-dark/scene-10.mp3",
+      "words": [
+        {
+          "text": "Apple",
+          "startMs": 88,
+          "endMs": 384
+        },
+        {
+          "text": "says",
+          "startMs": 548,
+          "endMs": 778
+        },
+        {
+          "text": "the",
+          "startMs": 778,
+          "endMs": 910
+        },
+        {
+          "text": "odds",
+          "startMs": 1042,
+          "endMs": 1316
+        },
+        {
+          "text": "of",
+          "startMs": 1316,
+          "endMs": 1371
+        },
+        {
+          "text": "a",
+          "startMs": 1371,
+          "endMs": 1404
+        },
+        {
+          "text": "stranger",
+          "startMs": 1414,
+          "endMs": 2018
+        },
+        {
+          "text": "unlocking",
+          "startMs": 2028,
+          "endMs": 2566
+        },
+        {
+          "text": "it",
+          "startMs": 2566,
+          "endMs": 2643
+        },
+        {
+          "text": "are",
+          "startMs": 2686,
+          "endMs": 2840
+        },
+        {
+          "text": "one",
+          "startMs": 2840,
+          "endMs": 3070
+        },
+        {
+          "text": "in",
+          "startMs": 3070,
+          "endMs": 3158
+        },
+        {
+          "text": "a",
+          "startMs": 3158,
+          "endMs": 3191
+        },
+        {
+          "text": "million",
+          "startMs": 3191,
+          "endMs": 3728
+        },
+        {
+          "text": "versus",
+          "startMs": 4090,
+          "endMs": 4408
+        },
+        {
+          "text": "one",
+          "startMs": 4408,
+          "endMs": 4660
+        },
+        {
+          "text": "in",
+          "startMs": 4660,
+          "endMs": 4803
+        },
+        {
+          "text": "fifty",
+          "startMs": 4868,
+          "endMs": 5208
+        },
+        {
+          "text": "thousand",
+          "startMs": 5219,
+          "endMs": 5625
+        },
+        {
+          "text": "for",
+          "startMs": 5625,
+          "endMs": 5757
+        },
+        {
+          "text": "a",
+          "startMs": 5757,
+          "endMs": 5789
+        },
+        {
+          "text": "fingerprint",
+          "startMs": 5789,
+          "endMs": 6305
+        }
+      ],
+      "durationMs": 6565
+    },
+    {
+      "type": "chart",
+      "narration": "And it keeps learning, adjusting as you grow a beard or put on glasses.",
+      "emphasis": [
+        "learning"
+      ],
+      "props": {
+        "points": [
+          20,
+          26,
+          37,
+          48,
+          66,
+          80,
+          93
+        ],
+        "label": "Adapts as your face changes",
+        "endLabel": "Still you"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And it keeps learning, adjusting as you grow a beard or put on glasses.",
+      "audio": "videos/face-unlock-dark/scene-11.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "it",
+          "startMs": 143,
+          "endMs": 208
+        },
+        {
+          "text": "keeps",
+          "startMs": 219,
+          "endMs": 493
+        },
+        {
+          "text": "learning",
+          "startMs": 504,
+          "endMs": 1020
+        },
+        {
+          "text": "adjusting",
+          "startMs": 1393,
+          "endMs": 1897
+        },
+        {
+          "text": "as",
+          "startMs": 1897,
+          "endMs": 1963
+        },
+        {
+          "text": "you",
+          "startMs": 1974,
+          "endMs": 2028
+        },
+        {
+          "text": "grow",
+          "startMs": 2028,
+          "endMs": 2226
+        },
+        {
+          "text": "a",
+          "startMs": 2226,
+          "endMs": 2281
+        },
+        {
+          "text": "beard",
+          "startMs": 2292,
+          "endMs": 2653
+        },
+        {
+          "text": "or",
+          "startMs": 2664,
+          "endMs": 2741
+        },
+        {
+          "text": "put",
+          "startMs": 2741,
+          "endMs": 2895
+        },
+        {
+          "text": "on",
+          "startMs": 2895,
+          "endMs": 3015
+        },
+        {
+          "text": "glasses",
+          "startMs": 3015,
+          "endMs": 3607
+        }
+      ],
+      "durationMs": 3867
+    },
+    {
+      "type": "title",
+      "narration": "So your phone isn't really looking at you. It's feeling the shape of your face, in the dark.",
+      "emphasis": [
+        "shape"
+      ],
+      "props": {
+        "kicker": "Now you know",
+        "headline": "It feels your face",
+        "highlight": [
+          "feels"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So your phone isn't really looking at you. It's feeling the shape of your face, in the dark.",
+      "audio": "videos/face-unlock-dark/scene-12.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "your",
+          "startMs": 164,
+          "endMs": 252
+        },
+        {
+          "text": "phone",
+          "startMs": 263,
+          "endMs": 504
+        },
+        {
+          "text": "isn't",
+          "startMs": 515,
+          "endMs": 735
+        },
+        {
+          "text": "really",
+          "startMs": 746,
+          "endMs": 965
+        },
+        {
+          "text": "looking",
+          "startMs": 965,
+          "endMs": 1294
+        },
+        {
+          "text": "at",
+          "startMs": 1294,
+          "endMs": 1414
+        },
+        {
+          "text": "you",
+          "startMs": 1425,
+          "endMs": 1612
+        },
+        {
+          "text": "It's",
+          "startMs": 1974,
+          "endMs": 2072
+        },
+        {
+          "text": "feeling",
+          "startMs": 2083,
+          "endMs": 2325
+        },
+        {
+          "text": "the",
+          "startMs": 2325,
+          "endMs": 2368
+        },
+        {
+          "text": "shape",
+          "startMs": 2379,
+          "endMs": 2675
+        },
+        {
+          "text": "of",
+          "startMs": 2675,
+          "endMs": 2730
+        },
+        {
+          "text": "your",
+          "startMs": 2730,
+          "endMs": 2840
+        },
+        {
+          "text": "face",
+          "startMs": 2840,
+          "endMs": 3355
+        },
+        {
+          "text": "in",
+          "startMs": 3542,
+          "endMs": 3618
+        },
+        {
+          "text": "the",
+          "startMs": 3618,
+          "endMs": 3684
+        },
+        {
+          "text": "dark",
+          "startMs": 3695,
+          "endMs": 4057
+        }
+      ],
+      "durationMs": 4317
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who still types their passcode.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send this to a passcode typer"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who still types their passcode.",
+      "audio": "videos/face-unlock-dark/scene-13.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 537
+        },
+        {
+          "text": "and",
+          "startMs": 778,
+          "endMs": 888
+        },
+        {
+          "text": "send",
+          "startMs": 888,
+          "endMs": 1107
+        },
+        {
+          "text": "this",
+          "startMs": 1107,
+          "endMs": 1228
+        },
+        {
+          "text": "to",
+          "startMs": 1228,
+          "endMs": 1305
+        },
+        {
+          "text": "someone",
+          "startMs": 1305,
+          "endMs": 1579
+        },
+        {
+          "text": "who",
+          "startMs": 1590,
+          "endMs": 1689
+        },
+        {
+          "text": "still",
+          "startMs": 1700,
+          "endMs": 2028
+        },
+        {
+          "text": "types",
+          "startMs": 2028,
+          "endMs": 2303
+        },
+        {
+          "text": "their",
+          "startMs": 2303,
+          "endMs": 2401
+        },
+        {
+          "text": "passcode",
+          "startMs": 2401,
+          "endMs": 2928
+        }
+      ],
+      "durationMs": 3188
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz"
+  }
+}

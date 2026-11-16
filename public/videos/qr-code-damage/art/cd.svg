@@ -1,0 +1,19 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><g>
+  <animateTransform attributeName="transform" type="rotate" from="0 500 480" to="360 500 480" dur="3s" repeatCount="indefinite"/>
+  <circle cx="500" cy="480" r="390" fill="url(#steel)"/>
+  <path d="M500 480 L890 480 A390 390 0 0 0 776 204 Z" class="fa" opacity="0.5"/>
+  <path d="M500 480 L110 480 A390 390 0 0 0 224 756 Z" class="fa2" opacity="0.5"/>
+  <circle cx="500" cy="480" r="355" class="nf" stroke="#000" stroke-opacity="0.12" stroke-width="3"/><circle cx="500" cy="480" r="305" class="nf" stroke="#000" stroke-opacity="0.12" stroke-width="3"/><circle cx="500" cy="480" r="255" class="nf" stroke="#000" stroke-opacity="0.12" stroke-width="3"/><circle cx="500" cy="480" r="205" class="nf" stroke="#000" stroke-opacity="0.12" stroke-width="3"/><circle cx="500" cy="480" r="155" class="nf" stroke="#000" stroke-opacity="0.12" stroke-width="3"/>
+  <path d="M300 250 L350 335 L326 380 L406 510" class="nf" stroke="#2a2a2a" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="500" cy="480" r="118" fill="#f1f1f5"/>
+  <circle cx="500" cy="480" r="48" class="fb"/>
+</g>
+<text x="860" y="330" font-size="150" class="fa" opacity="0">♪<animate attributeName="y" from="380" to="90" begin="0s" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" begin="0s" dur="2s" repeatCount="indefinite"/></text><text x="60" y="330" font-size="150" class="fa" opacity="0">♪<animate attributeName="y" from="380" to="90" begin="0.7s" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" begin="0.7s" dur="2s" repeatCount="indefinite"/></text><text x="900" y="330" font-size="150" class="fa" opacity="0">♪<animate attributeName="y" from="380" to="90" begin="1.3s" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" begin="1.3s" dur="2s" repeatCount="indefinite"/></text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.35s" fill="freeze"/><text x="500" y="950" font-size="52" text-anchor="middle" class="">Scratched, still plays</text></g>

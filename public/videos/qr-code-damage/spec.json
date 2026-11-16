@@ -1,0 +1,1236 @@
+{
+  "slug": "qr-code-damage",
+  "title": "Why a ripped QR code still scans",
+  "theme": "matrix",
+  "caption": "You can destroy almost a third of a QR code and it still works. That is not luck, it was designed that way in a car factory.\n\n#tech #howitworks #qrcode #engineering #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "You can rip off almost a third of a QR code, and it will still scan.",
+      "emphasis": [
+        "third"
+      ],
+      "props": {
+        "art": "rip"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|You can rip off almost a third of a QR code, and it will still scan.",
+      "audio": "videos/qr-code-damage/scene-01.mp3",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 88,
+          "endMs": 153
+        },
+        {
+          "text": "can",
+          "startMs": 154,
+          "endMs": 263
+        },
+        {
+          "text": "rip",
+          "startMs": 263,
+          "endMs": 417
+        },
+        {
+          "text": "off",
+          "startMs": 428,
+          "endMs": 625
+        },
+        {
+          "text": "almost",
+          "startMs": 636,
+          "endMs": 943
+        },
+        {
+          "text": "a",
+          "startMs": 943,
+          "endMs": 976
+        },
+        {
+          "text": "third",
+          "startMs": 976,
+          "endMs": 1316
+        },
+        {
+          "text": "of",
+          "startMs": 1316,
+          "endMs": 1349
+        },
+        {
+          "text": "a",
+          "startMs": 1360,
+          "endMs": 1393
+        },
+        {
+          "text": "QR",
+          "startMs": 1393,
+          "endMs": 1743
+        },
+        {
+          "text": "code",
+          "startMs": 1743,
+          "endMs": 2083
+        },
+        {
+          "text": "and",
+          "startMs": 2445,
+          "endMs": 2533
+        },
+        {
+          "text": "it",
+          "startMs": 2533,
+          "endMs": 2577
+        },
+        {
+          "text": "will",
+          "startMs": 2588,
+          "endMs": 2664
+        },
+        {
+          "text": "still",
+          "startMs": 2664,
+          "endMs": 2939
+        },
+        {
+          "text": "scan",
+          "startMs": 2939,
+          "endMs": 3344
+        }
+      ],
+      "durationMs": 3604
+    },
+    {
+      "type": "art",
+      "narration": "So how does a damaged code still know what it says?",
+      "emphasis": [
+        "damaged"
+      ],
+      "props": {
+        "art": "confused"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how does a damaged code still know what it says?",
+      "audio": "videos/qr-code-damage/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "how",
+          "startMs": 164,
+          "endMs": 230
+        },
+        {
+          "text": "does",
+          "startMs": 230,
+          "endMs": 329
+        },
+        {
+          "text": "a",
+          "startMs": 329,
+          "endMs": 406
+        },
+        {
+          "text": "damaged",
+          "startMs": 417,
+          "endMs": 811
+        },
+        {
+          "text": "code",
+          "startMs": 811,
+          "endMs": 1184
+        },
+        {
+          "text": "still",
+          "startMs": 1305,
+          "endMs": 1535
+        },
+        {
+          "text": "know",
+          "startMs": 1546,
+          "endMs": 1700
+        },
+        {
+          "text": "what",
+          "startMs": 1700,
+          "endMs": 1798
+        },
+        {
+          "text": "it",
+          "startMs": 1798,
+          "endMs": 1864
+        },
+        {
+          "text": "says",
+          "startMs": 1875,
+          "endMs": 2336
+        }
+      ],
+      "durationMs": 2596
+    },
+    {
+      "type": "art",
+      "narration": "Because every QR code quietly carries a backup of itself.",
+      "emphasis": [
+        "backup"
+      ],
+      "props": {
+        "art": "backup"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because every QR code quietly carries a backup of itself.",
+      "audio": "videos/qr-code-damage/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 395
+        },
+        {
+          "text": "every",
+          "startMs": 406,
+          "endMs": 658
+        },
+        {
+          "text": "QR",
+          "startMs": 658,
+          "endMs": 1031
+        },
+        {
+          "text": "code",
+          "startMs": 1031,
+          "endMs": 1414
+        },
+        {
+          "text": "quietly",
+          "startMs": 1535,
+          "endMs": 2018
+        },
+        {
+          "text": "carries",
+          "startMs": 2018,
+          "endMs": 2303
+        },
+        {
+          "text": "a",
+          "startMs": 2303,
+          "endMs": 2346
+        },
+        {
+          "text": "backup",
+          "startMs": 2357,
+          "endMs": 2774
+        },
+        {
+          "text": "of",
+          "startMs": 2774,
+          "endMs": 2840
+        },
+        {
+          "text": "itself",
+          "startMs": 2851,
+          "endMs": 3443
+        }
+      ],
+      "durationMs": 3703
+    },
+    {
+      "type": "art",
+      "narration": "It was invented in nineteen ninety four by a Japanese car parts company, to track parts in a factory.",
+      "emphasis": [
+        "factory"
+      ],
+      "props": {
+        "art": "factory"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It was invented in nineteen ninety four by a Japanese car parts company, to track parts in a factory.",
+      "audio": "videos/qr-code-damage/scene-04.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 77,
+          "endMs": 143
+        },
+        {
+          "text": "was",
+          "startMs": 143,
+          "endMs": 241
+        },
+        {
+          "text": "invented",
+          "startMs": 241,
+          "endMs": 537
+        },
+        {
+          "text": "in",
+          "startMs": 537,
+          "endMs": 592
+        },
+        {
+          "text": "nineteen",
+          "startMs": 592,
+          "endMs": 932
+        },
+        {
+          "text": "ninety",
+          "startMs": 932,
+          "endMs": 1140
+        },
+        {
+          "text": "four",
+          "startMs": 1151,
+          "endMs": 1535
+        },
+        {
+          "text": "by",
+          "startMs": 1732,
+          "endMs": 1897
+        },
+        {
+          "text": "a",
+          "startMs": 1897,
+          "endMs": 1941
+        },
+        {
+          "text": "Japanese",
+          "startMs": 1941,
+          "endMs": 2445
+        },
+        {
+          "text": "car",
+          "startMs": 2445,
+          "endMs": 2675
+        },
+        {
+          "text": "parts",
+          "startMs": 2675,
+          "endMs": 2895
+        },
+        {
+          "text": "company",
+          "startMs": 2895,
+          "endMs": 3257
+        },
+        {
+          "text": "to",
+          "startMs": 3564,
+          "endMs": 3629
+        },
+        {
+          "text": "track",
+          "startMs": 3640,
+          "endMs": 3991
+        },
+        {
+          "text": "parts",
+          "startMs": 3991,
+          "endMs": 4364
+        },
+        {
+          "text": "in",
+          "startMs": 4441,
+          "endMs": 4507
+        },
+        {
+          "text": "a",
+          "startMs": 4507,
+          "endMs": 4539
+        },
+        {
+          "text": "factory",
+          "startMs": 4539,
+          "endMs": 5132
+        }
+      ],
+      "durationMs": 5392
+    },
+    {
+      "type": "art",
+      "narration": "And factories are rough. Labels get dirty, oily, and scratched.",
+      "emphasis": [
+        "scratched"
+      ],
+      "props": {
+        "art": "dirty"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And factories are rough. Labels get dirty, oily, and scratched.",
+      "audio": "videos/qr-code-damage/scene-05.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "factories",
+          "startMs": 154,
+          "endMs": 669
+        },
+        {
+          "text": "are",
+          "startMs": 680,
+          "endMs": 757
+        },
+        {
+          "text": "rough",
+          "startMs": 757,
+          "endMs": 1140
+        },
+        {
+          "text": "Labels",
+          "startMs": 1480,
+          "endMs": 1721
+        },
+        {
+          "text": "get",
+          "startMs": 1722,
+          "endMs": 1930
+        },
+        {
+          "text": "dirty",
+          "startMs": 1941,
+          "endMs": 2336
+        },
+        {
+          "text": "oily",
+          "startMs": 2686,
+          "endMs": 3092
+        },
+        {
+          "text": "and",
+          "startMs": 3114,
+          "endMs": 3191
+        },
+        {
+          "text": "scratched",
+          "startMs": 3191,
+          "endMs": 3794
+        }
+      ],
+      "durationMs": 4054
+    },
+    {
+      "type": "art",
+      "narration": "So the engineers packed in extra data. Enough to rebuild the message even if thirty percent is gone.",
+      "emphasis": [
+        "thirty"
+      ],
+      "props": {
+        "art": "missing"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So the engineers packed in extra data. Enough to rebuild the message even if thirty percent is gone.",
+      "audio": "videos/qr-code-damage/scene-06.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "the",
+          "startMs": 164,
+          "endMs": 241
+        },
+        {
+          "text": "engineers",
+          "startMs": 241,
+          "endMs": 713
+        },
+        {
+          "text": "packed",
+          "startMs": 713,
+          "endMs": 1129
+        },
+        {
+          "text": "in",
+          "startMs": 1480,
+          "endMs": 1634
+        },
+        {
+          "text": "extra",
+          "startMs": 1700,
+          "endMs": 1974
+        },
+        {
+          "text": "data",
+          "startMs": 1985,
+          "endMs": 2292
+        },
+        {
+          "text": "Enough",
+          "startMs": 2643,
+          "endMs": 2928
+        },
+        {
+          "text": "to",
+          "startMs": 2939,
+          "endMs": 3114
+        },
+        {
+          "text": "rebuild",
+          "startMs": 3114,
+          "endMs": 3684
+        },
+        {
+          "text": "the",
+          "startMs": 3684,
+          "endMs": 3739
+        },
+        {
+          "text": "message",
+          "startMs": 3739,
+          "endMs": 4265
+        },
+        {
+          "text": "even",
+          "startMs": 4408,
+          "endMs": 4583
+        },
+        {
+          "text": "if",
+          "startMs": 4594,
+          "endMs": 4693
+        },
+        {
+          "text": "thirty",
+          "startMs": 4693,
+          "endMs": 4978
+        },
+        {
+          "text": "percent",
+          "startMs": 4989,
+          "endMs": 5417
+        },
+        {
+          "text": "is",
+          "startMs": 5482,
+          "endMs": 5581
+        },
+        {
+          "text": "gone",
+          "startMs": 5592,
+          "endMs": 5921
+        }
+      ],
+      "durationMs": 6181
+    },
+    {
+      "type": "art",
+      "narration": "Your phone reads what survived, then uses math to fill in the gaps.",
+      "emphasis": [
+        "math"
+      ],
+      "props": {
+        "art": "repair"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your phone reads what survived, then uses math to fill in the gaps.",
+      "audio": "videos/qr-code-damage/scene-07.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "phone",
+          "startMs": 175,
+          "endMs": 493
+        },
+        {
+          "text": "reads",
+          "startMs": 504,
+          "endMs": 789
+        },
+        {
+          "text": "what",
+          "startMs": 800,
+          "endMs": 910
+        },
+        {
+          "text": "survived",
+          "startMs": 921,
+          "endMs": 1524
+        },
+        {
+          "text": "then",
+          "startMs": 1853,
+          "endMs": 1963
+        },
+        {
+          "text": "uses",
+          "startMs": 1963,
+          "endMs": 2325
+        },
+        {
+          "text": "math",
+          "startMs": 2325,
+          "endMs": 2829
+        },
+        {
+          "text": "to",
+          "startMs": 2840,
+          "endMs": 2928
+        },
+        {
+          "text": "fill",
+          "startMs": 2928,
+          "endMs": 3213
+        },
+        {
+          "text": "in",
+          "startMs": 3213,
+          "endMs": 3246
+        },
+        {
+          "text": "the",
+          "startMs": 3246,
+          "endMs": 3289
+        },
+        {
+          "text": "gaps",
+          "startMs": 3289,
+          "endMs": 3794
+        }
+      ],
+      "durationMs": 4054
+    },
+    {
+      "type": "art",
+      "narration": "It's the same kind of math that lets a scratched CD keep playing.",
+      "emphasis": [
+        "scratched"
+      ],
+      "props": {
+        "art": "cd"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It's the same kind of math that lets a scratched CD keep playing.",
+      "audio": "videos/qr-code-damage/scene-08.mp3",
+      "words": [
+        {
+          "text": "It's",
+          "startMs": 77,
+          "endMs": 175
+        },
+        {
+          "text": "the",
+          "startMs": 186,
+          "endMs": 263
+        },
+        {
+          "text": "same",
+          "startMs": 263,
+          "endMs": 537
+        },
+        {
+          "text": "kind",
+          "startMs": 537,
+          "endMs": 724
+        },
+        {
+          "text": "of",
+          "startMs": 724,
+          "endMs": 768
+        },
+        {
+          "text": "math",
+          "startMs": 768,
+          "endMs": 1184
+        },
+        {
+          "text": "that",
+          "startMs": 1195,
+          "endMs": 1294
+        },
+        {
+          "text": "lets",
+          "startMs": 1294,
+          "endMs": 1425
+        },
+        {
+          "text": "a",
+          "startMs": 1436,
+          "endMs": 1480
+        },
+        {
+          "text": "scratched",
+          "startMs": 1480,
+          "endMs": 1985
+        },
+        {
+          "text": "CD",
+          "startMs": 1996,
+          "endMs": 2632
+        },
+        {
+          "text": "keep",
+          "startMs": 2741,
+          "endMs": 3004
+        },
+        {
+          "text": "playing",
+          "startMs": 3004,
+          "endMs": 3410
+        }
+      ],
+      "durationMs": 3670
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. Those three big squares in the corners aren't data.",
+      "emphasis": [
+        "three"
+      ],
+      "props": {
+        "art": "finder"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. Those three big squares in the corners aren't data.",
+      "audio": "videos/qr-code-damage/scene-09.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 99,
+          "endMs": 164
+        },
+        {
+          "text": "here's",
+          "startMs": 164,
+          "endMs": 351
+        },
+        {
+          "text": "the",
+          "startMs": 351,
+          "endMs": 428
+        },
+        {
+          "text": "part",
+          "startMs": 439,
+          "endMs": 636
+        },
+        {
+          "text": "most",
+          "startMs": 636,
+          "endMs": 921
+        },
+        {
+          "text": "people",
+          "startMs": 921,
+          "endMs": 1140
+        },
+        {
+          "text": "miss",
+          "startMs": 1140,
+          "endMs": 1568
+        },
+        {
+          "text": "Those",
+          "startMs": 1930,
+          "endMs": 2116
+        },
+        {
+          "text": "three",
+          "startMs": 2127,
+          "endMs": 2390
+        },
+        {
+          "text": "big",
+          "startMs": 2390,
+          "endMs": 2632
+        },
+        {
+          "text": "squares",
+          "startMs": 2632,
+          "endMs": 3070
+        },
+        {
+          "text": "in",
+          "startMs": 3070,
+          "endMs": 3125
+        },
+        {
+          "text": "the",
+          "startMs": 3125,
+          "endMs": 3191
+        },
+        {
+          "text": "corners",
+          "startMs": 3191,
+          "endMs": 3575
+        },
+        {
+          "text": "aren't",
+          "startMs": 3575,
+          "endMs": 3805
+        },
+        {
+          "text": "data",
+          "startMs": 3816,
+          "endMs": 4178
+        }
+      ],
+      "durationMs": 4438
+    },
+    {
+      "type": "art",
+      "narration": "They tell your camera which way is up, so you can scan from any angle.",
+      "emphasis": [
+        "any"
+      ],
+      "props": {
+        "art": "angle"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|They tell your camera which way is up, so you can scan from any angle.",
+      "audio": "videos/qr-code-damage/scene-10.mp3",
+      "words": [
+        {
+          "text": "They",
+          "startMs": 99,
+          "endMs": 153
+        },
+        {
+          "text": "tell",
+          "startMs": 154,
+          "endMs": 307
+        },
+        {
+          "text": "your",
+          "startMs": 307,
+          "endMs": 417
+        },
+        {
+          "text": "camera",
+          "startMs": 417,
+          "endMs": 768
+        },
+        {
+          "text": "which",
+          "startMs": 778,
+          "endMs": 943
+        },
+        {
+          "text": "way",
+          "startMs": 943,
+          "endMs": 1107
+        },
+        {
+          "text": "is",
+          "startMs": 1118,
+          "endMs": 1250
+        },
+        {
+          "text": "up",
+          "startMs": 1261,
+          "endMs": 1480
+        },
+        {
+          "text": "so",
+          "startMs": 1820,
+          "endMs": 1919
+        },
+        {
+          "text": "you",
+          "startMs": 1919,
+          "endMs": 2007
+        },
+        {
+          "text": "can",
+          "startMs": 2007,
+          "endMs": 2094
+        },
+        {
+          "text": "scan",
+          "startMs": 2105,
+          "endMs": 2423
+        },
+        {
+          "text": "from",
+          "startMs": 2423,
+          "endMs": 2566
+        },
+        {
+          "text": "any",
+          "startMs": 2697,
+          "endMs": 2895
+        },
+        {
+          "text": "angle",
+          "startMs": 2895,
+          "endMs": 3202
+        }
+      ],
+      "durationMs": 3462
+    },
+    {
+      "type": "art",
+      "narration": "Whoever makes the code chooses how tough it is, from seven percent damage up to thirty.",
+      "emphasis": [
+        "tough"
+      ],
+      "props": {
+        "art": "levels"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Whoever makes the code chooses how tough it is, from seven percent damage up to thirty.",
+      "audio": "videos/qr-code-damage/scene-11.mp3",
+      "words": [
+        {
+          "text": "Whoever",
+          "startMs": 99,
+          "endMs": 439
+        },
+        {
+          "text": "makes",
+          "startMs": 439,
+          "endMs": 636
+        },
+        {
+          "text": "the",
+          "startMs": 647,
+          "endMs": 735
+        },
+        {
+          "text": "code",
+          "startMs": 735,
+          "endMs": 1162
+        },
+        {
+          "text": "chooses",
+          "startMs": 1360,
+          "endMs": 1875
+        },
+        {
+          "text": "how",
+          "startMs": 1886,
+          "endMs": 2149
+        },
+        {
+          "text": "tough",
+          "startMs": 2226,
+          "endMs": 2566
+        },
+        {
+          "text": "it",
+          "startMs": 2566,
+          "endMs": 2621
+        },
+        {
+          "text": "is",
+          "startMs": 2621,
+          "endMs": 2950
+        },
+        {
+          "text": "from",
+          "startMs": 3147,
+          "endMs": 3300
+        },
+        {
+          "text": "seven",
+          "startMs": 3300,
+          "endMs": 3618
+        },
+        {
+          "text": "percent",
+          "startMs": 3629,
+          "endMs": 3969
+        },
+        {
+          "text": "damage",
+          "startMs": 3969,
+          "endMs": 4320
+        },
+        {
+          "text": "up",
+          "startMs": 4430,
+          "endMs": 4561
+        },
+        {
+          "text": "to",
+          "startMs": 4649,
+          "endMs": 4737
+        },
+        {
+          "text": "thirty",
+          "startMs": 4748,
+          "endMs": 5230
+        }
+      ],
+      "durationMs": 5490
+    },
+    {
+      "type": "art",
+      "narration": "And the company never charged anyone to use it, which is why it's now everywhere.",
+      "emphasis": [
+        "everywhere"
+      ],
+      "props": {
+        "art": "everywhere"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And the company never charged anyone to use it, which is why it's now everywhere.",
+      "audio": "videos/qr-code-damage/scene-12.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 153
+        },
+        {
+          "text": "the",
+          "startMs": 164,
+          "endMs": 219
+        },
+        {
+          "text": "company",
+          "startMs": 219,
+          "endMs": 537
+        },
+        {
+          "text": "never",
+          "startMs": 548,
+          "endMs": 855
+        },
+        {
+          "text": "charged",
+          "startMs": 866,
+          "endMs": 1371
+        },
+        {
+          "text": "anyone",
+          "startMs": 1491,
+          "endMs": 1875
+        },
+        {
+          "text": "to",
+          "startMs": 1875,
+          "endMs": 1985
+        },
+        {
+          "text": "use",
+          "startMs": 1985,
+          "endMs": 2259
+        },
+        {
+          "text": "it",
+          "startMs": 2259,
+          "endMs": 2390
+        },
+        {
+          "text": "which",
+          "startMs": 2763,
+          "endMs": 2895
+        },
+        {
+          "text": "is",
+          "startMs": 2895,
+          "endMs": 2961
+        },
+        {
+          "text": "why",
+          "startMs": 2972,
+          "endMs": 3180
+        },
+        {
+          "text": "it's",
+          "startMs": 3180,
+          "endMs": 3289
+        },
+        {
+          "text": "now",
+          "startMs": 3289,
+          "endMs": 3575
+        },
+        {
+          "text": "everywhere",
+          "startMs": 3586,
+          "endMs": 4167
+        }
+      ],
+      "durationMs": 4427
+    },
+    {
+      "type": "art",
+      "narration": "So that logo in the middle of a QR code? It's damage. The code just repairs around it.",
+      "emphasis": [
+        "damage"
+      ],
+      "props": {
+        "art": "logo"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So that logo in the middle of a QR code? It's damage. The code just repairs around it.",
+      "audio": "videos/qr-code-damage/scene-13.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 77,
+          "endMs": 186
+        },
+        {
+          "text": "that",
+          "startMs": 186,
+          "endMs": 373
+        },
+        {
+          "text": "logo",
+          "startMs": 373,
+          "endMs": 800
+        },
+        {
+          "text": "in",
+          "startMs": 811,
+          "endMs": 888
+        },
+        {
+          "text": "the",
+          "startMs": 899,
+          "endMs": 954
+        },
+        {
+          "text": "middle",
+          "startMs": 954,
+          "endMs": 1250
+        },
+        {
+          "text": "of",
+          "startMs": 1261,
+          "endMs": 1305
+        },
+        {
+          "text": "a",
+          "startMs": 1305,
+          "endMs": 1349
+        },
+        {
+          "text": "QR",
+          "startMs": 1349,
+          "endMs": 1743
+        },
+        {
+          "text": "code",
+          "startMs": 1743,
+          "endMs": 2127
+        },
+        {
+          "text": "It's",
+          "startMs": 2489,
+          "endMs": 2599
+        },
+        {
+          "text": "damage",
+          "startMs": 2610,
+          "endMs": 3136
+        },
+        {
+          "text": "The",
+          "startMs": 3509,
+          "endMs": 3575
+        },
+        {
+          "text": "code",
+          "startMs": 3575,
+          "endMs": 3925
+        },
+        {
+          "text": "just",
+          "startMs": 4101,
+          "endMs": 4298
+        },
+        {
+          "text": "repairs",
+          "startMs": 4298,
+          "endMs": 4638
+        },
+        {
+          "text": "around",
+          "startMs": 4638,
+          "endMs": 4923
+        },
+        {
+          "text": "it",
+          "startMs": 4934,
+          "endMs": 5077
+        }
+      ],
+      "durationMs": 5337
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who thinks QR codes are boring.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "QR codes are not boring"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who thinks QR codes are boring.",
+      "audio": "videos/qr-code-damage/scene-14.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 515
+        },
+        {
+          "text": "and",
+          "startMs": 844,
+          "endMs": 954
+        },
+        {
+          "text": "send",
+          "startMs": 954,
+          "endMs": 1184
+        },
+        {
+          "text": "this",
+          "startMs": 1184,
+          "endMs": 1294
+        },
+        {
+          "text": "to",
+          "startMs": 1294,
+          "endMs": 1371
+        },
+        {
+          "text": "someone",
+          "startMs": 1371,
+          "endMs": 1601
+        },
+        {
+          "text": "who",
+          "startMs": 1601,
+          "endMs": 1700
+        },
+        {
+          "text": "thinks",
+          "startMs": 1700,
+          "endMs": 1919
+        },
+        {
+          "text": "QR",
+          "startMs": 1930,
+          "endMs": 2292
+        },
+        {
+          "text": "codes",
+          "startMs": 2292,
+          "endMs": 2544
+        },
+        {
+          "text": "are",
+          "startMs": 2544,
+          "endMs": 2632
+        },
+        {
+          "text": "boring",
+          "startMs": 2632,
+          "endMs": 3015
+        }
+      ],
+      "durationMs": 3275
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz"
+  }
+}

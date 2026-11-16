@@ -1,0 +1,1167 @@
+{
+  "slug": "song-fingerprint",
+  "title": "How Shazam names a song in seconds",
+  "theme": "gold",
+  "caption": "Shazam can name a song from a few seconds in a noisy bar, and it never listens to the melody. Here is what it does instead.\n\n#tech #howitworks #music #shazam #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "words",
+      "narration": "Shazam can name almost any song from a few seconds of sound, in a noisy bar.",
+      "emphasis": [
+        "seconds"
+      ],
+      "props": {
+        "lines": [
+          "Any song.",
+          "A few",
+          "seconds."
+        ],
+        "highlight": [
+          "seconds."
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Shazam can name almost any song from a few seconds of sound, in a noisy bar.",
+      "audio": "videos/song-fingerprint/scene-01.mp3",
+      "words": [
+        {
+          "text": "Shazam",
+          "startMs": 88,
+          "endMs": 482
+        },
+        {
+          "text": "can",
+          "startMs": 482,
+          "endMs": 592
+        },
+        {
+          "text": "name",
+          "startMs": 592,
+          "endMs": 921
+        },
+        {
+          "text": "almost",
+          "startMs": 1031,
+          "endMs": 1447
+        },
+        {
+          "text": "any",
+          "startMs": 1579,
+          "endMs": 1765
+        },
+        {
+          "text": "song",
+          "startMs": 1776,
+          "endMs": 2149
+        },
+        {
+          "text": "from",
+          "startMs": 2149,
+          "endMs": 2281
+        },
+        {
+          "text": "a",
+          "startMs": 2281,
+          "endMs": 2325
+        },
+        {
+          "text": "few",
+          "startMs": 2325,
+          "endMs": 2664
+        },
+        {
+          "text": "seconds",
+          "startMs": 2664,
+          "endMs": 3059
+        },
+        {
+          "text": "of",
+          "startMs": 3070,
+          "endMs": 3136
+        },
+        {
+          "text": "sound",
+          "startMs": 3136,
+          "endMs": 3618
+        },
+        {
+          "text": "in",
+          "startMs": 4013,
+          "endMs": 4079
+        },
+        {
+          "text": "a",
+          "startMs": 4079,
+          "endMs": 4101
+        },
+        {
+          "text": "noisy",
+          "startMs": 4101,
+          "endMs": 4463
+        },
+        {
+          "text": "bar",
+          "startMs": 4474,
+          "endMs": 4857
+        }
+      ],
+      "durationMs": 5117
+    },
+    {
+      "type": "crowd",
+      "narration": "So how does it pick one song out of millions that fast?",
+      "emphasis": [
+        "millions"
+      ],
+      "props": {
+        "symbol": "?"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how does it pick one song out of millions that fast?",
+      "audio": "videos/song-fingerprint/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 99,
+          "endMs": 197
+        },
+        {
+          "text": "how",
+          "startMs": 197,
+          "endMs": 252
+        },
+        {
+          "text": "does",
+          "startMs": 252,
+          "endMs": 351
+        },
+        {
+          "text": "it",
+          "startMs": 351,
+          "endMs": 417
+        },
+        {
+          "text": "pick",
+          "startMs": 417,
+          "endMs": 614
+        },
+        {
+          "text": "one",
+          "startMs": 614,
+          "endMs": 855
+        },
+        {
+          "text": "song",
+          "startMs": 866,
+          "endMs": 1206
+        },
+        {
+          "text": "out",
+          "startMs": 1206,
+          "endMs": 1283
+        },
+        {
+          "text": "of",
+          "startMs": 1283,
+          "endMs": 1338
+        },
+        {
+          "text": "millions",
+          "startMs": 1338,
+          "endMs": 1798
+        },
+        {
+          "text": "that",
+          "startMs": 1798,
+          "endMs": 1952
+        },
+        {
+          "text": "fast",
+          "startMs": 1952,
+          "endMs": 2434
+        }
+      ],
+      "durationMs": 2694
+    },
+    {
+      "type": "icon",
+      "narration": "Because it doesn't listen to the melody at all.",
+      "emphasis": [
+        "melody"
+      ],
+      "props": {
+        "icon": "search",
+        "label": "It skips the melody"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because it doesn't listen to the melody at all.",
+      "audio": "videos/song-fingerprint/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 99,
+          "endMs": 307
+        },
+        {
+          "text": "it",
+          "startMs": 307,
+          "endMs": 373
+        },
+        {
+          "text": "doesn't",
+          "startMs": 373,
+          "endMs": 614
+        },
+        {
+          "text": "listen",
+          "startMs": 625,
+          "endMs": 866
+        },
+        {
+          "text": "to",
+          "startMs": 877,
+          "endMs": 932
+        },
+        {
+          "text": "the",
+          "startMs": 932,
+          "endMs": 998
+        },
+        {
+          "text": "melody",
+          "startMs": 998,
+          "endMs": 1338
+        },
+        {
+          "text": "at",
+          "startMs": 1338,
+          "endMs": 1403
+        },
+        {
+          "text": "all",
+          "startMs": 1404,
+          "endMs": 1667
+        }
+      ],
+      "durationMs": 1927
+    },
+    {
+      "type": "chart",
+      "narration": "First, your phone turns the sound into a picture, showing which notes are loud at each moment.",
+      "emphasis": [
+        "picture"
+      ],
+      "props": {
+        "points": [
+          10,
+          60,
+          25,
+          80,
+          15,
+          95,
+          30,
+          70,
+          20
+        ],
+        "label": "Sound turned into a picture"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|First, your phone turns the sound into a picture, showing which notes are loud at each moment.",
+      "audio": "videos/song-fingerprint/scene-04.mp3",
+      "words": [
+        {
+          "text": "First",
+          "startMs": 121,
+          "endMs": 548
+        },
+        {
+          "text": "your",
+          "startMs": 954,
+          "endMs": 1064
+        },
+        {
+          "text": "phone",
+          "startMs": 1064,
+          "endMs": 1382
+        },
+        {
+          "text": "turns",
+          "startMs": 1393,
+          "endMs": 1656
+        },
+        {
+          "text": "the",
+          "startMs": 1667,
+          "endMs": 1743
+        },
+        {
+          "text": "sound",
+          "startMs": 1743,
+          "endMs": 2072
+        },
+        {
+          "text": "into",
+          "startMs": 2083,
+          "endMs": 2292
+        },
+        {
+          "text": "a",
+          "startMs": 2292,
+          "endMs": 2346
+        },
+        {
+          "text": "picture",
+          "startMs": 2357,
+          "endMs": 2785
+        },
+        {
+          "text": "showing",
+          "startMs": 3136,
+          "endMs": 3432
+        },
+        {
+          "text": "which",
+          "startMs": 3432,
+          "endMs": 3618
+        },
+        {
+          "text": "notes",
+          "startMs": 3618,
+          "endMs": 3980
+        },
+        {
+          "text": "are",
+          "startMs": 3991,
+          "endMs": 4134
+        },
+        {
+          "text": "loud",
+          "startMs": 4134,
+          "endMs": 4550
+        },
+        {
+          "text": "at",
+          "startMs": 4550,
+          "endMs": 4638
+        },
+        {
+          "text": "each",
+          "startMs": 4693,
+          "endMs": 4857
+        },
+        {
+          "text": "moment",
+          "startMs": 4857,
+          "endMs": 5252
+        }
+      ],
+      "durationMs": 5512
+    },
+    {
+      "type": "grid",
+      "narration": "Then it throws almost all of that away, and keeps only the loudest peaks.",
+      "emphasis": [
+        "loudest"
+      ],
+      "props": {
+        "count": 300,
+        "fraction": 0.08,
+        "label": "Only the loudest peaks stay"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then it throws almost all of that away, and keeps only the loudest peaks.",
+      "audio": "videos/song-fingerprint/scene-05.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "it",
+          "startMs": 143,
+          "endMs": 197
+        },
+        {
+          "text": "throws",
+          "startMs": 197,
+          "endMs": 592
+        },
+        {
+          "text": "almost",
+          "startMs": 636,
+          "endMs": 1031
+        },
+        {
+          "text": "all",
+          "startMs": 1086,
+          "endMs": 1294
+        },
+        {
+          "text": "of",
+          "startMs": 1294,
+          "endMs": 1360
+        },
+        {
+          "text": "that",
+          "startMs": 1360,
+          "endMs": 1502
+        },
+        {
+          "text": "away",
+          "startMs": 1502,
+          "endMs": 1897
+        },
+        {
+          "text": "and",
+          "startMs": 2259,
+          "endMs": 2478
+        },
+        {
+          "text": "keeps",
+          "startMs": 2621,
+          "endMs": 2950
+        },
+        {
+          "text": "only",
+          "startMs": 3048,
+          "endMs": 3300
+        },
+        {
+          "text": "the",
+          "startMs": 3300,
+          "endMs": 3388
+        },
+        {
+          "text": "loudest",
+          "startMs": 3388,
+          "endMs": 3772
+        },
+        {
+          "text": "peaks",
+          "startMs": 3772,
+          "endMs": 4243
+        }
+      ],
+      "durationMs": 4503
+    },
+    {
+      "type": "words",
+      "invert": true,
+      "narration": "Those peaks form a pattern, like a fingerprint made of sound.",
+      "emphasis": [
+        "fingerprint"
+      ],
+      "props": {
+        "lines": [
+          "A fingerprint",
+          "made of sound"
+        ],
+        "highlight": [
+          "fingerprint"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Those peaks form a pattern, like a fingerprint made of sound.",
+      "audio": "videos/song-fingerprint/scene-06.mp3",
+      "words": [
+        {
+          "text": "Those",
+          "startMs": 88,
+          "endMs": 296
+        },
+        {
+          "text": "peaks",
+          "startMs": 296,
+          "endMs": 669
+        },
+        {
+          "text": "form",
+          "startMs": 680,
+          "endMs": 921
+        },
+        {
+          "text": "a",
+          "startMs": 921,
+          "endMs": 965
+        },
+        {
+          "text": "pattern",
+          "startMs": 965,
+          "endMs": 1382
+        },
+        {
+          "text": "like",
+          "startMs": 1623,
+          "endMs": 1732
+        },
+        {
+          "text": "a",
+          "startMs": 1743,
+          "endMs": 1787
+        },
+        {
+          "text": "fingerprint",
+          "startMs": 1787,
+          "endMs": 2379
+        },
+        {
+          "text": "made",
+          "startMs": 2478,
+          "endMs": 2664
+        },
+        {
+          "text": "of",
+          "startMs": 2664,
+          "endMs": 2719
+        },
+        {
+          "text": "sound",
+          "startMs": 2719,
+          "endMs": 3169
+        }
+      ],
+      "durationMs": 3429
+    },
+    {
+      "type": "steps",
+      "narration": "And because people talking are quieter than those peaks, the noise mostly disappears.",
+      "emphasis": [
+        "noise"
+      ],
+      "props": {
+        "steps": [
+          "Listen",
+          "Peaks",
+          "Match"
+        ],
+        "active": 1,
+        "icon": "chart",
+        "status": "Noise ignored",
+        "progress": 0.6
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And because people talking are quieter than those peaks, the noise mostly disappears.",
+      "audio": "videos/song-fingerprint/scene-07.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "because",
+          "startMs": 186,
+          "endMs": 548
+        },
+        {
+          "text": "people",
+          "startMs": 559,
+          "endMs": 811
+        },
+        {
+          "text": "talking",
+          "startMs": 822,
+          "endMs": 1162
+        },
+        {
+          "text": "are",
+          "startMs": 1173,
+          "endMs": 1272
+        },
+        {
+          "text": "quieter",
+          "startMs": 1283,
+          "endMs": 1787
+        },
+        {
+          "text": "than",
+          "startMs": 1787,
+          "endMs": 1908
+        },
+        {
+          "text": "those",
+          "startMs": 1908,
+          "endMs": 2149
+        },
+        {
+          "text": "peaks",
+          "startMs": 2149,
+          "endMs": 2697
+        },
+        {
+          "text": "the",
+          "startMs": 2873,
+          "endMs": 2960
+        },
+        {
+          "text": "noise",
+          "startMs": 2972,
+          "endMs": 3410
+        },
+        {
+          "text": "mostly",
+          "startMs": 3421,
+          "endMs": 3914
+        },
+        {
+          "text": "disappears",
+          "startMs": 3914,
+          "endMs": 4671
+        }
+      ],
+      "durationMs": 4931
+    },
+    {
+      "type": "phone",
+      "narration": "But here's the part most people miss. Your phone doesn't send the recording. It sends just that tiny fingerprint.",
+      "emphasis": [
+        "tiny"
+      ],
+      "props": {
+        "icon": "upload",
+        "title": "Sending fingerprint",
+        "lines": [
+          "A tiny file",
+          "Not your audio"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. Your phone doesn't send the recording. It sends just that tiny fingerprint.",
+      "audio": "videos/song-fingerprint/scene-08.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 143,
+          "endMs": 296
+        },
+        {
+          "text": "the",
+          "startMs": 307,
+          "endMs": 384
+        },
+        {
+          "text": "part",
+          "startMs": 395,
+          "endMs": 636
+        },
+        {
+          "text": "most",
+          "startMs": 647,
+          "endMs": 932
+        },
+        {
+          "text": "people",
+          "startMs": 932,
+          "endMs": 1162
+        },
+        {
+          "text": "miss",
+          "startMs": 1162,
+          "endMs": 1645
+        },
+        {
+          "text": "Your",
+          "startMs": 2007,
+          "endMs": 2083
+        },
+        {
+          "text": "phone",
+          "startMs": 2094,
+          "endMs": 2445
+        },
+        {
+          "text": "doesn't",
+          "startMs": 2511,
+          "endMs": 2785
+        },
+        {
+          "text": "send",
+          "startMs": 2785,
+          "endMs": 3004
+        },
+        {
+          "text": "the",
+          "startMs": 3004,
+          "endMs": 3048
+        },
+        {
+          "text": "recording",
+          "startMs": 3059,
+          "endMs": 3509
+        },
+        {
+          "text": "It",
+          "startMs": 3871,
+          "endMs": 3936
+        },
+        {
+          "text": "sends",
+          "startMs": 3947,
+          "endMs": 4156
+        },
+        {
+          "text": "just",
+          "startMs": 4156,
+          "endMs": 4320
+        },
+        {
+          "text": "that",
+          "startMs": 4320,
+          "endMs": 4485
+        },
+        {
+          "text": "tiny",
+          "startMs": 4485,
+          "endMs": 4934
+        },
+        {
+          "text": "fingerprint",
+          "startMs": 4945,
+          "endMs": 5537
+        }
+      ],
+      "durationMs": 5797
+    },
+    {
+      "type": "hub",
+      "narration": "A server compares it against the fingerprints of millions of songs.",
+      "emphasis": [
+        "compares"
+      ],
+      "props": {
+        "items": [
+          "Song A",
+          "Song B",
+          "Song C",
+          "Song D",
+          "Song E"
+        ],
+        "hub": {
+          "label": "Fingerprint database",
+          "icon": "database"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A server compares it against the fingerprints of millions of songs.",
+      "audio": "videos/song-fingerprint/scene-09.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "server",
+          "startMs": 143,
+          "endMs": 482
+        },
+        {
+          "text": "compares",
+          "startMs": 482,
+          "endMs": 943
+        },
+        {
+          "text": "it",
+          "startMs": 943,
+          "endMs": 1009
+        },
+        {
+          "text": "against",
+          "startMs": 1009,
+          "endMs": 1294
+        },
+        {
+          "text": "the",
+          "startMs": 1305,
+          "endMs": 1371
+        },
+        {
+          "text": "fingerprints",
+          "startMs": 1382,
+          "endMs": 2138
+        },
+        {
+          "text": "of",
+          "startMs": 2237,
+          "endMs": 2368
+        },
+        {
+          "text": "millions",
+          "startMs": 2368,
+          "endMs": 2982
+        },
+        {
+          "text": "of",
+          "startMs": 2982,
+          "endMs": 3037
+        },
+        {
+          "text": "songs",
+          "startMs": 3048,
+          "endMs": 3651
+        }
+      ],
+      "durationMs": 3911
+    },
+    {
+      "type": "steps",
+      "narration": "When the peaks line up in the same order, with the same timing, that's your song.",
+      "emphasis": [
+        "timing"
+      ],
+      "props": {
+        "steps": [
+          "Listen",
+          "Peaks",
+          "Match"
+        ],
+        "active": 2,
+        "icon": "check",
+        "status": "Timing lines up",
+        "progress": 1
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|When the peaks line up in the same order, with the same timing, that's your song.",
+      "audio": "videos/song-fingerprint/scene-10.mp3",
+      "words": [
+        {
+          "text": "When",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "the",
+          "startMs": 132,
+          "endMs": 208
+        },
+        {
+          "text": "peaks",
+          "startMs": 208,
+          "endMs": 439
+        },
+        {
+          "text": "line",
+          "startMs": 439,
+          "endMs": 658
+        },
+        {
+          "text": "up",
+          "startMs": 658,
+          "endMs": 800
+        },
+        {
+          "text": "in",
+          "startMs": 811,
+          "endMs": 866
+        },
+        {
+          "text": "the",
+          "startMs": 877,
+          "endMs": 943
+        },
+        {
+          "text": "same",
+          "startMs": 943,
+          "endMs": 1294
+        },
+        {
+          "text": "order",
+          "startMs": 1305,
+          "endMs": 1656
+        },
+        {
+          "text": "with",
+          "startMs": 1875,
+          "endMs": 1974
+        },
+        {
+          "text": "the",
+          "startMs": 1974,
+          "endMs": 2039
+        },
+        {
+          "text": "same",
+          "startMs": 2039,
+          "endMs": 2368
+        },
+        {
+          "text": "timing",
+          "startMs": 2379,
+          "endMs": 2741
+        },
+        {
+          "text": "that's",
+          "startMs": 3125,
+          "endMs": 3289
+        },
+        {
+          "text": "your",
+          "startMs": 3289,
+          "endMs": 3377
+        },
+        {
+          "text": "song",
+          "startMs": 3377,
+          "endMs": 3750
+        }
+      ],
+      "durationMs": 4010
+    },
+    {
+      "type": "card",
+      "narration": "The idea was published back in two thousand three, years before the iPhone existed.",
+      "emphasis": [
+        "before"
+      ],
+      "props": {
+        "source": "Research paper",
+        "date": "2003",
+        "headline": "An audio search algorithm built on fingerprints",
+        "body": "Published four years before the first iPhone."
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The idea was published back in two thousand three, years before the iPhone existed.",
+      "audio": "videos/song-fingerprint/scene-11.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 77,
+          "endMs": 143
+        },
+        {
+          "text": "idea",
+          "startMs": 143,
+          "endMs": 537
+        },
+        {
+          "text": "was",
+          "startMs": 548,
+          "endMs": 658
+        },
+        {
+          "text": "published",
+          "startMs": 658,
+          "endMs": 998
+        },
+        {
+          "text": "back",
+          "startMs": 1009,
+          "endMs": 1316
+        },
+        {
+          "text": "in",
+          "startMs": 1316,
+          "endMs": 1425
+        },
+        {
+          "text": "two",
+          "startMs": 1425,
+          "endMs": 1579
+        },
+        {
+          "text": "thousand",
+          "startMs": 1579,
+          "endMs": 1897
+        },
+        {
+          "text": "three",
+          "startMs": 1897,
+          "endMs": 2357
+        },
+        {
+          "text": "years",
+          "startMs": 2785,
+          "endMs": 3114
+        },
+        {
+          "text": "before",
+          "startMs": 3114,
+          "endMs": 3399
+        },
+        {
+          "text": "the",
+          "startMs": 3399,
+          "endMs": 3476
+        },
+        {
+          "text": "iPhone",
+          "startMs": 3476,
+          "endMs": 3871
+        },
+        {
+          "text": "existed",
+          "startMs": 3882,
+          "endMs": 4342
+        }
+      ],
+      "durationMs": 4602
+    },
+    {
+      "type": "title",
+      "narration": "So Shazam never really hears your song. It just recognizes its fingerprint.",
+      "emphasis": [
+        "fingerprint"
+      ],
+      "props": {
+        "kicker": "Now you know",
+        "headline": "It matches a fingerprint",
+        "highlight": [
+          "fingerprint"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So Shazam never really hears your song. It just recognizes its fingerprint.",
+      "audio": "videos/song-fingerprint/scene-12.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "Shazam",
+          "startMs": 197,
+          "endMs": 603
+        },
+        {
+          "text": "never",
+          "startMs": 735,
+          "endMs": 1075
+        },
+        {
+          "text": "really",
+          "startMs": 1075,
+          "endMs": 1261
+        },
+        {
+          "text": "hears",
+          "startMs": 1261,
+          "endMs": 1469
+        },
+        {
+          "text": "your",
+          "startMs": 1469,
+          "endMs": 1546
+        },
+        {
+          "text": "song",
+          "startMs": 1557,
+          "endMs": 1886
+        },
+        {
+          "text": "It",
+          "startMs": 2237,
+          "endMs": 2281
+        },
+        {
+          "text": "just",
+          "startMs": 2281,
+          "endMs": 2445
+        },
+        {
+          "text": "recognizes",
+          "startMs": 2456,
+          "endMs": 3059
+        },
+        {
+          "text": "its",
+          "startMs": 3059,
+          "endMs": 3169
+        },
+        {
+          "text": "fingerprint",
+          "startMs": 3169,
+          "endMs": 3695
+        }
+      ],
+      "durationMs": 3955
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to the friend who always asks, what song is this?",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "What song is this?"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to the friend who always asks, what song is this?",
+      "audio": "videos/song-fingerprint/scene-13.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 526
+        },
+        {
+          "text": "and",
+          "startMs": 691,
+          "endMs": 811
+        },
+        {
+          "text": "send",
+          "startMs": 921,
+          "endMs": 1151
+        },
+        {
+          "text": "this",
+          "startMs": 1151,
+          "endMs": 1250
+        },
+        {
+          "text": "to",
+          "startMs": 1261,
+          "endMs": 1316
+        },
+        {
+          "text": "the",
+          "startMs": 1327,
+          "endMs": 1382
+        },
+        {
+          "text": "friend",
+          "startMs": 1393,
+          "endMs": 1787
+        },
+        {
+          "text": "who",
+          "startMs": 1853,
+          "endMs": 2029
+        },
+        {
+          "text": "always",
+          "startMs": 2039,
+          "endMs": 2412
+        },
+        {
+          "text": "asks",
+          "startMs": 2412,
+          "endMs": 2906
+        },
+        {
+          "text": "what",
+          "startMs": 2917,
+          "endMs": 3037
+        },
+        {
+          "text": "song",
+          "startMs": 3037,
+          "endMs": 3465
+        },
+        {
+          "text": "is",
+          "startMs": 3465,
+          "endMs": 3564
+        },
+        {
+          "text": "this",
+          "startMs": 3575,
+          "endMs": 3980
+        }
+      ],
+      "durationMs": 4240
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz"
+  }
+}

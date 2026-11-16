@@ -1,0 +1,1176 @@
+{
+  "slug": "microwave-wifi",
+  "title": "Your microwave and your Wi-Fi use the same waves",
+  "theme": "ember",
+  "caption": "Your microwave and your Wi-Fi run on almost the same radio waves. One heats dinner, one loads videos, and sometimes they fight.\n\n#tech #howitworks #wifi #science #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Your microwave and your Wi-Fi are using almost exactly the same radio waves.",
+      "emphasis": [
+        "same"
+      ],
+      "props": {
+        "art": "pair"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your microwave and your Wi-Fi are using almost exactly the same radio waves.",
+      "audio": "videos/microwave-wifi/scene-01.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "microwave",
+          "startMs": 175,
+          "endMs": 800
+        },
+        {
+          "text": "and",
+          "startMs": 910,
+          "endMs": 987
+        },
+        {
+          "text": "your",
+          "startMs": 987,
+          "endMs": 1096
+        },
+        {
+          "text": "Wi-Fi",
+          "startMs": 1107,
+          "endMs": 1711
+        },
+        {
+          "text": "are",
+          "startMs": 1820,
+          "endMs": 1952
+        },
+        {
+          "text": "using",
+          "startMs": 1963,
+          "endMs": 2281
+        },
+        {
+          "text": "almost",
+          "startMs": 2325,
+          "endMs": 2752
+        },
+        {
+          "text": "exactly",
+          "startMs": 2763,
+          "endMs": 3322
+        },
+        {
+          "text": "the",
+          "startMs": 3322,
+          "endMs": 3399
+        },
+        {
+          "text": "same",
+          "startMs": 3410,
+          "endMs": 3706
+        },
+        {
+          "text": "radio",
+          "startMs": 3706,
+          "endMs": 4002
+        },
+        {
+          "text": "waves",
+          "startMs": 4013,
+          "endMs": 4474
+        }
+      ],
+      "durationMs": 4734
+    },
+    {
+      "type": "art",
+      "narration": "So why does one heat your dinner, and the other load your videos?",
+      "emphasis": [
+        "dinner"
+      ],
+      "props": {
+        "art": "puzzle"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So why does one heat your dinner, and the other load your videos?",
+      "audio": "videos/microwave-wifi/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 241
+        },
+        {
+          "text": "why",
+          "startMs": 252,
+          "endMs": 406
+        },
+        {
+          "text": "does",
+          "startMs": 406,
+          "endMs": 581
+        },
+        {
+          "text": "one",
+          "startMs": 581,
+          "endMs": 800
+        },
+        {
+          "text": "heat",
+          "startMs": 800,
+          "endMs": 1031
+        },
+        {
+          "text": "your",
+          "startMs": 1031,
+          "endMs": 1129
+        },
+        {
+          "text": "dinner",
+          "startMs": 1129,
+          "endMs": 1447
+        },
+        {
+          "text": "and",
+          "startMs": 1853,
+          "endMs": 1886
+        },
+        {
+          "text": "the",
+          "startMs": 1886,
+          "endMs": 1974
+        },
+        {
+          "text": "other",
+          "startMs": 1974,
+          "endMs": 2171
+        },
+        {
+          "text": "load",
+          "startMs": 2171,
+          "endMs": 2346
+        },
+        {
+          "text": "your",
+          "startMs": 2346,
+          "endMs": 2434
+        },
+        {
+          "text": "videos",
+          "startMs": 2434,
+          "endMs": 2982
+        }
+      ],
+      "durationMs": 3242
+    },
+    {
+      "type": "art",
+      "narration": "Both run at about two point four gigahertz.",
+      "emphasis": [
+        "gigahertz"
+      ],
+      "props": {
+        "art": "frequency"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Both run at about two point four gigahertz.",
+      "audio": "videos/microwave-wifi/scene-03.mp3",
+      "words": [
+        {
+          "text": "Both",
+          "startMs": 88,
+          "endMs": 362
+        },
+        {
+          "text": "run",
+          "startMs": 362,
+          "endMs": 669
+        },
+        {
+          "text": "at",
+          "startMs": 778,
+          "endMs": 866
+        },
+        {
+          "text": "about",
+          "startMs": 866,
+          "endMs": 1096
+        },
+        {
+          "text": "two",
+          "startMs": 1162,
+          "endMs": 1371
+        },
+        {
+          "text": "point",
+          "startMs": 1382,
+          "endMs": 1656
+        },
+        {
+          "text": "four",
+          "startMs": 1656,
+          "endMs": 1875
+        },
+        {
+          "text": "gigahertz",
+          "startMs": 1886,
+          "endMs": 2478
+        }
+      ],
+      "durationMs": 2738
+    },
+    {
+      "type": "art",
+      "narration": "The difference is power. A router whispers at under one watt. A microwave shouts at around a thousand.",
+      "emphasis": [
+        "power"
+      ],
+      "props": {
+        "art": "power"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The difference is power. A router whispers at under one watt. A microwave shouts at around a thousand.",
+      "audio": "videos/microwave-wifi/scene-04.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "difference",
+          "startMs": 154,
+          "endMs": 548
+        },
+        {
+          "text": "is",
+          "startMs": 647,
+          "endMs": 746
+        },
+        {
+          "text": "power",
+          "startMs": 746,
+          "endMs": 1206
+        },
+        {
+          "text": "A",
+          "startMs": 1557,
+          "endMs": 1590
+        },
+        {
+          "text": "router",
+          "startMs": 1590,
+          "endMs": 1897
+        },
+        {
+          "text": "whispers",
+          "startMs": 1908,
+          "endMs": 2423
+        },
+        {
+          "text": "at",
+          "startMs": 2555,
+          "endMs": 2675
+        },
+        {
+          "text": "under",
+          "startMs": 2730,
+          "endMs": 2917
+        },
+        {
+          "text": "one",
+          "startMs": 2917,
+          "endMs": 3114
+        },
+        {
+          "text": "watt",
+          "startMs": 3114,
+          "endMs": 3421
+        },
+        {
+          "text": "A",
+          "startMs": 3772,
+          "endMs": 3805
+        },
+        {
+          "text": "microwave",
+          "startMs": 3816,
+          "endMs": 4287
+        },
+        {
+          "text": "shouts",
+          "startMs": 4287,
+          "endMs": 4748
+        },
+        {
+          "text": "at",
+          "startMs": 4923,
+          "endMs": 4989
+        },
+        {
+          "text": "around",
+          "startMs": 4989,
+          "endMs": 5186
+        },
+        {
+          "text": "a",
+          "startMs": 5186,
+          "endMs": 5208
+        },
+        {
+          "text": "thousand",
+          "startMs": 5219,
+          "endMs": 5691
+        }
+      ],
+      "durationMs": 5951
+    },
+    {
+      "type": "art",
+      "narration": "At that power, the waves make water molecules in your food twist back and forth, and that motion becomes heat.",
+      "emphasis": [
+        "heat"
+      ],
+      "props": {
+        "art": "molecules"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|At that power, the waves make water molecules in your food twist back and forth, and that motion becomes heat.",
+      "audio": "videos/microwave-wifi/scene-05.mp3",
+      "words": [
+        {
+          "text": "At",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "that",
+          "startMs": 197,
+          "endMs": 384
+        },
+        {
+          "text": "power",
+          "startMs": 395,
+          "endMs": 910
+        },
+        {
+          "text": "the",
+          "startMs": 1294,
+          "endMs": 1382
+        },
+        {
+          "text": "waves",
+          "startMs": 1382,
+          "endMs": 1689
+        },
+        {
+          "text": "make",
+          "startMs": 1700,
+          "endMs": 1919
+        },
+        {
+          "text": "water",
+          "startMs": 1930,
+          "endMs": 2226
+        },
+        {
+          "text": "molecules",
+          "startMs": 2237,
+          "endMs": 2752
+        },
+        {
+          "text": "in",
+          "startMs": 2752,
+          "endMs": 2807
+        },
+        {
+          "text": "your",
+          "startMs": 2818,
+          "endMs": 2917
+        },
+        {
+          "text": "food",
+          "startMs": 2917,
+          "endMs": 3333
+        },
+        {
+          "text": "twist",
+          "startMs": 3344,
+          "endMs": 3662
+        },
+        {
+          "text": "back",
+          "startMs": 3662,
+          "endMs": 3893
+        },
+        {
+          "text": "and",
+          "startMs": 3893,
+          "endMs": 3947
+        },
+        {
+          "text": "forth",
+          "startMs": 3958,
+          "endMs": 4452
+        },
+        {
+          "text": "and",
+          "startMs": 4868,
+          "endMs": 4912
+        },
+        {
+          "text": "that",
+          "startMs": 4912,
+          "endMs": 5066
+        },
+        {
+          "text": "motion",
+          "startMs": 5077,
+          "endMs": 5450
+        },
+        {
+          "text": "becomes",
+          "startMs": 5450,
+          "endMs": 5822
+        },
+        {
+          "text": "heat",
+          "startMs": 5822,
+          "endMs": 6173
+        }
+      ],
+      "durationMs": 6433
+    },
+    {
+      "type": "art",
+      "narration": "So why doesn't it cook you while you stand there watching?",
+      "emphasis": [
+        "cook"
+      ],
+      "props": {
+        "art": "watching"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So why doesn't it cook you while you stand there watching?",
+      "audio": "videos/microwave-wifi/scene-06.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 99,
+          "endMs": 230
+        },
+        {
+          "text": "why",
+          "startMs": 230,
+          "endMs": 351
+        },
+        {
+          "text": "doesn't",
+          "startMs": 351,
+          "endMs": 515
+        },
+        {
+          "text": "it",
+          "startMs": 526,
+          "endMs": 603
+        },
+        {
+          "text": "cook",
+          "startMs": 603,
+          "endMs": 822
+        },
+        {
+          "text": "you",
+          "startMs": 822,
+          "endMs": 1009
+        },
+        {
+          "text": "while",
+          "startMs": 1020,
+          "endMs": 1173
+        },
+        {
+          "text": "you",
+          "startMs": 1173,
+          "endMs": 1294
+        },
+        {
+          "text": "stand",
+          "startMs": 1294,
+          "endMs": 1524
+        },
+        {
+          "text": "there",
+          "startMs": 1535,
+          "endMs": 1623
+        },
+        {
+          "text": "watching",
+          "startMs": 1623,
+          "endMs": 2007
+        }
+      ],
+      "durationMs": 2267
+    },
+    {
+      "type": "art",
+      "narration": "Look at the door. That metal mesh is full of tiny holes.",
+      "emphasis": [
+        "holes"
+      ],
+      "props": {
+        "art": "mesh"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Look at the door. That metal mesh is full of tiny holes.",
+      "audio": "videos/microwave-wifi/scene-07.mp3",
+      "words": [
+        {
+          "text": "Look",
+          "startMs": 77,
+          "endMs": 164
+        },
+        {
+          "text": "at",
+          "startMs": 164,
+          "endMs": 208
+        },
+        {
+          "text": "the",
+          "startMs": 208,
+          "endMs": 263
+        },
+        {
+          "text": "door",
+          "startMs": 263,
+          "endMs": 570
+        },
+        {
+          "text": "That",
+          "startMs": 932,
+          "endMs": 1086
+        },
+        {
+          "text": "metal",
+          "startMs": 1096,
+          "endMs": 1425
+        },
+        {
+          "text": "mesh",
+          "startMs": 1425,
+          "endMs": 1842
+        },
+        {
+          "text": "is",
+          "startMs": 1952,
+          "endMs": 2072
+        },
+        {
+          "text": "full",
+          "startMs": 2083,
+          "endMs": 2325
+        },
+        {
+          "text": "of",
+          "startMs": 2336,
+          "endMs": 2412
+        },
+        {
+          "text": "tiny",
+          "startMs": 2412,
+          "endMs": 2719
+        },
+        {
+          "text": "holes",
+          "startMs": 2719,
+          "endMs": 3202
+        }
+      ],
+      "durationMs": 3462
+    },
+    {
+      "type": "art",
+      "narration": "The waves are about twelve centimeters long, far too big to squeeze through. Light is tiny, so you can still see in.",
+      "emphasis": [
+        "twelve"
+      ],
+      "props": {
+        "art": "blocked"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The waves are about twelve centimeters long, far too big to squeeze through. Light is tiny, so you can still see in.",
+      "audio": "videos/microwave-wifi/scene-08.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 99,
+          "endMs": 153
+        },
+        {
+          "text": "waves",
+          "startMs": 154,
+          "endMs": 373
+        },
+        {
+          "text": "are",
+          "startMs": 373,
+          "endMs": 428
+        },
+        {
+          "text": "about",
+          "startMs": 428,
+          "endMs": 680
+        },
+        {
+          "text": "twelve",
+          "startMs": 691,
+          "endMs": 1020
+        },
+        {
+          "text": "centimeters",
+          "startMs": 1020,
+          "endMs": 1458
+        },
+        {
+          "text": "long",
+          "startMs": 1458,
+          "endMs": 1864
+        },
+        {
+          "text": "far",
+          "startMs": 2204,
+          "endMs": 2434
+        },
+        {
+          "text": "too",
+          "startMs": 2434,
+          "endMs": 2632
+        },
+        {
+          "text": "big",
+          "startMs": 2697,
+          "endMs": 3048
+        },
+        {
+          "text": "to",
+          "startMs": 3059,
+          "endMs": 3136
+        },
+        {
+          "text": "squeeze",
+          "startMs": 3147,
+          "endMs": 3575
+        },
+        {
+          "text": "through",
+          "startMs": 3586,
+          "endMs": 3969
+        },
+        {
+          "text": "Light",
+          "startMs": 4309,
+          "endMs": 4507
+        },
+        {
+          "text": "is",
+          "startMs": 4518,
+          "endMs": 4660
+        },
+        {
+          "text": "tiny",
+          "startMs": 4671,
+          "endMs": 5219
+        },
+        {
+          "text": "so",
+          "startMs": 5417,
+          "endMs": 5526
+        },
+        {
+          "text": "you",
+          "startMs": 5537,
+          "endMs": 5603
+        },
+        {
+          "text": "can",
+          "startMs": 5614,
+          "endMs": 5691
+        },
+        {
+          "text": "still",
+          "startMs": 5691,
+          "endMs": 5921
+        },
+        {
+          "text": "see",
+          "startMs": 5921,
+          "endMs": 6151
+        },
+        {
+          "text": "in",
+          "startMs": 6151,
+          "endMs": 6327
+        }
+      ],
+      "durationMs": 6587
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. A tiny bit still leaks out. Harmless to you, but loud to your router.",
+      "emphasis": [
+        "leaks"
+      ],
+      "props": {
+        "art": "leak"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. A tiny bit still leaks out. Harmless to you, but loud to your router.",
+      "audio": "videos/microwave-wifi/scene-09.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 143,
+          "endMs": 340
+        },
+        {
+          "text": "the",
+          "startMs": 351,
+          "endMs": 439
+        },
+        {
+          "text": "part",
+          "startMs": 439,
+          "endMs": 724
+        },
+        {
+          "text": "most",
+          "startMs": 735,
+          "endMs": 998
+        },
+        {
+          "text": "people",
+          "startMs": 998,
+          "endMs": 1239
+        },
+        {
+          "text": "miss",
+          "startMs": 1239,
+          "endMs": 1678
+        },
+        {
+          "text": "A",
+          "startMs": 2039,
+          "endMs": 2083
+        },
+        {
+          "text": "tiny",
+          "startMs": 2094,
+          "endMs": 2401
+        },
+        {
+          "text": "bit",
+          "startMs": 2401,
+          "endMs": 2588
+        },
+        {
+          "text": "still",
+          "startMs": 2599,
+          "endMs": 2873
+        },
+        {
+          "text": "leaks",
+          "startMs": 2873,
+          "endMs": 3114
+        },
+        {
+          "text": "out",
+          "startMs": 3114,
+          "endMs": 3377
+        },
+        {
+          "text": "Harmless",
+          "startMs": 3739,
+          "endMs": 4134
+        },
+        {
+          "text": "to",
+          "startMs": 4134,
+          "endMs": 4221
+        },
+        {
+          "text": "you",
+          "startMs": 4222,
+          "endMs": 4397
+        },
+        {
+          "text": "but",
+          "startMs": 4825,
+          "endMs": 4967
+        },
+        {
+          "text": "loud",
+          "startMs": 4967,
+          "endMs": 5307
+        },
+        {
+          "text": "to",
+          "startMs": 5307,
+          "endMs": 5395
+        },
+        {
+          "text": "your",
+          "startMs": 5406,
+          "endMs": 5526
+        },
+        {
+          "text": "router",
+          "startMs": 5526,
+          "endMs": 5943
+        }
+      ],
+      "durationMs": 6203
+    },
+    {
+      "type": "art",
+      "narration": "Which is why your video sometimes buffers the moment someone heats up leftovers.",
+      "emphasis": [
+        "buffers"
+      ],
+      "props": {
+        "art": "buffer"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Which is why your video sometimes buffers the moment someone heats up leftovers.",
+      "audio": "videos/microwave-wifi/scene-10.mp3",
+      "words": [
+        {
+          "text": "Which",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "is",
+          "startMs": 175,
+          "endMs": 241
+        },
+        {
+          "text": "why",
+          "startMs": 252,
+          "endMs": 384
+        },
+        {
+          "text": "your",
+          "startMs": 384,
+          "endMs": 493
+        },
+        {
+          "text": "video",
+          "startMs": 493,
+          "endMs": 965
+        },
+        {
+          "text": "sometimes",
+          "startMs": 1075,
+          "endMs": 1809
+        },
+        {
+          "text": "buffers",
+          "startMs": 1919,
+          "endMs": 2292
+        },
+        {
+          "text": "the",
+          "startMs": 2292,
+          "endMs": 2357
+        },
+        {
+          "text": "moment",
+          "startMs": 2357,
+          "endMs": 2708
+        },
+        {
+          "text": "someone",
+          "startMs": 2719,
+          "endMs": 2971
+        },
+        {
+          "text": "heats",
+          "startMs": 2972,
+          "endMs": 3257
+        },
+        {
+          "text": "up",
+          "startMs": 3257,
+          "endMs": 3366
+        },
+        {
+          "text": "leftovers",
+          "startMs": 3377,
+          "endMs": 4090
+        }
+      ],
+      "durationMs": 4350
+    },
+    {
+      "type": "art",
+      "narration": "Newer Wi-Fi also uses five and six gigahertz, well out of the microwave's way.",
+      "emphasis": [
+        "five"
+      ],
+      "props": {
+        "art": "bands"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Newer Wi-Fi also uses five and six gigahertz, well out of the microwave's way.",
+      "audio": "videos/microwave-wifi/scene-11.mp3",
+      "words": [
+        {
+          "text": "Newer",
+          "startMs": 77,
+          "endMs": 340
+        },
+        {
+          "text": "Wi-Fi",
+          "startMs": 340,
+          "endMs": 954
+        },
+        {
+          "text": "also",
+          "startMs": 1053,
+          "endMs": 1382
+        },
+        {
+          "text": "uses",
+          "startMs": 1382,
+          "endMs": 1765
+        },
+        {
+          "text": "five",
+          "startMs": 1776,
+          "endMs": 2292
+        },
+        {
+          "text": "and",
+          "startMs": 2390,
+          "endMs": 2456
+        },
+        {
+          "text": "six",
+          "startMs": 2456,
+          "endMs": 2708
+        },
+        {
+          "text": "gigahertz",
+          "startMs": 2719,
+          "endMs": 3322
+        },
+        {
+          "text": "well",
+          "startMs": 3553,
+          "endMs": 3695
+        },
+        {
+          "text": "out",
+          "startMs": 3695,
+          "endMs": 3761
+        },
+        {
+          "text": "of",
+          "startMs": 3761,
+          "endMs": 3794
+        },
+        {
+          "text": "the",
+          "startMs": 3805,
+          "endMs": 3838
+        },
+        {
+          "text": "microwave's",
+          "startMs": 3838,
+          "endMs": 4320
+        },
+        {
+          "text": "way",
+          "startMs": 4331,
+          "endMs": 4660
+        }
+      ],
+      "durationMs": 4920
+    },
+    {
+      "type": "art",
+      "narration": "So your microwave is basically a Wi-Fi router, turned up a thousand times, inside a metal box.",
+      "emphasis": [
+        "thousand"
+      ],
+      "props": {
+        "art": "box"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So your microwave is basically a Wi-Fi router, turned up a thousand times, inside a metal box.",
+      "audio": "videos/microwave-wifi/scene-12.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "your",
+          "startMs": 186,
+          "endMs": 285
+        },
+        {
+          "text": "microwave",
+          "startMs": 285,
+          "endMs": 778
+        },
+        {
+          "text": "is",
+          "startMs": 789,
+          "endMs": 932
+        },
+        {
+          "text": "basically",
+          "startMs": 943,
+          "endMs": 1414
+        },
+        {
+          "text": "a",
+          "startMs": 1414,
+          "endMs": 1524
+        },
+        {
+          "text": "Wi-Fi",
+          "startMs": 1535,
+          "endMs": 2149
+        },
+        {
+          "text": "router",
+          "startMs": 2160,
+          "endMs": 2675
+        },
+        {
+          "text": "turned",
+          "startMs": 2884,
+          "endMs": 3081
+        },
+        {
+          "text": "up",
+          "startMs": 3092,
+          "endMs": 3169
+        },
+        {
+          "text": "a",
+          "startMs": 3180,
+          "endMs": 3224
+        },
+        {
+          "text": "thousand",
+          "startMs": 3224,
+          "endMs": 3772
+        },
+        {
+          "text": "times",
+          "startMs": 3772,
+          "endMs": 4243
+        },
+        {
+          "text": "inside",
+          "startMs": 4430,
+          "endMs": 4792
+        },
+        {
+          "text": "a",
+          "startMs": 4792,
+          "endMs": 4803
+        },
+        {
+          "text": "metal",
+          "startMs": 4803,
+          "endMs": 5000
+        },
+        {
+          "text": "box",
+          "startMs": 5011,
+          "endMs": 5515
+        }
+      ],
+      "durationMs": 5775
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to whoever always microwaves during your calls.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the leftovers person"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to whoever always microwaves during your calls.",
+      "audio": "videos/microwave-wifi/scene-13.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 537
+        },
+        {
+          "text": "and",
+          "startMs": 844,
+          "endMs": 965
+        },
+        {
+          "text": "send",
+          "startMs": 976,
+          "endMs": 1283
+        },
+        {
+          "text": "this",
+          "startMs": 1283,
+          "endMs": 1535
+        },
+        {
+          "text": "to",
+          "startMs": 1546,
+          "endMs": 1634
+        },
+        {
+          "text": "whoever",
+          "startMs": 1634,
+          "endMs": 2160
+        },
+        {
+          "text": "always",
+          "startMs": 2193,
+          "endMs": 2621
+        },
+        {
+          "text": "microwaves",
+          "startMs": 2621,
+          "endMs": 3355
+        },
+        {
+          "text": "during",
+          "startMs": 3366,
+          "endMs": 3564
+        },
+        {
+          "text": "your",
+          "startMs": 3564,
+          "endMs": 3640
+        },
+        {
+          "text": "calls",
+          "startMs": 3640,
+          "endMs": 4112
+        }
+      ],
+      "durationMs": 4372
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz"
+  }
+}

@@ -1,0 +1,664 @@
+{
+  "slug": "noise-cancelling",
+  "title": "How noise cancelling headphones work",
+  "caption": "Noise cancelling headphones do not block sound, they add more of it. Here is the trick.\n\n#tech #howitworks #headphones #audio #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Noise cancelling headphones don't block sound. They add more of it.",
+      "emphasis": [
+        "add"
+      ],
+      "props": {
+        "kicker": "How it works",
+        "headline": "Silence made from sound",
+        "highlight": [
+          "sound"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Noise cancelling headphones don't block sound. They add more of it.",
+      "audio": "videos/noise-cancelling/scene-01.mp3",
+      "words": [
+        {
+          "text": "Noise",
+          "startMs": 91,
+          "endMs": 307
+        },
+        {
+          "text": "cancelling",
+          "startMs": 307,
+          "endMs": 716
+        },
+        {
+          "text": "headphones",
+          "startMs": 716,
+          "endMs": 1261
+        },
+        {
+          "text": "don't",
+          "startMs": 1352,
+          "endMs": 1568
+        },
+        {
+          "text": "block",
+          "startMs": 1568,
+          "endMs": 1818
+        },
+        {
+          "text": "sound",
+          "startMs": 1818,
+          "endMs": 2193
+        },
+        {
+          "text": "They",
+          "startMs": 2568,
+          "endMs": 2636
+        },
+        {
+          "text": "add",
+          "startMs": 2636,
+          "endMs": 2705
+        },
+        {
+          "text": "more",
+          "startMs": 2705,
+          "endMs": 2932
+        },
+        {
+          "text": "of",
+          "startMs": 2932,
+          "endMs": 3000
+        },
+        {
+          "text": "it",
+          "startMs": 3000,
+          "endMs": 3159
+        }
+      ],
+      "durationMs": 3609
+    },
+    {
+      "type": "crowd",
+      "narration": "That sounds backwards, but it is exactly how they work.",
+      "emphasis": [
+        "backwards"
+      ],
+      "props": {
+        "symbol": "!"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|That sounds backwards, but it is exactly how they work.",
+      "audio": "videos/noise-cancelling/scene-02.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 91,
+          "endMs": 182
+        },
+        {
+          "text": "sounds",
+          "startMs": 193,
+          "endMs": 443
+        },
+        {
+          "text": "backwards",
+          "startMs": 443,
+          "endMs": 1125
+        },
+        {
+          "text": "but",
+          "startMs": 1330,
+          "endMs": 1443
+        },
+        {
+          "text": "it",
+          "startMs": 1443,
+          "endMs": 1500
+        },
+        {
+          "text": "is",
+          "startMs": 1500,
+          "endMs": 1591
+        },
+        {
+          "text": "exactly",
+          "startMs": 1591,
+          "endMs": 2159
+        },
+        {
+          "text": "how",
+          "startMs": 2159,
+          "endMs": 2284
+        },
+        {
+          "text": "they",
+          "startMs": 2284,
+          "endMs": 2398
+        },
+        {
+          "text": "work",
+          "startMs": 2398,
+          "endMs": 2818
+        }
+      ],
+      "durationMs": 3268
+    },
+    {
+      "type": "icon",
+      "narration": "Tiny microphones on each ear cup listen to the noise around you.",
+      "emphasis": [
+        "listen"
+      ],
+      "props": {
+        "icon": "chip",
+        "label": "Tiny microphones",
+        "tags": [
+          "Always listening",
+          "On each ear cup"
+        ]
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Tiny microphones on each ear cup listen to the noise around you.",
+      "audio": "videos/noise-cancelling/scene-03.mp3",
+      "words": [
+        {
+          "text": "Tiny",
+          "startMs": 91,
+          "endMs": 341
+        },
+        {
+          "text": "microphones",
+          "startMs": 341,
+          "endMs": 989
+        },
+        {
+          "text": "on",
+          "startMs": 1000,
+          "endMs": 1159
+        },
+        {
+          "text": "each",
+          "startMs": 1318,
+          "endMs": 1534
+        },
+        {
+          "text": "ear",
+          "startMs": 1602,
+          "endMs": 1966
+        },
+        {
+          "text": "cup",
+          "startMs": 2136,
+          "endMs": 2432
+        },
+        {
+          "text": "listen",
+          "startMs": 2511,
+          "endMs": 2830
+        },
+        {
+          "text": "to",
+          "startMs": 2841,
+          "endMs": 2898
+        },
+        {
+          "text": "the",
+          "startMs": 2898,
+          "endMs": 2977
+        },
+        {
+          "text": "noise",
+          "startMs": 2989,
+          "endMs": 3250
+        },
+        {
+          "text": "around",
+          "startMs": 3250,
+          "endMs": 3557
+        },
+        {
+          "text": "you",
+          "startMs": 3568,
+          "endMs": 3739
+        }
+      ],
+      "durationMs": 4189
+    },
+    {
+      "type": "steps",
+      "narration": "A chip instantly creates a mirror image of that sound wave, flipped upside down.",
+      "emphasis": [
+        "mirror"
+      ],
+      "props": {
+        "steps": [
+          "Listen",
+          "Flip",
+          "Cancel"
+        ],
+        "active": 1,
+        "icon": "bolt",
+        "status": "Mirror image wave",
+        "progress": 0.6
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|A chip instantly creates a mirror image of that sound wave, flipped upside down.",
+      "audio": "videos/noise-cancelling/scene-04.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 80,
+          "endMs": 125
+        },
+        {
+          "text": "chip",
+          "startMs": 136,
+          "endMs": 398
+        },
+        {
+          "text": "instantly",
+          "startMs": 511,
+          "endMs": 932
+        },
+        {
+          "text": "creates",
+          "startMs": 943,
+          "endMs": 1386
+        },
+        {
+          "text": "a",
+          "startMs": 1545,
+          "endMs": 1591
+        },
+        {
+          "text": "mirror",
+          "startMs": 1602,
+          "endMs": 2136
+        },
+        {
+          "text": "image",
+          "startMs": 2148,
+          "endMs": 2477
+        },
+        {
+          "text": "of",
+          "startMs": 2477,
+          "endMs": 2545
+        },
+        {
+          "text": "that",
+          "startMs": 2545,
+          "endMs": 2716
+        },
+        {
+          "text": "sound",
+          "startMs": 2716,
+          "endMs": 3000
+        },
+        {
+          "text": "wave",
+          "startMs": 3000,
+          "endMs": 3364
+        },
+        {
+          "text": "flipped",
+          "startMs": 3534,
+          "endMs": 3807
+        },
+        {
+          "text": "upside",
+          "startMs": 3807,
+          "endMs": 4193
+        },
+        {
+          "text": "down",
+          "startMs": 4205,
+          "endMs": 4534
+        }
+      ],
+      "durationMs": 4984
+    },
+    {
+      "type": "steps",
+      "narration": "When the two waves meet, the peaks and dips cancel each other out.",
+      "emphasis": [
+        "cancel"
+      ],
+      "props": {
+        "steps": [
+          "Listen",
+          "Flip",
+          "Cancel"
+        ],
+        "active": 2,
+        "icon": "check",
+        "status": "Peaks meet dips",
+        "progress": 1
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|When the two waves meet, the peaks and dips cancel each other out.",
+      "audio": "videos/noise-cancelling/scene-05.mp3",
+      "words": [
+        {
+          "text": "When",
+          "startMs": 102,
+          "endMs": 170
+        },
+        {
+          "text": "the",
+          "startMs": 170,
+          "endMs": 239
+        },
+        {
+          "text": "two",
+          "startMs": 250,
+          "endMs": 489
+        },
+        {
+          "text": "waves",
+          "startMs": 489,
+          "endMs": 841
+        },
+        {
+          "text": "meet",
+          "startMs": 841,
+          "endMs": 1193
+        },
+        {
+          "text": "the",
+          "startMs": 1443,
+          "endMs": 1534
+        },
+        {
+          "text": "peaks",
+          "startMs": 1545,
+          "endMs": 1977
+        },
+        {
+          "text": "and",
+          "startMs": 1989,
+          "endMs": 2136
+        },
+        {
+          "text": "dips",
+          "startMs": 2205,
+          "endMs": 2580
+        },
+        {
+          "text": "cancel",
+          "startMs": 2591,
+          "endMs": 3011
+        },
+        {
+          "text": "each",
+          "startMs": 3011,
+          "endMs": 3148
+        },
+        {
+          "text": "other",
+          "startMs": 3159,
+          "endMs": 3341
+        },
+        {
+          "text": "out",
+          "startMs": 3352,
+          "endMs": 3625
+        }
+      ],
+      "durationMs": 4075
+    },
+    {
+      "type": "compare",
+      "narration": "It works best on steady, low sounds like engines, and less well on sudden sounds like voices.",
+      "emphasis": [
+        "best"
+      ],
+      "props": {
+        "left": {
+          "label": "Engine hum",
+          "value": 90,
+          "display": "Great"
+        },
+        "right": {
+          "label": "Voices",
+          "value": 40,
+          "display": "Weaker"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|It works best on steady, low sounds like engines, and less well on sudden sounds like voices.",
+      "audio": "videos/noise-cancelling/scene-06.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 80,
+          "endMs": 148
+        },
+        {
+          "text": "works",
+          "startMs": 148,
+          "endMs": 318
+        },
+        {
+          "text": "best",
+          "startMs": 318,
+          "endMs": 580
+        },
+        {
+          "text": "on",
+          "startMs": 580,
+          "endMs": 705
+        },
+        {
+          "text": "steady",
+          "startMs": 705,
+          "endMs": 1159
+        },
+        {
+          "text": "low",
+          "startMs": 1523,
+          "endMs": 1864
+        },
+        {
+          "text": "sounds",
+          "startMs": 1875,
+          "endMs": 2227
+        },
+        {
+          "text": "like",
+          "startMs": 2227,
+          "endMs": 2386
+        },
+        {
+          "text": "engines",
+          "startMs": 2455,
+          "endMs": 3045
+        },
+        {
+          "text": "and",
+          "startMs": 3239,
+          "endMs": 3364
+        },
+        {
+          "text": "less",
+          "startMs": 3364,
+          "endMs": 3545
+        },
+        {
+          "text": "well",
+          "startMs": 3557,
+          "endMs": 3795
+        },
+        {
+          "text": "on",
+          "startMs": 3795,
+          "endMs": 3920
+        },
+        {
+          "text": "sudden",
+          "startMs": 3932,
+          "endMs": 4216
+        },
+        {
+          "text": "sounds",
+          "startMs": 4216,
+          "endMs": 4477
+        },
+        {
+          "text": "like",
+          "startMs": 4489,
+          "endMs": 4591
+        },
+        {
+          "text": "voices",
+          "startMs": 4591,
+          "endMs": 5182
+        }
+      ],
+      "durationMs": 5632
+    },
+    {
+      "type": "hub",
+      "narration": "That is why they shine on planes, trains and in busy traffic.",
+      "emphasis": [
+        "shine"
+      ],
+      "props": {
+        "items": [
+          "Planes",
+          "Trains",
+          "Offices",
+          "Traffic"
+        ],
+        "hub": {
+          "label": "Anti-noise",
+          "icon": "bolt"
+        }
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|That is why they shine on planes, trains and in busy traffic.",
+      "audio": "videos/noise-cancelling/scene-07.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 80,
+          "endMs": 148
+        },
+        {
+          "text": "is",
+          "startMs": 159,
+          "endMs": 227
+        },
+        {
+          "text": "why",
+          "startMs": 239,
+          "endMs": 341
+        },
+        {
+          "text": "they",
+          "startMs": 341,
+          "endMs": 420
+        },
+        {
+          "text": "shine",
+          "startMs": 420,
+          "endMs": 693
+        },
+        {
+          "text": "on",
+          "startMs": 693,
+          "endMs": 807
+        },
+        {
+          "text": "planes",
+          "startMs": 807,
+          "endMs": 1443
+        },
+        {
+          "text": "trains",
+          "startMs": 1648,
+          "endMs": 2284
+        },
+        {
+          "text": "and",
+          "startMs": 2455,
+          "endMs": 2557
+        },
+        {
+          "text": "in",
+          "startMs": 2557,
+          "endMs": 2648
+        },
+        {
+          "text": "busy",
+          "startMs": 2659,
+          "endMs": 2920
+        },
+        {
+          "text": "traffic",
+          "startMs": 2932,
+          "endMs": 3443
+        }
+      ],
+      "durationMs": 3893
+    },
+    {
+      "type": "title",
+      "narration": "Follow for more on how tech really works.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "How tech really works"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+10%|Follow for more on how tech really works.",
+      "audio": "videos/noise-cancelling/scene-08.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 148,
+          "endMs": 352
+        },
+        {
+          "text": "for",
+          "startMs": 352,
+          "endMs": 455
+        },
+        {
+          "text": "more",
+          "startMs": 455,
+          "endMs": 716
+        },
+        {
+          "text": "on",
+          "startMs": 716,
+          "endMs": 795
+        },
+        {
+          "text": "how",
+          "startMs": 795,
+          "endMs": 943
+        },
+        {
+          "text": "tech",
+          "startMs": 943,
+          "endMs": 1261
+        },
+        {
+          "text": "really",
+          "startMs": 1273,
+          "endMs": 1455
+        },
+        {
+          "text": "works",
+          "startMs": 1455,
+          "endMs": 1966
+        }
+      ],
+      "durationMs": 2416
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz",
+    "accent": "#8f7cff"
+  }
+}
