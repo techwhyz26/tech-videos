@@ -70,7 +70,12 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
    (Or on github.com: repository -> Settings -> Secrets and variables -> Actions -> New repository secret.)
 
 ### 5. First test
-1. GitHub -> repository -> **Actions** -> **Make a video** -> **Run workflow**.
+1. Both workflows start paused. Turn them on:
+   ```
+   gh workflow enable "Make a video"
+   gh workflow enable "Post approved videos"
+   ```
+   Then GitHub -> repository -> **Actions** -> **Make a video** -> **Run workflow**.
 2. After 15-25 minutes the video arrives in Telegram. Watch it before you tap.
 3. Tap ✅, then either wait for the hourly check or run **Post approved videos** by hand.
 
