@@ -1,9 +1,9 @@
-# Every hour: read your Approve / Reject taps in Telegram and post the approved videos.
+# Every two hours: read your Approve / Reject taps in Telegram and post the approved videos.
 name: Post approved videos
 
 on:
   schedule:
-    - cron: "17 * * * *"   # every hour, at 17 minutes past
+    - cron: "17 */2 * * *"   # every two hours, at 17 minutes past
   workflow_dispatch:
 
 permissions:

@@ -1,5 +1,5 @@
-# Makes one video a day in the cloud and sends it to Telegram for you to approve.
-# Run it by hand: GitHub -> Actions -> "Make a video" -> Run workflow.
+# Makes one video a day in the cloud with Claude Code (logged in with your Claude subscription) and
+# sends it to Telegram for you to approve. Run it by hand: Actions -> "Make a video" -> Run workflow.
 name: Make a video
 
 on:
@@ -13,7 +13,7 @@ on:
         options: [alternate, news, explainer]
         default: alternate
       idea:
-        description: "Optional: your own idea, e.g. How does Bluetooth work?"
+        description: "Optional - your own idea, for example How does Bluetooth work?"
         type: string
         required: false
 
@@ -27,9 +27,8 @@ concurrency:
 jobs:
   make:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 150
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GH_TOKEN: ${{ github.token }}
@@ -43,22 +42,52 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: npm ci
-      - run: pip install -r requirements.txt
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          pip install -r requirements.txt
+          npm install -g @anthropic-ai/claude-code
 
-      - name: Write, voice and render the video
+      - name: Decide what to make
         env:
           KIND: ${{ inputs.kind || 'alternate' }}
           IDEA: ${{ inputs.idea }}
         run: |
-          python run.py auto --kind "$KIND" --no-review ${IDEA:+--idea "$IDEA"}
+          if [ -n "$IDEA" ]; then
+            TASK="Make an explainer video about this idea from the channel owner: $IDEA"
+          else
+            if [ "$KIND" = "alternate" ]; then
+              if [ $(( $(date +%s) / 86400 % 2 )) -eq 0 ]; then KIND=news; else KIND=explainer; fi
+            fi
+            if [ "$KIND" = "news" ]; then
+              TASK="Make a tech-update video about today's best news story."
+            else
+              TASK="Make a how-it-works explainer video on a new subject you choose."
+            fi
+          fi
+          echo "TASK=$TASK" >> "$GITHUB_ENV"
+          echo "$TASK"
+
+      - name: Claude Code makes the video
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          claude -p "$TASK Follow the section 'Making one video' in CLAUDE.md exactly, including checking the frames. The standard in CLAUDE.md is non-negotiable. Finish by writing output/last.json." \
+            --model opus \
+            --max-turns 200 \
+            --permission-mode default \
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python run.py:*),Bash(python tools/:*)" \
+            --output-format text
+          test -f output/last.json || { echo "Claude did not finish the video (no output/last.json)"; exit 1; }
           echo "SLUG=$(python -c "import json; print(json.load(open('output/last.json'))['slug'])")" >> "$GITHUB_ENV"
 
       - name: Save the script and drawings to the repository
         run: |
+          test -f "output/$SLUG.mp4"
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add public/videos data
+          git add public/videos tools data
           git commit -m "New video: $SLUG"
           git pull --rebase
           git push

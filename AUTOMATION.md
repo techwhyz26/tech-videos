@@ -3,24 +3,25 @@
 Once this is set up, your PC can stay off:
 
 ```
-every day 05:00 UTC   GitHub Actions: pick a topic -> Claude writes + draws -> voice -> render
+every day 05:00 UTC   GitHub Actions: Claude Code (your subscription) picks a topic, writes, draws,
+                      renders and checks its own frames, following CLAUDE.md
                       -> the video arrives in Telegram with  [✅ Post it]  [❌ Reject]
-every hour            GitHub Actions: reads your taps -> posts approved videos through Upload-Post
+every 2 hours         GitHub Actions: reads your taps -> posts approved videos through Upload-Post
                       -> replies in Telegram with the links
 ```
 
 Days alternate between a tech-news video and a how-it-works explainer. You can also make one on demand:
 GitHub -> your repository -> **Actions** -> **Make a video** -> **Run workflow** (pick the kind, or type
-your own idea). Taps are acted on within about an hour.
+your own idea). Taps are acted on within about two hours (or straight away if you run **Post approved videos** by hand).
 
 ## What it costs
 
 | Piece | Cost |
 |---|---|
-| GitHub Actions | Free. A private repository gets 2,000 minutes a month; this uses roughly 900-1,200 (one render of 10-20 minutes a day plus a one-minute check every hour). A public repository has no limit. |
+| GitHub Actions | Free. A private repository gets 2,000 minutes a month. A daily video takes roughly 30-60 minutes (Claude drawing, rendering and checking), plus a one-minute check every two hours: about 1,300-2,200 minutes a month, so watch the usage page (Settings -> Billing) in the first week. If it runs over, make the repository public (unlimited minutes; secrets stay secret) or make a video every other day. |
 | Telegram bot | Free |
 | Voice (edge-tts) | Free |
-| Claude API | Pay per use, billed by Anthropic. Each video is one long request (script + 12-18 drawings) plus two small ones. Check the usage page in the Claude Console after the first few videos, and set a monthly spend limit there. |
+| Claude | No extra cost: Claude Code runs on your Pro or Max subscription and each video counts toward its usage limits. A detailed video uses a lot; on Pro you may hit the limit, on Max a video a day should fit. |
 | Upload-Post | Free plan: 10 uploads a month, Instagram / YouTube / Facebook and others, **no TikTok**. Basic plan ($24 a month, $16 billed yearly): unlimited uploads and TikTok. |
 
 ## One-time setup (about 30 minutes)
@@ -28,10 +29,10 @@ your own idea). Taps are acted on within about an hour.
 You create the accounts and paste the keys yourself. Never send keys in a chat or put them in a file
 in this folder; they go only into GitHub's encrypted **Secrets**.
 
-### 1. Claude API key
-1. Sign in at https://platform.claude.com and add a payment method under **Billing**.
-2. Set a monthly spend limit under **Limits**, so a mistake can never cost more than you chose.
-3. **API keys** -> **Create key**. Copy it (it starts with `sk-ant-`). This is `ANTHROPIC_API_KEY`.
+### 1. Claude subscription token
+1. In a terminal on your PC run `claude setup-token` (Claude Code must be installed: `npm install -g @anthropic-ai/claude-code`).
+2. It opens your browser; sign in with the Claude account that has your Pro or Max plan.
+3. It prints a long-lived token. This is `CLAUDE_CODE_OAUTH_TOKEN`. Treat it like a password.
 
 ### 2. Upload-Post and your social accounts
 1. Instagram: switch to a **Professional** account (Settings -> Account type and tools -> Switch to
@@ -62,7 +63,7 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
    ```
 3. Add the four secrets (each command asks you to paste the value):
    ```
-   gh secret set ANTHROPIC_API_KEY
+   gh secret set CLAUDE_CODE_OAUTH_TOKEN
    gh secret set UPLOAD_POST_API_KEY
    gh secret set TELEGRAM_BOT_TOKEN
    gh secret set TELEGRAM_CHAT_ID
@@ -76,8 +77,8 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
    gh workflow enable "Post approved videos"
    ```
    Then GitHub -> repository -> **Actions** -> **Make a video** -> **Run workflow**.
-2. After 15-25 minutes the video arrives in Telegram. Watch it before you tap.
-3. Tap ✅, then either wait for the hourly check or run **Post approved videos** by hand.
+2. After 30-60 minutes the video arrives in Telegram. Watch it before you tap.
+3. Tap ✅, then either wait for the next check or run **Post approved videos** by hand.
 
 ## Day to day
 
@@ -85,14 +86,14 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
 - **More than one video a day**: add a second `cron` line.
 - **A video failed**: Telegram gets a message with a link to the log.
 - **A drawing came out wrong**: tap ❌. To fix it instead, pull the repository on your PC, edit
-  `public/videos/<slug>/art/scene-NN.svg` (or ask Claude Code to), run `python run.py build <slug>`,
+  `tools/art_<slug>.py` (or ask Claude Code to), rerun it, run `python run.py build <slug>`,
   then `python run.py send-review <slug>` with your Telegram variables set.
 - **Pause everything**: Actions -> each workflow -> **...** -> **Disable workflow**.
 
 ## Things to know
 
-- The quality bar is the `qr-code-damage` and `microwave-wifi` videos. Claude is asked to match them and
-  scripts with template scenes are rejected, but drawings made unattended will vary. That is why
+- The quality bar is the `qr-code-damage` and `microwave-wifi` videos. Claude Code reads CLAUDE.md, draws
+  each video the same way, and checks its own frames, but drawings made unattended will still vary. That is why
   nothing is posted until you tap ✅.
 - The free voice service sometimes refuses connections from cloud servers. If the voice step keeps
   failing, the fallback is a paid voice API.
@@ -100,3 +101,5 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
   count as activity, so this only matters if the workflow keeps failing.
 - Each video is stored as a GitHub release named `video-<slug>` (in a private repository only you can
   see it). Delete old ones under Releases when you no longer need them.
+- `python run.py auto` (and `pipeline/script.py`) is an alternative engine that uses the paid Claude API
+  instead of Claude Code. The cloud workflow does not use it.

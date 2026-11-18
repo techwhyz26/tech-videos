@@ -196,6 +196,41 @@ def cmd_send_review(args: argparse.Namespace) -> None:
     print("Sent to Telegram for review.")
 
 
+def cmd_frames(args: argparse.Namespace) -> None:
+    """Contact sheet with one frame from each scene (75% of the way in) to check a render by eye."""
+    common.refresh_path()
+    spec = common.load_spec(args.slug)
+    video = common.OUTPUT / f"{args.slug}.mp4"
+    if not video.exists():
+        raise SystemExit(f"{video} does not exist. Run `python run.py build {args.slug}` first.")
+    folder = common.OUTPUT / "frames" / args.slug
+    folder.mkdir(parents=True, exist_ok=True)
+    t, files = 0, []
+    for i, sc in enumerate(spec["scenes"]):
+        at = (t + sc.get("durationMs", 3000) * 0.75) / 1000
+        t += sc.get("durationMs", 3000)
+        f = folder / f"scene-{i + 1:02d}.png"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{at:.2f}", "-i", str(video),
+                        "-frames:v", "1", "-vf", "scale=360:640", str(f)], check=True)
+        files.append(f)
+    cols = 5
+    inputs = [a for f in files for a in ("-i", str(f))]
+    layout = "|".join(f"{(i % cols) * 360}_{(i // cols) * 640}" for i in range(len(files)))
+    sheet = common.OUTPUT / "frames" / f"{args.slug}.png"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex",
+                    f"xstack=inputs={len(files)}:layout={layout}:fill=black", str(sheet)], check=True)
+    print(f"Contact sheet ({len(files)} scenes, left to right, top to bottom): {sheet}")
+    print(f"Single frames: {folder}")
+
+
+def cmd_mark_used(args: argparse.Namespace) -> None:
+    found = topics.load_topics()
+    if not 1 <= args.number <= len(found):
+        raise SystemExit(f"Topic must be between 1 and {len(found)}.")
+    topics.mark_used(found[args.number - 1]["link"])
+    print(f"Marked as used: {found[args.number - 1]['title']}")
+
+
 def cmd_notify(args: argparse.Namespace) -> None:
     notify.send_message(args.text)
 
@@ -232,6 +267,12 @@ def main() -> None:
     auto.add_argument("--no-review", action="store_true", help="do not send to Telegram")
     auto.set_defaults(fn=cmd_auto)
     sub.add_parser("review", help="act on Approve / Reject taps in Telegram").set_defaults(fn=cmd_review)
+    fr = sub.add_parser("frames", help="contact sheet of one frame per scene, to check a render")
+    fr.add_argument("slug")
+    fr.set_defaults(fn=cmd_frames)
+    mu = sub.add_parser("mark-used", help="mark topic number N from `topics` as used")
+    mu.add_argument("number", type=int)
+    mu.set_defaults(fn=cmd_mark_used)
     send = sub.add_parser("send-review", help="send a rendered video to Telegram for review")
     send.add_argument("slug")
     send.set_defaults(fn=cmd_send_review)
