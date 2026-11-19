@@ -78,7 +78,7 @@ jobs:
             --model opus \
             --max-turns 200 \
             --permission-mode default \
-            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python run.py:*),Bash(python tools/:*)" \
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python run.py *),Bash(python tools/*)" \
             --output-format text
           test -f output/last.json || { echo "Claude did not finish the video (no output/last.json)"; exit 1; }
           echo "SLUG=$(python -c "import json; print(json.load(open('output/last.json'))['slug'])")" >> "$GITHUB_ENV"
@@ -88,7 +88,8 @@ jobs:
           test -f "output/$SLUG.mp4"
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add public/videos tools data
+          git add --all -- public/videos tools
+          if [ -e data/used.json ]; then git add data/used.json; fi
           git commit -m "New video: $SLUG"
           git pull --rebase
           git push
@@ -98,6 +99,20 @@ jobs:
 
       - name: Send it to Telegram for review
         run: python run.py send-review "$SLUG"
+
+      - name: Keep the finished work if a later step failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unsaved-video
+          path: |
+            output/*.mp4
+            output/*.txt
+            output/last.json
+            public/videos
+            tools
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Tell me if something went wrong
         if: failure()

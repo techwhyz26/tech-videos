@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from pathlib import Path
 
 import httpx
@@ -34,7 +35,17 @@ def _chat() -> str:
 
 def _call(method: str, timeout: float = 60, files: dict | None = None, **params) -> dict:
     data = {k: (json.dumps(v) if isinstance(v, (dict, list)) else v) for k, v in params.items() if v is not None}
-    r = httpx.post(API.format(token=_token(), method=method), data=data, files=files, timeout=timeout)
+    for attempt in range(4):  # cloud runners sometimes get a connection reset; try again
+        try:
+            if files:
+                for _, f in files.items():
+                    f[1].seek(0)
+            r = httpx.post(API.format(token=_token(), method=method), data=data, files=files, timeout=timeout)
+            break
+        except httpx.TransportError:
+            if attempt == 3:
+                raise
+            time.sleep(5 * (attempt + 1))
     body = r.json()
     if not body.get("ok"):
         raise RuntimeError(f"Telegram {method} failed: {body.get('description', r.text)}")
