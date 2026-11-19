@@ -73,7 +73,10 @@ def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = N
     if when:
         data.append(("scheduled_date", when.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")))
     with video.open("rb") as f:
-        r = httpx.post(UPLOAD_URL, headers=headers, data=data,
+        form: dict[str, list[str]] = {}  # httpx wants repeated fields (platform[], tags[]) as lists
+        for k, v in data:
+            form.setdefault(k, []).append(v)
+        r = httpx.post(UPLOAD_URL, headers=headers, data=form,
                        files={"video": (video.name, f, "video/mp4")}, timeout=600)
     body = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
     if r.status_code >= 400 or not (body.get("success") or body.get("job_id")):
