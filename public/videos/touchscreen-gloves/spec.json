@@ -3,7 +3,7 @@
   "title": "Why your touchscreen ignores you in gloves",
   "theme": "violet",
   "caption": "Your phone screen can't actually feel your touch. It senses the electricity in your body, which is why winter gloves block it, a sausage works, and touchscreen gloves hide metal thread in the fingertips.\n\n#tech #howitworks #touchscreen #science #explained",
-  "status": "rendered",
+  "status": "published",
   "scenes": [
     {
       "type": "art",
@@ -1282,5 +1282,10 @@
   ],
   "brand": {
     "name": "TechWhyz"
-  }
+  },
+  "posts": {
+    "instagram": "scheduled",
+    "youtube": "scheduled"
+  },
+  "scheduled_for": "2026-11-19T18:00:00-05:00"
 }
