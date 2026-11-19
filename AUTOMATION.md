@@ -37,7 +37,7 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
 ### 2. Upload-Post and your social accounts
 1. Instagram: switch to a **Professional** account (Settings -> Account type and tools -> Switch to
    professional account -> Creator or Business) and link it to a Facebook Page.
-2. Sign up at https://www.upload-post.com and create a profile. Use the name `techwhyz`, or
+2. Sign up at https://www.upload-post.com and create a profile (the pipeline uses the profile named `default`), or
    change `automation.upload_post_user` in `config.json` to the name you chose.
 3. In that profile, connect Instagram, YouTube and Facebook (and TikTok if you upgrade).
 4. Copy your API key from the Upload-Post dashboard. This is `UPLOAD_POST_API_KEY`.
