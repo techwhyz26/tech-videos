@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -159,6 +160,28 @@ def _fetch_video(slug: str) -> Path:
     return video
 
 
+def _posted_text(spec: dict, results: dict) -> str:
+    if spec.get("scheduled_for") and set(results.values()) == {"scheduled"}:
+        when = datetime.datetime.fromisoformat(spec["scheduled_for"])
+        tz = common.config()["automation"]["schedule"].get("timezone", "UTC")
+        return f"Scheduled ✅ {', '.join(results)} on {when:%a %d %b at %H:%M} ({tz} time)"
+    return "Posted ✅\n" + "\n".join(f"{p}: {u}" for p, u in results.items())
+
+
+def cmd_post(args: argparse.Namespace) -> None:
+    """Approve a video and post it (into the next schedule slot, or straight away with --now)."""
+    spec = common.load_spec(args.slug)
+    if spec.get("status") == "published":
+        raise SystemExit(f"'{args.slug}' is already posted or scheduled.")
+    spec["status"] = "approved"
+    common.save_spec(spec)
+    results = publisher.publish(spec, _fetch_video(args.slug), now=args.now)
+    text = _posted_text(common.load_spec(args.slug), results)
+    print(text)
+    if os.environ.get("TELEGRAM_BOT_TOKEN"):
+        notify.send_message(f"{spec['title']}\n{text}")
+
+
 def cmd_review(_: argparse.Namespace) -> None:
     """Act on Telegram taps: post approved videos, set rejected ones aside."""
     taps = notify.poll()
@@ -273,6 +296,10 @@ def main() -> None:
     mu = sub.add_parser("mark-used", help="mark topic number N from `topics` as used")
     mu.add_argument("number", type=int)
     mu.set_defaults(fn=cmd_mark_used)
+    post = sub.add_parser("post", help="approve a video and post it in the next schedule slot")
+    post.add_argument("slug")
+    post.add_argument("--now", action="store_true", help="post straight away instead of at the next slot")
+    post.set_defaults(fn=cmd_post)
     send = sub.add_parser("send-review", help="send a rendered video to Telegram for review")
     send.add_argument("slug")
     send.set_defaults(fn=cmd_send_review)

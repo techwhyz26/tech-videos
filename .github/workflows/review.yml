@@ -5,6 +5,15 @@ on:
   schedule:
     - cron: "17 */2 * * *"   # every two hours, at 17 minutes past
   workflow_dispatch:
+    inputs:
+      slug:
+        description: "Optional: post this video (folder name) without a Telegram tap"
+        type: string
+        default: ""
+      now:
+        description: "Post it straight away instead of at the next best time"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # record which videos were posted
@@ -29,6 +38,13 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+
+      - name: Post the video named by hand
+        if: inputs.slug != ''
+        env:
+          SLUG: ${{ inputs.slug }}
+          NOW: ${{ inputs.now && '--now' || '' }}
+        run: python run.py post "$SLUG" $NOW
 
       - name: Act on Telegram taps
         run: python run.py review
