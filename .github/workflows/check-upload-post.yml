@@ -1,0 +1,39 @@
+# Manual: checks the Upload-Post key and lists which social accounts each profile has connected.
+name: Check Upload-Post
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q httpx
+      - name: List profiles and connected accounts
+        run: |
+          python - <<'EOF'
+          import os, sys, httpx
+          r = httpx.get("https://api.upload-post.com/api/uploadposts/users",
+                        headers={"Authorization": f"Apikey {os.environ['UPLOAD_POST_API_KEY']}"}, timeout=30)
+          if r.status_code != 200:
+              sys.exit(f"Upload-Post refused the key: HTTP {r.status_code} {r.text[:200]}")
+          body = r.json()
+          print(f"Plan: {body.get('plan')}  monthly limit: {body.get('limit')}")
+          for p in body.get("profiles", []):
+              print(f"\nProfile '{p.get('username')}':")
+              for platform, acc in (p.get("social_accounts") or {}).items():
+                  if isinstance(acc, dict):
+                      flag = "  (needs reconnecting)" if acc.get("reauth_required") else ""
+                      print(f"  connected  {platform:10} {acc.get('handle') or acc.get('display_name')}{flag}")
+                  else:
+                      print(f"  not connected  {platform}")
+          EOF
