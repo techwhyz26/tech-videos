@@ -4,7 +4,7 @@
   "script_model": "claude-opus-5-5",
   "automation": {
     "upload_post_user": "default",
-    "platforms": ["instagram", "youtube", "facebook"]
+    "platforms": ["instagram", "youtube"]
   },
   "niche": "how everyday technology works, new technology updates, and technology news, explained simply for a general audience",
   "feeds": [
