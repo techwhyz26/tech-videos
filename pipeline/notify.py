@@ -20,14 +20,14 @@ API = "https://api.telegram.org/bot{token}/{method}"
 
 
 def _token() -> str:
-    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip().lstrip("﻿")
     if not token:
         raise SystemExit("TELEGRAM_BOT_TOKEN is not set. See AUTOMATION.md, step 3.")
     return token
 
 
 def _chat() -> str:
-    chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip().lstrip("﻿")
     if not chat:
         raise SystemExit("TELEGRAM_CHAT_ID is not set. Run `python run.py telegram-setup`.")
     return chat

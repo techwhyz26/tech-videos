@@ -23,7 +23,7 @@ jobs:
           python - <<'EOF'
           import os, sys, httpx
           r = httpx.get("https://api.upload-post.com/api/uploadposts/users",
-                        headers={"Authorization": f"Apikey {os.environ['UPLOAD_POST_API_KEY']}"}, timeout=30)
+                        headers={"Authorization": f"Apikey {os.environ['UPLOAD_POST_API_KEY'].strip().lstrip(chr(0xfeff))}"}, timeout=30)
           if r.status_code != 200:
               sys.exit(f"Upload-Post refused the key: HTTP {r.status_code} {r.text[:200]}")
           body = r.json()

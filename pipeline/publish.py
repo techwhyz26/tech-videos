@@ -78,7 +78,7 @@ def publish(spec: dict, video: Path | None = None) -> dict[str, str]:
     if not video.exists():
         raise SystemExit(f"{video} does not exist. Render it first with `python run.py build {spec['slug']}`.")
 
-    key = os.environ.get("UPLOAD_POST_API_KEY", "").strip()
+    key = os.environ.get("UPLOAD_POST_API_KEY", "").strip().lstrip("﻿")
     if not key:
         ready = OUTPUT / "ready"
         ready.mkdir(parents=True, exist_ok=True)
