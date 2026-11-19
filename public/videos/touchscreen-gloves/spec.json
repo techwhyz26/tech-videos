@@ -1,0 +1,1286 @@
+{
+  "slug": "touchscreen-gloves",
+  "title": "Why your touchscreen ignores you in gloves",
+  "theme": "violet",
+  "caption": "Your phone screen can't actually feel your touch. It senses the electricity in your body, which is why winter gloves block it, a sausage works, and touchscreen gloves hide metal thread in the fingertips.\n\n#tech #howitworks #touchscreen #science #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Put on winter gloves, and your phone screen acts like you're not even there.",
+      "emphasis": [
+        "gloves"
+      ],
+      "props": {
+        "art": "ignored"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Put on winter gloves, and your phone screen acts like you're not even there.",
+      "audio": "videos/touchscreen-gloves/scene-01.mp3",
+      "words": [
+        {
+          "text": "Put",
+          "startMs": 99,
+          "endMs": 186
+        },
+        {
+          "text": "on",
+          "startMs": 197,
+          "endMs": 351
+        },
+        {
+          "text": "winter",
+          "startMs": 351,
+          "endMs": 669
+        },
+        {
+          "text": "gloves",
+          "startMs": 669,
+          "endMs": 1228
+        },
+        {
+          "text": "and",
+          "startMs": 1414,
+          "endMs": 1502
+        },
+        {
+          "text": "your",
+          "startMs": 1502,
+          "endMs": 1612
+        },
+        {
+          "text": "phone",
+          "startMs": 1623,
+          "endMs": 1952
+        },
+        {
+          "text": "screen",
+          "startMs": 1963,
+          "endMs": 2237
+        },
+        {
+          "text": "acts",
+          "startMs": 2237,
+          "endMs": 2434
+        },
+        {
+          "text": "like",
+          "startMs": 2445,
+          "endMs": 2522
+        },
+        {
+          "text": "you're",
+          "startMs": 2533,
+          "endMs": 2599
+        },
+        {
+          "text": "not",
+          "startMs": 2599,
+          "endMs": 2774
+        },
+        {
+          "text": "even",
+          "startMs": 2774,
+          "endMs": 2961
+        },
+        {
+          "text": "there",
+          "startMs": 2961,
+          "endMs": 3246
+        }
+      ],
+      "durationMs": 3506
+    },
+    {
+      "type": "art",
+      "narration": "So why can a screen that reacts to the lightest tap ignore a hard press?",
+      "emphasis": [
+        "ignore"
+      ],
+      "props": {
+        "art": "press"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So why can a screen that reacts to the lightest tap ignore a hard press?",
+      "audio": "videos/touchscreen-gloves/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 230
+        },
+        {
+          "text": "why",
+          "startMs": 230,
+          "endMs": 395
+        },
+        {
+          "text": "can",
+          "startMs": 395,
+          "endMs": 493
+        },
+        {
+          "text": "a",
+          "startMs": 493,
+          "endMs": 537
+        },
+        {
+          "text": "screen",
+          "startMs": 537,
+          "endMs": 910
+        },
+        {
+          "text": "that",
+          "startMs": 910,
+          "endMs": 1053
+        },
+        {
+          "text": "reacts",
+          "startMs": 1064,
+          "endMs": 1403
+        },
+        {
+          "text": "to",
+          "startMs": 1414,
+          "endMs": 1480
+        },
+        {
+          "text": "the",
+          "startMs": 1491,
+          "endMs": 1579
+        },
+        {
+          "text": "lightest",
+          "startMs": 1579,
+          "endMs": 1908
+        },
+        {
+          "text": "tap",
+          "startMs": 1908,
+          "endMs": 2215
+        },
+        {
+          "text": "ignore",
+          "startMs": 2379,
+          "endMs": 2752
+        },
+        {
+          "text": "a",
+          "startMs": 2763,
+          "endMs": 2796
+        },
+        {
+          "text": "hard",
+          "startMs": 2796,
+          "endMs": 3092
+        },
+        {
+          "text": "press",
+          "startMs": 3103,
+          "endMs": 3618
+        }
+      ],
+      "durationMs": 3878
+    },
+    {
+      "type": "art",
+      "narration": "Because it isn't feeling your touch. It's sensing the electricity in your body.",
+      "emphasis": [
+        "electricity"
+      ],
+      "props": {
+        "art": "body"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because it isn't feeling your touch. It's sensing the electricity in your body.",
+      "audio": "videos/touchscreen-gloves/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 296
+        },
+        {
+          "text": "it",
+          "startMs": 296,
+          "endMs": 362
+        },
+        {
+          "text": "isn't",
+          "startMs": 373,
+          "endMs": 581
+        },
+        {
+          "text": "feeling",
+          "startMs": 592,
+          "endMs": 943
+        },
+        {
+          "text": "your",
+          "startMs": 943,
+          "endMs": 1031
+        },
+        {
+          "text": "touch",
+          "startMs": 1042,
+          "endMs": 1557
+        },
+        {
+          "text": "It's",
+          "startMs": 1897,
+          "endMs": 2061
+        },
+        {
+          "text": "sensing",
+          "startMs": 2072,
+          "endMs": 2445
+        },
+        {
+          "text": "the",
+          "startMs": 2445,
+          "endMs": 2500
+        },
+        {
+          "text": "electricity",
+          "startMs": 2500,
+          "endMs": 3333
+        },
+        {
+          "text": "in",
+          "startMs": 3465,
+          "endMs": 3553
+        },
+        {
+          "text": "your",
+          "startMs": 3553,
+          "endMs": 3629
+        },
+        {
+          "text": "body",
+          "startMs": 3629,
+          "endMs": 3947
+        }
+      ],
+      "durationMs": 4207
+    },
+    {
+      "type": "art",
+      "narration": "Under the glass sits a grid of invisible wires, each holding a tiny electric charge.",
+      "emphasis": [
+        "grid"
+      ],
+      "props": {
+        "art": "layers"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Under the glass sits a grid of invisible wires, each holding a tiny electric charge.",
+      "audio": "videos/touchscreen-gloves/scene-04.mp3",
+      "words": [
+        {
+          "text": "Under",
+          "startMs": 77,
+          "endMs": 219
+        },
+        {
+          "text": "the",
+          "startMs": 219,
+          "endMs": 285
+        },
+        {
+          "text": "glass",
+          "startMs": 285,
+          "endMs": 844
+        },
+        {
+          "text": "sits",
+          "startMs": 965,
+          "endMs": 1140
+        },
+        {
+          "text": "a",
+          "startMs": 1140,
+          "endMs": 1195
+        },
+        {
+          "text": "grid",
+          "startMs": 1206,
+          "endMs": 1678
+        },
+        {
+          "text": "of",
+          "startMs": 1743,
+          "endMs": 1831
+        },
+        {
+          "text": "invisible",
+          "startMs": 1831,
+          "endMs": 2346
+        },
+        {
+          "text": "wires",
+          "startMs": 2346,
+          "endMs": 2829
+        },
+        {
+          "text": "each",
+          "startMs": 3224,
+          "endMs": 3388
+        },
+        {
+          "text": "holding",
+          "startMs": 3388,
+          "endMs": 3750
+        },
+        {
+          "text": "a",
+          "startMs": 3761,
+          "endMs": 3827
+        },
+        {
+          "text": "tiny",
+          "startMs": 3827,
+          "endMs": 4211
+        },
+        {
+          "text": "electric",
+          "startMs": 4211,
+          "endMs": 4550
+        },
+        {
+          "text": "charge",
+          "startMs": 4550,
+          "endMs": 5022
+        }
+      ],
+      "durationMs": 5282
+    },
+    {
+      "type": "art",
+      "narration": "Your skin is full of salty water, so your finger conducts electricity.",
+      "emphasis": [
+        "salty"
+      ],
+      "props": {
+        "art": "skin"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your skin is full of salty water, so your finger conducts electricity.",
+      "audio": "videos/touchscreen-gloves/scene-05.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 77,
+          "endMs": 164
+        },
+        {
+          "text": "skin",
+          "startMs": 164,
+          "endMs": 450
+        },
+        {
+          "text": "is",
+          "startMs": 450,
+          "endMs": 570
+        },
+        {
+          "text": "full",
+          "startMs": 570,
+          "endMs": 932
+        },
+        {
+          "text": "of",
+          "startMs": 932,
+          "endMs": 1086
+        },
+        {
+          "text": "salty",
+          "startMs": 1184,
+          "endMs": 1667
+        },
+        {
+          "text": "water",
+          "startMs": 1678,
+          "endMs": 2072
+        },
+        {
+          "text": "so",
+          "startMs": 2401,
+          "endMs": 2500
+        },
+        {
+          "text": "your",
+          "startMs": 2500,
+          "endMs": 2599
+        },
+        {
+          "text": "finger",
+          "startMs": 2610,
+          "endMs": 2961
+        },
+        {
+          "text": "conducts",
+          "startMs": 2961,
+          "endMs": 3322
+        },
+        {
+          "text": "electricity",
+          "startMs": 3333,
+          "endMs": 3936
+        }
+      ],
+      "durationMs": 4196
+    },
+    {
+      "type": "art",
+      "narration": "When it gets close, it pulls a little charge away from the wires underneath.",
+      "emphasis": [
+        "pulls"
+      ],
+      "props": {
+        "art": "pull"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|When it gets close, it pulls a little charge away from the wires underneath.",
+      "audio": "videos/touchscreen-gloves/scene-06.mp3",
+      "words": [
+        {
+          "text": "When",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "it",
+          "startMs": 132,
+          "endMs": 186
+        },
+        {
+          "text": "gets",
+          "startMs": 186,
+          "endMs": 318
+        },
+        {
+          "text": "close",
+          "startMs": 329,
+          "endMs": 888
+        },
+        {
+          "text": "it",
+          "startMs": 1107,
+          "endMs": 1184
+        },
+        {
+          "text": "pulls",
+          "startMs": 1195,
+          "endMs": 1447
+        },
+        {
+          "text": "a",
+          "startMs": 1447,
+          "endMs": 1502
+        },
+        {
+          "text": "little",
+          "startMs": 1502,
+          "endMs": 1776
+        },
+        {
+          "text": "charge",
+          "startMs": 1787,
+          "endMs": 2182
+        },
+        {
+          "text": "away",
+          "startMs": 2182,
+          "endMs": 2533
+        },
+        {
+          "text": "from",
+          "startMs": 2533,
+          "endMs": 2664
+        },
+        {
+          "text": "the",
+          "startMs": 2664,
+          "endMs": 2719
+        },
+        {
+          "text": "wires",
+          "startMs": 2730,
+          "endMs": 3092
+        },
+        {
+          "text": "underneath",
+          "startMs": 3092,
+          "endMs": 3629
+        }
+      ],
+      "durationMs": 3889
+    },
+    {
+      "type": "art",
+      "narration": "The phone scans every crossing over a hundred times a second, looking for that dip.",
+      "emphasis": [
+        "hundred"
+      ],
+      "props": {
+        "art": "scan"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The phone scans every crossing over a hundred times a second, looking for that dip.",
+      "audio": "videos/touchscreen-gloves/scene-07.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "phone",
+          "startMs": 186,
+          "endMs": 428
+        },
+        {
+          "text": "scans",
+          "startMs": 428,
+          "endMs": 921
+        },
+        {
+          "text": "every",
+          "startMs": 1064,
+          "endMs": 1305
+        },
+        {
+          "text": "crossing",
+          "startMs": 1305,
+          "endMs": 1787
+        },
+        {
+          "text": "over",
+          "startMs": 1798,
+          "endMs": 1996
+        },
+        {
+          "text": "a",
+          "startMs": 1996,
+          "endMs": 2028
+        },
+        {
+          "text": "hundred",
+          "startMs": 2028,
+          "endMs": 2314
+        },
+        {
+          "text": "times",
+          "startMs": 2314,
+          "endMs": 2544
+        },
+        {
+          "text": "a",
+          "startMs": 2544,
+          "endMs": 2588
+        },
+        {
+          "text": "second",
+          "startMs": 2599,
+          "endMs": 3026
+        },
+        {
+          "text": "looking",
+          "startMs": 3410,
+          "endMs": 3673
+        },
+        {
+          "text": "for",
+          "startMs": 3673,
+          "endMs": 3772
+        },
+        {
+          "text": "that",
+          "startMs": 3783,
+          "endMs": 3958
+        },
+        {
+          "text": "dip",
+          "startMs": 3958,
+          "endMs": 4211
+        }
+      ],
+      "durationMs": 4471
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. Pressing harder doesn't help at all.",
+      "emphasis": [
+        "harder"
+      ],
+      "props": {
+        "art": "harder"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. Pressing harder doesn't help at all.",
+      "audio": "videos/touchscreen-gloves/scene-08.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 143,
+          "endMs": 329
+        },
+        {
+          "text": "the",
+          "startMs": 340,
+          "endMs": 417
+        },
+        {
+          "text": "part",
+          "startMs": 428,
+          "endMs": 691
+        },
+        {
+          "text": "most",
+          "startMs": 702,
+          "endMs": 987
+        },
+        {
+          "text": "people",
+          "startMs": 998,
+          "endMs": 1239
+        },
+        {
+          "text": "miss",
+          "startMs": 1250,
+          "endMs": 1667
+        },
+        {
+          "text": "Pressing",
+          "startMs": 2018,
+          "endMs": 2281
+        },
+        {
+          "text": "harder",
+          "startMs": 2292,
+          "endMs": 2686
+        },
+        {
+          "text": "doesn't",
+          "startMs": 2807,
+          "endMs": 3026
+        },
+        {
+          "text": "help",
+          "startMs": 3026,
+          "endMs": 3180
+        },
+        {
+          "text": "at",
+          "startMs": 3191,
+          "endMs": 3257
+        },
+        {
+          "text": "all",
+          "startMs": 3257,
+          "endMs": 3487
+        }
+      ],
+      "durationMs": 3747
+    },
+    {
+      "type": "art",
+      "narration": "A wool or leather glove doesn't conduct, and it holds your finger too far away.",
+      "emphasis": [
+        "conduct"
+      ],
+      "props": {
+        "art": "gap"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A wool or leather glove doesn't conduct, and it holds your finger too far away.",
+      "audio": "videos/touchscreen-gloves/scene-09.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "wool",
+          "startMs": 143,
+          "endMs": 559
+        },
+        {
+          "text": "or",
+          "startMs": 691,
+          "endMs": 800
+        },
+        {
+          "text": "leather",
+          "startMs": 811,
+          "endMs": 1086
+        },
+        {
+          "text": "glove",
+          "startMs": 1086,
+          "endMs": 1491
+        },
+        {
+          "text": "doesn't",
+          "startMs": 1678,
+          "endMs": 1941
+        },
+        {
+          "text": "conduct",
+          "startMs": 1941,
+          "endMs": 2434
+        },
+        {
+          "text": "and",
+          "startMs": 2763,
+          "endMs": 2796
+        },
+        {
+          "text": "it",
+          "startMs": 2796,
+          "endMs": 2851
+        },
+        {
+          "text": "holds",
+          "startMs": 2851,
+          "endMs": 3081
+        },
+        {
+          "text": "your",
+          "startMs": 3081,
+          "endMs": 3169
+        },
+        {
+          "text": "finger",
+          "startMs": 3180,
+          "endMs": 3586
+        },
+        {
+          "text": "too",
+          "startMs": 3596,
+          "endMs": 3871
+        },
+        {
+          "text": "far",
+          "startMs": 3882,
+          "endMs": 4134
+        },
+        {
+          "text": "away",
+          "startMs": 4134,
+          "endMs": 4496
+        }
+      ],
+      "durationMs": 4756
+    },
+    {
+      "type": "art",
+      "narration": "So the charge never moves, and the screen thinks nobody is there.",
+      "emphasis": [
+        "nobody"
+      ],
+      "props": {
+        "art": "nobody"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So the charge never moves, and the screen thinks nobody is there.",
+      "audio": "videos/touchscreen-gloves/scene-10.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "the",
+          "startMs": 208,
+          "endMs": 274
+        },
+        {
+          "text": "charge",
+          "startMs": 274,
+          "endMs": 625
+        },
+        {
+          "text": "never",
+          "startMs": 625,
+          "endMs": 954
+        },
+        {
+          "text": "moves",
+          "startMs": 965,
+          "endMs": 1557
+        },
+        {
+          "text": "and",
+          "startMs": 1743,
+          "endMs": 1853
+        },
+        {
+          "text": "the",
+          "startMs": 1853,
+          "endMs": 1919
+        },
+        {
+          "text": "screen",
+          "startMs": 1919,
+          "endMs": 2511
+        },
+        {
+          "text": "thinks",
+          "startMs": 2522,
+          "endMs": 2774
+        },
+        {
+          "text": "nobody",
+          "startMs": 2785,
+          "endMs": 3224
+        },
+        {
+          "text": "is",
+          "startMs": 3224,
+          "endMs": 3344
+        },
+        {
+          "text": "there",
+          "startMs": 3344,
+          "endMs": 3695
+        }
+      ],
+      "durationMs": 3955
+    },
+    {
+      "type": "art",
+      "narration": "A sausage works, though, because it's salty and wet, just like your finger.",
+      "emphasis": [
+        "sausage"
+      ],
+      "props": {
+        "art": "sausage"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A sausage works, though, because it's salty and wet, just like your finger.",
+      "audio": "videos/touchscreen-gloves/scene-11.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 77,
+          "endMs": 121
+        },
+        {
+          "text": "sausage",
+          "startMs": 132,
+          "endMs": 559
+        },
+        {
+          "text": "works",
+          "startMs": 570,
+          "endMs": 932
+        },
+        {
+          "text": "though",
+          "startMs": 943,
+          "endMs": 1184
+        },
+        {
+          "text": "because",
+          "startMs": 1261,
+          "endMs": 1579
+        },
+        {
+          "text": "it's",
+          "startMs": 1579,
+          "endMs": 1700
+        },
+        {
+          "text": "salty",
+          "startMs": 1711,
+          "endMs": 2314
+        },
+        {
+          "text": "and",
+          "startMs": 2314,
+          "endMs": 2467
+        },
+        {
+          "text": "wet",
+          "startMs": 2467,
+          "endMs": 2818
+        },
+        {
+          "text": "just",
+          "startMs": 2993,
+          "endMs": 3169
+        },
+        {
+          "text": "like",
+          "startMs": 3180,
+          "endMs": 3300
+        },
+        {
+          "text": "your",
+          "startMs": 3300,
+          "endMs": 3388
+        },
+        {
+          "text": "finger",
+          "startMs": 3399,
+          "endMs": 3860
+        }
+      ],
+      "durationMs": 4120
+    },
+    {
+      "type": "art",
+      "narration": "Touchscreen gloves fix it with silver or copper thread sewn into the fingertips.",
+      "emphasis": [
+        "thread"
+      ],
+      "props": {
+        "art": "thread"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Touchscreen gloves fix it with silver or copper thread sewn into the fingertips.",
+      "audio": "videos/touchscreen-gloves/scene-12.mp3",
+      "words": [
+        {
+          "text": "Touchscreen",
+          "startMs": 88,
+          "endMs": 471
+        },
+        {
+          "text": "gloves",
+          "startMs": 472,
+          "endMs": 877
+        },
+        {
+          "text": "fix",
+          "startMs": 1031,
+          "endMs": 1371
+        },
+        {
+          "text": "it",
+          "startMs": 1371,
+          "endMs": 1491
+        },
+        {
+          "text": "with",
+          "startMs": 1502,
+          "endMs": 1645
+        },
+        {
+          "text": "silver",
+          "startMs": 1645,
+          "endMs": 2193
+        },
+        {
+          "text": "or",
+          "startMs": 2346,
+          "endMs": 2434
+        },
+        {
+          "text": "copper",
+          "startMs": 2434,
+          "endMs": 2807
+        },
+        {
+          "text": "thread",
+          "startMs": 2807,
+          "endMs": 3147
+        },
+        {
+          "text": "sewn",
+          "startMs": 3147,
+          "endMs": 3596
+        },
+        {
+          "text": "into",
+          "startMs": 3706,
+          "endMs": 3838
+        },
+        {
+          "text": "the",
+          "startMs": 3838,
+          "endMs": 3903
+        },
+        {
+          "text": "fingertips",
+          "startMs": 3904,
+          "endMs": 4539
+        }
+      ],
+      "durationMs": 4799
+    },
+    {
+      "type": "art",
+      "narration": "That thread carries the charge from your skin straight through to the glass.",
+      "emphasis": [
+        "carries"
+      ],
+      "props": {
+        "art": "bridge"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That thread carries the charge from your skin straight through to the glass.",
+      "audio": "videos/touchscreen-gloves/scene-13.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "thread",
+          "startMs": 197,
+          "endMs": 680
+        },
+        {
+          "text": "carries",
+          "startMs": 811,
+          "endMs": 1173
+        },
+        {
+          "text": "the",
+          "startMs": 1184,
+          "endMs": 1250
+        },
+        {
+          "text": "charge",
+          "startMs": 1261,
+          "endMs": 1623
+        },
+        {
+          "text": "from",
+          "startMs": 1623,
+          "endMs": 1743
+        },
+        {
+          "text": "your",
+          "startMs": 1743,
+          "endMs": 1831
+        },
+        {
+          "text": "skin",
+          "startMs": 1831,
+          "endMs": 2204
+        },
+        {
+          "text": "straight",
+          "startMs": 2215,
+          "endMs": 2675
+        },
+        {
+          "text": "through",
+          "startMs": 2686,
+          "endMs": 3015
+        },
+        {
+          "text": "to",
+          "startMs": 3026,
+          "endMs": 3092
+        },
+        {
+          "text": "the",
+          "startMs": 3103,
+          "endMs": 3169
+        },
+        {
+          "text": "glass",
+          "startMs": 3169,
+          "endMs": 3717
+        }
+      ],
+      "durationMs": 3977
+    },
+    {
+      "type": "art",
+      "narration": "So your screen never felt your touch. It felt your body, and the glove lets it through.",
+      "emphasis": [
+        "body"
+      ],
+      "props": {
+        "art": "works"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So your screen never felt your touch. It felt your body, and the glove lets it through.",
+      "audio": "videos/touchscreen-gloves/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "your",
+          "startMs": 164,
+          "endMs": 274
+        },
+        {
+          "text": "screen",
+          "startMs": 274,
+          "endMs": 691
+        },
+        {
+          "text": "never",
+          "startMs": 822,
+          "endMs": 1031
+        },
+        {
+          "text": "felt",
+          "startMs": 1031,
+          "endMs": 1239
+        },
+        {
+          "text": "your",
+          "startMs": 1250,
+          "endMs": 1327
+        },
+        {
+          "text": "touch",
+          "startMs": 1327,
+          "endMs": 1798
+        },
+        {
+          "text": "It",
+          "startMs": 2160,
+          "endMs": 2226
+        },
+        {
+          "text": "felt",
+          "startMs": 2226,
+          "endMs": 2434
+        },
+        {
+          "text": "your",
+          "startMs": 2434,
+          "endMs": 2522
+        },
+        {
+          "text": "body",
+          "startMs": 2533,
+          "endMs": 2982
+        },
+        {
+          "text": "and",
+          "startMs": 3366,
+          "endMs": 3443
+        },
+        {
+          "text": "the",
+          "startMs": 3454,
+          "endMs": 3531
+        },
+        {
+          "text": "glove",
+          "startMs": 3531,
+          "endMs": 4123
+        },
+        {
+          "text": "lets",
+          "startMs": 4276,
+          "endMs": 4463
+        },
+        {
+          "text": "it",
+          "startMs": 4463,
+          "endMs": 4550
+        },
+        {
+          "text": "through",
+          "startMs": 4561,
+          "endMs": 4967
+        }
+      ],
+      "durationMs": 5227
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who takes their gloves off every time they text.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the glove-off texter"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who takes their gloves off every time they text.",
+      "audio": "videos/touchscreen-gloves/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 559
+        },
+        {
+          "text": "and",
+          "startMs": 789,
+          "endMs": 1009
+        },
+        {
+          "text": "send",
+          "startMs": 1129,
+          "endMs": 1414
+        },
+        {
+          "text": "this",
+          "startMs": 1414,
+          "endMs": 1557
+        },
+        {
+          "text": "to",
+          "startMs": 1557,
+          "endMs": 1634
+        },
+        {
+          "text": "someone",
+          "startMs": 1645,
+          "endMs": 1886
+        },
+        {
+          "text": "who",
+          "startMs": 1886,
+          "endMs": 2028
+        },
+        {
+          "text": "takes",
+          "startMs": 2039,
+          "endMs": 2292
+        },
+        {
+          "text": "their",
+          "startMs": 2292,
+          "endMs": 2401
+        },
+        {
+          "text": "gloves",
+          "startMs": 2401,
+          "endMs": 2697
+        },
+        {
+          "text": "off",
+          "startMs": 2697,
+          "endMs": 2972
+        },
+        {
+          "text": "every",
+          "startMs": 3114,
+          "endMs": 3268
+        },
+        {
+          "text": "time",
+          "startMs": 3268,
+          "endMs": 3487
+        },
+        {
+          "text": "they",
+          "startMs": 3487,
+          "endMs": 3564
+        },
+        {
+          "text": "text",
+          "startMs": 3564,
+          "endMs": 4068
+        }
+      ],
+      "durationMs": 4328
+    }
+  ],
+  "brand": {
+    "name": "TechWhyz"
+  }
+}
