@@ -3,7 +3,7 @@
   "title": "Why a ripped QR code still scans",
   "theme": "matrix",
   "caption": "You can destroy almost a third of a QR code and it still works. That is not luck, it was designed that way in a car factory.\n\n#tech #howitworks #qrcode #engineering #explained",
-  "status": "rendered",
+  "status": "published",
   "scenes": [
     {
       "type": "art",
@@ -1232,5 +1232,10 @@
   ],
   "brand": {
     "name": "TechWhyz"
-  }
+  },
+  "posts": {
+    "instagram": "scheduled",
+    "youtube": "scheduled"
+  },
+  "scheduled_for": "2026-11-22T18:00:00-05:00"
 }
