@@ -3,7 +3,7 @@
   "title": "Your microwave and your Wi-Fi use the same waves",
   "theme": "ember",
   "caption": "Your microwave and your Wi-Fi run on almost the same radio waves. One heats dinner, one loads videos, and sometimes they fight.\n\n#tech #howitworks #wifi #science #explained",
-  "status": "rendered",
+  "status": "published",
   "scenes": [
     {
       "type": "art",
@@ -1172,5 +1172,10 @@
   ],
   "brand": {
     "name": "TechWhyz"
-  }
+  },
+  "posts": {
+    "instagram": "scheduled",
+    "youtube": "scheduled"
+  },
+  "scheduled_for": "2026-11-25T18:00:00-05:00"
 }
