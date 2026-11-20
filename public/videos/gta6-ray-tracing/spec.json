@@ -3,7 +3,7 @@
   "title": "How GTA 6 makes Vice City look real",
   "theme": "ocean",
   "caption": "GTA 6 is out, and it looks unreal. The secret is ray-traced light and a city full of simulated people, and that is exactly why it runs at 30 frames a second, even on PS5 Pro.\n\n#gta6 #gtavi #raytracing #ps5 #gaming #tech",
-  "status": "rendered",
+  "status": "published",
   "brand": {
     "name": "TechWhyz"
   },
@@ -1201,5 +1201,9 @@
       ],
       "durationMs": 4240
     }
-  ]
+  ],
+  "posts": {
+    "youtube": "FAILED: ",
+    "instagram": "https://www.instagram.com/reel/Df9A62XgUD1/"
+  }
 }
