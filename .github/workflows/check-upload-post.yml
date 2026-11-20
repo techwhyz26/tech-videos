@@ -36,4 +36,17 @@ jobs:
                       print(f"  connected  {platform:10} {acc.get('handle') or acc.get('display_name')}{flag}")
                   else:
                       print(f"  not connected  {platform}")
+
+          h = httpx.get("https://api.upload-post.com/api/uploadposts/history", headers=r.request.headers,
+                        params={"limit": 20}, timeout=30).json()
+          print(); print("Recent uploads:")
+          for item in h.get("history", []):
+              print(f"  {item.get('upload_timestamp')}  {item.get('platform'):10} "
+                    f"{'ok    ' if item.get('success') else 'FAILED'}  {item.get('post_title', '')[:40]!r}  "
+                    f"{item.get('post_url') or item.get('error_message') or ''}")
+          s = httpx.get("https://api.upload-post.com/api/uploadposts/schedule", headers=r.request.headers,
+                        timeout=30).json()
+          print(); print("Scheduled:")
+          for p in s.get("scheduled_posts", []):
+              print(f"  {p.get('scheduled_date')}  {p.get('platforms')}  {p.get('title', '')[:50]!r}")
           EOF
