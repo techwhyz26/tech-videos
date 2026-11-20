@@ -24,6 +24,7 @@ from .common import OUTPUT, all_specs, config, save_spec
 
 UPLOAD_URL = "https://api.upload-post.com/api/upload"
 STATUS_URL = "https://api.upload-post.com/api/uploadposts/status"
+HISTORY_URL = "https://api.upload-post.com/api/uploadposts/history"
 DONE = {"completed", "failed"}
 
 
@@ -55,13 +56,14 @@ def _hashtags(text: str) -> list[str]:
     return re.findall(r"#(\w+)", text)
 
 
-def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = None) -> dict[str, str]:
+def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = None,
+                 only: list[str] | None = None) -> dict[str, str]:
     auto = config().get("automation", {})
-    user, platforms = auto.get("upload_post_user"), auto.get("platforms") or []
+    user, platforms = auto.get("upload_post_user"), only or auto.get("platforms") or []
     if not user or not platforms:
         raise SystemExit("Set automation.upload_post_user and automation.platforms in config.json.")
     caption = spec.get("caption", spec["title"])
-    headers = {"Authorization": f"Apikey {key}", "Idempotency-Key": f"video-{spec['slug']}"}
+    headers = {"Authorization": f"Apikey {key}", "Idempotency-Key": f"video-{spec['slug']}-{'-'.join(platforms)}"}
     # On Instagram and TikTok the post text is "title"; YouTube gets a short title and the caption
     # as its description.
     data = [("user", user), ("title", caption), ("description", caption),
@@ -101,14 +103,22 @@ def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = N
     for item in status.get("results") or []:
         ok = item.get("success")
         results[item.get("platform", "?")] = (item.get("post_url") or item.get("url") or "posted") if ok \
-            else f"FAILED: {item.get('message', '')}"
+            else f"FAILED: {item.get('message') or item.get('error_message') or ''}"
+    if any(v == "FAILED: " for v in results.values()):  # the status call leaves out the reason; history has it
+        history = httpx.get(HISTORY_URL, headers={"Authorization": f"Apikey {key}"},
+                            params={"request_id": request_id, "limit": 10}, timeout=60).json()
+        for item in history.get("history", []):
+            if results.get(item.get("platform")) == "FAILED: ":
+                results[item["platform"]] = f"FAILED: {item.get('error_message') or 'no reason given'}"
     if status.get("status") not in DONE:
         results["note"] = f"still processing on Upload-Post (request {request_id})"
     return results
 
 
-def publish(spec: dict, video: Path | None = None, now: bool = False) -> dict[str, str]:
-    """Post an approved video. It goes into the next free slot of the posting schedule unless `now`."""
+def publish(spec: dict, video: Path | None = None, now: bool = False,
+            only: list[str] | None = None) -> dict[str, str]:
+    """Post an approved video. It goes into the next free slot of the posting schedule unless `now`.
+    `only` limits it to some platforms, e.g. to retry one that failed; earlier results are kept."""
     if spec.get("status") not in ("approved", "published"):
         raise SystemExit(
             f"'{spec['slug']}' is not approved yet. Watch output/{spec['slug']}.mp4, "
@@ -127,11 +137,11 @@ def publish(spec: dict, video: Path | None = None, now: bool = False) -> dict[st
         return {"manual": str(ready / video.name)}
 
     when = None if now else next_slot()
-    results = _upload_post(video, spec, key, when)
+    results = _upload_post(video, spec, key, when, only)
     if results and all(str(v).startswith("FAILED") for v in results.values()):
         raise RuntimeError("Every platform failed: " + "; ".join(f"{p}: {v}" for p, v in results.items()))
     spec["status"] = "published"
-    spec["posts"] = results
+    spec["posts"] = {**(spec.get("posts") or {}), **results} if only else results
     if when:
         spec["scheduled_for"] = when.isoformat()
     save_spec(spec)

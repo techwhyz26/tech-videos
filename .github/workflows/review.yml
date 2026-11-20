@@ -14,6 +14,10 @@ on:
         description: "Post it straight away instead of at the next best time"
         type: boolean
         default: false
+      only:
+        description: "Optional: only these platforms, e.g. youtube (to retry one that failed)"
+        type: string
+        default: ""
 
 permissions:
   contents: write   # record which videos were posted
@@ -44,7 +48,8 @@ jobs:
         env:
           SLUG: ${{ inputs.slug }}
           NOW: ${{ inputs.now && '--now' || '' }}
-        run: python run.py post "$SLUG" $NOW
+          ONLY: ${{ inputs.only }}
+        run: python run.py post "$SLUG" $NOW ${ONLY:+--only "$ONLY"}
 
       - name: Act on Telegram taps
         run: python run.py review

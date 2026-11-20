@@ -171,11 +171,12 @@ def _posted_text(spec: dict, results: dict) -> str:
 def cmd_post(args: argparse.Namespace) -> None:
     """Approve a video and post it (into the next schedule slot, or straight away with --now)."""
     spec = common.load_spec(args.slug)
-    if spec.get("status") == "published":
-        raise SystemExit(f"'{args.slug}' is already posted or scheduled.")
+    only = args.only.split(",") if args.only else None
+    if spec.get("status") == "published" and not only:
+        raise SystemExit(f"'{args.slug}' is already posted or scheduled. Use --only youtube to retry one platform.")
     spec["status"] = "approved"
     common.save_spec(spec)
-    results = publisher.publish(spec, _fetch_video(args.slug), now=args.now)
+    results = publisher.publish(spec, _fetch_video(args.slug), now=args.now, only=only)
     text = _posted_text(common.load_spec(args.slug), results)
     print(text)
     if os.environ.get("TELEGRAM_BOT_TOKEN"):
@@ -299,6 +300,7 @@ def main() -> None:
     post = sub.add_parser("post", help="approve a video and post it in the next schedule slot")
     post.add_argument("slug")
     post.add_argument("--now", action="store_true", help="post straight away instead of at the next slot")
+    post.add_argument("--only", help="comma-separated platforms, e.g. youtube, to retry one that failed")
     post.set_defaults(fn=cmd_post)
     send = sub.add_parser("send-review", help="send a rendered video to Telegram for review")
     send.add_argument("slug")
