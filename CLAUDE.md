@@ -1,7 +1,7 @@
 # TechWhyz video pipeline
 
-Short vertical (1080x1920) videos for the TechWhyz channel: how everyday technology works, and new
-technology updates explained. Remotion renders them, edge-tts voices them, and `run.py` drives everything.
+Short vertical (1080x1920) videos for the TechWhyz channel: the surprising technology behind what is trending
+right now (launches, new tech, tech news). Remotion renders them, edge-tts voices them, and `run.py` drives everything.
 The README covers the commands, scene types and spec format.
 
 ## The standard (non-negotiable)
@@ -35,14 +35,19 @@ The rules live in the `SYSTEM` prompt in `pipeline/script.py`, sections "THE SCR
 
 ## Making one video (the daily cloud job follows this)
 
-1. **Choose the subject.**
-   - News: `python run.py topics`, then read `data/topics.json` for the summaries. Pick the story that
-     makes the best video for a general audience: a product or technology update whose inner workings
-     can be drawn. Skip funding, lawsuits, politics, layoffs, executives, opinion. Then run
-     `python run.py mark-used <number>`.
-   - Explainer: a surprising "how does X work" about everyday technology that is not already covered.
-     List `public/videos/*/spec.json` titles to check.
-   - If there is no suitable news story, make an explainer instead.
+1. **Choose the subject.** The channel lives on what people are talking about *right now*: big launches
+   (games, phones, consoles, AI models, rockets, cars), viral gadgets, and tech in the headlines this
+   week. Never make a video about something most people already know (how Wi-Fi, touchscreens or QR
+   codes work). The angle is the surprising technology inside the trending thing, e.g. for a new game,
+   how the console draws its world.
+   - News: `python run.py topics`, then read `data/topics.json`. Also use WebSearch for what is trending
+     in tech and gaming this week. Pick the story the most people will be curious about whose inner
+     workings can be drawn. Skip funding, lawsuits, politics, layoffs, executives, opinion. If it came
+     from topics.json, run `python run.py mark-used <number>`.
+   - Explainer: the technology behind something trending this week, found with WebSearch.
+   - Check `public/videos/*/spec.json` titles so a subject is never repeated.
+   - Facts: read the articles with WebFetch and use only facts stated by at least one source, keeping
+     estimates as estimates ("an estimated ..."). Put the main article in `source`.
 2. **Pick a slug** (lowercase-hyphenated, at most 40 characters) and a theme different from the latest
    video's.
 3. **Write the drawings** as `tools/art_<slug_with_underscores>.py` in the style of `tools/art_microwave.py`.

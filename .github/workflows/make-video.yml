@@ -62,9 +62,9 @@ jobs:
               if [ $(( $(date +%s) / 86400 % 2 )) -eq 0 ]; then KIND=news; else KIND=explainer; fi
             fi
             if [ "$KIND" = "news" ]; then
-              TASK="Make a tech-update video about today's best news story."
+              TASK="Make a tech-update video about the biggest tech or gaming story people are talking about right now."
             else
-              TASK="Make a how-it-works explainer video on a new subject you choose."
+              TASK="Make a video about the surprising technology behind something trending this week."
             fi
           fi
           echo "TASK=$TASK" >> "$GITHUB_ENV"
@@ -78,7 +78,7 @@ jobs:
             --model opus \
             --max-turns 200 \
             --permission-mode default \
-            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python run.py *),Bash(python tools/*)" \
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(python run.py *),Bash(python tools/*)" \
             --output-format text
           test -f output/last.json || { echo "Claude did not finish the video (no output/last.json)"; exit 1; }
           echo "SLUG=$(python -c "import json; print(json.load(open('output/last.json'))['slug'])")" >> "$GITHUB_ENV"

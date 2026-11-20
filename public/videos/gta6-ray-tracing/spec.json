@@ -1,0 +1,1205 @@
+{
+  "slug": "gta6-ray-tracing",
+  "title": "How GTA 6 makes Vice City look real",
+  "theme": "ocean",
+  "caption": "GTA 6 is out, and it looks unreal. The secret is ray-traced light and a city full of simulated people, and that is exactly why it runs at 30 frames a second, even on PS5 Pro.\n\n#gta6 #gtavi #raytracing #ps5 #gaming #tech",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "GTA 6 runs at 30 fps on every console, Digital Foundry finds",
+    "link": "https://endgametools.com/en/gta-6/news/gta-6-30-fps-target"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Grand Theft Auto Six just launched, and an estimated nineteen million copies sold on day one.",
+      "emphasis": [
+        "nineteen"
+      ],
+      "props": {
+        "art": "launch"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Grand Theft Auto Six just launched, and an estimated nineteen million copies sold on day one.",
+      "audio": "videos/gta6-ray-tracing/scene-01.mp3",
+      "words": [
+        {
+          "text": "Grand",
+          "startMs": 77,
+          "endMs": 351
+        },
+        {
+          "text": "Theft",
+          "startMs": 351,
+          "endMs": 592
+        },
+        {
+          "text": "Auto",
+          "startMs": 603,
+          "endMs": 833
+        },
+        {
+          "text": "Six",
+          "startMs": 844,
+          "endMs": 1294
+        },
+        {
+          "text": "just",
+          "startMs": 1404,
+          "endMs": 1656
+        },
+        {
+          "text": "launched",
+          "startMs": 1656,
+          "endMs": 2160
+        },
+        {
+          "text": "and",
+          "startMs": 2390,
+          "endMs": 2445
+        },
+        {
+          "text": "an",
+          "startMs": 2456,
+          "endMs": 2555
+        },
+        {
+          "text": "estimated",
+          "startMs": 2555,
+          "endMs": 3059
+        },
+        {
+          "text": "nineteen",
+          "startMs": 3147,
+          "endMs": 3728
+        },
+        {
+          "text": "million",
+          "startMs": 3728,
+          "endMs": 4079
+        },
+        {
+          "text": "copies",
+          "startMs": 4090,
+          "endMs": 4452
+        },
+        {
+          "text": "sold",
+          "startMs": 4452,
+          "endMs": 4726
+        },
+        {
+          "text": "on",
+          "startMs": 4726,
+          "endMs": 4836
+        },
+        {
+          "text": "day",
+          "startMs": 4836,
+          "endMs": 5000
+        },
+        {
+          "text": "one",
+          "startMs": 5000,
+          "endMs": 5274
+        }
+      ],
+      "durationMs": 5534
+    },
+    {
+      "type": "art",
+      "narration": "Critics gave it ninety nine out of a hundred.",
+      "emphasis": [
+        "ninety"
+      ],
+      "props": {
+        "art": "score"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Critics gave it ninety nine out of a hundred.",
+      "audio": "videos/gta6-ray-tracing/scene-02.mp3",
+      "words": [
+        {
+          "text": "Critics",
+          "startMs": 88,
+          "endMs": 362
+        },
+        {
+          "text": "gave",
+          "startMs": 373,
+          "endMs": 559
+        },
+        {
+          "text": "it",
+          "startMs": 559,
+          "endMs": 647
+        },
+        {
+          "text": "ninety",
+          "startMs": 658,
+          "endMs": 1020
+        },
+        {
+          "text": "nine",
+          "startMs": 1020,
+          "endMs": 1425
+        },
+        {
+          "text": "out",
+          "startMs": 1557,
+          "endMs": 1667
+        },
+        {
+          "text": "of",
+          "startMs": 1667,
+          "endMs": 1700
+        },
+        {
+          "text": "a",
+          "startMs": 1711,
+          "endMs": 1732
+        },
+        {
+          "text": "hundred",
+          "startMs": 1743,
+          "endMs": 2138
+        }
+      ],
+      "durationMs": 2398
+    },
+    {
+      "type": "art",
+      "narration": "So how does a games console draw a city this real?",
+      "emphasis": [
+        "real"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how does a games console draw a city this real?",
+      "audio": "videos/gta6-ray-tracing/scene-03.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 99,
+          "endMs": 175
+        },
+        {
+          "text": "how",
+          "startMs": 175,
+          "endMs": 230
+        },
+        {
+          "text": "does",
+          "startMs": 230,
+          "endMs": 318
+        },
+        {
+          "text": "a",
+          "startMs": 318,
+          "endMs": 384
+        },
+        {
+          "text": "games",
+          "startMs": 384,
+          "endMs": 669
+        },
+        {
+          "text": "console",
+          "startMs": 669,
+          "endMs": 1184
+        },
+        {
+          "text": "draw",
+          "startMs": 1195,
+          "endMs": 1403
+        },
+        {
+          "text": "a",
+          "startMs": 1404,
+          "endMs": 1447
+        },
+        {
+          "text": "city",
+          "startMs": 1447,
+          "endMs": 1732
+        },
+        {
+          "text": "this",
+          "startMs": 1732,
+          "endMs": 1919
+        },
+        {
+          "text": "real",
+          "startMs": 1919,
+          "endMs": 2237
+        }
+      ],
+      "durationMs": 2497
+    },
+    {
+      "type": "art",
+      "narration": "It doesn't paint the light. It traces it.",
+      "emphasis": [
+        "traces"
+      ],
+      "props": {
+        "art": "traces"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It doesn't paint the light. It traces it.",
+      "audio": "videos/gta6-ray-tracing/scene-04.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 88,
+          "endMs": 132
+        },
+        {
+          "text": "doesn't",
+          "startMs": 143,
+          "endMs": 384
+        },
+        {
+          "text": "paint",
+          "startMs": 384,
+          "endMs": 625
+        },
+        {
+          "text": "the",
+          "startMs": 625,
+          "endMs": 691
+        },
+        {
+          "text": "light",
+          "startMs": 702,
+          "endMs": 1053
+        },
+        {
+          "text": "It",
+          "startMs": 1393,
+          "endMs": 1447
+        },
+        {
+          "text": "traces",
+          "startMs": 1447,
+          "endMs": 1897
+        },
+        {
+          "text": "it",
+          "startMs": 1908,
+          "endMs": 2072
+        }
+      ],
+      "durationMs": 2332
+    },
+    {
+      "type": "art",
+      "narration": "Older games painted shadows and shine onto the world ahead of time.",
+      "emphasis": [
+        "painted"
+      ],
+      "props": {
+        "art": "baked"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Older games painted shadows and shine onto the world ahead of time.",
+      "audio": "videos/gta6-ray-tracing/scene-05.mp3",
+      "words": [
+        {
+          "text": "Older",
+          "startMs": 88,
+          "endMs": 318
+        },
+        {
+          "text": "games",
+          "startMs": 318,
+          "endMs": 625
+        },
+        {
+          "text": "painted",
+          "startMs": 636,
+          "endMs": 954
+        },
+        {
+          "text": "shadows",
+          "startMs": 954,
+          "endMs": 1601
+        },
+        {
+          "text": "and",
+          "startMs": 1612,
+          "endMs": 1732
+        },
+        {
+          "text": "shine",
+          "startMs": 1732,
+          "endMs": 2237
+        },
+        {
+          "text": "onto",
+          "startMs": 2423,
+          "endMs": 2566
+        },
+        {
+          "text": "the",
+          "startMs": 2566,
+          "endMs": 2643
+        },
+        {
+          "text": "world",
+          "startMs": 2654,
+          "endMs": 2928
+        },
+        {
+          "text": "ahead",
+          "startMs": 2928,
+          "endMs": 3092
+        },
+        {
+          "text": "of",
+          "startMs": 3092,
+          "endMs": 3158
+        },
+        {
+          "text": "time",
+          "startMs": 3169,
+          "endMs": 3498
+        }
+      ],
+      "durationMs": 3758
+    },
+    {
+      "type": "art",
+      "narration": "Here, the console follows rays of light as they bounce off cars and windows.",
+      "emphasis": [
+        "rays"
+      ],
+      "props": {
+        "art": "reflect"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Here, the console follows rays of light as they bounce off cars and windows.",
+      "audio": "videos/gta6-ray-tracing/scene-06.mp3",
+      "words": [
+        {
+          "text": "Here",
+          "startMs": 110,
+          "endMs": 362
+        },
+        {
+          "text": "the",
+          "startMs": 603,
+          "endMs": 680
+        },
+        {
+          "text": "console",
+          "startMs": 680,
+          "endMs": 1096
+        },
+        {
+          "text": "follows",
+          "startMs": 1096,
+          "endMs": 1557
+        },
+        {
+          "text": "rays",
+          "startMs": 1568,
+          "endMs": 1853
+        },
+        {
+          "text": "of",
+          "startMs": 1853,
+          "endMs": 1930
+        },
+        {
+          "text": "light",
+          "startMs": 1930,
+          "endMs": 2281
+        },
+        {
+          "text": "as",
+          "startMs": 2555,
+          "endMs": 2664
+        },
+        {
+          "text": "they",
+          "startMs": 2664,
+          "endMs": 2774
+        },
+        {
+          "text": "bounce",
+          "startMs": 2785,
+          "endMs": 3158
+        },
+        {
+          "text": "off",
+          "startMs": 3158,
+          "endMs": 3300
+        },
+        {
+          "text": "cars",
+          "startMs": 3300,
+          "endMs": 3662
+        },
+        {
+          "text": "and",
+          "startMs": 3662,
+          "endMs": 3750
+        },
+        {
+          "text": "windows",
+          "startMs": 3750,
+          "endMs": 4320
+        }
+      ],
+      "durationMs": 4580
+    },
+    {
+      "type": "art",
+      "narration": "Light bouncing off walls fills in the shade, so a whole street glows at sunset.",
+      "emphasis": [
+        "glows"
+      ],
+      "props": {
+        "art": "bounce"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Light bouncing off walls fills in the shade, so a whole street glows at sunset.",
+      "audio": "videos/gta6-ray-tracing/scene-07.mp3",
+      "words": [
+        {
+          "text": "Light",
+          "startMs": 77,
+          "endMs": 340
+        },
+        {
+          "text": "bouncing",
+          "startMs": 428,
+          "endMs": 844
+        },
+        {
+          "text": "off",
+          "startMs": 855,
+          "endMs": 1096
+        },
+        {
+          "text": "walls",
+          "startMs": 1107,
+          "endMs": 1491
+        },
+        {
+          "text": "fills",
+          "startMs": 1491,
+          "endMs": 1886
+        },
+        {
+          "text": "in",
+          "startMs": 1886,
+          "endMs": 1952
+        },
+        {
+          "text": "the",
+          "startMs": 1963,
+          "endMs": 2007
+        },
+        {
+          "text": "shade",
+          "startMs": 2007,
+          "endMs": 2379
+        },
+        {
+          "text": "so",
+          "startMs": 2708,
+          "endMs": 2862
+        },
+        {
+          "text": "a",
+          "startMs": 2862,
+          "endMs": 2884
+        },
+        {
+          "text": "whole",
+          "startMs": 2895,
+          "endMs": 3191
+        },
+        {
+          "text": "street",
+          "startMs": 3202,
+          "endMs": 3618
+        },
+        {
+          "text": "glows",
+          "startMs": 3629,
+          "endMs": 4057
+        },
+        {
+          "text": "at",
+          "startMs": 4057,
+          "endMs": 4123
+        },
+        {
+          "text": "sunset",
+          "startMs": 4134,
+          "endMs": 4748
+        }
+      ],
+      "durationMs": 5008
+    },
+    {
+      "type": "art",
+      "narration": "Every person in the city even gets hair drawn strand by strand.",
+      "emphasis": [
+        "strand"
+      ],
+      "props": {
+        "art": "hair"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Every person in the city even gets hair drawn strand by strand.",
+      "audio": "videos/gta6-ray-tracing/scene-08.mp3",
+      "words": [
+        {
+          "text": "Every",
+          "startMs": 77,
+          "endMs": 296
+        },
+        {
+          "text": "person",
+          "startMs": 296,
+          "endMs": 603
+        },
+        {
+          "text": "in",
+          "startMs": 614,
+          "endMs": 658
+        },
+        {
+          "text": "the",
+          "startMs": 669,
+          "endMs": 713
+        },
+        {
+          "text": "city",
+          "startMs": 724,
+          "endMs": 1118
+        },
+        {
+          "text": "even",
+          "startMs": 1414,
+          "endMs": 1623
+        },
+        {
+          "text": "gets",
+          "startMs": 1634,
+          "endMs": 1798
+        },
+        {
+          "text": "hair",
+          "startMs": 1798,
+          "endMs": 2072
+        },
+        {
+          "text": "drawn",
+          "startMs": 2072,
+          "endMs": 2445
+        },
+        {
+          "text": "strand",
+          "startMs": 2445,
+          "endMs": 2807
+        },
+        {
+          "text": "by",
+          "startMs": 2807,
+          "endMs": 2939
+        },
+        {
+          "text": "strand",
+          "startMs": 2939,
+          "endMs": 3399
+        }
+      ],
+      "durationMs": 3659
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. The picture isn't really four K.",
+      "emphasis": [
+        "miss"
+      ],
+      "props": {
+        "art": "catch"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. The picture isn't really four K.",
+      "audio": "videos/gta6-ray-tracing/scene-09.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 153
+        },
+        {
+          "text": "here's",
+          "startMs": 154,
+          "endMs": 340
+        },
+        {
+          "text": "the",
+          "startMs": 340,
+          "endMs": 417
+        },
+        {
+          "text": "part",
+          "startMs": 428,
+          "endMs": 669
+        },
+        {
+          "text": "most",
+          "startMs": 680,
+          "endMs": 910
+        },
+        {
+          "text": "people",
+          "startMs": 910,
+          "endMs": 1162
+        },
+        {
+          "text": "miss",
+          "startMs": 1162,
+          "endMs": 1579
+        },
+        {
+          "text": "The",
+          "startMs": 1952,
+          "endMs": 2007
+        },
+        {
+          "text": "picture",
+          "startMs": 2007,
+          "endMs": 2292
+        },
+        {
+          "text": "isn't",
+          "startMs": 2303,
+          "endMs": 2522
+        },
+        {
+          "text": "really",
+          "startMs": 2522,
+          "endMs": 2730
+        },
+        {
+          "text": "four",
+          "startMs": 2741,
+          "endMs": 3004
+        },
+        {
+          "text": "K",
+          "startMs": 3004,
+          "endMs": 3355
+        }
+      ],
+      "durationMs": 3615
+    },
+    {
+      "type": "art",
+      "narration": "Each frame is drawn at fourteen forty p, then stretched up to four K.",
+      "emphasis": [
+        "stretched"
+      ],
+      "props": {
+        "art": "upscale"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Each frame is drawn at fourteen forty p, then stretched up to four K.",
+      "audio": "videos/gta6-ray-tracing/scene-10.mp3",
+      "words": [
+        {
+          "text": "Each",
+          "startMs": 88,
+          "endMs": 219
+        },
+        {
+          "text": "frame",
+          "startMs": 230,
+          "endMs": 515
+        },
+        {
+          "text": "is",
+          "startMs": 515,
+          "endMs": 614
+        },
+        {
+          "text": "drawn",
+          "startMs": 625,
+          "endMs": 987
+        },
+        {
+          "text": "at",
+          "startMs": 987,
+          "endMs": 1053
+        },
+        {
+          "text": "fourteen",
+          "startMs": 1053,
+          "endMs": 1590
+        },
+        {
+          "text": "forty",
+          "startMs": 1590,
+          "endMs": 1864
+        },
+        {
+          "text": "p",
+          "startMs": 1864,
+          "endMs": 2193
+        },
+        {
+          "text": "then",
+          "startMs": 2588,
+          "endMs": 2719
+        },
+        {
+          "text": "stretched",
+          "startMs": 2719,
+          "endMs": 3180
+        },
+        {
+          "text": "up",
+          "startMs": 3180,
+          "endMs": 3366
+        },
+        {
+          "text": "to",
+          "startMs": 3410,
+          "endMs": 3487
+        },
+        {
+          "text": "four",
+          "startMs": 3487,
+          "endMs": 3816
+        },
+        {
+          "text": "K",
+          "startMs": 3816,
+          "endMs": 4134
+        }
+      ],
+      "durationMs": 4394
+    },
+    {
+      "type": "art",
+      "narration": "And every console aims for just thirty frames a second, even the PS five Pro.",
+      "emphasis": [
+        "thirty"
+      ],
+      "props": {
+        "art": "thirty"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And every console aims for just thirty frames a second, even the PS five Pro.",
+      "audio": "videos/gta6-ray-tracing/scene-11.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 241
+        },
+        {
+          "text": "every",
+          "startMs": 252,
+          "endMs": 482
+        },
+        {
+          "text": "console",
+          "startMs": 482,
+          "endMs": 954
+        },
+        {
+          "text": "aims",
+          "startMs": 954,
+          "endMs": 1217
+        },
+        {
+          "text": "for",
+          "startMs": 1217,
+          "endMs": 1425
+        },
+        {
+          "text": "just",
+          "startMs": 1425,
+          "endMs": 1678
+        },
+        {
+          "text": "thirty",
+          "startMs": 1732,
+          "endMs": 2061
+        },
+        {
+          "text": "frames",
+          "startMs": 2061,
+          "endMs": 2346
+        },
+        {
+          "text": "a",
+          "startMs": 2346,
+          "endMs": 2379
+        },
+        {
+          "text": "second",
+          "startMs": 2390,
+          "endMs": 2752
+        },
+        {
+          "text": "even",
+          "startMs": 3158,
+          "endMs": 3300
+        },
+        {
+          "text": "the",
+          "startMs": 3300,
+          "endMs": 3366
+        },
+        {
+          "text": "PS",
+          "startMs": 3366,
+          "endMs": 3827
+        },
+        {
+          "text": "five",
+          "startMs": 3827,
+          "endMs": 4145
+        },
+        {
+          "text": "Pro",
+          "startMs": 4156,
+          "endMs": 4561
+        }
+      ],
+      "durationMs": 4821
+    },
+    {
+      "type": "art",
+      "narration": "Rockstar says the consoles can't run the city's simulation any faster.",
+      "emphasis": [
+        "simulation"
+      ],
+      "props": {
+        "art": "simulation"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Rockstar says the consoles can't run the city's simulation any faster.",
+      "audio": "videos/gta6-ray-tracing/scene-12.mp3",
+      "words": [
+        {
+          "text": "Rockstar",
+          "startMs": 77,
+          "endMs": 472
+        },
+        {
+          "text": "says",
+          "startMs": 482,
+          "endMs": 636
+        },
+        {
+          "text": "the",
+          "startMs": 636,
+          "endMs": 702
+        },
+        {
+          "text": "consoles",
+          "startMs": 702,
+          "endMs": 1217
+        },
+        {
+          "text": "can't",
+          "startMs": 1228,
+          "endMs": 1557
+        },
+        {
+          "text": "run",
+          "startMs": 1568,
+          "endMs": 1798
+        },
+        {
+          "text": "the",
+          "startMs": 1809,
+          "endMs": 1864
+        },
+        {
+          "text": "city's",
+          "startMs": 1864,
+          "endMs": 2171
+        },
+        {
+          "text": "simulation",
+          "startMs": 2171,
+          "endMs": 2763
+        },
+        {
+          "text": "any",
+          "startMs": 2906,
+          "endMs": 3048
+        },
+        {
+          "text": "faster",
+          "startMs": 3048,
+          "endMs": 3575
+        }
+      ],
+      "durationMs": 3835
+    },
+    {
+      "type": "art",
+      "narration": "The Pro spends its extra power on sharper pictures and ray traced shadows instead.",
+      "emphasis": [
+        "shadows"
+      ],
+      "props": {
+        "art": "pro"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The Pro spends its extra power on sharper pictures and ray traced shadows instead.",
+      "audio": "videos/gta6-ray-tracing/scene-13.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "Pro",
+          "startMs": 143,
+          "endMs": 329
+        },
+        {
+          "text": "spends",
+          "startMs": 329,
+          "endMs": 592
+        },
+        {
+          "text": "its",
+          "startMs": 592,
+          "endMs": 702
+        },
+        {
+          "text": "extra",
+          "startMs": 800,
+          "endMs": 1042
+        },
+        {
+          "text": "power",
+          "startMs": 1053,
+          "endMs": 1469
+        },
+        {
+          "text": "on",
+          "startMs": 1480,
+          "endMs": 1579
+        },
+        {
+          "text": "sharper",
+          "startMs": 1590,
+          "endMs": 1974
+        },
+        {
+          "text": "pictures",
+          "startMs": 1985,
+          "endMs": 2522
+        },
+        {
+          "text": "and",
+          "startMs": 2675,
+          "endMs": 2851
+        },
+        {
+          "text": "ray",
+          "startMs": 2862,
+          "endMs": 3092
+        },
+        {
+          "text": "traced",
+          "startMs": 3092,
+          "endMs": 3487
+        },
+        {
+          "text": "shadows",
+          "startMs": 3498,
+          "endMs": 3903
+        },
+        {
+          "text": "instead",
+          "startMs": 3904,
+          "endMs": 4364
+        }
+      ],
+      "durationMs": 4624
+    },
+    {
+      "type": "art",
+      "narration": "So the realism doesn't come from more pixels. It comes from simulating light and people.",
+      "emphasis": [
+        "light"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So the realism doesn't come from more pixels. It comes from simulating light and people.",
+      "audio": "videos/gta6-ray-tracing/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 219
+        },
+        {
+          "text": "the",
+          "startMs": 230,
+          "endMs": 318
+        },
+        {
+          "text": "realism",
+          "startMs": 318,
+          "endMs": 833
+        },
+        {
+          "text": "doesn't",
+          "startMs": 954,
+          "endMs": 1283
+        },
+        {
+          "text": "come",
+          "startMs": 1294,
+          "endMs": 1502
+        },
+        {
+          "text": "from",
+          "startMs": 1513,
+          "endMs": 1634
+        },
+        {
+          "text": "more",
+          "startMs": 1645,
+          "endMs": 1809
+        },
+        {
+          "text": "pixels",
+          "startMs": 1809,
+          "endMs": 2368
+        },
+        {
+          "text": "It",
+          "startMs": 2730,
+          "endMs": 2796
+        },
+        {
+          "text": "comes",
+          "startMs": 2796,
+          "endMs": 3004
+        },
+        {
+          "text": "from",
+          "startMs": 3004,
+          "endMs": 3136
+        },
+        {
+          "text": "simulating",
+          "startMs": 3136,
+          "endMs": 3695
+        },
+        {
+          "text": "light",
+          "startMs": 3695,
+          "endMs": 4079
+        },
+        {
+          "text": "and",
+          "startMs": 4243,
+          "endMs": 4342
+        },
+        {
+          "text": "people",
+          "startMs": 4353,
+          "endMs": 4814
+        }
+      ],
+      "durationMs": 5074
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who skipped work to play GTA Six.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to someone playing GTA 6"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who skipped work to play GTA Six.",
+      "audio": "videos/gta6-ray-tracing/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 526
+        },
+        {
+          "text": "and",
+          "startMs": 866,
+          "endMs": 987
+        },
+        {
+          "text": "send",
+          "startMs": 987,
+          "endMs": 1217
+        },
+        {
+          "text": "this",
+          "startMs": 1228,
+          "endMs": 1360
+        },
+        {
+          "text": "to",
+          "startMs": 1360,
+          "endMs": 1436
+        },
+        {
+          "text": "someone",
+          "startMs": 1447,
+          "endMs": 1700
+        },
+        {
+          "text": "who",
+          "startMs": 1700,
+          "endMs": 1798
+        },
+        {
+          "text": "skipped",
+          "startMs": 1809,
+          "endMs": 2160
+        },
+        {
+          "text": "work",
+          "startMs": 2160,
+          "endMs": 2434
+        },
+        {
+          "text": "to",
+          "startMs": 2577,
+          "endMs": 2654
+        },
+        {
+          "text": "play",
+          "startMs": 2654,
+          "endMs": 2950
+        },
+        {
+          "text": "GTA",
+          "startMs": 2961,
+          "endMs": 3454
+        },
+        {
+          "text": "Six",
+          "startMs": 3454,
+          "endMs": 3980
+        }
+      ],
+      "durationMs": 4240
+    }
+  ]
+}
