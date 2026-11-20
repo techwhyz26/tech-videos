@@ -1,0 +1,1257 @@
+{
+  "slug": "smoke-alarm-radioactive",
+  "title": "Why your smoke alarm is radioactive",
+  "theme": "crimson",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "caption": "Most smoke alarms hide a tiny speck of radioactive americium. It never looks for smoke. It watches a tiny electric current in the air.\n\n#tech #howitworks #smokealarm #science #explained",
+  "status": "rendered",
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "There's a tiny speck of radioactive metal on your ceiling, and it's there to keep you safe.",
+      "emphasis": [
+        "radioactive"
+      ],
+      "props": {
+        "art": "ceiling"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|There's a tiny speck of radioactive metal on your ceiling, and it's there to keep you safe.",
+      "audio": "videos/smoke-alarm-radioactive/scene-01.mp3",
+      "words": [
+        {
+          "text": "There's",
+          "startMs": 77,
+          "endMs": 164
+        },
+        {
+          "text": "a",
+          "startMs": 164,
+          "endMs": 208
+        },
+        {
+          "text": "tiny",
+          "startMs": 208,
+          "endMs": 625
+        },
+        {
+          "text": "speck",
+          "startMs": 625,
+          "endMs": 976
+        },
+        {
+          "text": "of",
+          "startMs": 987,
+          "endMs": 1140
+        },
+        {
+          "text": "radioactive",
+          "startMs": 1151,
+          "endMs": 1787
+        },
+        {
+          "text": "metal",
+          "startMs": 1787,
+          "endMs": 2127
+        },
+        {
+          "text": "on",
+          "startMs": 2182,
+          "endMs": 2314
+        },
+        {
+          "text": "your",
+          "startMs": 2314,
+          "endMs": 2401
+        },
+        {
+          "text": "ceiling",
+          "startMs": 2401,
+          "endMs": 2807
+        },
+        {
+          "text": "and",
+          "startMs": 3213,
+          "endMs": 3268
+        },
+        {
+          "text": "it's",
+          "startMs": 3278,
+          "endMs": 3388
+        },
+        {
+          "text": "there",
+          "startMs": 3399,
+          "endMs": 3564
+        },
+        {
+          "text": "to",
+          "startMs": 3564,
+          "endMs": 3629
+        },
+        {
+          "text": "keep",
+          "startMs": 3629,
+          "endMs": 3860
+        },
+        {
+          "text": "you",
+          "startMs": 3860,
+          "endMs": 3969
+        },
+        {
+          "text": "safe",
+          "startMs": 3980,
+          "endMs": 4474
+        }
+      ],
+      "durationMs": 4734
+    },
+    {
+      "type": "art",
+      "narration": "So why would a smoke alarm need something radioactive?",
+      "emphasis": [
+        "why"
+      ],
+      "props": {
+        "art": "why"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So why would a smoke alarm need something radioactive?",
+      "audio": "videos/smoke-alarm-radioactive/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 241
+        },
+        {
+          "text": "why",
+          "startMs": 252,
+          "endMs": 439
+        },
+        {
+          "text": "would",
+          "startMs": 439,
+          "endMs": 526
+        },
+        {
+          "text": "a",
+          "startMs": 526,
+          "endMs": 559
+        },
+        {
+          "text": "smoke",
+          "startMs": 570,
+          "endMs": 833
+        },
+        {
+          "text": "alarm",
+          "startMs": 833,
+          "endMs": 1217
+        },
+        {
+          "text": "need",
+          "startMs": 1447,
+          "endMs": 1667
+        },
+        {
+          "text": "something",
+          "startMs": 1667,
+          "endMs": 2050
+        },
+        {
+          "text": "radioactive",
+          "startMs": 2050,
+          "endMs": 2763
+        }
+      ],
+      "durationMs": 3023
+    },
+    {
+      "type": "art",
+      "narration": "Because that speck makes the air inside it carry electricity.",
+      "emphasis": [
+        "electricity"
+      ],
+      "props": {
+        "art": "conduct"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because that speck makes the air inside it carry electricity.",
+      "audio": "videos/smoke-alarm-radioactive/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 274
+        },
+        {
+          "text": "that",
+          "startMs": 274,
+          "endMs": 384
+        },
+        {
+          "text": "speck",
+          "startMs": 384,
+          "endMs": 789
+        },
+        {
+          "text": "makes",
+          "startMs": 800,
+          "endMs": 976
+        },
+        {
+          "text": "the",
+          "startMs": 976,
+          "endMs": 1075
+        },
+        {
+          "text": "air",
+          "startMs": 1195,
+          "endMs": 1414
+        },
+        {
+          "text": "inside",
+          "startMs": 1414,
+          "endMs": 1941
+        },
+        {
+          "text": "it",
+          "startMs": 1952,
+          "endMs": 2061
+        },
+        {
+          "text": "carry",
+          "startMs": 2072,
+          "endMs": 2336
+        },
+        {
+          "text": "electricity",
+          "startMs": 2336,
+          "endMs": 3004
+        }
+      ],
+      "durationMs": 3264
+    },
+    {
+      "type": "art",
+      "narration": "It's called americium, and there's only about a third of a millionth of a gram.",
+      "emphasis": [
+        "americium"
+      ],
+      "props": {
+        "art": "speck"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It's called americium, and there's only about a third of a millionth of a gram.",
+      "audio": "videos/smoke-alarm-radioactive/scene-04.mp3",
+      "words": [
+        {
+          "text": "It's",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "called",
+          "startMs": 175,
+          "endMs": 450
+        },
+        {
+          "text": "americium",
+          "startMs": 603,
+          "endMs": 1283
+        },
+        {
+          "text": "and",
+          "startMs": 1623,
+          "endMs": 1667
+        },
+        {
+          "text": "there's",
+          "startMs": 1667,
+          "endMs": 1798
+        },
+        {
+          "text": "only",
+          "startMs": 1809,
+          "endMs": 2007
+        },
+        {
+          "text": "about",
+          "startMs": 2007,
+          "endMs": 2193
+        },
+        {
+          "text": "a",
+          "startMs": 2204,
+          "endMs": 2237
+        },
+        {
+          "text": "third",
+          "startMs": 2248,
+          "endMs": 2763
+        },
+        {
+          "text": "of",
+          "startMs": 2884,
+          "endMs": 2982
+        },
+        {
+          "text": "a",
+          "startMs": 2982,
+          "endMs": 3015
+        },
+        {
+          "text": "millionth",
+          "startMs": 3015,
+          "endMs": 3596
+        },
+        {
+          "text": "of",
+          "startMs": 3596,
+          "endMs": 3640
+        },
+        {
+          "text": "a",
+          "startMs": 3640,
+          "endMs": 3673
+        },
+        {
+          "text": "gram",
+          "startMs": 3684,
+          "endMs": 4112
+        }
+      ],
+      "durationMs": 4372
+    },
+    {
+      "type": "art",
+      "narration": "It fires out tiny particles that knock electrons off the air molecules.",
+      "emphasis": [
+        "electrons"
+      ],
+      "props": {
+        "art": "ionize"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It fires out tiny particles that knock electrons off the air molecules.",
+      "audio": "videos/smoke-alarm-radioactive/scene-05.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "fires",
+          "startMs": 164,
+          "endMs": 581
+        },
+        {
+          "text": "out",
+          "startMs": 581,
+          "endMs": 822
+        },
+        {
+          "text": "tiny",
+          "startMs": 833,
+          "endMs": 1195
+        },
+        {
+          "text": "particles",
+          "startMs": 1206,
+          "endMs": 1689
+        },
+        {
+          "text": "that",
+          "startMs": 1700,
+          "endMs": 1908
+        },
+        {
+          "text": "knock",
+          "startMs": 1919,
+          "endMs": 2237
+        },
+        {
+          "text": "electrons",
+          "startMs": 2248,
+          "endMs": 3070
+        },
+        {
+          "text": "off",
+          "startMs": 3213,
+          "endMs": 3432
+        },
+        {
+          "text": "the",
+          "startMs": 3432,
+          "endMs": 3498
+        },
+        {
+          "text": "air",
+          "startMs": 3509,
+          "endMs": 3706
+        },
+        {
+          "text": "molecules",
+          "startMs": 3717,
+          "endMs": 4386
+        }
+      ],
+      "durationMs": 4646
+    },
+    {
+      "type": "art",
+      "narration": "Then a battery pulls those charged bits toward two metal plates, so a tiny current flows.",
+      "emphasis": [
+        "current"
+      ],
+      "props": {
+        "art": "plates"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then a battery pulls those charged bits toward two metal plates, so a tiny current flows.",
+      "audio": "videos/smoke-alarm-radioactive/scene-06.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "a",
+          "startMs": 175,
+          "endMs": 230
+        },
+        {
+          "text": "battery",
+          "startMs": 230,
+          "endMs": 636
+        },
+        {
+          "text": "pulls",
+          "startMs": 647,
+          "endMs": 976
+        },
+        {
+          "text": "those",
+          "startMs": 976,
+          "endMs": 1195
+        },
+        {
+          "text": "charged",
+          "startMs": 1195,
+          "endMs": 1700
+        },
+        {
+          "text": "bits",
+          "startMs": 1711,
+          "endMs": 2072
+        },
+        {
+          "text": "toward",
+          "startMs": 2237,
+          "endMs": 2555
+        },
+        {
+          "text": "two",
+          "startMs": 2566,
+          "endMs": 2730
+        },
+        {
+          "text": "metal",
+          "startMs": 2741,
+          "endMs": 2928
+        },
+        {
+          "text": "plates",
+          "startMs": 2928,
+          "endMs": 3377
+        },
+        {
+          "text": "so",
+          "startMs": 3706,
+          "endMs": 3914
+        },
+        {
+          "text": "a",
+          "startMs": 4134,
+          "endMs": 4189
+        },
+        {
+          "text": "tiny",
+          "startMs": 4189,
+          "endMs": 4627
+        },
+        {
+          "text": "current",
+          "startMs": 4638,
+          "endMs": 4879
+        },
+        {
+          "text": "flows",
+          "startMs": 4879,
+          "endMs": 5460
+        }
+      ],
+      "durationMs": 5720
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. The alarm never looks for smoke. It watches that current.",
+      "emphasis": [
+        "never",
+        "watches"
+      ],
+      "props": {
+        "art": "watching"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. The alarm never looks for smoke. It watches that current.",
+      "audio": "videos/smoke-alarm-radioactive/scene-07.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 132
+        },
+        {
+          "text": "here's",
+          "startMs": 132,
+          "endMs": 296
+        },
+        {
+          "text": "the",
+          "startMs": 296,
+          "endMs": 384
+        },
+        {
+          "text": "part",
+          "startMs": 395,
+          "endMs": 658
+        },
+        {
+          "text": "most",
+          "startMs": 658,
+          "endMs": 954
+        },
+        {
+          "text": "people",
+          "startMs": 954,
+          "endMs": 1195
+        },
+        {
+          "text": "miss",
+          "startMs": 1206,
+          "endMs": 1623
+        },
+        {
+          "text": "The",
+          "startMs": 1974,
+          "endMs": 2007
+        },
+        {
+          "text": "alarm",
+          "startMs": 2007,
+          "endMs": 2456
+        },
+        {
+          "text": "never",
+          "startMs": 2522,
+          "endMs": 2785
+        },
+        {
+          "text": "looks",
+          "startMs": 2785,
+          "endMs": 2971
+        },
+        {
+          "text": "for",
+          "startMs": 2972,
+          "endMs": 3070
+        },
+        {
+          "text": "smoke",
+          "startMs": 3070,
+          "endMs": 3498
+        },
+        {
+          "text": "It",
+          "startMs": 3849,
+          "endMs": 3925
+        },
+        {
+          "text": "watches",
+          "startMs": 3925,
+          "endMs": 4265
+        },
+        {
+          "text": "that",
+          "startMs": 4265,
+          "endMs": 4408
+        },
+        {
+          "text": "current",
+          "startMs": 4408,
+          "endMs": 4748
+        }
+      ],
+      "durationMs": 5008
+    },
+    {
+      "type": "art",
+      "narration": "When smoke drifts in, its particles grab the charged bits and stop them moving.",
+      "emphasis": [
+        "grab"
+      ],
+      "props": {
+        "art": "smoke"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|When smoke drifts in, its particles grab the charged bits and stop them moving.",
+      "audio": "videos/smoke-alarm-radioactive/scene-08.mp3",
+      "words": [
+        {
+          "text": "When",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "smoke",
+          "startMs": 197,
+          "endMs": 559
+        },
+        {
+          "text": "drifts",
+          "startMs": 559,
+          "endMs": 943
+        },
+        {
+          "text": "in",
+          "startMs": 954,
+          "endMs": 1239
+        },
+        {
+          "text": "its",
+          "startMs": 1557,
+          "endMs": 1645
+        },
+        {
+          "text": "particles",
+          "startMs": 1645,
+          "endMs": 2138
+        },
+        {
+          "text": "grab",
+          "startMs": 2138,
+          "endMs": 2577
+        },
+        {
+          "text": "the",
+          "startMs": 2588,
+          "endMs": 2653
+        },
+        {
+          "text": "charged",
+          "startMs": 2654,
+          "endMs": 3081
+        },
+        {
+          "text": "bits",
+          "startMs": 3092,
+          "endMs": 3476
+        },
+        {
+          "text": "and",
+          "startMs": 3717,
+          "endMs": 3849
+        },
+        {
+          "text": "stop",
+          "startMs": 3849,
+          "endMs": 4200
+        },
+        {
+          "text": "them",
+          "startMs": 4200,
+          "endMs": 4309
+        },
+        {
+          "text": "moving",
+          "startMs": 4309,
+          "endMs": 4638
+        }
+      ],
+      "durationMs": 4898
+    },
+    {
+      "type": "art",
+      "narration": "The current drops, and the chip sounds the alarm.",
+      "emphasis": [
+        "drops"
+      ],
+      "props": {
+        "art": "alarm"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The current drops, and the chip sounds the alarm.",
+      "audio": "videos/smoke-alarm-radioactive/scene-09.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "current",
+          "startMs": 143,
+          "endMs": 450
+        },
+        {
+          "text": "drops",
+          "startMs": 461,
+          "endMs": 1020
+        },
+        {
+          "text": "and",
+          "startMs": 1228,
+          "endMs": 1294
+        },
+        {
+          "text": "the",
+          "startMs": 1294,
+          "endMs": 1360
+        },
+        {
+          "text": "chip",
+          "startMs": 1360,
+          "endMs": 1634
+        },
+        {
+          "text": "sounds",
+          "startMs": 1645,
+          "endMs": 1930
+        },
+        {
+          "text": "the",
+          "startMs": 1930,
+          "endMs": 1985
+        },
+        {
+          "text": "alarm",
+          "startMs": 1985,
+          "endMs": 2357
+        }
+      ],
+      "durationMs": 2617
+    },
+    {
+      "type": "art",
+      "narration": "That's why burnt toast sets it off. Tiny cooking particles block the current just the same.",
+      "emphasis": [
+        "toast"
+      ],
+      "props": {
+        "art": "toast"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That's why burnt toast sets it off. Tiny cooking particles block the current just the same.",
+      "audio": "videos/smoke-alarm-radioactive/scene-10.mp3",
+      "words": [
+        {
+          "text": "That's",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "why",
+          "startMs": 186,
+          "endMs": 307
+        },
+        {
+          "text": "burnt",
+          "startMs": 307,
+          "endMs": 559
+        },
+        {
+          "text": "toast",
+          "startMs": 559,
+          "endMs": 866
+        },
+        {
+          "text": "sets",
+          "startMs": 866,
+          "endMs": 1107
+        },
+        {
+          "text": "it",
+          "startMs": 1107,
+          "endMs": 1151
+        },
+        {
+          "text": "off",
+          "startMs": 1151,
+          "endMs": 1480
+        },
+        {
+          "text": "Tiny",
+          "startMs": 1831,
+          "endMs": 2105
+        },
+        {
+          "text": "cooking",
+          "startMs": 2105,
+          "endMs": 2379
+        },
+        {
+          "text": "particles",
+          "startMs": 2390,
+          "endMs": 2818
+        },
+        {
+          "text": "block",
+          "startMs": 2829,
+          "endMs": 3246
+        },
+        {
+          "text": "the",
+          "startMs": 3257,
+          "endMs": 3355
+        },
+        {
+          "text": "current",
+          "startMs": 3355,
+          "endMs": 3695
+        },
+        {
+          "text": "just",
+          "startMs": 3805,
+          "endMs": 4002
+        },
+        {
+          "text": "the",
+          "startMs": 4013,
+          "endMs": 4068
+        },
+        {
+          "text": "same",
+          "startMs": 4079,
+          "endMs": 4441
+        }
+      ],
+      "durationMs": 4701
+    },
+    {
+      "type": "art",
+      "narration": "Is it dangerous? Those particles can't even get through a sheet of paper.",
+      "emphasis": [
+        "paper"
+      ],
+      "props": {
+        "art": "paper"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Is it dangerous? Those particles can't even get through a sheet of paper.",
+      "audio": "videos/smoke-alarm-radioactive/scene-11.mp3",
+      "words": [
+        {
+          "text": "Is",
+          "startMs": 77,
+          "endMs": 154
+        },
+        {
+          "text": "it",
+          "startMs": 154,
+          "endMs": 230
+        },
+        {
+          "text": "dangerous",
+          "startMs": 230,
+          "endMs": 844
+        },
+        {
+          "text": "Those",
+          "startMs": 1195,
+          "endMs": 1349
+        },
+        {
+          "text": "particles",
+          "startMs": 1349,
+          "endMs": 1809
+        },
+        {
+          "text": "can't",
+          "startMs": 1820,
+          "endMs": 2094
+        },
+        {
+          "text": "even",
+          "startMs": 2094,
+          "endMs": 2270
+        },
+        {
+          "text": "get",
+          "startMs": 2270,
+          "endMs": 2456
+        },
+        {
+          "text": "through",
+          "startMs": 2467,
+          "endMs": 2664
+        },
+        {
+          "text": "a",
+          "startMs": 2664,
+          "endMs": 2697
+        },
+        {
+          "text": "sheet",
+          "startMs": 2697,
+          "endMs": 2972
+        },
+        {
+          "text": "of",
+          "startMs": 2972,
+          "endMs": 3026
+        },
+        {
+          "text": "paper",
+          "startMs": 3037,
+          "endMs": 3498
+        }
+      ],
+      "durationMs": 3758
+    },
+    {
+      "type": "art",
+      "narration": "Many newer alarms skip the speck and use light instead.",
+      "emphasis": [
+        "light"
+      ],
+      "props": {
+        "art": "light"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Many newer alarms skip the speck and use light instead.",
+      "audio": "videos/smoke-alarm-radioactive/scene-12.mp3",
+      "words": [
+        {
+          "text": "Many",
+          "startMs": 88,
+          "endMs": 285
+        },
+        {
+          "text": "newer",
+          "startMs": 285,
+          "endMs": 559
+        },
+        {
+          "text": "alarms",
+          "startMs": 559,
+          "endMs": 932
+        },
+        {
+          "text": "skip",
+          "startMs": 943,
+          "endMs": 1173
+        },
+        {
+          "text": "the",
+          "startMs": 1184,
+          "endMs": 1261
+        },
+        {
+          "text": "speck",
+          "startMs": 1261,
+          "endMs": 1667
+        },
+        {
+          "text": "and",
+          "startMs": 1963,
+          "endMs": 2050
+        },
+        {
+          "text": "use",
+          "startMs": 2050,
+          "endMs": 2314
+        },
+        {
+          "text": "light",
+          "startMs": 2314,
+          "endMs": 2555
+        },
+        {
+          "text": "instead",
+          "startMs": 2566,
+          "endMs": 3026
+        }
+      ],
+      "durationMs": 3286
+    },
+    {
+      "type": "art",
+      "narration": "Inside, an LED shines past a hidden sensor. Smoke bounces the light onto it.",
+      "emphasis": [
+        "bounces"
+      ],
+      "props": {
+        "art": "scatter"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Inside, an LED shines past a hidden sensor. Smoke bounces the light onto it.",
+      "audio": "videos/smoke-alarm-radioactive/scene-13.mp3",
+      "words": [
+        {
+          "text": "Inside",
+          "startMs": 88,
+          "endMs": 647
+        },
+        {
+          "text": "an",
+          "startMs": 1042,
+          "endMs": 1173
+        },
+        {
+          "text": "LED",
+          "startMs": 1184,
+          "endMs": 1601
+        },
+        {
+          "text": "shines",
+          "startMs": 1612,
+          "endMs": 2094
+        },
+        {
+          "text": "past",
+          "startMs": 2105,
+          "endMs": 2511
+        },
+        {
+          "text": "a",
+          "startMs": 2522,
+          "endMs": 2544
+        },
+        {
+          "text": "hidden",
+          "startMs": 2555,
+          "endMs": 2796
+        },
+        {
+          "text": "sensor",
+          "startMs": 2807,
+          "endMs": 3311
+        },
+        {
+          "text": "Smoke",
+          "startMs": 3651,
+          "endMs": 4002
+        },
+        {
+          "text": "bounces",
+          "startMs": 4057,
+          "endMs": 4463
+        },
+        {
+          "text": "the",
+          "startMs": 4463,
+          "endMs": 4539
+        },
+        {
+          "text": "light",
+          "startMs": 4539,
+          "endMs": 4835
+        },
+        {
+          "text": "onto",
+          "startMs": 4836,
+          "endMs": 5186
+        },
+        {
+          "text": "it",
+          "startMs": 5186,
+          "endMs": 5329
+        }
+      ],
+      "durationMs": 5589
+    },
+    {
+      "type": "art",
+      "narration": "So that little disc above your bed is a particle detector, watching the air all night.",
+      "emphasis": [
+        "detector"
+      ],
+      "props": {
+        "art": "bedroom"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So that little disc above your bed is a particle detector, watching the air all night.",
+      "audio": "videos/smoke-alarm-radioactive/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "that",
+          "startMs": 197,
+          "endMs": 373
+        },
+        {
+          "text": "little",
+          "startMs": 384,
+          "endMs": 625
+        },
+        {
+          "text": "disc",
+          "startMs": 625,
+          "endMs": 932
+        },
+        {
+          "text": "above",
+          "startMs": 943,
+          "endMs": 1217
+        },
+        {
+          "text": "your",
+          "startMs": 1228,
+          "endMs": 1316
+        },
+        {
+          "text": "bed",
+          "startMs": 1316,
+          "endMs": 1612
+        },
+        {
+          "text": "is",
+          "startMs": 1722,
+          "endMs": 1842
+        },
+        {
+          "text": "a",
+          "startMs": 1853,
+          "endMs": 1897
+        },
+        {
+          "text": "particle",
+          "startMs": 1897,
+          "endMs": 2248
+        },
+        {
+          "text": "detector",
+          "startMs": 2248,
+          "endMs": 2708
+        },
+        {
+          "text": "watching",
+          "startMs": 3158,
+          "endMs": 3498
+        },
+        {
+          "text": "the",
+          "startMs": 3498,
+          "endMs": 3575
+        },
+        {
+          "text": "air",
+          "startMs": 3575,
+          "endMs": 3903
+        },
+        {
+          "text": "all",
+          "startMs": 3904,
+          "endMs": 4068
+        },
+        {
+          "text": "night",
+          "startMs": 4079,
+          "endMs": 4474
+        }
+      ],
+      "durationMs": 4734
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone whose smoke alarm goes off every time they cook.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the burnt toast cook"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone whose smoke alarm goes off every time they cook.",
+      "audio": "videos/smoke-alarm-radioactive/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 537
+        },
+        {
+          "text": "and",
+          "startMs": 866,
+          "endMs": 998
+        },
+        {
+          "text": "send",
+          "startMs": 1009,
+          "endMs": 1261
+        },
+        {
+          "text": "this",
+          "startMs": 1261,
+          "endMs": 1403
+        },
+        {
+          "text": "to",
+          "startMs": 1414,
+          "endMs": 1491
+        },
+        {
+          "text": "someone",
+          "startMs": 1491,
+          "endMs": 1754
+        },
+        {
+          "text": "whose",
+          "startMs": 1754,
+          "endMs": 1919
+        },
+        {
+          "text": "smoke",
+          "startMs": 1919,
+          "endMs": 2226
+        },
+        {
+          "text": "alarm",
+          "startMs": 2237,
+          "endMs": 2621
+        },
+        {
+          "text": "goes",
+          "startMs": 2632,
+          "endMs": 2851
+        },
+        {
+          "text": "off",
+          "startMs": 2862,
+          "endMs": 3081
+        },
+        {
+          "text": "every",
+          "startMs": 3092,
+          "endMs": 3246
+        },
+        {
+          "text": "time",
+          "startMs": 3246,
+          "endMs": 3476
+        },
+        {
+          "text": "they",
+          "startMs": 3476,
+          "endMs": 3575
+        },
+        {
+          "text": "cook",
+          "startMs": 3586,
+          "endMs": 3925
+        }
+      ],
+      "durationMs": 4185
+    }
+  ]
+}
