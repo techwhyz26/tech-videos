@@ -24,6 +24,7 @@ import os
 import subprocess
 import sys
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from pipeline import common, notify, publish as publisher, render, script, topics, voice
 
@@ -161,11 +162,24 @@ def _fetch_video(slug: str) -> Path:
 
 
 def _posted_text(spec: dict, results: dict) -> str:
+    """The Telegram reply after posting: says plainly whether it is live, scheduled (and when) or failed."""
     if spec.get("scheduled_for") and set(results.values()) == {"scheduled"}:
         when = datetime.datetime.fromisoformat(spec["scheduled_for"])
-        tz = common.config()["automation"]["schedule"].get("timezone", "UTC")
-        return f"Scheduled ✅ {', '.join(results)} on {when:%a %d %b at %H:%M} ({tz} time)"
-    return "Posted ✅\n" + "\n".join(f"{p}: {u}" for p, u in results.items())
+        sched = common.config()["automation"]["schedule"]
+        times = [f"{when.astimezone(ZoneInfo(tz)):%a %d %b, %H:%M} {label}"
+                 for tz, label in ((sched.get("timezone", "UTC"), "New York time"
+                                    if sched.get("timezone") == "America/New_York" else sched.get("timezone", "UTC")),
+                                   (sched.get("your_timezone"), "your time")) if tz]
+        return (f"🕒 Scheduled, not live yet: {', '.join(results)}\nGoes live " + "\n= ".join(times))
+    lines = []
+    for p, u in results.items():
+        if str(u).startswith("FAILED"):
+            lines.append(f"❌ {p}: {u[8:] or 'failed'}")
+        elif u == "scheduled":
+            lines.append(f"🕒 {p}: scheduled")
+        else:
+            lines.append(f"✅ {p}: live {u}")
+    return "\n".join(lines)
 
 
 def cmd_post(args: argparse.Namespace) -> None:
@@ -194,7 +208,7 @@ def cmd_review(_: argparse.Namespace) -> None:
         try:
             spec = common.load_spec(slug)
             if spec.get("status") == "published":
-                notify.acknowledge(tap, "Already posted.")
+                notify.acknowledge(tap, "Already posted or scheduled.")
                 continue
             if tap["action"] == "reject":
                 spec["status"] = "rejected"
@@ -208,7 +222,7 @@ def cmd_review(_: argparse.Namespace) -> None:
                 notify.acknowledge(tap, "Approved, but no posting service is connected (UPLOAD_POST_API_KEY "
                                         "is missing), so nothing was posted.")
             else:
-                notify.acknowledge(tap, "Posted ✅\n" + "\n".join(f"{p}: {u}" for p, u in results.items()))
+                notify.acknowledge(tap, _posted_text(common.load_spec(slug), results))
         except (Exception, SystemExit) as err:  # keep the buttons so you can tap again
             print(f"  failed: {err}")
             notify.send_message(f"Could not post {slug}: {err}\nTap ✅ again to retry.",
