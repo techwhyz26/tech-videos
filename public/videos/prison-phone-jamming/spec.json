@@ -1,0 +1,1270 @@
+{
+  "slug": "prison-phone-jamming",
+  "title": "Prisons can now jam phones. Your phone might notice",
+  "theme": "ember",
+  "caption": "The FCC just voted to let prisons jam smuggled phones. A jammer doesn't break a phone, it shouts over the cell tower, and radio doesn't stop at a prison wall.\n\n#tech #fcc #jammer #cellphone #technews",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
+    "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Prisons in America just got permission to jam cell phones.",
+      "emphasis": [
+        "jam"
+      ],
+      "props": {
+        "art": "hook"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Prisons in America just got permission to jam cell phones.",
+      "audio": "videos/prison-phone-jamming/scene-01.mp3",
+      "words": [
+        {
+          "text": "Prisons",
+          "startMs": 88,
+          "endMs": 362
+        },
+        {
+          "text": "in",
+          "startMs": 373,
+          "endMs": 428
+        },
+        {
+          "text": "America",
+          "startMs": 428,
+          "endMs": 998
+        },
+        {
+          "text": "just",
+          "startMs": 1261,
+          "endMs": 1436
+        },
+        {
+          "text": "got",
+          "startMs": 1436,
+          "endMs": 1590
+        },
+        {
+          "text": "permission",
+          "startMs": 1601,
+          "endMs": 2083
+        },
+        {
+          "text": "to",
+          "startMs": 2171,
+          "endMs": 2259
+        },
+        {
+          "text": "jam",
+          "startMs": 2259,
+          "endMs": 2599
+        },
+        {
+          "text": "cell",
+          "startMs": 2599,
+          "endMs": 2829
+        },
+        {
+          "text": "phones",
+          "startMs": 2829,
+          "endMs": 3333
+        }
+      ],
+      "durationMs": 3593
+    },
+    {
+      "type": "art",
+      "narration": "On Thursday, the FCC voted three to zero to let prisons block smuggled phones.",
+      "emphasis": [
+        "three"
+      ],
+      "props": {
+        "art": "vote"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|On Thursday, the FCC voted three to zero to let prisons block smuggled phones.",
+      "audio": "videos/prison-phone-jamming/scene-02.mp3",
+      "words": [
+        {
+          "text": "On",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "Thursday",
+          "startMs": 208,
+          "endMs": 866
+        },
+        {
+          "text": "the",
+          "startMs": 1020,
+          "endMs": 1129
+        },
+        {
+          "text": "FCC",
+          "startMs": 1140,
+          "endMs": 1689
+        },
+        {
+          "text": "voted",
+          "startMs": 1689,
+          "endMs": 2018
+        },
+        {
+          "text": "three",
+          "startMs": 2105,
+          "endMs": 2467
+        },
+        {
+          "text": "to",
+          "startMs": 2478,
+          "endMs": 2577
+        },
+        {
+          "text": "zero",
+          "startMs": 2577,
+          "endMs": 3015
+        },
+        {
+          "text": "to",
+          "startMs": 3026,
+          "endMs": 3125
+        },
+        {
+          "text": "let",
+          "startMs": 3125,
+          "endMs": 3300
+        },
+        {
+          "text": "prisons",
+          "startMs": 3300,
+          "endMs": 3706
+        },
+        {
+          "text": "block",
+          "startMs": 3717,
+          "endMs": 4145
+        },
+        {
+          "text": "smuggled",
+          "startMs": 4156,
+          "endMs": 4583
+        },
+        {
+          "text": "phones",
+          "startMs": 4594,
+          "endMs": 5121
+        }
+      ],
+      "durationMs": 5381
+    },
+    {
+      "type": "art",
+      "narration": "One survey of twenty states found over twenty-five thousand phones in their prisons.",
+      "emphasis": [
+        "twenty-five"
+      ],
+      "props": {
+        "art": "smuggle"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|One survey of twenty states found over twenty-five thousand phones in their prisons.",
+      "audio": "videos/prison-phone-jamming/scene-03.mp3",
+      "words": [
+        {
+          "text": "One",
+          "startMs": 88,
+          "endMs": 285
+        },
+        {
+          "text": "survey",
+          "startMs": 285,
+          "endMs": 691
+        },
+        {
+          "text": "of",
+          "startMs": 691,
+          "endMs": 768
+        },
+        {
+          "text": "twenty",
+          "startMs": 768,
+          "endMs": 1031
+        },
+        {
+          "text": "states",
+          "startMs": 1031,
+          "endMs": 1535
+        },
+        {
+          "text": "found",
+          "startMs": 1711,
+          "endMs": 2094
+        },
+        {
+          "text": "over",
+          "startMs": 2094,
+          "endMs": 2292
+        },
+        {
+          "text": "twenty-five",
+          "startMs": 2292,
+          "endMs": 2829
+        },
+        {
+          "text": "thousand",
+          "startMs": 2829,
+          "endMs": 3191
+        },
+        {
+          "text": "phones",
+          "startMs": 3202,
+          "endMs": 3739
+        },
+        {
+          "text": "in",
+          "startMs": 3794,
+          "endMs": 3893
+        },
+        {
+          "text": "their",
+          "startMs": 3904,
+          "endMs": 4002
+        },
+        {
+          "text": "prisons",
+          "startMs": 4002,
+          "endMs": 4529
+        }
+      ],
+      "durationMs": 4789
+    },
+    {
+      "type": "art",
+      "narration": "So how do you switch off a phone nobody can find?",
+      "emphasis": [
+        "find"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how do you switch off a phone nobody can find?",
+      "audio": "videos/prison-phone-jamming/scene-04.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "how",
+          "startMs": 208,
+          "endMs": 274
+        },
+        {
+          "text": "do",
+          "startMs": 274,
+          "endMs": 318
+        },
+        {
+          "text": "you",
+          "startMs": 318,
+          "endMs": 395
+        },
+        {
+          "text": "switch",
+          "startMs": 395,
+          "endMs": 669
+        },
+        {
+          "text": "off",
+          "startMs": 680,
+          "endMs": 800
+        },
+        {
+          "text": "a",
+          "startMs": 811,
+          "endMs": 844
+        },
+        {
+          "text": "phone",
+          "startMs": 855,
+          "endMs": 1118
+        },
+        {
+          "text": "nobody",
+          "startMs": 1118,
+          "endMs": 1360
+        },
+        {
+          "text": "can",
+          "startMs": 1371,
+          "endMs": 1469
+        },
+        {
+          "text": "find",
+          "startMs": 1480,
+          "endMs": 1842
+        }
+      ],
+      "durationMs": 2102
+    },
+    {
+      "type": "art",
+      "narration": "You don't. You just shout louder than the cell tower.",
+      "emphasis": [
+        "shout"
+      ],
+      "props": {
+        "art": "answer"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|You don't. You just shout louder than the cell tower.",
+      "audio": "videos/prison-phone-jamming/scene-05.mp3",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "don't",
+          "startMs": 143,
+          "endMs": 439
+        },
+        {
+          "text": "You",
+          "startMs": 789,
+          "endMs": 844
+        },
+        {
+          "text": "just",
+          "startMs": 844,
+          "endMs": 976
+        },
+        {
+          "text": "shout",
+          "startMs": 976,
+          "endMs": 1327
+        },
+        {
+          "text": "louder",
+          "startMs": 1338,
+          "endMs": 1667
+        },
+        {
+          "text": "than",
+          "startMs": 1667,
+          "endMs": 1754
+        },
+        {
+          "text": "the",
+          "startMs": 1765,
+          "endMs": 1820
+        },
+        {
+          "text": "cell",
+          "startMs": 1831,
+          "endMs": 2094
+        },
+        {
+          "text": "tower",
+          "startMs": 2094,
+          "endMs": 2511
+        }
+      ],
+      "durationMs": 2771
+    },
+    {
+      "type": "art",
+      "narration": "Your phone listens for a tower that can be miles away, so its signal arrives as a faint whisper.",
+      "emphasis": [
+        "whisper"
+      ],
+      "props": {
+        "art": "whisper"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Your phone listens for a tower that can be miles away, so its signal arrives as a faint whisper.",
+      "audio": "videos/prison-phone-jamming/scene-06.mp3",
+      "words": [
+        {
+          "text": "Your",
+          "startMs": 77,
+          "endMs": 164
+        },
+        {
+          "text": "phone",
+          "startMs": 175,
+          "endMs": 482
+        },
+        {
+          "text": "listens",
+          "startMs": 482,
+          "endMs": 757
+        },
+        {
+          "text": "for",
+          "startMs": 768,
+          "endMs": 888
+        },
+        {
+          "text": "a",
+          "startMs": 888,
+          "endMs": 932
+        },
+        {
+          "text": "tower",
+          "startMs": 932,
+          "endMs": 1283
+        },
+        {
+          "text": "that",
+          "startMs": 1294,
+          "endMs": 1382
+        },
+        {
+          "text": "can",
+          "startMs": 1382,
+          "endMs": 1469
+        },
+        {
+          "text": "be",
+          "startMs": 1480,
+          "endMs": 1568
+        },
+        {
+          "text": "miles",
+          "startMs": 1579,
+          "endMs": 1908
+        },
+        {
+          "text": "away",
+          "startMs": 1908,
+          "endMs": 2270
+        },
+        {
+          "text": "so",
+          "startMs": 2664,
+          "endMs": 2785
+        },
+        {
+          "text": "its",
+          "startMs": 2785,
+          "endMs": 2906
+        },
+        {
+          "text": "signal",
+          "startMs": 2906,
+          "endMs": 3289
+        },
+        {
+          "text": "arrives",
+          "startMs": 3289,
+          "endMs": 3914
+        },
+        {
+          "text": "as",
+          "startMs": 4002,
+          "endMs": 4123
+        },
+        {
+          "text": "a",
+          "startMs": 4134,
+          "endMs": 4167
+        },
+        {
+          "text": "faint",
+          "startMs": 4178,
+          "endMs": 4572
+        },
+        {
+          "text": "whisper",
+          "startMs": 4572,
+          "endMs": 5066
+        }
+      ],
+      "durationMs": 5326
+    },
+    {
+      "type": "art",
+      "narration": "A jammer sits close by and blasts radio noise on the exact same frequencies.",
+      "emphasis": [
+        "noise"
+      ],
+      "props": {
+        "art": "noise"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A jammer sits close by and blasts radio noise on the exact same frequencies.",
+      "audio": "videos/prison-phone-jamming/scene-07.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "jammer",
+          "startMs": 132,
+          "endMs": 482
+        },
+        {
+          "text": "sits",
+          "startMs": 482,
+          "endMs": 669
+        },
+        {
+          "text": "close",
+          "startMs": 669,
+          "endMs": 1075
+        },
+        {
+          "text": "by",
+          "startMs": 1118,
+          "endMs": 1513
+        },
+        {
+          "text": "and",
+          "startMs": 1645,
+          "endMs": 1765
+        },
+        {
+          "text": "blasts",
+          "startMs": 1776,
+          "endMs": 2259
+        },
+        {
+          "text": "radio",
+          "startMs": 2259,
+          "endMs": 2511
+        },
+        {
+          "text": "noise",
+          "startMs": 2522,
+          "endMs": 2917
+        },
+        {
+          "text": "on",
+          "startMs": 2917,
+          "endMs": 2993
+        },
+        {
+          "text": "the",
+          "startMs": 2993,
+          "endMs": 3037
+        },
+        {
+          "text": "exact",
+          "startMs": 3037,
+          "endMs": 3443
+        },
+        {
+          "text": "same",
+          "startMs": 3443,
+          "endMs": 3739
+        },
+        {
+          "text": "frequencies",
+          "startMs": 3739,
+          "endMs": 4496
+        }
+      ],
+      "durationMs": 4756
+    },
+    {
+      "type": "art",
+      "narration": "The whisper gets buried, and the phone just shows no service.",
+      "emphasis": [
+        "buried"
+      ],
+      "props": {
+        "art": "noservice"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The whisper gets buried, and the phone just shows no service.",
+      "audio": "videos/prison-phone-jamming/scene-08.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 132
+        },
+        {
+          "text": "whisper",
+          "startMs": 143,
+          "endMs": 417
+        },
+        {
+          "text": "gets",
+          "startMs": 417,
+          "endMs": 559
+        },
+        {
+          "text": "buried",
+          "startMs": 559,
+          "endMs": 954
+        },
+        {
+          "text": "and",
+          "startMs": 1294,
+          "endMs": 1349
+        },
+        {
+          "text": "the",
+          "startMs": 1360,
+          "endMs": 1414
+        },
+        {
+          "text": "phone",
+          "startMs": 1414,
+          "endMs": 1842
+        },
+        {
+          "text": "just",
+          "startMs": 2007,
+          "endMs": 2149
+        },
+        {
+          "text": "shows",
+          "startMs": 2160,
+          "endMs": 2445
+        },
+        {
+          "text": "no",
+          "startMs": 2445,
+          "endMs": 2621
+        },
+        {
+          "text": "service",
+          "startMs": 2621,
+          "endMs": 3213
+        }
+      ],
+      "durationMs": 3473
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. Radio waves don't stop at a prison wall.",
+      "emphasis": [
+        "wall"
+      ],
+      "props": {
+        "art": "walls"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. Radio waves don't stop at a prison wall.",
+      "audio": "videos/prison-phone-jamming/scene-09.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 99,
+          "endMs": 153
+        },
+        {
+          "text": "here's",
+          "startMs": 154,
+          "endMs": 340
+        },
+        {
+          "text": "the",
+          "startMs": 351,
+          "endMs": 428
+        },
+        {
+          "text": "part",
+          "startMs": 428,
+          "endMs": 713
+        },
+        {
+          "text": "most",
+          "startMs": 713,
+          "endMs": 976
+        },
+        {
+          "text": "people",
+          "startMs": 976,
+          "endMs": 1217
+        },
+        {
+          "text": "miss",
+          "startMs": 1228,
+          "endMs": 1656
+        },
+        {
+          "text": "Radio",
+          "startMs": 2007,
+          "endMs": 2303
+        },
+        {
+          "text": "waves",
+          "startMs": 2303,
+          "endMs": 2632
+        },
+        {
+          "text": "don't",
+          "startMs": 2643,
+          "endMs": 2829
+        },
+        {
+          "text": "stop",
+          "startMs": 2840,
+          "endMs": 3224
+        },
+        {
+          "text": "at",
+          "startMs": 3333,
+          "endMs": 3399
+        },
+        {
+          "text": "a",
+          "startMs": 3410,
+          "endMs": 3443
+        },
+        {
+          "text": "prison",
+          "startMs": 3443,
+          "endMs": 3706
+        },
+        {
+          "text": "wall",
+          "startMs": 3717,
+          "endMs": 4002
+        }
+      ],
+      "durationMs": 4262
+    },
+    {
+      "type": "art",
+      "narration": "In a South Carolina test, the phone industry group CTIA found a few small jammers blocked nine-one-one calls.",
+      "emphasis": [
+        "nine-one-one"
+      ],
+      "props": {
+        "art": "test911"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|In a South Carolina test, the phone industry group CTIA found a few small jammers blocked nine-one-one calls.",
+      "audio": "videos/prison-phone-jamming/scene-10.mp3",
+      "words": [
+        {
+          "text": "In",
+          "startMs": 66,
+          "endMs": 132
+        },
+        {
+          "text": "a",
+          "startMs": 132,
+          "endMs": 175
+        },
+        {
+          "text": "South",
+          "startMs": 175,
+          "endMs": 428
+        },
+        {
+          "text": "Carolina",
+          "startMs": 439,
+          "endMs": 800
+        },
+        {
+          "text": "test",
+          "startMs": 811,
+          "endMs": 1250
+        },
+        {
+          "text": "the",
+          "startMs": 1447,
+          "endMs": 1535
+        },
+        {
+          "text": "phone",
+          "startMs": 1535,
+          "endMs": 1809
+        },
+        {
+          "text": "industry",
+          "startMs": 1809,
+          "endMs": 2127
+        },
+        {
+          "text": "group",
+          "startMs": 2127,
+          "endMs": 2303
+        },
+        {
+          "text": "CTIA",
+          "startMs": 2303,
+          "endMs": 2840
+        },
+        {
+          "text": "found",
+          "startMs": 3059,
+          "endMs": 3289
+        },
+        {
+          "text": "a",
+          "startMs": 3289,
+          "endMs": 3322
+        },
+        {
+          "text": "few",
+          "startMs": 3333,
+          "endMs": 3684
+        },
+        {
+          "text": "small",
+          "startMs": 3684,
+          "endMs": 4024
+        },
+        {
+          "text": "jammers",
+          "startMs": 4024,
+          "endMs": 4430
+        },
+        {
+          "text": "blocked",
+          "startMs": 4441,
+          "endMs": 4901
+        },
+        {
+          "text": "nine-one-one",
+          "startMs": 5110,
+          "endMs": 5833
+        },
+        {
+          "text": "calls",
+          "startMs": 5833,
+          "endMs": 6360
+        }
+      ],
+      "durationMs": 6620
+    },
+    {
+      "type": "art",
+      "narration": "And they affected cell network equipment up to two and a half miles away.",
+      "emphasis": [
+        "miles"
+      ],
+      "props": {
+        "art": "range"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And they affected cell network equipment up to two and a half miles away.",
+      "audio": "videos/prison-phone-jamming/scene-11.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "they",
+          "startMs": 164,
+          "endMs": 252
+        },
+        {
+          "text": "affected",
+          "startMs": 252,
+          "endMs": 636
+        },
+        {
+          "text": "cell",
+          "startMs": 647,
+          "endMs": 866
+        },
+        {
+          "text": "network",
+          "startMs": 866,
+          "endMs": 1206
+        },
+        {
+          "text": "equipment",
+          "startMs": 1338,
+          "endMs": 1798
+        },
+        {
+          "text": "up",
+          "startMs": 1853,
+          "endMs": 1985
+        },
+        {
+          "text": "to",
+          "startMs": 2116,
+          "endMs": 2204
+        },
+        {
+          "text": "two",
+          "startMs": 2204,
+          "endMs": 2588
+        },
+        {
+          "text": "and",
+          "startMs": 2599,
+          "endMs": 2664
+        },
+        {
+          "text": "a",
+          "startMs": 2675,
+          "endMs": 2708
+        },
+        {
+          "text": "half",
+          "startMs": 2719,
+          "endMs": 3015
+        },
+        {
+          "text": "miles",
+          "startMs": 3015,
+          "endMs": 3268
+        },
+        {
+          "text": "away",
+          "startMs": 3268,
+          "endMs": 3618
+        }
+      ],
+      "durationMs": 3878
+    },
+    {
+      "type": "art",
+      "narration": "Now jamming is only allowed inside an approved zone where phones are already banned.",
+      "emphasis": [
+        "zone"
+      ],
+      "props": {
+        "art": "zone"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Now jamming is only allowed inside an approved zone where phones are already banned.",
+      "audio": "videos/prison-phone-jamming/scene-12.mp3",
+      "words": [
+        {
+          "text": "Now",
+          "startMs": 88,
+          "endMs": 285
+        },
+        {
+          "text": "jamming",
+          "startMs": 285,
+          "endMs": 746
+        },
+        {
+          "text": "is",
+          "startMs": 844,
+          "endMs": 1031
+        },
+        {
+          "text": "only",
+          "startMs": 1042,
+          "endMs": 1316
+        },
+        {
+          "text": "allowed",
+          "startMs": 1327,
+          "endMs": 1678
+        },
+        {
+          "text": "inside",
+          "startMs": 1678,
+          "endMs": 2193
+        },
+        {
+          "text": "an",
+          "startMs": 2204,
+          "endMs": 2270
+        },
+        {
+          "text": "approved",
+          "startMs": 2281,
+          "endMs": 2697
+        },
+        {
+          "text": "zone",
+          "startMs": 2708,
+          "endMs": 3048
+        },
+        {
+          "text": "where",
+          "startMs": 3202,
+          "endMs": 3322
+        },
+        {
+          "text": "phones",
+          "startMs": 3322,
+          "endMs": 3706
+        },
+        {
+          "text": "are",
+          "startMs": 3717,
+          "endMs": 3805
+        },
+        {
+          "text": "already",
+          "startMs": 3805,
+          "endMs": 4090
+        },
+        {
+          "text": "banned",
+          "startMs": 4101,
+          "endMs": 4496
+        }
+      ],
+      "durationMs": 4756
+    },
+    {
+      "type": "art",
+      "narration": "Prisons must test it twice to prove nearby phones still work, and warn their neighbors.",
+      "emphasis": [
+        "twice"
+      ],
+      "props": {
+        "art": "rules"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Prisons must test it twice to prove nearby phones still work, and warn their neighbors.",
+      "audio": "videos/prison-phone-jamming/scene-13.mp3",
+      "words": [
+        {
+          "text": "Prisons",
+          "startMs": 88,
+          "endMs": 340
+        },
+        {
+          "text": "must",
+          "startMs": 340,
+          "endMs": 526
+        },
+        {
+          "text": "test",
+          "startMs": 526,
+          "endMs": 789
+        },
+        {
+          "text": "it",
+          "startMs": 789,
+          "endMs": 844
+        },
+        {
+          "text": "twice",
+          "startMs": 844,
+          "endMs": 1206
+        },
+        {
+          "text": "to",
+          "startMs": 1217,
+          "endMs": 1316
+        },
+        {
+          "text": "prove",
+          "startMs": 1327,
+          "endMs": 1678
+        },
+        {
+          "text": "nearby",
+          "startMs": 1678,
+          "endMs": 2094
+        },
+        {
+          "text": "phones",
+          "startMs": 2105,
+          "endMs": 2456
+        },
+        {
+          "text": "still",
+          "startMs": 2467,
+          "endMs": 2807
+        },
+        {
+          "text": "work",
+          "startMs": 2807,
+          "endMs": 3136
+        },
+        {
+          "text": "and",
+          "startMs": 3366,
+          "endMs": 3443
+        },
+        {
+          "text": "warn",
+          "startMs": 3454,
+          "endMs": 3640
+        },
+        {
+          "text": "their",
+          "startMs": 3640,
+          "endMs": 3728
+        },
+        {
+          "text": "neighbors",
+          "startMs": 3728,
+          "endMs": 4221
+        }
+      ],
+      "durationMs": 4481
+    },
+    {
+      "type": "art",
+      "narration": "So a jammer doesn't break a phone. It just shouts over the tower it's listening to.",
+      "emphasis": [
+        "shouts"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So a jammer doesn't break a phone. It just shouts over the tower it's listening to.",
+      "audio": "videos/prison-phone-jamming/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 230
+        },
+        {
+          "text": "a",
+          "startMs": 230,
+          "endMs": 296
+        },
+        {
+          "text": "jammer",
+          "startMs": 296,
+          "endMs": 713
+        },
+        {
+          "text": "doesn't",
+          "startMs": 811,
+          "endMs": 1053
+        },
+        {
+          "text": "break",
+          "startMs": 1064,
+          "endMs": 1228
+        },
+        {
+          "text": "a",
+          "startMs": 1228,
+          "endMs": 1261
+        },
+        {
+          "text": "phone",
+          "startMs": 1261,
+          "endMs": 1601
+        },
+        {
+          "text": "It",
+          "startMs": 1963,
+          "endMs": 2007
+        },
+        {
+          "text": "just",
+          "startMs": 2007,
+          "endMs": 2160
+        },
+        {
+          "text": "shouts",
+          "startMs": 2160,
+          "endMs": 2533
+        },
+        {
+          "text": "over",
+          "startMs": 2533,
+          "endMs": 2664
+        },
+        {
+          "text": "the",
+          "startMs": 2664,
+          "endMs": 2719
+        },
+        {
+          "text": "tower",
+          "startMs": 2719,
+          "endMs": 3081
+        },
+        {
+          "text": "it's",
+          "startMs": 3092,
+          "endMs": 3191
+        },
+        {
+          "text": "listening",
+          "startMs": 3191,
+          "endMs": 3531
+        },
+        {
+          "text": "to",
+          "startMs": 3531,
+          "endMs": 3838
+        }
+      ],
+      "durationMs": 4098
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who lives near a prison.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to someone near a prison"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who lives near a prison.",
+      "audio": "videos/prison-phone-jamming/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 570
+        },
+        {
+          "text": "and",
+          "startMs": 910,
+          "endMs": 1096
+        },
+        {
+          "text": "send",
+          "startMs": 1349,
+          "endMs": 1612
+        },
+        {
+          "text": "this",
+          "startMs": 1623,
+          "endMs": 1754
+        },
+        {
+          "text": "to",
+          "startMs": 1754,
+          "endMs": 1831
+        },
+        {
+          "text": "someone",
+          "startMs": 1831,
+          "endMs": 2094
+        },
+        {
+          "text": "who",
+          "startMs": 2105,
+          "endMs": 2215
+        },
+        {
+          "text": "lives",
+          "startMs": 2215,
+          "endMs": 2544
+        },
+        {
+          "text": "near",
+          "startMs": 2544,
+          "endMs": 2686
+        },
+        {
+          "text": "a",
+          "startMs": 2686,
+          "endMs": 2719
+        },
+        {
+          "text": "prison",
+          "startMs": 2719,
+          "endMs": 3103
+        }
+      ],
+      "durationMs": 3363
+    }
+  ]
+}
