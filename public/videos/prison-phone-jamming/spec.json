@@ -3,7 +3,7 @@
   "title": "Prisons can now jam phones. Your phone might notice",
   "theme": "ember",
   "caption": "The FCC just voted to let prisons jam smuggled phones. A jammer doesn't break a phone, it shouts over the cell tower, and radio doesn't stop at a prison wall.\n\n#tech #fcc #jammer #cellphone #technews",
-  "status": "rendered",
+  "status": "published",
   "brand": {
     "name": "TechWhyz"
   },
@@ -1266,5 +1266,10 @@
       ],
       "durationMs": 3363
     }
-  ]
+  ],
+  "posts": {
+    "instagram": "scheduled",
+    "youtube": "scheduled"
+  },
+  "scheduled_for": "2026-11-28T18:00:00-05:00"
 }
