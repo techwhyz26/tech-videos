@@ -1,0 +1,25 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><g transform="translate(40 230) scale(0.78)"><ellipse cx="300" cy="440" rx="260" ry="18" fill="#000" opacity="0.55" filter="url(#soft)"/>
+<path d="M250 360 l-30 72 h160 l-30 -72 z" fill="url(#metal)"/>
+<rect x="0" y="0" width="600" height="360" rx="18" fill="#111116" stroke="#fff" stroke-opacity="0.3" stroke-width="4"/>
+<clipPath id="t10tv"><rect x="14" y="14" width="572" height="332" rx="8"/></clipPath>
+<g clip-path="url(#t10tv)"><g transform="translate(14 14)"><linearGradient id="m10sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1a5e"/><stop offset="0.6" stop-color="#ff7a59"/><stop offset="1" stop-color="#ffd27a"/></linearGradient>
+<rect x="0" y="0" width="572" height="332" fill="url(#m10sky)"/>
+<circle cx="380" cy="200" r="60" fill="#fff2b0"/>
+<path d="M0 240 l120 -110 l90 70 l110 -120 l140 140 l112 -70 v182 h-572 z" fill="#3a1f4a"/>
+<rect x="0" y="282" width="572" height="50" fill="#1a1022"/>
+<g><animateTransform attributeName="transform" type="translate" from="-120 0" to="620 0" dur="4s" repeatCount="indefinite"/>
+<rect x="0" y="262" width="90" height="26" rx="8" fill="#ff4d6d"/><rect x="18" y="248" width="50" height="20" rx="6" fill="#ff4d6d"/>
+<circle cx="20" cy="290" r="10" fill="#111"/><circle cx="70" cy="290" r="10" fill="#111"/></g></g></g>
+<circle cx="300" cy="352" r="3" fill="#ff4d4d"/></g>
+<rect x="51" y="241" width="446" height="259" rx="40" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.2;1" begin="0.8s" dur="0.5s" fill="freeze"/></rect>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.3s" fill="freeze"/><g transform="translate(570 262) rotate(3)"><ellipse cx="180.0" cy="224" rx="198.00000000000003" ry="16" fill="#000" opacity="0.55" filter="url(#soft)"/><rect x="-10" y="-10" width="380" height="230" rx="22" fill="#f4f4f8"/><rect x="0" y="0" width="360" height="210" rx="14" fill="#000"/></g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.35s" fill="freeze"/><text x="274" y="640" font-size="42" text-anchor="middle" class="">Movie playing</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.35s" fill="freeze"/><text x="750" y="640" font-size="42" text-anchor="middle" class="fa">Its screenshot</text></g>
+<g transform="translate(500 850)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.2s" fill="freeze"/><animateTransform attributeName="transform" type="scale" values="0.3;1.15;1" keyTimes="0;0.7;1" begin="1.6s" dur="0.45s" fill="freeze"/><rect x="-180.0" y="-48" width="360" height="96" rx="20" class="fa"/><text x="0" y="16" font-size="46" font-weight="700" text-anchor="middle" style="fill:#0a0a0a">SAME TRICK</text></g></g>

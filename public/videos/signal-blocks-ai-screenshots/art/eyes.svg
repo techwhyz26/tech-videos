@@ -1,0 +1,37 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><g transform="translate(340 790) scale(1.0)"><path d="M-110 0 q-6 -190 70 -220 q60 -22 110 0 q60 30 60 220 z" fill="#2f4a7a"/>
+<path d="M60 -190 q70 40 118 -48" class="nf" stroke="#2f4a7a" stroke-width="46" stroke-linecap="round"/>
+<circle cx="178" cy="-238" r="26" fill="#f2c6a0"/>
+<rect x="-18" y="-262" width="44" height="50" rx="14" fill="#e8b48c"/>
+<circle cx="6" cy="-322" r="80" fill="#f2c6a0"/>
+<path d="M84 -320 l14 18 l-12 6" fill="#f2c6a0"/>
+<path d="M-74 -320 q-12 -96 76 -100 q72 -2 84 64 q-60 -40 -112 -6 q-18 44 -48 42 z" fill="#2a1d18"/>
+<circle cx="52" cy="-326" r="9" fill="#1a1a1a"/>
+<path d="M58 -278 q14 4 22 -4" class="nf" stroke="#7a3f30" stroke-width="5" stroke-linecap="round"/></g>
+<line x1="392" y1="464" x2="560" y2="300" class="sa" stroke-width="5" stroke-dasharray="12 12" opacity="0"><animate attributeName="opacity" from="0" to="0.8" begin="0.5s" dur="0.3s" fill="freeze"/><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="0.6s" repeatCount="indefinite"/></line><line x1="392" y1="466" x2="560" y2="520" class="sa" stroke-width="5" stroke-dasharray="12 12" opacity="0"><animate attributeName="opacity" from="0" to="0.8" begin="0.5s" dur="0.3s" fill="freeze"/><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="0.6s" repeatCount="indefinite"/></line><line x1="392" y1="468" x2="560" y2="740" class="sa" stroke-width="5" stroke-dasharray="12 12" opacity="0"><animate attributeName="opacity" from="0" to="0.8" begin="0.5s" dur="0.3s" fill="freeze"/><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="0.6s" repeatCount="indefinite"/></line>
+<g transform="translate(560 170) scale(0.92)"><ellipse cx="170.0" cy="698" rx="210.8" ry="22" fill="#000" opacity="0.55" filter="url(#soft)"/>
+<rect x="0" y="0" width="340" height="680" rx="48" fill="url(#metal)" stroke="#fff" stroke-opacity="0.3" stroke-width="4"/>
+<rect x="340" y="150" width="7" height="80" rx="3" fill="#5a5a66"/>
+<rect x="-7" y="130" width="7" height="50" rx="3" fill="#5a5a66"/><rect x="-7" y="196" width="7" height="50" rx="3" fill="#5a5a66"/>
+<clipPath id="h8sc"><rect x="12" y="12" width="316" height="656" rx="36"/></clipPath>
+<g clip-path="url(#h8sc)"><g transform="translate(12 12)"><rect x="0" y="0" width="316" height="656" rx="34" fill="#0e0e14"/>
+<rect x="0" y="40" width="316" height="80" fill="#17171f"/>
+<path d="M34 80 l-14 -12 m0 0 l14 -12" class="nf" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<circle cx="76" cy="80" r="25" fill="#c27dff"/><text x="76" y="92" font-size="30" text-anchor="middle">A</text>
+<rect x="114" y="66" width="110" height="14" rx="7" fill="#fff" opacity="0.9"/>
+<rect x="114" y="88" width="70" height="10" rx="5" fill="#fff" opacity="0.4"/>
+<circle cx="282" cy="80" r="10" fill="#fff" opacity="0.5"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.2s" fill="freeze"/><rect x="18" y="150" width="200" height="82" rx="24" fill="#3b3b48"/><rect x="36" y="170" width="164" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="36" y="196" width="124" height="12" rx="6" fill="#fff" opacity="0.75"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.2s" fill="freeze"/><rect x="128" y="250" width="170" height="56" rx="24" fill="#3a76f0"/><rect x="146" y="270" width="134" height="12" rx="6" fill="#fff" opacity="0.75"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.56s" dur="0.2s" fill="freeze"/><rect x="18" y="330" width="230" height="82" rx="24" fill="#3b3b48"/><rect x="36" y="350" width="194" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="36" y="376" width="154" height="12" rx="6" fill="#fff" opacity="0.75"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.74s" dur="0.2s" fill="freeze"/><rect x="108" y="432" width="190" height="82" rx="24" fill="#3a76f0"/><rect x="126" y="452" width="154" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="126" y="478" width="114" height="12" rx="6" fill="#fff" opacity="0.75"/></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.9199999999999999s" dur="0.2s" fill="freeze"/><rect x="18" y="534" width="150" height="56" rx="24" fill="#3b3b48"/><rect x="36" y="554" width="114" height="12" rx="6" fill="#fff" opacity="0.75"/></g>
+<rect x="16" y="582" width="224" height="54" rx="27" fill="#24242e"/>
+<circle cx="272" cy="609" r="27" fill="#3a76f0"/>
+<path d="M260 609 h22 m-9 -9 l9 9 l-9 9" class="nf" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g></g>
+<rect x="122.0" y="26" width="96" height="26" rx="13" fill="#000"/>
+<path d="M30 40 q-10 120 -4 300" class="nf" stroke="#fff" stroke-opacity="0.08" stroke-width="14" stroke-linecap="round"/></g>
+<g transform="translate(880 210)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.2s" fill="freeze"/><animateTransform attributeName="transform" type="scale" values="0.3;1.15;1" keyTimes="0;0.7;1" begin="1.3s" dur="0.45s" fill="freeze"/><circle r="44" fill="#3ddc84"/><path d="M-18.48 0 l13.2 14.08 l24.64 -28.16" class="nf" stroke="#fff" stroke-width="10.559999999999999" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.35s" fill="freeze"/><text x="520" y="900" font-size="48" text-anchor="middle" class="">You still see every message</text></g>

@@ -1,0 +1,22 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><ellipse cx="500" cy="790" rx="260" ry="26" fill="#000" opacity="0.55" filter="url(#soft)"/>
+<path d="M380 440 v-90 a120 120 0 0 1 240 0 v90" class="nf" stroke="url(#steel)" stroke-width="46"/>
+<rect x="300" y="430" width="400" height="330" rx="44" fill="#3a76f0"/>
+<rect x="300" y="430" width="400" height="60" rx="30" fill="#fff" opacity="0.15"/>
+<path d="M500 540 a56 56 0 1 1 -40 96 l-30 12 l10 -30 a56 56 0 0 1 60 -78 z" fill="#fff"/>
+<path d="M470 520 l30 40 l-22 34 l34 46" class="nf" stroke="#0a0a0a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" from="1" to="0" begin="1.0s" dur="0.4s" fill="freeze"/></path><path d="M540 500 l-16 44 l26 26" class="nf" stroke="#0a0a0a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" from="1" to="0" begin="1.2s" dur="0.3s" fill="freeze"/></path>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.3s" fill="freeze"/><g><animateTransform attributeName="transform" type="translate" values="870 140;780 230;870 140" dur="3s" repeatCount="indefinite"/><defs><radialGradient id="o6orb" cx="0.35" cy="0.3" r="0.8">
+<stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#8ab4ff"/><stop offset="0.75" stop-color="#9b5cff"/><stop offset="1" stop-color="#ff5ca8"/></radialGradient></defs>
+<circle r="90.0" fill="#9b5cff" opacity="0.45" filter="url(#soft)"><animate attributeName="opacity" values="0.25;0.6;0.25" dur="1.6s" repeatCount="indefinite"/></circle>
+<circle r="60" fill="url(#o6orb)"/>
+<path d="M0 -37.714285714285715 C5.142857142857142 -8.571428571428571 8.571428571428571 -5.142857142857142 37.714285714285715 0 C8.571428571428571 5.142857142857142 5.142857142857142 8.571428571428571 0 37.714285714285715 C-5.142857142857142 8.571428571428571 -8.571428571428571 5.142857142857142 -37.714285714285715 0 C-8.571428571428571 -5.142857142857142 -5.142857142857142 -8.571428571428571 0 -37.714285714285715 Z" fill="#fff"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></path>
+<ellipse cx="-21.0" cy="-27.0" rx="16.8" ry="9.6" fill="#fff" opacity="0.5"/></g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.3s" fill="freeze"/><polygon points="780,250 380,450 620,450" fill="#8ab4ff" opacity="0.25">
+  <animate attributeName="opacity" values="0.1;0.35;0.1" dur="1s" repeatCount="indefinite"/></polygon></g>
+<g transform="translate(500 900)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.2s" fill="freeze"/><animateTransform attributeName="transform" type="scale" values="0.3;1.15;1" keyTimes="0;0.7;1" begin="1.5s" dur="0.45s" fill="freeze"/><rect x="-288.0" y="-48" width="576" height="96" rx="20" class="fa"/><text x="0" y="16" font-size="46" font-weight="700" text-anchor="middle" style="fill:#0a0a0a">EXISTENTIAL THREAT</text></g></g>

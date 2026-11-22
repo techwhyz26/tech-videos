@@ -1,0 +1,33 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><g transform="translate(330 90) scale(1.0)"><ellipse cx="170.0" cy="698" rx="210.8" ry="22" fill="#000" opacity="0.55" filter="url(#soft)"/>
+<rect x="0" y="0" width="340" height="680" rx="48" fill="url(#metal)" stroke="#fff" stroke-opacity="0.3" stroke-width="4"/>
+<rect x="340" y="150" width="7" height="80" rx="3" fill="#5a5a66"/>
+<rect x="-7" y="130" width="7" height="50" rx="3" fill="#5a5a66"/><rect x="-7" y="196" width="7" height="50" rx="3" fill="#5a5a66"/>
+<clipPath id="h1sc"><rect x="12" y="12" width="316" height="656" rx="36"/></clipPath>
+<g clip-path="url(#h1sc)"><g transform="translate(12 12)"><rect x="0" y="0" width="316" height="656" rx="34" fill="#0e0e14"/>
+<rect x="0" y="40" width="316" height="80" fill="#17171f"/>
+<path d="M34 80 l-14 -12 m0 0 l14 -12" class="nf" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<circle cx="76" cy="80" r="25" fill="#c27dff"/><text x="76" y="92" font-size="30" text-anchor="middle">A</text>
+<rect x="114" y="66" width="110" height="14" rx="7" fill="#fff" opacity="0.9"/>
+<rect x="114" y="88" width="70" height="10" rx="5" fill="#fff" opacity="0.4"/>
+<circle cx="282" cy="80" r="10" fill="#fff" opacity="0.5"/>
+<rect x="18" y="150" width="200" height="82" rx="24" fill="#3b3b48"/><rect x="36" y="170" width="164" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="36" y="196" width="124" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="128" y="250" width="170" height="56" rx="24" fill="#3a76f0"/><rect x="146" y="270" width="134" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="18" y="330" width="230" height="82" rx="24" fill="#3b3b48"/><rect x="36" y="350" width="194" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="36" y="376" width="154" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="108" y="432" width="190" height="82" rx="24" fill="#3a76f0"/><rect x="126" y="452" width="154" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="126" y="478" width="114" height="12" rx="6" fill="#fff" opacity="0.75"/><rect x="18" y="534" width="150" height="56" rx="24" fill="#3b3b48"/><rect x="36" y="554" width="114" height="12" rx="6" fill="#fff" opacity="0.75"/>
+<rect x="16" y="582" width="224" height="54" rx="27" fill="#24242e"/>
+<circle cx="272" cy="609" r="27" fill="#3a76f0"/>
+<path d="M260 609 h22 m-9 -9 l9 9 l-9 9" class="nf" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g></g>
+<rect x="122.0" y="26" width="96" height="26" rx="13" fill="#000"/>
+<path d="M30 40 q-10 120 -4 300" class="nf" stroke="#fff" stroke-opacity="0.08" stroke-width="14" stroke-linecap="round"/></g>
+<rect x="342" y="102" width="316" height="656" rx="40" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.2;1" begin="0.7s" dur="0.5s" fill="freeze"/></rect>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.2s" fill="freeze"/>
+  <g><animateTransform attributeName="transform" type="translate" values="420 300;150 470" begin="1.0s" dur="0.5s" fill="freeze"/>
+    <g transform="rotate(-6)"><ellipse cx="85.0" cy="364" rx="93.50000000000001" ry="16" fill="#000" opacity="0.55" filter="url(#soft)"/><rect x="-10" y="-10" width="190" height="370" rx="22" fill="#f4f4f8"/><rect x="0" y="0" width="170" height="350" rx="14" fill="#000"/><g transform="translate(85 175) scale(0.7)" opacity="0.3"><path d="M-34 -10 v-26 a34 34 0 0 1 68 0 v26" class="nf" stroke="#fff" stroke-width="14"/><rect x="-52" y="-12" width="104" height="80" rx="16" fill="#fff"/><circle cx="0" cy="20" r="11" fill="#000" opacity="0.5"/></g></g>
+  </g>
+</g>
+<g transform="translate(250 480)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.2s" fill="freeze"/><animateTransform attributeName="transform" type="scale" values="0.3;1.15;1" keyTimes="0;0.7;1" begin="1.6s" dur="0.45s" fill="freeze"/><circle r="46" fill="#ff4d4d"/><path d="M-18.400000000000002 -18.400000000000002 L18.400000000000002 18.400000000000002 M18.400000000000002 -18.400000000000002 L-18.400000000000002 18.400000000000002" stroke="#fff" stroke-width="11.96" stroke-linecap="round"/></g></g>
+<g transform="translate(500 900)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.2s" fill="freeze"/><animateTransform attributeName="transform" type="scale" values="0.3;1.15;1" keyTimes="0;0.7;1" begin="1.8s" dur="0.45s" fill="freeze"/><rect x="-288.0" y="-48" width="576" height="96" rx="20" class="fa"/><text x="0" y="16" font-size="46" font-weight="700" text-anchor="middle" style="fill:#0a0a0a">SCREENSHOT BLOCKED</text></g></g>
