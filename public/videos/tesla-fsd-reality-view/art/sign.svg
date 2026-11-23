@@ -1,0 +1,17 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><g transform="translate(500 760) scale(1.0)"><ellipse cx="0" cy="6" rx="340" ry="22" fill="#000" opacity="0.55" filter="url(#soft)"/>
+<rect x="-250" y="-560" width="26" height="566" fill="url(#steel)"/>
+<rect x="224" y="-560" width="26" height="566" fill="url(#steel)"/>
+<rect x="-300" y="-640" width="600" height="300" rx="26" fill="#13703f"/>
+<rect x="-284" y="-624" width="568" height="268" rx="18" fill="none" stroke="#fff" stroke-width="8"/>
+<path d="M-30 -560 L0 -590 L30 -560 M0 -590 V-536" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="-410" font-size="90" font-weight="700" text-anchor="middle" opacity="1">MAIN ST<animate attributeName="opacity" values="1;0;0;0;1" calcMode="discrete" dur="1.6s" repeatCount="indefinite"/></text><text x="0" y="-410" font-size="90" font-weight="700" text-anchor="middle" opacity="0">MAlN 5T<animate attributeName="opacity" values="0;1;0;0;0" calcMode="discrete" dur="1.6s" repeatCount="indefinite"/></text><text x="0" y="-410" font-size="90" font-weight="700" text-anchor="middle" opacity="0">NAIM ŠT<animate attributeName="opacity" values="0;0;1;0;0" calcMode="discrete" dur="1.6s" repeatCount="indefinite"/></text><text x="0" y="-410" font-size="90" font-weight="700" text-anchor="middle" opacity="0">MΛIИ S7<animate attributeName="opacity" values="0;0;0;1;0" calcMode="discrete" dur="1.6s" repeatCount="indefinite"/></text></g>
+<g transform="translate(700 380)"><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;-160 10;0 0" begin="0.6s" dur="3s" repeatCount="indefinite"/><circle r="110" fill="#fff" fill-opacity="0.08" stroke="url(#steel)" stroke-width="22"/><line x1="80" y1="80" x2="170" y2="170" stroke="url(#metal)" stroke-width="34" stroke-linecap="round"/><path d="M-60 -50 a80 80 0 0 1 50 -36" fill="none" stroke="#fff" stroke-width="8" opacity="0.5" stroke-linecap="round"/></g></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.35s" fill="freeze"/><text x="500" y="880" font-size="50" text-anchor="middle" class="fa2">The words keep changing</text></g>

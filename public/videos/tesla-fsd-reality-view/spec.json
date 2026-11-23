@@ -1,0 +1,1293 @@
+{
+  "slug": "tesla-fsd-reality-view",
+  "title": "Tesla's new GTA-style view is made up by AI",
+  "theme": "violet",
+  "caption": "Tesla's Full Self-Driving version fifteen shows the road like a video game. Musk says it's not a game engine or a camera feed, but real-time AI video generation.\n\n#tesla #fsd #ai #gta6 #tech #selfdriving",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "Tesla Full Self-Driving v15: Reality View review, new features explained",
+    "link": "https://www.teslarati.com/tesla-full-self-driving-v15-first-hand-look-at-reality-view-new-features/"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Tesla just turned its self-driving screen into something that looks like GTA.",
+      "emphasis": [
+        "GTA"
+      ],
+      "props": {
+        "art": "hook"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Tesla just turned its self-driving screen into something that looks like GTA.",
+      "audio": "videos/tesla-fsd-reality-view/scene-01.mp3",
+      "words": [
+        {
+          "text": "Tesla",
+          "startMs": 88,
+          "endMs": 450
+        },
+        {
+          "text": "just",
+          "startMs": 461,
+          "endMs": 614
+        },
+        {
+          "text": "turned",
+          "startMs": 614,
+          "endMs": 910
+        },
+        {
+          "text": "its",
+          "startMs": 910,
+          "endMs": 1042
+        },
+        {
+          "text": "self-driving",
+          "startMs": 1053,
+          "endMs": 1754
+        },
+        {
+          "text": "screen",
+          "startMs": 1754,
+          "endMs": 2215
+        },
+        {
+          "text": "into",
+          "startMs": 2456,
+          "endMs": 2599
+        },
+        {
+          "text": "something",
+          "startMs": 2599,
+          "endMs": 3026
+        },
+        {
+          "text": "that",
+          "startMs": 3037,
+          "endMs": 3147
+        },
+        {
+          "text": "looks",
+          "startMs": 3158,
+          "endMs": 3322
+        },
+        {
+          "text": "like",
+          "startMs": 3333,
+          "endMs": 3487
+        },
+        {
+          "text": "GTA",
+          "startMs": 3575,
+          "endMs": 4265
+        }
+      ],
+      "durationMs": 4525
+    },
+    {
+      "type": "art",
+      "narration": "So what is actually drawing that picture?",
+      "emphasis": [
+        "drawing"
+      ],
+      "props": {
+        "art": "what"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So what is actually drawing that picture?",
+      "audio": "videos/tesla-fsd-reality-view/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "what",
+          "startMs": 197,
+          "endMs": 285
+        },
+        {
+          "text": "is",
+          "startMs": 285,
+          "endMs": 373
+        },
+        {
+          "text": "actually",
+          "startMs": 373,
+          "endMs": 603
+        },
+        {
+          "text": "drawing",
+          "startMs": 603,
+          "endMs": 954
+        },
+        {
+          "text": "that",
+          "startMs": 965,
+          "endMs": 1118
+        },
+        {
+          "text": "picture",
+          "startMs": 1118,
+          "endMs": 1557
+        }
+      ],
+      "durationMs": 1817
+    },
+    {
+      "type": "art",
+      "narration": "An AI that makes up video of your surroundings, live, as you drive.",
+      "emphasis": [
+        "AI",
+        "live"
+      ],
+      "props": {
+        "art": "ai-video"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|An AI that makes up video of your surroundings, live, as you drive.",
+      "audio": "videos/tesla-fsd-reality-view/scene-03.mp3",
+      "words": [
+        {
+          "text": "An",
+          "startMs": 77,
+          "endMs": 186
+        },
+        {
+          "text": "AI",
+          "startMs": 197,
+          "endMs": 614
+        },
+        {
+          "text": "that",
+          "startMs": 625,
+          "endMs": 735
+        },
+        {
+          "text": "makes",
+          "startMs": 746,
+          "endMs": 954
+        },
+        {
+          "text": "up",
+          "startMs": 965,
+          "endMs": 1096
+        },
+        {
+          "text": "video",
+          "startMs": 1096,
+          "endMs": 1546
+        },
+        {
+          "text": "of",
+          "startMs": 1546,
+          "endMs": 1612
+        },
+        {
+          "text": "your",
+          "startMs": 1612,
+          "endMs": 1721
+        },
+        {
+          "text": "surroundings",
+          "startMs": 1722,
+          "endMs": 2412
+        },
+        {
+          "text": "live",
+          "startMs": 2654,
+          "endMs": 3092
+        },
+        {
+          "text": "as",
+          "startMs": 3344,
+          "endMs": 3421
+        },
+        {
+          "text": "you",
+          "startMs": 3432,
+          "endMs": 3487
+        },
+        {
+          "text": "drive",
+          "startMs": 3487,
+          "endMs": 3958
+        }
+      ],
+      "durationMs": 4218
+    },
+    {
+      "type": "art",
+      "narration": "Tesla calls it Reality View. It's part of Full Self-Driving version fifteen.",
+      "emphasis": [
+        "Reality",
+        "View"
+      ],
+      "props": {
+        "art": "reality-view"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Tesla calls it Reality View. It's part of Full Self-Driving version fifteen.",
+      "audio": "videos/tesla-fsd-reality-view/scene-04.mp3",
+      "words": [
+        {
+          "text": "Tesla",
+          "startMs": 88,
+          "endMs": 362
+        },
+        {
+          "text": "calls",
+          "startMs": 373,
+          "endMs": 658
+        },
+        {
+          "text": "it",
+          "startMs": 658,
+          "endMs": 778
+        },
+        {
+          "text": "Reality",
+          "startMs": 778,
+          "endMs": 1195
+        },
+        {
+          "text": "View",
+          "startMs": 1195,
+          "endMs": 1502
+        },
+        {
+          "text": "It's",
+          "startMs": 1864,
+          "endMs": 1941
+        },
+        {
+          "text": "part",
+          "startMs": 1941,
+          "endMs": 2138
+        },
+        {
+          "text": "of",
+          "startMs": 2138,
+          "endMs": 2204
+        },
+        {
+          "text": "Full",
+          "startMs": 2215,
+          "endMs": 2544
+        },
+        {
+          "text": "Self-Driving",
+          "startMs": 2544,
+          "endMs": 3169
+        },
+        {
+          "text": "version",
+          "startMs": 3169,
+          "endMs": 3498
+        },
+        {
+          "text": "fifteen",
+          "startMs": 3498,
+          "endMs": 3991
+        }
+      ],
+      "durationMs": 4251
+    },
+    {
+      "type": "art",
+      "narration": "The old screen was a mostly colourless sketch of the road.",
+      "emphasis": [
+        "colourless"
+      ],
+      "props": {
+        "art": "old"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The old screen was a mostly colourless sketch of the road.",
+      "audio": "videos/tesla-fsd-reality-view/scene-05.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 241
+        },
+        {
+          "text": "old",
+          "startMs": 241,
+          "endMs": 417
+        },
+        {
+          "text": "screen",
+          "startMs": 417,
+          "endMs": 866
+        },
+        {
+          "text": "was",
+          "startMs": 976,
+          "endMs": 1096
+        },
+        {
+          "text": "a",
+          "startMs": 1096,
+          "endMs": 1129
+        },
+        {
+          "text": "mostly",
+          "startMs": 1129,
+          "endMs": 1656
+        },
+        {
+          "text": "colourless",
+          "startMs": 1667,
+          "endMs": 2105
+        },
+        {
+          "text": "sketch",
+          "startMs": 2105,
+          "endMs": 2357
+        },
+        {
+          "text": "of",
+          "startMs": 2357,
+          "endMs": 2401
+        },
+        {
+          "text": "the",
+          "startMs": 2401,
+          "endMs": 2445
+        },
+        {
+          "text": "road",
+          "startMs": 2456,
+          "endMs": 2774
+        }
+      ],
+      "durationMs": 3034
+    },
+    {
+      "type": "art",
+      "narration": "Now a virtual camera floats just above and behind your car, like a drone following you.",
+      "emphasis": [
+        "virtual",
+        "drone"
+      ],
+      "props": {
+        "art": "drone"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Now a virtual camera floats just above and behind your car, like a drone following you.",
+      "audio": "videos/tesla-fsd-reality-view/scene-06.mp3",
+      "words": [
+        {
+          "text": "Now",
+          "startMs": 77,
+          "endMs": 285
+        },
+        {
+          "text": "a",
+          "startMs": 373,
+          "endMs": 406
+        },
+        {
+          "text": "virtual",
+          "startMs": 406,
+          "endMs": 811
+        },
+        {
+          "text": "camera",
+          "startMs": 811,
+          "endMs": 1162
+        },
+        {
+          "text": "floats",
+          "startMs": 1162,
+          "endMs": 1612
+        },
+        {
+          "text": "just",
+          "startMs": 1722,
+          "endMs": 2007
+        },
+        {
+          "text": "above",
+          "startMs": 2018,
+          "endMs": 2379
+        },
+        {
+          "text": "and",
+          "startMs": 2511,
+          "endMs": 2577
+        },
+        {
+          "text": "behind",
+          "startMs": 2588,
+          "endMs": 2917
+        },
+        {
+          "text": "your",
+          "startMs": 2917,
+          "endMs": 2993
+        },
+        {
+          "text": "car",
+          "startMs": 2993,
+          "endMs": 3311
+        },
+        {
+          "text": "like",
+          "startMs": 3706,
+          "endMs": 3816
+        },
+        {
+          "text": "a",
+          "startMs": 3816,
+          "endMs": 3871
+        },
+        {
+          "text": "drone",
+          "startMs": 3871,
+          "endMs": 4397
+        },
+        {
+          "text": "following",
+          "startMs": 4408,
+          "endMs": 4868
+        },
+        {
+          "text": "you",
+          "startMs": 4868,
+          "endMs": 5088
+        }
+      ],
+      "durationMs": 5348
+    },
+    {
+      "type": "art",
+      "narration": "Elon Musk says there's no game engine behind it.",
+      "emphasis": [
+        "no"
+      ],
+      "props": {
+        "art": "no-engine"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Elon Musk says there's no game engine behind it.",
+      "audio": "videos/tesla-fsd-reality-view/scene-07.mp3",
+      "words": [
+        {
+          "text": "Elon",
+          "startMs": 77,
+          "endMs": 340
+        },
+        {
+          "text": "Musk",
+          "startMs": 340,
+          "endMs": 702
+        },
+        {
+          "text": "says",
+          "startMs": 822,
+          "endMs": 987
+        },
+        {
+          "text": "there's",
+          "startMs": 998,
+          "endMs": 1162
+        },
+        {
+          "text": "no",
+          "startMs": 1173,
+          "endMs": 1436
+        },
+        {
+          "text": "game",
+          "startMs": 1447,
+          "endMs": 1711
+        },
+        {
+          "text": "engine",
+          "startMs": 1711,
+          "endMs": 1908
+        },
+        {
+          "text": "behind",
+          "startMs": 1908,
+          "endMs": 2215
+        },
+        {
+          "text": "it",
+          "startMs": 2226,
+          "endMs": 2368
+        }
+      ],
+      "durationMs": 2628
+    },
+    {
+      "type": "art",
+      "narration": "It's real-time AI video generation, made fresh as you drive.",
+      "emphasis": [
+        "real-time"
+      ],
+      "props": {
+        "art": "frames"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It's real-time AI video generation, made fresh as you drive.",
+      "audio": "videos/tesla-fsd-reality-view/scene-08.mp3",
+      "words": [
+        {
+          "text": "It's",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "real-time",
+          "startMs": 208,
+          "endMs": 789
+        },
+        {
+          "text": "AI",
+          "startMs": 899,
+          "endMs": 1206
+        },
+        {
+          "text": "video",
+          "startMs": 1206,
+          "endMs": 1535
+        },
+        {
+          "text": "generation",
+          "startMs": 1546,
+          "endMs": 2105
+        },
+        {
+          "text": "made",
+          "startMs": 2467,
+          "endMs": 2643
+        },
+        {
+          "text": "fresh",
+          "startMs": 2643,
+          "endMs": 3202
+        },
+        {
+          "text": "as",
+          "startMs": 3322,
+          "endMs": 3432
+        },
+        {
+          "text": "you",
+          "startMs": 3443,
+          "endMs": 3487
+        },
+        {
+          "text": "drive",
+          "startMs": 3487,
+          "endMs": 3958
+        }
+      ],
+      "durationMs": 4218
+    },
+    {
+      "type": "art",
+      "narration": "And it runs on just half of one accelerator chip in the car's computer.",
+      "emphasis": [
+        "half"
+      ],
+      "props": {
+        "art": "chip"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And it runs on just half of one accelerator chip in the car's computer.",
+      "audio": "videos/tesla-fsd-reality-view/scene-09.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "it",
+          "startMs": 132,
+          "endMs": 241
+        },
+        {
+          "text": "runs",
+          "startMs": 241,
+          "endMs": 471
+        },
+        {
+          "text": "on",
+          "startMs": 472,
+          "endMs": 603
+        },
+        {
+          "text": "just",
+          "startMs": 603,
+          "endMs": 800
+        },
+        {
+          "text": "half",
+          "startMs": 800,
+          "endMs": 1184
+        },
+        {
+          "text": "of",
+          "startMs": 1195,
+          "endMs": 1283
+        },
+        {
+          "text": "one",
+          "startMs": 1283,
+          "endMs": 1557
+        },
+        {
+          "text": "accelerator",
+          "startMs": 1557,
+          "endMs": 2105
+        },
+        {
+          "text": "chip",
+          "startMs": 2116,
+          "endMs": 2445
+        },
+        {
+          "text": "in",
+          "startMs": 2566,
+          "endMs": 2632
+        },
+        {
+          "text": "the",
+          "startMs": 2632,
+          "endMs": 2697
+        },
+        {
+          "text": "car's",
+          "startMs": 2697,
+          "endMs": 2982
+        },
+        {
+          "text": "computer",
+          "startMs": 2993,
+          "endMs": 3465
+        }
+      ],
+      "durationMs": 3725
+    },
+    {
+      "type": "art",
+      "narration": "That's less computing power than Tesla's earliest self-driving visuals used.",
+      "emphasis": [
+        "less"
+      ],
+      "props": {
+        "art": "compute"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That's less computing power than Tesla's earliest self-driving visuals used.",
+      "audio": "videos/tesla-fsd-reality-view/scene-10.mp3",
+      "words": [
+        {
+          "text": "That's",
+          "startMs": 88,
+          "endMs": 230
+        },
+        {
+          "text": "less",
+          "startMs": 230,
+          "endMs": 428
+        },
+        {
+          "text": "computing",
+          "startMs": 428,
+          "endMs": 888
+        },
+        {
+          "text": "power",
+          "startMs": 888,
+          "endMs": 1316
+        },
+        {
+          "text": "than",
+          "startMs": 1327,
+          "endMs": 1458
+        },
+        {
+          "text": "Tesla's",
+          "startMs": 1458,
+          "endMs": 1952
+        },
+        {
+          "text": "earliest",
+          "startMs": 2007,
+          "endMs": 2522
+        },
+        {
+          "text": "self-driving",
+          "startMs": 2566,
+          "endMs": 3311
+        },
+        {
+          "text": "visuals",
+          "startMs": 3322,
+          "endMs": 3728
+        },
+        {
+          "text": "used",
+          "startMs": 3728,
+          "endMs": 4178
+        }
+      ],
+      "durationMs": 4438
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. It's not a camera feed.",
+      "emphasis": [
+        "camera"
+      ],
+      "props": {
+        "art": "not-camera"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. It's not a camera feed.",
+      "audio": "videos/tesla-fsd-reality-view/scene-11.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 154,
+          "endMs": 351
+        },
+        {
+          "text": "the",
+          "startMs": 362,
+          "endMs": 439
+        },
+        {
+          "text": "part",
+          "startMs": 450,
+          "endMs": 768
+        },
+        {
+          "text": "most",
+          "startMs": 778,
+          "endMs": 1064
+        },
+        {
+          "text": "people",
+          "startMs": 1064,
+          "endMs": 1316
+        },
+        {
+          "text": "miss",
+          "startMs": 1316,
+          "endMs": 1754
+        },
+        {
+          "text": "It's",
+          "startMs": 2116,
+          "endMs": 2193
+        },
+        {
+          "text": "not",
+          "startMs": 2193,
+          "endMs": 2314
+        },
+        {
+          "text": "a",
+          "startMs": 2314,
+          "endMs": 2357
+        },
+        {
+          "text": "camera",
+          "startMs": 2357,
+          "endMs": 2653
+        },
+        {
+          "text": "feed",
+          "startMs": 2654,
+          "endMs": 2982
+        }
+      ],
+      "durationMs": 3242
+    },
+    {
+      "type": "art",
+      "narration": "Reach a road sign and you can tell. It's generated, not stitched together from camera angles.",
+      "emphasis": [
+        "sign"
+      ],
+      "props": {
+        "art": "sign"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Reach a road sign and you can tell. It's generated, not stitched together from camera angles.",
+      "audio": "videos/tesla-fsd-reality-view/scene-12.mp3",
+      "words": [
+        {
+          "text": "Reach",
+          "startMs": 55,
+          "endMs": 197
+        },
+        {
+          "text": "a",
+          "startMs": 197,
+          "endMs": 241
+        },
+        {
+          "text": "road",
+          "startMs": 241,
+          "endMs": 504
+        },
+        {
+          "text": "sign",
+          "startMs": 504,
+          "endMs": 855
+        },
+        {
+          "text": "and",
+          "startMs": 976,
+          "endMs": 1053
+        },
+        {
+          "text": "you",
+          "startMs": 1053,
+          "endMs": 1140
+        },
+        {
+          "text": "can",
+          "startMs": 1140,
+          "endMs": 1228
+        },
+        {
+          "text": "tell",
+          "startMs": 1228,
+          "endMs": 1579
+        },
+        {
+          "text": "It's",
+          "startMs": 1941,
+          "endMs": 2039
+        },
+        {
+          "text": "generated",
+          "startMs": 2050,
+          "endMs": 2544
+        },
+        {
+          "text": "not",
+          "startMs": 2895,
+          "endMs": 3125
+        },
+        {
+          "text": "stitched",
+          "startMs": 3136,
+          "endMs": 3443
+        },
+        {
+          "text": "together",
+          "startMs": 3443,
+          "endMs": 3805
+        },
+        {
+          "text": "from",
+          "startMs": 3805,
+          "endMs": 3914
+        },
+        {
+          "text": "camera",
+          "startMs": 3925,
+          "endMs": 4189
+        },
+        {
+          "text": "angles",
+          "startMs": 4200,
+          "endMs": 4682
+        }
+      ],
+      "durationMs": 4942
+    },
+    {
+      "type": "art",
+      "narration": "Musk admits the lag is a bit high, and plans to cut about thirty five percent of it.",
+      "emphasis": [
+        "lag"
+      ],
+      "props": {
+        "art": "lag"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Musk admits the lag is a bit high, and plans to cut about thirty five percent of it.",
+      "audio": "videos/tesla-fsd-reality-view/scene-13.mp3",
+      "words": [
+        {
+          "text": "Musk",
+          "startMs": 77,
+          "endMs": 274
+        },
+        {
+          "text": "admits",
+          "startMs": 285,
+          "endMs": 581
+        },
+        {
+          "text": "the",
+          "startMs": 592,
+          "endMs": 680
+        },
+        {
+          "text": "lag",
+          "startMs": 680,
+          "endMs": 1042
+        },
+        {
+          "text": "is",
+          "startMs": 1053,
+          "endMs": 1140
+        },
+        {
+          "text": "a",
+          "startMs": 1151,
+          "endMs": 1195
+        },
+        {
+          "text": "bit",
+          "startMs": 1206,
+          "endMs": 1382
+        },
+        {
+          "text": "high",
+          "startMs": 1393,
+          "endMs": 1809
+        },
+        {
+          "text": "and",
+          "startMs": 2061,
+          "endMs": 2237
+        },
+        {
+          "text": "plans",
+          "startMs": 2237,
+          "endMs": 2566
+        },
+        {
+          "text": "to",
+          "startMs": 2566,
+          "endMs": 2643
+        },
+        {
+          "text": "cut",
+          "startMs": 2654,
+          "endMs": 2796
+        },
+        {
+          "text": "about",
+          "startMs": 2796,
+          "endMs": 3026
+        },
+        {
+          "text": "thirty",
+          "startMs": 3037,
+          "endMs": 3333
+        },
+        {
+          "text": "five",
+          "startMs": 3344,
+          "endMs": 3629
+        },
+        {
+          "text": "percent",
+          "startMs": 3629,
+          "endMs": 3991
+        },
+        {
+          "text": "of",
+          "startMs": 3991,
+          "endMs": 4068
+        },
+        {
+          "text": "it",
+          "startMs": 4079,
+          "endMs": 4243
+        }
+      ],
+      "durationMs": 4503
+    },
+    {
+      "type": "art",
+      "narration": "Early access testers have it now. Everyone else gets it in December, with the Holiday Update.",
+      "emphasis": [
+        "December"
+      ],
+      "props": {
+        "art": "rollout"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Early access testers have it now. Everyone else gets it in December, with the Holiday Update.",
+      "audio": "videos/tesla-fsd-reality-view/scene-14.mp3",
+      "words": [
+        {
+          "text": "Early",
+          "startMs": 88,
+          "endMs": 351
+        },
+        {
+          "text": "access",
+          "startMs": 351,
+          "endMs": 757
+        },
+        {
+          "text": "testers",
+          "startMs": 768,
+          "endMs": 1129
+        },
+        {
+          "text": "have",
+          "startMs": 1129,
+          "endMs": 1349
+        },
+        {
+          "text": "it",
+          "startMs": 1349,
+          "endMs": 1403
+        },
+        {
+          "text": "now",
+          "startMs": 1404,
+          "endMs": 1700
+        },
+        {
+          "text": "Everyone",
+          "startMs": 2050,
+          "endMs": 2357
+        },
+        {
+          "text": "else",
+          "startMs": 2357,
+          "endMs": 2599
+        },
+        {
+          "text": "gets",
+          "startMs": 2610,
+          "endMs": 2807
+        },
+        {
+          "text": "it",
+          "startMs": 2818,
+          "endMs": 2895
+        },
+        {
+          "text": "in",
+          "startMs": 2895,
+          "endMs": 2982
+        },
+        {
+          "text": "December",
+          "startMs": 2982,
+          "endMs": 3553
+        },
+        {
+          "text": "with",
+          "startMs": 3750,
+          "endMs": 3838
+        },
+        {
+          "text": "the",
+          "startMs": 3849,
+          "endMs": 3903
+        },
+        {
+          "text": "Holiday",
+          "startMs": 3904,
+          "endMs": 4276
+        },
+        {
+          "text": "Update",
+          "startMs": 4276,
+          "endMs": 4682
+        }
+      ],
+      "durationMs": 4942
+    },
+    {
+      "type": "art",
+      "narration": "So that GTA view isn't a recording of the road. It's an AI imagining it, live.",
+      "emphasis": [
+        "imagining"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So that GTA view isn't a recording of the road. It's an AI imagining it, live.",
+      "audio": "videos/tesla-fsd-reality-view/scene-15.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "that",
+          "startMs": 186,
+          "endMs": 351
+        },
+        {
+          "text": "GTA",
+          "startMs": 362,
+          "endMs": 998
+        },
+        {
+          "text": "view",
+          "startMs": 998,
+          "endMs": 1425
+        },
+        {
+          "text": "isn't",
+          "startMs": 1590,
+          "endMs": 1787
+        },
+        {
+          "text": "a",
+          "startMs": 1798,
+          "endMs": 1820
+        },
+        {
+          "text": "recording",
+          "startMs": 1831,
+          "endMs": 2314
+        },
+        {
+          "text": "of",
+          "startMs": 2325,
+          "endMs": 2390
+        },
+        {
+          "text": "the",
+          "startMs": 2390,
+          "endMs": 2434
+        },
+        {
+          "text": "road",
+          "startMs": 2445,
+          "endMs": 2807
+        },
+        {
+          "text": "It's",
+          "startMs": 3158,
+          "endMs": 3235
+        },
+        {
+          "text": "an",
+          "startMs": 3235,
+          "endMs": 3344
+        },
+        {
+          "text": "AI",
+          "startMs": 3355,
+          "endMs": 3860
+        },
+        {
+          "text": "imagining",
+          "startMs": 4013,
+          "endMs": 4572
+        },
+        {
+          "text": "it",
+          "startMs": 4572,
+          "endMs": 4660
+        },
+        {
+          "text": "live",
+          "startMs": 4671,
+          "endMs": 5077
+        }
+      ],
+      "durationMs": 5337
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who wants their car to feel like GTA.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to someone who wants a GTA car"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who wants their car to feel like GTA.",
+      "audio": "videos/tesla-fsd-reality-view/scene-16.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 493
+        },
+        {
+          "text": "and",
+          "startMs": 833,
+          "endMs": 954
+        },
+        {
+          "text": "send",
+          "startMs": 954,
+          "endMs": 1173
+        },
+        {
+          "text": "this",
+          "startMs": 1184,
+          "endMs": 1294
+        },
+        {
+          "text": "to",
+          "startMs": 1294,
+          "endMs": 1371
+        },
+        {
+          "text": "someone",
+          "startMs": 1371,
+          "endMs": 1623
+        },
+        {
+          "text": "who",
+          "startMs": 1623,
+          "endMs": 1700
+        },
+        {
+          "text": "wants",
+          "startMs": 1700,
+          "endMs": 1886
+        },
+        {
+          "text": "their",
+          "startMs": 1886,
+          "endMs": 2007
+        },
+        {
+          "text": "car",
+          "startMs": 2018,
+          "endMs": 2390
+        },
+        {
+          "text": "to",
+          "startMs": 2511,
+          "endMs": 2599
+        },
+        {
+          "text": "feel",
+          "startMs": 2599,
+          "endMs": 2818
+        },
+        {
+          "text": "like",
+          "startMs": 2818,
+          "endMs": 2972
+        },
+        {
+          "text": "GTA",
+          "startMs": 3037,
+          "endMs": 3706
+        }
+      ],
+      "durationMs": 3966
+    }
+  ]
+}

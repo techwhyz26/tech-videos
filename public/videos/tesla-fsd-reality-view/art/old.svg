@@ -1,0 +1,18 @@
+<defs>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a56"/><stop offset="1" stop-color="#1e1e25"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f8"/><stop offset="1" stop-color="#b9b9c6"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b24"/><stop offset="1" stop-color="#050507"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e5da"/></linearGradient>
+</defs><g transform="translate(100 110) scale(1)"><ellipse cx="400.0" cy="590" rx="256.0" ry="18" fill="#000" opacity="0.55" filter="url(#soft)"/>
+<path d="M350.0 510 L450.0 510 L480.0 580 L320.0 580 Z" fill="url(#metal)"/>
+<rect x="-16" y="-16" width="832" height="532" rx="24" fill="#0c0c10" stroke="#fff" stroke-opacity="0.3" stroke-width="4"/>
+<clipPath id="ec"><rect width="800" height="500" rx="9.600000000000001"/></clipPath>
+<g clip-path="url(#ec)">
+<rect width="800" height="500" fill="#14141b"/>
+<polygon points="376.0,210.0 424.0,210.0 1000.0,500 -200.0,500" fill="#24242d"/><line x1="376.0" y1="210.0" x2="-200.0" y2="500" stroke="#6a6a78" stroke-width="7.2"/><line x1="424.0" y1="210.0" x2="1000.0" y2="500" stroke="#6a6a78" stroke-width="7.2"/><line x1="392.0" y1="210.0" x2="160.0" y2="500" stroke="#7a7a88" stroke-width="5.6000000000000005" stroke-dasharray="32.0 40.0" opacity="0.85"><animate attributeName="stroke-dashoffset" from="0" to="-72.0" dur="0.35s" repeatCount="indefinite"/></line><line x1="408.0" y1="210.0" x2="640.0" y2="500" stroke="#7a7a88" stroke-width="5.6000000000000005" stroke-dasharray="32.0 40.0" opacity="0.85"><animate attributeName="stroke-dashoffset" from="0" to="-72.0" dur="0.35s" repeatCount="indefinite"/></line>
+<polygon points="390.4,260.0 409.6,260.0 536.0,430.0 264.0,430.0" fill="#5c6a96" opacity="0.4"/>
+<g transform="translate(448.0 310.0) scale(0.16000000000000003)"><g><animateTransform attributeName="transform" type="translate" values="0 0;-30 0;0 0" dur="4s" repeatCount="indefinite"/><rect x="-170" y="-60" width="50" height="60" rx="10" fill="#4a4a54"/><rect x="120" y="-60" width="50" height="60" rx="10" fill="#4a4a54"/><rect x="-180" y="-125" width="360" height="95" rx="30" fill="#8b8b96"/><path d="M-130 -122 L-95 -192 H95 L130 -122 Z" fill="#a2a2ac"/><path d="M-108 -128 L-82 -182 H82 L108 -128 Z" fill="#6a6a76"/></g></g><g transform="translate(400.0 492.5) scale(0.76)"><rect x="-170" y="-60" width="50" height="60" rx="10" fill="#4a4a54"/><rect x="120" y="-60" width="50" height="60" rx="10" fill="#4a4a54"/><rect x="-180" y="-125" width="360" height="95" rx="30" fill="#8b8b96"/><path d="M-130 -122 L-95 -192 H95 L130 -122 Z" fill="#a2a2ac"/><path d="M-108 -128 L-82 -182 H82 L108 -128 Z" fill="#6a6a76"/></g></g><rect x="18" y="18" width="128" height="86" rx="16" fill="#000" opacity="0.45"/><text x="82" y="70" font-size="48" font-weight="700" text-anchor="middle">38</text><text x="82" y="96" font-size="20" text-anchor="middle" opacity="0.8">MPH</text>
+<path d="M0 0 h224.00000000000003 l-128.0 500 h-96.0 z" fill="#fff" opacity="0.05"/></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.35s" fill="freeze"/><text x="500" y="860" font-size="50" text-anchor="middle" class="">Before: mostly colourless</text></g>
