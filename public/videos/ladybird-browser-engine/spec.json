@@ -1,0 +1,1309 @@
+{
+  "slug": "ladybird-browser-engine",
+  "title": "The first new browser engine in years just launched",
+  "theme": "crimson",
+  "caption": "Ladybird just entered alpha with a browser engine written from scratch. Most browsers you know run on one of three engines: Blink, WebKit or Gecko.\n\n#ladybird #browser #webdev #tech #opensource",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "Ladybird web browser enters alpha",
+    "link": "https://www.omgubuntu.co.uk/2026/11/ladybird-browser-enters-alpha"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "A new web browser just launched with something almost nobody builds anymore: its own engine.",
+      "emphasis": [
+        "own engine"
+      ],
+      "props": {
+        "art": "hook"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A new web browser just launched with something almost nobody builds anymore: its own engine.",
+      "audio": "videos/ladybird-browser-engine/scene-01.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 66,
+          "endMs": 99
+        },
+        {
+          "text": "new",
+          "startMs": 99,
+          "endMs": 318
+        },
+        {
+          "text": "web",
+          "startMs": 318,
+          "endMs": 537
+        },
+        {
+          "text": "browser",
+          "startMs": 537,
+          "endMs": 943
+        },
+        {
+          "text": "just",
+          "startMs": 1096,
+          "endMs": 1294
+        },
+        {
+          "text": "launched",
+          "startMs": 1305,
+          "endMs": 1743
+        },
+        {
+          "text": "with",
+          "startMs": 1754,
+          "endMs": 1864
+        },
+        {
+          "text": "something",
+          "startMs": 1864,
+          "endMs": 2204
+        },
+        {
+          "text": "almost",
+          "startMs": 2215,
+          "endMs": 2599
+        },
+        {
+          "text": "nobody",
+          "startMs": 2610,
+          "endMs": 3004
+        },
+        {
+          "text": "builds",
+          "startMs": 3004,
+          "endMs": 3333
+        },
+        {
+          "text": "anymore",
+          "startMs": 3333,
+          "endMs": 3750
+        },
+        {
+          "text": "its",
+          "startMs": 4134,
+          "endMs": 4232
+        },
+        {
+          "text": "own",
+          "startMs": 4320,
+          "endMs": 4518
+        },
+        {
+          "text": "engine",
+          "startMs": 4528,
+          "endMs": 4879
+        }
+      ],
+      "durationMs": 5139
+    },
+    {
+      "type": "art",
+      "narration": "So what is a browser engine, anyway?",
+      "emphasis": [
+        "engine"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So what is a browser engine, anyway?",
+      "audio": "videos/ladybird-browser-engine/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "what",
+          "startMs": 175,
+          "endMs": 274
+        },
+        {
+          "text": "is",
+          "startMs": 274,
+          "endMs": 351
+        },
+        {
+          "text": "a",
+          "startMs": 351,
+          "endMs": 406
+        },
+        {
+          "text": "browser",
+          "startMs": 417,
+          "endMs": 833
+        },
+        {
+          "text": "engine",
+          "startMs": 833,
+          "endMs": 1096
+        },
+        {
+          "text": "anyway",
+          "startMs": 1305,
+          "endMs": 1721
+        }
+      ],
+      "durationMs": 1981
+    },
+    {
+      "type": "art",
+      "narration": "It's the part that turns a page of code into the pixels you see.",
+      "emphasis": [
+        "code",
+        "pixels"
+      ],
+      "props": {
+        "art": "answer"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It's the part that turns a page of code into the pixels you see.",
+      "audio": "videos/ladybird-browser-engine/scene-03.mp3",
+      "words": [
+        {
+          "text": "It's",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "the",
+          "startMs": 186,
+          "endMs": 274
+        },
+        {
+          "text": "part",
+          "startMs": 285,
+          "endMs": 526
+        },
+        {
+          "text": "that",
+          "startMs": 526,
+          "endMs": 636
+        },
+        {
+          "text": "turns",
+          "startMs": 647,
+          "endMs": 844
+        },
+        {
+          "text": "a",
+          "startMs": 844,
+          "endMs": 899
+        },
+        {
+          "text": "page",
+          "startMs": 899,
+          "endMs": 1261
+        },
+        {
+          "text": "of",
+          "startMs": 1261,
+          "endMs": 1338
+        },
+        {
+          "text": "code",
+          "startMs": 1338,
+          "endMs": 1776
+        },
+        {
+          "text": "into",
+          "startMs": 1897,
+          "endMs": 2028
+        },
+        {
+          "text": "the",
+          "startMs": 2039,
+          "endMs": 2116
+        },
+        {
+          "text": "pixels",
+          "startMs": 2116,
+          "endMs": 2456
+        },
+        {
+          "text": "you",
+          "startMs": 2456,
+          "endMs": 2533
+        },
+        {
+          "text": "see",
+          "startMs": 2533,
+          "endMs": 2917
+        }
+      ],
+      "durationMs": 3177
+    },
+    {
+      "type": "art",
+      "narration": "The browser is called Ladybird, and after about four years, you can now test it on Mac and Linux.",
+      "emphasis": [
+        "Ladybird"
+      ],
+      "props": {
+        "art": "ladybird"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The browser is called Ladybird, and after about four years, you can now test it on Mac and Linux.",
+      "audio": "videos/ladybird-browser-engine/scene-04.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "browser",
+          "startMs": 164,
+          "endMs": 548
+        },
+        {
+          "text": "is",
+          "startMs": 548,
+          "endMs": 636
+        },
+        {
+          "text": "called",
+          "startMs": 636,
+          "endMs": 965
+        },
+        {
+          "text": "Ladybird",
+          "startMs": 976,
+          "endMs": 1469
+        },
+        {
+          "text": "and",
+          "startMs": 1853,
+          "endMs": 2039
+        },
+        {
+          "text": "after",
+          "startMs": 2193,
+          "endMs": 2434
+        },
+        {
+          "text": "about",
+          "startMs": 2434,
+          "endMs": 2643
+        },
+        {
+          "text": "four",
+          "startMs": 2643,
+          "endMs": 2961
+        },
+        {
+          "text": "years",
+          "startMs": 2961,
+          "endMs": 3388
+        },
+        {
+          "text": "you",
+          "startMs": 3596,
+          "endMs": 3684
+        },
+        {
+          "text": "can",
+          "startMs": 3684,
+          "endMs": 3772
+        },
+        {
+          "text": "now",
+          "startMs": 3783,
+          "endMs": 3936
+        },
+        {
+          "text": "test",
+          "startMs": 3936,
+          "endMs": 4221
+        },
+        {
+          "text": "it",
+          "startMs": 4222,
+          "endMs": 4265
+        },
+        {
+          "text": "on",
+          "startMs": 4265,
+          "endMs": 4386
+        },
+        {
+          "text": "Mac",
+          "startMs": 4386,
+          "endMs": 4649
+        },
+        {
+          "text": "and",
+          "startMs": 4660,
+          "endMs": 4737
+        },
+        {
+          "text": "Linux",
+          "startMs": 4737,
+          "endMs": 5186
+        }
+      ],
+      "durationMs": 5446
+    },
+    {
+      "type": "art",
+      "narration": "Every website arrives as plain text: HTML for the content, CSS for the look.",
+      "emphasis": [
+        "plain text"
+      ],
+      "props": {
+        "art": "text"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Every website arrives as plain text: HTML for the content, CSS for the look.",
+      "audio": "videos/ladybird-browser-engine/scene-05.mp3",
+      "words": [
+        {
+          "text": "Every",
+          "startMs": 77,
+          "endMs": 274
+        },
+        {
+          "text": "website",
+          "startMs": 285,
+          "endMs": 778
+        },
+        {
+          "text": "arrives",
+          "startMs": 789,
+          "endMs": 1338
+        },
+        {
+          "text": "as",
+          "startMs": 1535,
+          "endMs": 1634
+        },
+        {
+          "text": "plain",
+          "startMs": 1645,
+          "endMs": 1941
+        },
+        {
+          "text": "text",
+          "startMs": 1941,
+          "endMs": 2379
+        },
+        {
+          "text": "HTML",
+          "startMs": 2906,
+          "endMs": 3399
+        },
+        {
+          "text": "for",
+          "startMs": 3399,
+          "endMs": 3465
+        },
+        {
+          "text": "the",
+          "startMs": 3465,
+          "endMs": 3531
+        },
+        {
+          "text": "content",
+          "startMs": 3531,
+          "endMs": 4002
+        },
+        {
+          "text": "CSS",
+          "startMs": 4320,
+          "endMs": 4967
+        },
+        {
+          "text": "for",
+          "startMs": 4978,
+          "endMs": 5044
+        },
+        {
+          "text": "the",
+          "startMs": 5044,
+          "endMs": 5121
+        },
+        {
+          "text": "look",
+          "startMs": 5132,
+          "endMs": 5406
+        }
+      ],
+      "durationMs": 5666
+    },
+    {
+      "type": "art",
+      "narration": "The engine reads it and builds a tree of every heading, picture and button.",
+      "emphasis": [
+        "tree"
+      ],
+      "props": {
+        "art": "tree"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The engine reads it and builds a tree of every heading, picture and button.",
+      "audio": "videos/ladybird-browser-engine/scene-06.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "engine",
+          "startMs": 175,
+          "endMs": 548
+        },
+        {
+          "text": "reads",
+          "startMs": 559,
+          "endMs": 822
+        },
+        {
+          "text": "it",
+          "startMs": 822,
+          "endMs": 965
+        },
+        {
+          "text": "and",
+          "startMs": 998,
+          "endMs": 1096
+        },
+        {
+          "text": "builds",
+          "startMs": 1107,
+          "endMs": 1349
+        },
+        {
+          "text": "a",
+          "startMs": 1360,
+          "endMs": 1404
+        },
+        {
+          "text": "tree",
+          "startMs": 1414,
+          "endMs": 1875
+        },
+        {
+          "text": "of",
+          "startMs": 1941,
+          "endMs": 2061
+        },
+        {
+          "text": "every",
+          "startMs": 2204,
+          "endMs": 2467
+        },
+        {
+          "text": "heading",
+          "startMs": 2467,
+          "endMs": 2829
+        },
+        {
+          "text": "picture",
+          "startMs": 3169,
+          "endMs": 3629
+        },
+        {
+          "text": "and",
+          "startMs": 3640,
+          "endMs": 3717
+        },
+        {
+          "text": "button",
+          "startMs": 3717,
+          "endMs": 4035
+        }
+      ],
+      "durationMs": 4295
+    },
+    {
+      "type": "art",
+      "narration": "Then it works out the size and position of every single box.",
+      "emphasis": [
+        "every single box"
+      ],
+      "props": {
+        "art": "layout"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then it works out the size and position of every single box.",
+      "audio": "videos/ladybird-browser-engine/scene-07.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "it",
+          "startMs": 164,
+          "endMs": 219
+        },
+        {
+          "text": "works",
+          "startMs": 219,
+          "endMs": 439
+        },
+        {
+          "text": "out",
+          "startMs": 439,
+          "endMs": 570
+        },
+        {
+          "text": "the",
+          "startMs": 581,
+          "endMs": 647
+        },
+        {
+          "text": "size",
+          "startMs": 647,
+          "endMs": 1031
+        },
+        {
+          "text": "and",
+          "startMs": 1031,
+          "endMs": 1096
+        },
+        {
+          "text": "position",
+          "startMs": 1107,
+          "endMs": 1634
+        },
+        {
+          "text": "of",
+          "startMs": 1645,
+          "endMs": 1776
+        },
+        {
+          "text": "every",
+          "startMs": 1897,
+          "endMs": 2116
+        },
+        {
+          "text": "single",
+          "startMs": 2116,
+          "endMs": 2357
+        },
+        {
+          "text": "box",
+          "startMs": 2357,
+          "endMs": 2851
+        }
+      ],
+      "durationMs": 3111
+    },
+    {
+      "type": "art",
+      "narration": "Then it paints the pixels, and runs the JavaScript that makes things move.",
+      "emphasis": [
+        "paints",
+        "JavaScript"
+      ],
+      "props": {
+        "art": "paint"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then it paints the pixels, and runs the JavaScript that makes things move.",
+      "audio": "videos/ladybird-browser-engine/scene-08.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 77,
+          "endMs": 132
+        },
+        {
+          "text": "it",
+          "startMs": 132,
+          "endMs": 208
+        },
+        {
+          "text": "paints",
+          "startMs": 208,
+          "endMs": 428
+        },
+        {
+          "text": "the",
+          "startMs": 428,
+          "endMs": 526
+        },
+        {
+          "text": "pixels",
+          "startMs": 537,
+          "endMs": 1151
+        },
+        {
+          "text": "and",
+          "startMs": 1360,
+          "endMs": 1524
+        },
+        {
+          "text": "runs",
+          "startMs": 1535,
+          "endMs": 1820
+        },
+        {
+          "text": "the",
+          "startMs": 1831,
+          "endMs": 1908
+        },
+        {
+          "text": "JavaScript",
+          "startMs": 1919,
+          "endMs": 2599
+        },
+        {
+          "text": "that",
+          "startMs": 2708,
+          "endMs": 2829
+        },
+        {
+          "text": "makes",
+          "startMs": 2840,
+          "endMs": 3070
+        },
+        {
+          "text": "things",
+          "startMs": 3081,
+          "endMs": 3344
+        },
+        {
+          "text": "move",
+          "startMs": 3355,
+          "endMs": 3794
+        }
+      ],
+      "durationMs": 4054
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. Chrome, Edge, Brave and Vivaldi all run on the same engine, Blink.",
+      "emphasis": [
+        "same engine"
+      ],
+      "props": {
+        "art": "blink"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. Chrome, Edge, Brave and Vivaldi all run on the same engine, Blink.",
+      "audio": "videos/ladybird-browser-engine/scene-09.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 143,
+          "endMs": 340
+        },
+        {
+          "text": "the",
+          "startMs": 351,
+          "endMs": 428
+        },
+        {
+          "text": "part",
+          "startMs": 428,
+          "endMs": 680
+        },
+        {
+          "text": "most",
+          "startMs": 680,
+          "endMs": 965
+        },
+        {
+          "text": "people",
+          "startMs": 976,
+          "endMs": 1217
+        },
+        {
+          "text": "miss",
+          "startMs": 1228,
+          "endMs": 1667
+        },
+        {
+          "text": "Chrome",
+          "startMs": 2018,
+          "endMs": 2390
+        },
+        {
+          "text": "Edge",
+          "startMs": 2752,
+          "endMs": 3224
+        },
+        {
+          "text": "Brave",
+          "startMs": 3366,
+          "endMs": 3827
+        },
+        {
+          "text": "and",
+          "startMs": 3947,
+          "endMs": 3991
+        },
+        {
+          "text": "Vivaldi",
+          "startMs": 3991,
+          "endMs": 4408
+        },
+        {
+          "text": "all",
+          "startMs": 4419,
+          "endMs": 4693
+        },
+        {
+          "text": "run",
+          "startMs": 4704,
+          "endMs": 4978
+        },
+        {
+          "text": "on",
+          "startMs": 4978,
+          "endMs": 5044
+        },
+        {
+          "text": "the",
+          "startMs": 5044,
+          "endMs": 5099
+        },
+        {
+          "text": "same",
+          "startMs": 5110,
+          "endMs": 5417
+        },
+        {
+          "text": "engine",
+          "startMs": 5417,
+          "endMs": 5691
+        },
+        {
+          "text": "Blink",
+          "startMs": 5866,
+          "endMs": 6294
+        }
+      ],
+      "durationMs": 6554
+    },
+    {
+      "type": "art",
+      "narration": "Safari runs on WebKit, and Firefox runs on Gecko.",
+      "emphasis": [
+        "WebKit",
+        "Gecko"
+      ],
+      "props": {
+        "art": "others"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Safari runs on WebKit, and Firefox runs on Gecko.",
+      "audio": "videos/ladybird-browser-engine/scene-10.mp3",
+      "words": [
+        {
+          "text": "Safari",
+          "startMs": 88,
+          "endMs": 482
+        },
+        {
+          "text": "runs",
+          "startMs": 482,
+          "endMs": 691
+        },
+        {
+          "text": "on",
+          "startMs": 691,
+          "endMs": 822
+        },
+        {
+          "text": "WebKit",
+          "startMs": 833,
+          "endMs": 1250
+        },
+        {
+          "text": "and",
+          "startMs": 1612,
+          "endMs": 1678
+        },
+        {
+          "text": "Firefox",
+          "startMs": 1689,
+          "endMs": 2303
+        },
+        {
+          "text": "runs",
+          "startMs": 2314,
+          "endMs": 2610
+        },
+        {
+          "text": "on",
+          "startMs": 2610,
+          "endMs": 2708
+        },
+        {
+          "text": "Gecko",
+          "startMs": 2719,
+          "endMs": 3147
+        }
+      ],
+      "durationMs": 3407
+    },
+    {
+      "type": "art",
+      "narration": "Ladybird copied none of them. Its HTML, CSS, layout and JavaScript are all written from scratch.",
+      "emphasis": [
+        "from scratch"
+      ],
+      "props": {
+        "art": "scratch"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Ladybird copied none of them. Its HTML, CSS, layout and JavaScript are all written from scratch.",
+      "audio": "videos/ladybird-browser-engine/scene-11.mp3",
+      "words": [
+        {
+          "text": "Ladybird",
+          "startMs": 77,
+          "endMs": 548
+        },
+        {
+          "text": "copied",
+          "startMs": 559,
+          "endMs": 954
+        },
+        {
+          "text": "none",
+          "startMs": 965,
+          "endMs": 1140
+        },
+        {
+          "text": "of",
+          "startMs": 1140,
+          "endMs": 1195
+        },
+        {
+          "text": "them",
+          "startMs": 1206,
+          "endMs": 1382
+        },
+        {
+          "text": "Its",
+          "startMs": 1743,
+          "endMs": 1842
+        },
+        {
+          "text": "HTML",
+          "startMs": 1853,
+          "endMs": 2500
+        },
+        {
+          "text": "CSS",
+          "startMs": 2719,
+          "endMs": 3553
+        },
+        {
+          "text": "layout",
+          "startMs": 3783,
+          "endMs": 4200
+        },
+        {
+          "text": "and",
+          "startMs": 4200,
+          "endMs": 4254
+        },
+        {
+          "text": "JavaScript",
+          "startMs": 4265,
+          "endMs": 4890
+        },
+        {
+          "text": "are",
+          "startMs": 5175,
+          "endMs": 5351
+        },
+        {
+          "text": "all",
+          "startMs": 5351,
+          "endMs": 5570
+        },
+        {
+          "text": "written",
+          "startMs": 5570,
+          "endMs": 5768
+        },
+        {
+          "text": "from",
+          "startMs": 5768,
+          "endMs": 5877
+        },
+        {
+          "text": "scratch",
+          "startMs": 5877,
+          "endMs": 6425
+        }
+      ],
+      "durationMs": 6685
+    },
+    {
+      "type": "art",
+      "narration": "It's paid for by donations and sponsors, not search deals.",
+      "emphasis": [
+        "donations"
+      ],
+      "props": {
+        "art": "donations"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It's paid for by donations and sponsors, not search deals.",
+      "audio": "videos/ladybird-browser-engine/scene-12.mp3",
+      "words": [
+        {
+          "text": "It's",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "paid",
+          "startMs": 164,
+          "endMs": 384
+        },
+        {
+          "text": "for",
+          "startMs": 395,
+          "endMs": 493
+        },
+        {
+          "text": "by",
+          "startMs": 493,
+          "endMs": 592
+        },
+        {
+          "text": "donations",
+          "startMs": 603,
+          "endMs": 1162
+        },
+        {
+          "text": "and",
+          "startMs": 1173,
+          "endMs": 1250
+        },
+        {
+          "text": "sponsors",
+          "startMs": 1250,
+          "endMs": 1919
+        },
+        {
+          "text": "not",
+          "startMs": 2215,
+          "endMs": 2434
+        },
+        {
+          "text": "search",
+          "startMs": 2434,
+          "endMs": 2763
+        },
+        {
+          "text": "deals",
+          "startMs": 2763,
+          "endMs": 3213
+        }
+      ],
+      "durationMs": 3473
+    },
+    {
+      "type": "art",
+      "narration": "It's still rough. Some sites break, it can crash, and there are no security promises yet.",
+      "emphasis": [
+        "crash"
+      ],
+      "props": {
+        "art": "rough"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It's still rough. Some sites break, it can crash, and there are no security promises yet.",
+      "audio": "videos/ladybird-browser-engine/scene-13.mp3",
+      "words": [
+        {
+          "text": "It's",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "still",
+          "startMs": 175,
+          "endMs": 417
+        },
+        {
+          "text": "rough",
+          "startMs": 417,
+          "endMs": 757
+        },
+        {
+          "text": "Some",
+          "startMs": 1118,
+          "endMs": 1305
+        },
+        {
+          "text": "sites",
+          "startMs": 1305,
+          "endMs": 1656
+        },
+        {
+          "text": "break",
+          "startMs": 1656,
+          "endMs": 2116
+        },
+        {
+          "text": "it",
+          "startMs": 2325,
+          "endMs": 2390
+        },
+        {
+          "text": "can",
+          "startMs": 2390,
+          "endMs": 2500
+        },
+        {
+          "text": "crash",
+          "startMs": 2511,
+          "endMs": 3213
+        },
+        {
+          "text": "and",
+          "startMs": 3410,
+          "endMs": 3476
+        },
+        {
+          "text": "there",
+          "startMs": 3476,
+          "endMs": 3564
+        },
+        {
+          "text": "are",
+          "startMs": 3575,
+          "endMs": 3629
+        },
+        {
+          "text": "no",
+          "startMs": 3629,
+          "endMs": 3794
+        },
+        {
+          "text": "security",
+          "startMs": 3805,
+          "endMs": 4254
+        },
+        {
+          "text": "promises",
+          "startMs": 4254,
+          "endMs": 4715
+        },
+        {
+          "text": "yet",
+          "startMs": 4726,
+          "endMs": 5055
+        }
+      ],
+      "durationMs": 5315
+    },
+    {
+      "type": "art",
+      "narration": "So your browser is mostly a frame. The engine inside does the real work, and now there's a brand new one.",
+      "emphasis": [
+        "engine",
+        "brand new"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So your browser is mostly a frame. The engine inside does the real work, and now there's a brand new one.",
+      "audio": "videos/ladybird-browser-engine/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "your",
+          "startMs": 186,
+          "endMs": 274
+        },
+        {
+          "text": "browser",
+          "startMs": 274,
+          "endMs": 724
+        },
+        {
+          "text": "is",
+          "startMs": 735,
+          "endMs": 888
+        },
+        {
+          "text": "mostly",
+          "startMs": 888,
+          "endMs": 1360
+        },
+        {
+          "text": "a",
+          "startMs": 1360,
+          "endMs": 1393
+        },
+        {
+          "text": "frame",
+          "startMs": 1404,
+          "endMs": 1809
+        },
+        {
+          "text": "The",
+          "startMs": 2171,
+          "endMs": 2215
+        },
+        {
+          "text": "engine",
+          "startMs": 2226,
+          "endMs": 2478
+        },
+        {
+          "text": "inside",
+          "startMs": 2489,
+          "endMs": 3081
+        },
+        {
+          "text": "does",
+          "startMs": 3289,
+          "endMs": 3443
+        },
+        {
+          "text": "the",
+          "startMs": 3443,
+          "endMs": 3531
+        },
+        {
+          "text": "real",
+          "startMs": 3531,
+          "endMs": 3893
+        },
+        {
+          "text": "work",
+          "startMs": 3893,
+          "endMs": 4232
+        },
+        {
+          "text": "and",
+          "startMs": 4561,
+          "endMs": 4693
+        },
+        {
+          "text": "now",
+          "startMs": 4704,
+          "endMs": 5011
+        },
+        {
+          "text": "there's",
+          "startMs": 5121,
+          "endMs": 5252
+        },
+        {
+          "text": "a",
+          "startMs": 5252,
+          "endMs": 5296
+        },
+        {
+          "text": "brand",
+          "startMs": 5296,
+          "endMs": 5559
+        },
+        {
+          "text": "new",
+          "startMs": 5559,
+          "endMs": 5680
+        },
+        {
+          "text": "one",
+          "startMs": 5691,
+          "endMs": 5954
+        }
+      ],
+      "durationMs": 6214
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who thinks Chrome and Edge are rivals.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the Chrome vs Edge friend"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who thinks Chrome and Edge are rivals.",
+      "audio": "videos/ladybird-browser-engine/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 504
+        },
+        {
+          "text": "and",
+          "startMs": 844,
+          "endMs": 965
+        },
+        {
+          "text": "send",
+          "startMs": 965,
+          "endMs": 1217
+        },
+        {
+          "text": "this",
+          "startMs": 1217,
+          "endMs": 1371
+        },
+        {
+          "text": "to",
+          "startMs": 1371,
+          "endMs": 1447
+        },
+        {
+          "text": "someone",
+          "startMs": 1458,
+          "endMs": 1721
+        },
+        {
+          "text": "who",
+          "startMs": 1722,
+          "endMs": 1820
+        },
+        {
+          "text": "thinks",
+          "startMs": 1820,
+          "endMs": 2050
+        },
+        {
+          "text": "Chrome",
+          "startMs": 2061,
+          "endMs": 2456
+        },
+        {
+          "text": "and",
+          "startMs": 2599,
+          "endMs": 2719
+        },
+        {
+          "text": "Edge",
+          "startMs": 2763,
+          "endMs": 3191
+        },
+        {
+          "text": "are",
+          "startMs": 3289,
+          "endMs": 3410
+        },
+        {
+          "text": "rivals",
+          "startMs": 3410,
+          "endMs": 3958
+        }
+      ],
+      "durationMs": 4218
+    }
+  ]
+}
