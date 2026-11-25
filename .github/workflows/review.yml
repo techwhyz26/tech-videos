@@ -4,6 +4,7 @@ name: Post approved videos
 on:
   schedule:
     - cron: "17 */2 * * *"   # every two hours, at 17 minutes past
+    - cron: "3 22,23 * * *"  # just after the 6 pm New York posting slot (summer and winter time)
   workflow_dispatch:
     inputs:
       slug:
@@ -33,6 +34,7 @@ jobs:
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
       UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
       UPLOAD_POST_API_KEY_2: ${{ secrets.UPLOAD_POST_API_KEY_2 }}
       UPLOAD_POST_API_KEY_3: ${{ secrets.UPLOAD_POST_API_KEY_3 }}

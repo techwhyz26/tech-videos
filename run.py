@@ -163,19 +163,21 @@ def _fetch_video(slug: str) -> Path:
 
 def _posted_text(spec: dict, results: dict) -> str:
     """The Telegram reply after posting: says plainly whether it is live, scheduled (and when) or failed."""
-    if spec.get("scheduled_for") and set(results.values()) == {"scheduled"}:
+    lines = []
+    if spec.get("scheduled_for") and any(u in ("scheduled", "queued") for u in results.values()):
         when = datetime.datetime.fromisoformat(spec["scheduled_for"])
         sched = common.config()["automation"]["schedule"]
         times = [f"{when.astimezone(ZoneInfo(tz)):%a %d %b, %H:%M} {label}"
                  for tz, label in ((sched.get("timezone", "UTC"), "New York time"
                                     if sched.get("timezone") == "America/New_York" else sched.get("timezone", "UTC")),
                                    (sched.get("your_timezone"), "your time")) if tz]
-        return (f"🕒 Scheduled, not live yet: {', '.join(results)}\nGoes live " + "\n= ".join(times))
-    lines = []
+        if set(results.values()) <= {"scheduled", "queued"}:
+            return f"🕒 Scheduled, not live yet: {', '.join(results)}\nGoes live " + "\n= ".join(times)
+        lines.append("Goes live " + "\n= ".join(times))
     for p, u in results.items():
         if str(u).startswith("FAILED"):
             lines.append(f"❌ {p}: {u[8:] or 'failed'}")
-        elif u == "scheduled":
+        elif u in ("scheduled", "queued"):
             lines.append(f"🕒 {p}: scheduled")
         else:
             lines.append(f"✅ {p}: live {u}")
@@ -227,6 +229,21 @@ def cmd_review(_: argparse.Namespace) -> None:
             print(f"  failed: {err}")
             notify.send_message(f"Could not post {slug}: {err}\nTap ✅ again to retry.",
                                 reply_to=tap["message_id"])
+    _post_due()
+
+
+def _post_due() -> None:
+    """Publish queued Instagram posts whose time slot has come, and say so in Telegram."""
+    if not os.environ.get("INSTAGRAM_TOKEN"):
+        return
+    for spec, result in publisher.post_due():
+        print(f"instagram {spec['slug']}: {result}")
+        icon = "❌ Instagram could not post" if result.startswith("FAILED") else "✅ Now live on Instagram"
+        notify.send_message(f"{icon}: {spec['title']}\n{result}")
+
+
+def cmd_post_due(_: argparse.Namespace) -> None:
+    _post_due()
 
 
 def cmd_send_review(args: argparse.Namespace) -> None:
@@ -316,6 +333,7 @@ def main() -> None:
     post.add_argument("--now", action="store_true", help="post straight away instead of at the next slot")
     post.add_argument("--only", help="comma-separated platforms, e.g. youtube, to retry one that failed")
     post.set_defaults(fn=cmd_post)
+    sub.add_parser("post-due", help="publish queued Instagram posts whose time has come").set_defaults(fn=cmd_post_due)
     send = sub.add_parser("send-review", help="send a rendered video to Telegram for review")
     send.add_argument("slug")
     send.set_defaults(fn=cmd_send_review)

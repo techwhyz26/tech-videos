@@ -1,6 +1,7 @@
 """Step 5 - publish an approved video.
 
-Posting goes through Upload-Post (https://www.upload-post.com), one API that posts to Instagram,
+Instagram can go straight through Meta's API (pipeline/instagram.py, automation.instagram_direct).
+Everything else goes through Upload-Post (https://www.upload-post.com), one API that posts to Instagram,
 TikTok, YouTube, Facebook and more from the accounts you connect on their website. It needs:
   UPLOAD_POST_API_KEY            environment variable (GitHub secret in the cloud)
   config.json -> automation.upload_post_user   the profile name you created on Upload-Post
@@ -20,6 +21,7 @@ from zoneinfo import ZoneInfo
 
 import httpx
 
+from . import instagram
 from .common import OUTPUT, all_specs, config, save_spec
 
 UPLOAD_URL = "https://api.upload-post.com/api/upload"
@@ -129,10 +131,23 @@ def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = N
     return results
 
 
+def video_url(slug: str) -> str:
+    """Public link to the rendered video: the GitHub release asset (the repository must be public)."""
+    repo = os.environ.get("GITHUB_REPOSITORY") or config().get("automation", {}).get("repo", "techwhyz26/tech-videos")
+    return f"https://github.com/{repo}/releases/download/video-{slug}/{slug}.mp4"
+
+
+def _direct_instagram() -> bool:
+    return bool(config().get("automation", {}).get("instagram_direct")) and bool(os.environ.get("INSTAGRAM_TOKEN"))
+
+
 def publish(spec: dict, video: Path | None = None, now: bool = False,
             only: list[str] | None = None) -> dict[str, str]:
     """Post an approved video. It goes into the next free slot of the posting schedule unless `now`.
-    `only` limits it to some platforms, e.g. to retry one that failed; earlier results are kept."""
+    `only` limits it to some platforms, e.g. to retry one that failed; earlier results are kept.
+
+    Instagram goes straight through Meta's API when automation.instagram_direct is on: it is queued for
+    the slot and `post_due()` publishes it then. Other platforms go through Upload-Post."""
     if spec.get("status") not in ("approved", "published"):
         raise SystemExit(
             f"'{spec['slug']}' is not approved yet. Watch output/{spec['slug']}.mp4, "
@@ -142,8 +157,11 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
     if not video.exists():
         raise SystemExit(f"{video} does not exist. Render it first with `python run.py build {spec['slug']}`.")
 
+    platforms = only or config().get("automation", {}).get("platforms") or []
+    direct = [p for p in platforms if p == "instagram" and _direct_instagram()]
+    via_upload_post = [p for p in platforms if p not in direct]
     keys = _keys()
-    if not keys:
+    if not keys and not direct:
         ready = OUTPUT / "ready"
         ready.mkdir(parents=True, exist_ok=True)
         shutil.copy2(video, ready / video.name)
@@ -151,15 +169,26 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
         return {"manual": str(ready / video.name)}
 
     when = None if now else next_slot()
-    for number, key in enumerate(keys, 1):  # use the accounts in turn; move on when one is used up
-        try:
-            results = _upload_post(video, spec, key, when, only)
-            break
-        except LimitReached as err:
-            print(f"  Upload-Post account {number} is used up for this month: {err}")
-    else:
-        raise RuntimeError(f"All {len(keys)} Upload-Post accounts have used up their uploads for this month.")
-    spec["account"] = number
+    results: dict[str, str] = {}
+    if direct:
+        if when:
+            results["instagram"] = "queued"
+        else:
+            try:
+                results["instagram"] = instagram.publish_reel(video_url(spec["slug"]), spec.get("caption", spec["title"]))
+            except instagram.InstagramError as err:
+                results["instagram"] = f"FAILED: {err}"
+    if via_upload_post:
+        for number, key in enumerate(keys, 1):  # use the accounts in turn; move on when one is used up
+            try:
+                results.update(_upload_post(video, spec, key, when, via_upload_post))
+                spec["account"] = number
+                break
+            except LimitReached as err:
+                print(f"  Upload-Post account {number} is used up for this month: {err}")
+        else:
+            reason = "Upload-Post's monthly uploads are used up" if keys else "no Upload-Post key"
+            results.update({p: f"FAILED: {reason}" for p in via_upload_post})
     if results and all(str(v).startswith("FAILED") for v in results.values()):
         raise RuntimeError("Every platform failed: " + "; ".join(f"{p}: {v}" for p, v in results.items()))
     spec["status"] = "published"
@@ -168,3 +197,24 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
         spec["scheduled_for"] = when.isoformat()
     save_spec(spec)
     return results
+
+
+def post_due(now: dt.datetime | None = None) -> list[tuple[dict, str]]:
+    """Publish queued Instagram posts whose time has come. Returns [(spec, result)]."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    done = []
+    for spec in all_specs():
+        posts = spec.get("posts") or {}
+        if posts.get("instagram") != "queued" or not spec.get("scheduled_for"):
+            continue
+        if dt.datetime.fromisoformat(spec["scheduled_for"]) > now:
+            continue
+        try:
+            result = instagram.publish_reel(video_url(spec["slug"]), spec.get("caption", spec["title"]))
+        except instagram.InstagramError as err:
+            result = f"FAILED: {err}"
+        posts["instagram"] = result
+        spec["posts"] = posts
+        save_spec(spec)
+        done.append((spec, result))
+    return done

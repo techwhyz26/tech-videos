@@ -5,6 +5,7 @@
   "automation": {
     "upload_post_user": "default",
     "platforms": ["instagram", "youtube"],
+    "instagram_direct": true,
     "schedule": {"timezone": "America/New_York", "times": ["18:00"], "days_between": 1,
                  "your_timezone": "Asia/Colombo"}
   },
