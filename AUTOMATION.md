@@ -69,6 +69,10 @@ in this folder; they go only into GitHub's encrypted **Secrets**.
    gh secret set TELEGRAM_CHAT_ID
    ```
    (Or on github.com: repository -> Settings -> Secrets and variables -> Actions -> New repository secret.)
+4. Optional, more uploads: each free Upload-Post account allows 10 uploads a month, and each platform
+   counts as one upload. Extra accounts go in `UPLOAD_POST_API_KEY_2` to `UPLOAD_POST_API_KEY_5`. Give each
+   account a profile named `default` with Instagram and YouTube connected. When one account is used up,
+   posting moves on to the next. The "Check Upload-Post" workflow lists every account.
 
 ### 5. First test
 1. Both workflows start paused. Turn them on:

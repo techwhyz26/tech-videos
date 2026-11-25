@@ -13,6 +13,10 @@ jobs:
     timeout-minutes: 5
     env:
       UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+      UPLOAD_POST_API_KEY_2: ${{ secrets.UPLOAD_POST_API_KEY_2 }}
+      UPLOAD_POST_API_KEY_3: ${{ secrets.UPLOAD_POST_API_KEY_3 }}
+      UPLOAD_POST_API_KEY_4: ${{ secrets.UPLOAD_POST_API_KEY_4 }}
+      UPLOAD_POST_API_KEY_5: ${{ secrets.UPLOAD_POST_API_KEY_5 }}
     steps:
       - uses: actions/setup-python@v5
         with:
@@ -21,32 +25,35 @@ jobs:
       - name: List profiles and connected accounts
         run: |
           python - <<'EOF'
-          import os, sys, httpx
-          r = httpx.get("https://api.upload-post.com/api/uploadposts/users",
-                        headers={"Authorization": f"Apikey {os.environ['UPLOAD_POST_API_KEY'].strip().lstrip(chr(0xfeff))}"}, timeout=30)
-          if r.status_code != 200:
-              sys.exit(f"Upload-Post refused the key: HTTP {r.status_code} {r.text[:200]}")
-          body = r.json()
-          print(f"Plan: {body.get('plan')}  monthly limit: {body.get('limit')}")
-          for p in body.get("profiles", []):
-              print(f"\nProfile '{p.get('username')}':")
-              for platform, acc in (p.get("social_accounts") or {}).items():
-                  if isinstance(acc, dict):
-                      flag = "  (needs reconnecting)" if acc.get("reauth_required") else ""
-                      print(f"  connected  {platform:10} {acc.get('handle') or acc.get('display_name')}{flag}")
-                  else:
-                      print(f"  not connected  {platform}")
-
-          h = httpx.get("https://api.upload-post.com/api/uploadposts/history", headers=r.request.headers,
-                        params={"limit": 20}, timeout=30).json()
-          print(); print("Recent uploads:")
-          for item in h.get("history", []):
-              print(f"  {item.get('upload_timestamp')}  {item.get('platform'):10} "
-                    f"{'ok    ' if item.get('success') else 'FAILED'}  {item.get('post_title', '')[:40]!r}  "
-                    f"{item.get('post_url') or item.get('error_message') or ''}")
-          s = httpx.get("https://api.upload-post.com/api/uploadposts/schedule", headers=r.request.headers,
-                        timeout=30).json()
-          print(); print("Scheduled:")
-          for p in s.get("scheduled_posts", []):
-              print(f"  {p.get('scheduled_date')}  {p.get('platforms')}  {p.get('title', '')[:50]!r}")
+          import os, httpx
+          names = ["UPLOAD_POST_API_KEY"] + [f"UPLOAD_POST_API_KEY_{i}" for i in range(2, 10)]
+          API = "https://api.upload-post.com/api/uploadposts"
+          for number, name in enumerate(names, 1):
+              key = os.environ.get(name, "").strip().lstrip(chr(0xfeff))
+              if not key:
+                  continue
+              print(f"
+          ===== Account {number} ({name}) =====")
+              h = {"Authorization": f"Apikey {key}"}
+              r = httpx.get(f"{API}/users", headers=h, timeout=30)
+              if r.status_code != 200:
+                  print(f"Upload-Post refused this key: HTTP {r.status_code} {r.text[:200]}")
+                  continue
+              for p in r.json().get("profiles", []):
+                  print(f"Profile '{p.get('username')}':")
+                  for platform, acc in (p.get("social_accounts") or {}).items():
+                      if isinstance(acc, dict):
+                          flag = "  (needs reconnecting)" if acc.get("reauth_required") else ""
+                          print(f"  connected      {platform:10} {acc.get('handle') or acc.get('display_name')}{flag}")
+                      else:
+                          print(f"  not connected  {platform}")
+              hist = httpx.get(f"{API}/history", headers=h, params={"limit": 20}, timeout=30).json().get("history", [])
+              print("Recent uploads:")
+              for item in hist:
+                  print(f"  {item.get('upload_timestamp')}  {item.get('platform'):10} "
+                        f"{'ok    ' if item.get('success') else 'FAILED'}  {item.get('post_title', '')[:40]!r}  "
+                        f"{item.get('post_url') or item.get('error_message') or ''}")
+              print("Scheduled:")
+              for p in httpx.get(f"{API}/schedule", headers=h, timeout=30).json().get("scheduled_posts", []):
+                  print(f"  {p.get('scheduled_date')}  {p.get('platforms')}  {p.get('title', '')[:50]!r}")
           EOF

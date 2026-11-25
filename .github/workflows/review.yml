@@ -34,6 +34,10 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+      UPLOAD_POST_API_KEY_2: ${{ secrets.UPLOAD_POST_API_KEY_2 }}
+      UPLOAD_POST_API_KEY_3: ${{ secrets.UPLOAD_POST_API_KEY_3 }}
+      UPLOAD_POST_API_KEY_4: ${{ secrets.UPLOAD_POST_API_KEY_4 }}
+      UPLOAD_POST_API_KEY_5: ${{ secrets.UPLOAD_POST_API_KEY_5 }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4

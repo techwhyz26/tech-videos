@@ -56,6 +56,17 @@ def _hashtags(text: str) -> list[str]:
     return re.findall(r"#(\w+)", text)
 
 
+class LimitReached(RuntimeError):
+    """This Upload-Post account has used up its uploads for the month."""
+
+
+def _keys() -> list[str]:
+    """Every Upload-Post API key that is set: UPLOAD_POST_API_KEY, then UPLOAD_POST_API_KEY_2 ... _9.
+    Each key is a separate Upload-Post account with Instagram and YouTube connected."""
+    names = ["UPLOAD_POST_API_KEY"] + [f"UPLOAD_POST_API_KEY_{i}" for i in range(2, 10)]
+    return [k for k in (os.environ.get(n, "").strip().lstrip("﻿") for n in names) if k]
+
+
 def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = None,
                  only: list[str] | None = None) -> dict[str, str]:
     auto = config().get("automation", {})
@@ -81,6 +92,9 @@ def _upload_post(video: Path, spec: dict, key: str, when: dt.datetime | None = N
         r = httpx.post(UPLOAD_URL, headers=headers, data=form,
                        files={"video": (video.name, f, "video/mp4")}, timeout=600)
     body = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
+    message = str(body.get("message") or body.get("error") or "")
+    if r.status_code == 429 and "limit" in message.lower():
+        raise LimitReached(message)
     if r.status_code >= 400 or not (body.get("success") or body.get("job_id")):
         raise RuntimeError(f"Upload-Post refused the upload ({r.status_code}): "
                            f"{body.get('message') or body.get('error') or r.text[:300]}")
@@ -128,8 +142,8 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
     if not video.exists():
         raise SystemExit(f"{video} does not exist. Render it first with `python run.py build {spec['slug']}`.")
 
-    key = os.environ.get("UPLOAD_POST_API_KEY", "").strip().lstrip("﻿")
-    if not key:
+    keys = _keys()
+    if not keys:
         ready = OUTPUT / "ready"
         ready.mkdir(parents=True, exist_ok=True)
         shutil.copy2(video, ready / video.name)
@@ -137,7 +151,15 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
         return {"manual": str(ready / video.name)}
 
     when = None if now else next_slot()
-    results = _upload_post(video, spec, key, when, only)
+    for number, key in enumerate(keys, 1):  # use the accounts in turn; move on when one is used up
+        try:
+            results = _upload_post(video, spec, key, when, only)
+            break
+        except LimitReached as err:
+            print(f"  Upload-Post account {number} is used up for this month: {err}")
+    else:
+        raise RuntimeError(f"All {len(keys)} Upload-Post accounts have used up their uploads for this month.")
+    spec["account"] = number
     if results and all(str(v).startswith("FAILED") for v in results.values()):
         raise RuntimeError("Every platform failed: " + "; ".join(f"{p}: {v}" for p, v in results.items()))
     spec["status"] = "published"

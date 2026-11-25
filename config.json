@@ -5,7 +5,7 @@
   "automation": {
     "upload_post_user": "default",
     "platforms": ["instagram", "youtube"],
-    "schedule": {"timezone": "America/New_York", "times": ["18:00"], "days_between": 3,
+    "schedule": {"timezone": "America/New_York", "times": ["18:00"], "days_between": 1,
                  "your_timezone": "Asia/Colombo"}
   },
   "niche": "how everyday technology works, new technology updates, and technology news, explained simply for a general audience",
