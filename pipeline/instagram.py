@@ -56,6 +56,14 @@ def me() -> dict:
 def publish_reel(video_url: str, caption: str, wait_minutes: int = 15) -> str:
     """Post a Reel (also shown in the feed) and return its link."""
     user = me()["user_id"]
+    # GitHub release links redirect to a temporary storage address (valid about an hour); give Instagram
+    # that final address so it does not have to follow the redirect itself.
+    try:
+        with httpx.stream("GET", video_url, follow_redirects=True, timeout=60) as r:
+            if r.status_code == 200:
+                video_url = str(r.url)
+    except httpx.HTTPError:
+        pass
     container = _call("POST", f"{user}/media", media_type="REELS", video_url=video_url,
                       caption=caption[:2200], share_to_feed="true")["id"]
     status = ""
