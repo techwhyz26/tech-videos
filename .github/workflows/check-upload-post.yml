@@ -32,8 +32,8 @@ jobs:
               key = os.environ.get(name, "").strip().lstrip(chr(0xfeff))
               if not key:
                   continue
-              print(f"
-          ===== Account {number} ({name}) =====")
+              print()
+              print(f"===== Account {number} ({name}) =====")
               h = {"Authorization": f"Apikey {key}"}
               r = httpx.get(f"{API}/users", headers=h, timeout=30)
               if r.status_code != 200:
