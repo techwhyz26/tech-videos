@@ -1,0 +1,1306 @@
+{
+  "slug": "gta6-pc-recompilation",
+  "title": "Fans tried to turn GTA 6 into a PC game",
+  "theme": "matrix",
+  "caption": "Days after GTA 6 launched, a fan project called Leonida tried to recompile the Xbox version into a PC game, until Take-Two's takedown removed 3,007 copies from GitHub. The code was the easy part.\n\n#gta6 #gaming #pcgaming #tech #explained",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "Take-Two's DMCA notice took down 3,007 GitHub repos and ended Leonida, the unofficial GTA 6 PC recompilation project",
+    "link": "https://maketecheasier.com/take-two-dmca-github-leonida-takedown/"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "GTA Six launched on November nineteenth, and within days fans tried to run the Xbox version on PC.",
+      "emphasis": [
+        "Xbox version",
+        "PC"
+      ],
+      "props": {
+        "art": "launch"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|GTA Six launched on November nineteenth, and within days fans tried to run the Xbox version on PC.",
+      "audio": "videos/gta6-pc-recompilation/scene-01.mp3",
+      "words": [
+        {
+          "text": "GTA",
+          "startMs": 77,
+          "endMs": 669
+        },
+        {
+          "text": "Six",
+          "startMs": 746,
+          "endMs": 1031
+        },
+        {
+          "text": "launched",
+          "startMs": 1042,
+          "endMs": 1436
+        },
+        {
+          "text": "on",
+          "startMs": 1513,
+          "endMs": 1634
+        },
+        {
+          "text": "November",
+          "startMs": 1634,
+          "endMs": 2007
+        },
+        {
+          "text": "nineteenth",
+          "startMs": 2018,
+          "endMs": 2664
+        },
+        {
+          "text": "and",
+          "startMs": 2906,
+          "endMs": 2971
+        },
+        {
+          "text": "within",
+          "startMs": 2972,
+          "endMs": 3257
+        },
+        {
+          "text": "days",
+          "startMs": 3257,
+          "endMs": 3520
+        },
+        {
+          "text": "fans",
+          "startMs": 3520,
+          "endMs": 3925
+        },
+        {
+          "text": "tried",
+          "startMs": 3925,
+          "endMs": 4156
+        },
+        {
+          "text": "to",
+          "startMs": 4167,
+          "endMs": 4211
+        },
+        {
+          "text": "run",
+          "startMs": 4211,
+          "endMs": 4463
+        },
+        {
+          "text": "the",
+          "startMs": 4463,
+          "endMs": 4528
+        },
+        {
+          "text": "Xbox",
+          "startMs": 4539,
+          "endMs": 4967
+        },
+        {
+          "text": "version",
+          "startMs": 4978,
+          "endMs": 5263
+        },
+        {
+          "text": "on",
+          "startMs": 5274,
+          "endMs": 5395
+        },
+        {
+          "text": "PC",
+          "startMs": 5406,
+          "endMs": 5954
+        }
+      ],
+      "durationMs": 6214
+    },
+    {
+      "type": "art",
+      "narration": "No PC version has even been announced.",
+      "emphasis": [
+        "announced"
+      ],
+      "props": {
+        "art": "no-pc"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|No PC version has even been announced.",
+      "audio": "videos/gta6-pc-recompilation/scene-02.mp3",
+      "words": [
+        {
+          "text": "No",
+          "startMs": 88,
+          "endMs": 241
+        },
+        {
+          "text": "PC",
+          "startMs": 252,
+          "endMs": 636
+        },
+        {
+          "text": "version",
+          "startMs": 636,
+          "endMs": 1009
+        },
+        {
+          "text": "has",
+          "startMs": 1020,
+          "endMs": 1184
+        },
+        {
+          "text": "even",
+          "startMs": 1195,
+          "endMs": 1371
+        },
+        {
+          "text": "been",
+          "startMs": 1371,
+          "endMs": 1491
+        },
+        {
+          "text": "announced",
+          "startMs": 1502,
+          "endMs": 1996
+        }
+      ],
+      "durationMs": 2256
+    },
+    {
+      "type": "art",
+      "narration": "So how do you turn a console game into a PC game without its source code?",
+      "emphasis": [
+        "without",
+        "source code"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how do you turn a console game into a PC game without its source code?",
+      "audio": "videos/gta6-pc-recompilation/scene-03.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 99,
+          "endMs": 230
+        },
+        {
+          "text": "how",
+          "startMs": 241,
+          "endMs": 329
+        },
+        {
+          "text": "do",
+          "startMs": 329,
+          "endMs": 373
+        },
+        {
+          "text": "you",
+          "startMs": 384,
+          "endMs": 461
+        },
+        {
+          "text": "turn",
+          "startMs": 461,
+          "endMs": 614
+        },
+        {
+          "text": "a",
+          "startMs": 614,
+          "endMs": 658
+        },
+        {
+          "text": "console",
+          "startMs": 658,
+          "endMs": 1009
+        },
+        {
+          "text": "game",
+          "startMs": 1009,
+          "endMs": 1305
+        },
+        {
+          "text": "into",
+          "startMs": 1436,
+          "endMs": 1634
+        },
+        {
+          "text": "a",
+          "startMs": 1634,
+          "endMs": 1689
+        },
+        {
+          "text": "PC",
+          "startMs": 1689,
+          "endMs": 2160
+        },
+        {
+          "text": "game",
+          "startMs": 2160,
+          "endMs": 2467
+        },
+        {
+          "text": "without",
+          "startMs": 2555,
+          "endMs": 2818
+        },
+        {
+          "text": "its",
+          "startMs": 2818,
+          "endMs": 2895
+        },
+        {
+          "text": "source",
+          "startMs": 2906,
+          "endMs": 3191
+        },
+        {
+          "text": "code",
+          "startMs": 3191,
+          "endMs": 3509
+        }
+      ],
+      "durationMs": 3769
+    },
+    {
+      "type": "art",
+      "narration": "You translate its machine code, the raw instructions the processor runs.",
+      "emphasis": [
+        "translate",
+        "machine code"
+      ],
+      "props": {
+        "art": "translate"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|You translate its machine code, the raw instructions the processor runs.",
+      "audio": "videos/gta6-pc-recompilation/scene-04.mp3",
+      "words": [
+        {
+          "text": "You",
+          "startMs": 77,
+          "endMs": 143
+        },
+        {
+          "text": "translate",
+          "startMs": 143,
+          "endMs": 746
+        },
+        {
+          "text": "its",
+          "startMs": 757,
+          "endMs": 855
+        },
+        {
+          "text": "machine",
+          "startMs": 855,
+          "endMs": 1261
+        },
+        {
+          "text": "code",
+          "startMs": 1261,
+          "endMs": 1601
+        },
+        {
+          "text": "the",
+          "startMs": 1941,
+          "endMs": 2039
+        },
+        {
+          "text": "raw",
+          "startMs": 2039,
+          "endMs": 2226
+        },
+        {
+          "text": "instructions",
+          "startMs": 2226,
+          "endMs": 2752
+        },
+        {
+          "text": "the",
+          "startMs": 2752,
+          "endMs": 2840
+        },
+        {
+          "text": "processor",
+          "startMs": 2840,
+          "endMs": 3355
+        },
+        {
+          "text": "runs",
+          "startMs": 3355,
+          "endMs": 3772
+        }
+      ],
+      "durationMs": 4032
+    },
+    {
+      "type": "art",
+      "narration": "A fan project called Leonida tried exactly that, using leaked files from an Xbox build.",
+      "emphasis": [
+        "Leonida",
+        "leaked"
+      ],
+      "props": {
+        "art": "leonida"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A fan project called Leonida tried exactly that, using leaked files from an Xbox build.",
+      "audio": "videos/gta6-pc-recompilation/scene-05.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 77,
+          "endMs": 121
+        },
+        {
+          "text": "fan",
+          "startMs": 132,
+          "endMs": 384
+        },
+        {
+          "text": "project",
+          "startMs": 384,
+          "endMs": 844
+        },
+        {
+          "text": "called",
+          "startMs": 844,
+          "endMs": 1085
+        },
+        {
+          "text": "Leonida",
+          "startMs": 1096,
+          "endMs": 1842
+        },
+        {
+          "text": "tried",
+          "startMs": 1963,
+          "endMs": 2270
+        },
+        {
+          "text": "exactly",
+          "startMs": 2270,
+          "endMs": 2763
+        },
+        {
+          "text": "that",
+          "startMs": 2763,
+          "endMs": 3015
+        },
+        {
+          "text": "using",
+          "startMs": 3454,
+          "endMs": 3783
+        },
+        {
+          "text": "leaked",
+          "startMs": 3783,
+          "endMs": 4013
+        },
+        {
+          "text": "files",
+          "startMs": 4013,
+          "endMs": 4430
+        },
+        {
+          "text": "from",
+          "startMs": 4430,
+          "endMs": 4518
+        },
+        {
+          "text": "an",
+          "startMs": 4518,
+          "endMs": 4583
+        },
+        {
+          "text": "Xbox",
+          "startMs": 4583,
+          "endMs": 4989
+        },
+        {
+          "text": "build",
+          "startMs": 4989,
+          "endMs": 5285
+        }
+      ],
+      "durationMs": 5545
+    },
+    {
+      "type": "art",
+      "narration": "The usual trick is emulation: a program pretends to be the console, live, while you play.",
+      "emphasis": [
+        "emulation",
+        "pretends"
+      ],
+      "props": {
+        "art": "emulation"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The usual trick is emulation: a program pretends to be the console, live, while you play.",
+      "audio": "videos/gta6-pc-recompilation/scene-06.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 121
+        },
+        {
+          "text": "usual",
+          "startMs": 121,
+          "endMs": 461
+        },
+        {
+          "text": "trick",
+          "startMs": 472,
+          "endMs": 790
+        },
+        {
+          "text": "is",
+          "startMs": 987,
+          "endMs": 1195
+        },
+        {
+          "text": "emulation",
+          "startMs": 1294,
+          "endMs": 1853
+        },
+        {
+          "text": "a",
+          "startMs": 2281,
+          "endMs": 2314
+        },
+        {
+          "text": "program",
+          "startMs": 2314,
+          "endMs": 2686
+        },
+        {
+          "text": "pretends",
+          "startMs": 2686,
+          "endMs": 3015
+        },
+        {
+          "text": "to",
+          "startMs": 3015,
+          "endMs": 3070
+        },
+        {
+          "text": "be",
+          "startMs": 3070,
+          "endMs": 3191
+        },
+        {
+          "text": "the",
+          "startMs": 3202,
+          "endMs": 3278
+        },
+        {
+          "text": "console",
+          "startMs": 3278,
+          "endMs": 3914
+        },
+        {
+          "text": "live",
+          "startMs": 4309,
+          "endMs": 4737
+        },
+        {
+          "text": "while",
+          "startMs": 5077,
+          "endMs": 5186
+        },
+        {
+          "text": "you",
+          "startMs": 5186,
+          "endMs": 5263
+        },
+        {
+          "text": "play",
+          "startMs": 5263,
+          "endMs": 5592
+        }
+      ],
+      "durationMs": 5852
+    },
+    {
+      "type": "art",
+      "narration": "Recompilation translates the code once, ahead of time, into a brand new PC program that can run far faster.",
+      "emphasis": [
+        "once",
+        "far faster"
+      ],
+      "props": {
+        "art": "recompile"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Recompilation translates the code once, ahead of time, into a brand new PC program that can run far faster.",
+      "audio": "videos/gta6-pc-recompilation/scene-07.mp3",
+      "words": [
+        {
+          "text": "Recompilation",
+          "startMs": 66,
+          "endMs": 888
+        },
+        {
+          "text": "translates",
+          "startMs": 943,
+          "endMs": 1535
+        },
+        {
+          "text": "the",
+          "startMs": 1535,
+          "endMs": 1634
+        },
+        {
+          "text": "code",
+          "startMs": 1645,
+          "endMs": 1897
+        },
+        {
+          "text": "once",
+          "startMs": 1908,
+          "endMs": 2423
+        },
+        {
+          "text": "ahead",
+          "startMs": 2599,
+          "endMs": 2807
+        },
+        {
+          "text": "of",
+          "startMs": 2807,
+          "endMs": 2884
+        },
+        {
+          "text": "time",
+          "startMs": 2895,
+          "endMs": 3257
+        },
+        {
+          "text": "into",
+          "startMs": 3629,
+          "endMs": 3805
+        },
+        {
+          "text": "a",
+          "startMs": 3805,
+          "endMs": 3871
+        },
+        {
+          "text": "brand",
+          "startMs": 3882,
+          "endMs": 4211
+        },
+        {
+          "text": "new",
+          "startMs": 4211,
+          "endMs": 4408
+        },
+        {
+          "text": "PC",
+          "startMs": 4419,
+          "endMs": 4857
+        },
+        {
+          "text": "program",
+          "startMs": 4868,
+          "endMs": 5406
+        },
+        {
+          "text": "that",
+          "startMs": 5526,
+          "endMs": 5614
+        },
+        {
+          "text": "can",
+          "startMs": 5614,
+          "endMs": 5768
+        },
+        {
+          "text": "run",
+          "startMs": 5768,
+          "endMs": 5943
+        },
+        {
+          "text": "far",
+          "startMs": 5943,
+          "endMs": 6195
+        },
+        {
+          "text": "faster",
+          "startMs": 6206,
+          "endMs": 6732
+        }
+      ],
+      "durationMs": 6992
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss: the code is the easy bit.",
+      "emphasis": [
+        "easy bit"
+      ],
+      "props": {
+        "art": "easy-bit"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss: the code is the easy bit.",
+      "audio": "videos/gta6-pc-recompilation/scene-08.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 153
+        },
+        {
+          "text": "here's",
+          "startMs": 154,
+          "endMs": 340
+        },
+        {
+          "text": "the",
+          "startMs": 340,
+          "endMs": 417
+        },
+        {
+          "text": "part",
+          "startMs": 428,
+          "endMs": 636
+        },
+        {
+          "text": "most",
+          "startMs": 636,
+          "endMs": 888
+        },
+        {
+          "text": "people",
+          "startMs": 888,
+          "endMs": 1129
+        },
+        {
+          "text": "miss",
+          "startMs": 1129,
+          "endMs": 1557
+        },
+        {
+          "text": "the",
+          "startMs": 1754,
+          "endMs": 1853
+        },
+        {
+          "text": "code",
+          "startMs": 1853,
+          "endMs": 2226
+        },
+        {
+          "text": "is",
+          "startMs": 2467,
+          "endMs": 2566
+        },
+        {
+          "text": "the",
+          "startMs": 2577,
+          "endMs": 2632
+        },
+        {
+          "text": "easy",
+          "startMs": 2643,
+          "endMs": 2950
+        },
+        {
+          "text": "bit",
+          "startMs": 2950,
+          "endMs": 3278
+        }
+      ],
+      "durationMs": 3538
+    },
+    {
+      "type": "art",
+      "narration": "A console game leans on the console's graphics system, services and libraries. A PC has none of them.",
+      "emphasis": [
+        "graphics",
+        "none"
+      ],
+      "props": {
+        "art": "missing"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|A console game leans on the console's graphics system, services and libraries. A PC has none of them.",
+      "audio": "videos/gta6-pc-recompilation/scene-09.mp3",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 66,
+          "endMs": 99
+        },
+        {
+          "text": "console",
+          "startMs": 99,
+          "endMs": 406
+        },
+        {
+          "text": "game",
+          "startMs": 417,
+          "endMs": 691
+        },
+        {
+          "text": "leans",
+          "startMs": 702,
+          "endMs": 954
+        },
+        {
+          "text": "on",
+          "startMs": 954,
+          "endMs": 998
+        },
+        {
+          "text": "the",
+          "startMs": 998,
+          "endMs": 1053
+        },
+        {
+          "text": "console's",
+          "startMs": 1053,
+          "endMs": 1535
+        },
+        {
+          "text": "graphics",
+          "startMs": 1535,
+          "endMs": 1952
+        },
+        {
+          "text": "system",
+          "startMs": 1963,
+          "endMs": 2368
+        },
+        {
+          "text": "services",
+          "startMs": 2697,
+          "endMs": 3322
+        },
+        {
+          "text": "and",
+          "startMs": 3333,
+          "endMs": 3498
+        },
+        {
+          "text": "libraries",
+          "startMs": 3498,
+          "endMs": 4178
+        },
+        {
+          "text": "A",
+          "startMs": 4528,
+          "endMs": 4572
+        },
+        {
+          "text": "PC",
+          "startMs": 4583,
+          "endMs": 4978
+        },
+        {
+          "text": "has",
+          "startMs": 4978,
+          "endMs": 5132
+        },
+        {
+          "text": "none",
+          "startMs": 5132,
+          "endMs": 5340
+        },
+        {
+          "text": "of",
+          "startMs": 5351,
+          "endMs": 5406
+        },
+        {
+          "text": "them",
+          "startMs": 5406,
+          "endMs": 5592
+        }
+      ],
+      "durationMs": 5852
+    },
+    {
+      "type": "art",
+      "narration": "Every missing piece needs a stand-in, called a shim.",
+      "emphasis": [
+        "stand-in",
+        "shim"
+      ],
+      "props": {
+        "art": "shim"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Every missing piece needs a stand-in, called a shim.",
+      "audio": "videos/gta6-pc-recompilation/scene-10.mp3",
+      "words": [
+        {
+          "text": "Every",
+          "startMs": 77,
+          "endMs": 263
+        },
+        {
+          "text": "missing",
+          "startMs": 263,
+          "endMs": 548
+        },
+        {
+          "text": "piece",
+          "startMs": 548,
+          "endMs": 899
+        },
+        {
+          "text": "needs",
+          "startMs": 910,
+          "endMs": 1064
+        },
+        {
+          "text": "a",
+          "startMs": 1064,
+          "endMs": 1096
+        },
+        {
+          "text": "stand-in",
+          "startMs": 1096,
+          "endMs": 1634
+        },
+        {
+          "text": "called",
+          "startMs": 1820,
+          "endMs": 1996
+        },
+        {
+          "text": "a",
+          "startMs": 1996,
+          "endMs": 2018
+        },
+        {
+          "text": "shim",
+          "startMs": 2028,
+          "endMs": 2412
+        }
+      ],
+      "durationMs": 2672
+    },
+    {
+      "type": "art",
+      "narration": "Leonida reached the menus and setup screens, then went black.",
+      "emphasis": [
+        "menus",
+        "black"
+      ],
+      "props": {
+        "art": "black-screen"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Leonida reached the menus and setup screens, then went black.",
+      "audio": "videos/gta6-pc-recompilation/scene-11.mp3",
+      "words": [
+        {
+          "text": "Leonida",
+          "startMs": 66,
+          "endMs": 515
+        },
+        {
+          "text": "reached",
+          "startMs": 526,
+          "endMs": 811
+        },
+        {
+          "text": "the",
+          "startMs": 822,
+          "endMs": 888
+        },
+        {
+          "text": "menus",
+          "startMs": 899,
+          "endMs": 1546
+        },
+        {
+          "text": "and",
+          "startMs": 1645,
+          "endMs": 1831
+        },
+        {
+          "text": "setup",
+          "startMs": 1842,
+          "endMs": 2204
+        },
+        {
+          "text": "screens",
+          "startMs": 2215,
+          "endMs": 2774
+        },
+        {
+          "text": "then",
+          "startMs": 2993,
+          "endMs": 3147
+        },
+        {
+          "text": "went",
+          "startMs": 3147,
+          "endMs": 3322
+        },
+        {
+          "text": "black",
+          "startMs": 3333,
+          "endMs": 3783
+        }
+      ],
+      "durationMs": 4043
+    },
+    {
+      "type": "art",
+      "narration": "Then Take-Two filed a copyright takedown, and GitHub removed three thousand and seven copies of the project.",
+      "emphasis": [
+        "takedown",
+        "three thousand and seven"
+      ],
+      "props": {
+        "art": "takedown"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then Take-Two filed a copyright takedown, and GitHub removed three thousand and seven copies of the project.",
+      "audio": "videos/gta6-pc-recompilation/scene-12.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 88,
+          "endMs": 307
+        },
+        {
+          "text": "Take-Two",
+          "startMs": 307,
+          "endMs": 921
+        },
+        {
+          "text": "filed",
+          "startMs": 932,
+          "endMs": 1283
+        },
+        {
+          "text": "a",
+          "startMs": 1294,
+          "endMs": 1338
+        },
+        {
+          "text": "copyright",
+          "startMs": 1338,
+          "endMs": 1919
+        },
+        {
+          "text": "takedown",
+          "startMs": 1919,
+          "endMs": 2434
+        },
+        {
+          "text": "and",
+          "startMs": 2785,
+          "endMs": 2862
+        },
+        {
+          "text": "GitHub",
+          "startMs": 2862,
+          "endMs": 3235
+        },
+        {
+          "text": "removed",
+          "startMs": 3246,
+          "endMs": 3695
+        },
+        {
+          "text": "three",
+          "startMs": 3794,
+          "endMs": 4156
+        },
+        {
+          "text": "thousand",
+          "startMs": 4167,
+          "endMs": 4627
+        },
+        {
+          "text": "and",
+          "startMs": 4627,
+          "endMs": 4704
+        },
+        {
+          "text": "seven",
+          "startMs": 4715,
+          "endMs": 5153
+        },
+        {
+          "text": "copies",
+          "startMs": 5164,
+          "endMs": 5515
+        },
+        {
+          "text": "of",
+          "startMs": 5515,
+          "endMs": 5548
+        },
+        {
+          "text": "the",
+          "startMs": 5548,
+          "endMs": 5603
+        },
+        {
+          "text": "project",
+          "startMs": 5603,
+          "endMs": 6096
+        }
+      ],
+      "durationMs": 6356
+    },
+    {
+      "type": "art",
+      "narration": "Its Discord, with almost one hundred eighty thousand members, went dark too.",
+      "emphasis": [
+        "one hundred eighty thousand",
+        "dark"
+      ],
+      "props": {
+        "art": "discord-dark"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Its Discord, with almost one hundred eighty thousand members, went dark too.",
+      "audio": "videos/gta6-pc-recompilation/scene-13.mp3",
+      "words": [
+        {
+          "text": "Its",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "Discord",
+          "startMs": 219,
+          "endMs": 757
+        },
+        {
+          "text": "with",
+          "startMs": 921,
+          "endMs": 1053
+        },
+        {
+          "text": "almost",
+          "startMs": 1064,
+          "endMs": 1436
+        },
+        {
+          "text": "one",
+          "startMs": 1436,
+          "endMs": 1579
+        },
+        {
+          "text": "hundred",
+          "startMs": 1590,
+          "endMs": 1930
+        },
+        {
+          "text": "eighty",
+          "startMs": 2061,
+          "endMs": 2226
+        },
+        {
+          "text": "thousand",
+          "startMs": 2226,
+          "endMs": 2566
+        },
+        {
+          "text": "members",
+          "startMs": 2566,
+          "endMs": 3026
+        },
+        {
+          "text": "went",
+          "startMs": 3235,
+          "endMs": 3432
+        },
+        {
+          "text": "dark",
+          "startMs": 3432,
+          "endMs": 3684
+        },
+        {
+          "text": "too",
+          "startMs": 3695,
+          "endMs": 4046
+        }
+      ],
+      "durationMs": 4306
+    },
+    {
+      "type": "art",
+      "narration": "So the hard part isn't translating the game. It's rebuilding the whole console around it.",
+      "emphasis": [
+        "whole console"
+      ],
+      "props": {
+        "art": "rebuild"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So the hard part isn't translating the game. It's rebuilding the whole console around it.",
+      "audio": "videos/gta6-pc-recompilation/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "the",
+          "startMs": 186,
+          "endMs": 241
+        },
+        {
+          "text": "hard",
+          "startMs": 241,
+          "endMs": 471
+        },
+        {
+          "text": "part",
+          "startMs": 482,
+          "endMs": 724
+        },
+        {
+          "text": "isn't",
+          "startMs": 811,
+          "endMs": 1020
+        },
+        {
+          "text": "translating",
+          "startMs": 1031,
+          "endMs": 1524
+        },
+        {
+          "text": "the",
+          "startMs": 1524,
+          "endMs": 1579
+        },
+        {
+          "text": "game",
+          "startMs": 1579,
+          "endMs": 1897
+        },
+        {
+          "text": "It's",
+          "startMs": 2237,
+          "endMs": 2335
+        },
+        {
+          "text": "rebuilding",
+          "startMs": 2336,
+          "endMs": 2763
+        },
+        {
+          "text": "the",
+          "startMs": 2763,
+          "endMs": 2818
+        },
+        {
+          "text": "whole",
+          "startMs": 2818,
+          "endMs": 3092
+        },
+        {
+          "text": "console",
+          "startMs": 3092,
+          "endMs": 3542
+        },
+        {
+          "text": "around",
+          "startMs": 3542,
+          "endMs": 3849
+        },
+        {
+          "text": "it",
+          "startMs": 3860,
+          "endMs": 4002
+        }
+      ],
+      "durationMs": 4262
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who's still waiting for GTA Six on PC.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the GTA 6 on PC friend"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who's still waiting for GTA Six on PC.",
+      "audio": "videos/gta6-pc-recompilation/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 132,
+          "endMs": 504
+        },
+        {
+          "text": "and",
+          "startMs": 844,
+          "endMs": 976
+        },
+        {
+          "text": "send",
+          "startMs": 987,
+          "endMs": 1195
+        },
+        {
+          "text": "this",
+          "startMs": 1195,
+          "endMs": 1294
+        },
+        {
+          "text": "to",
+          "startMs": 1294,
+          "endMs": 1360
+        },
+        {
+          "text": "someone",
+          "startMs": 1360,
+          "endMs": 1601
+        },
+        {
+          "text": "who's",
+          "startMs": 1612,
+          "endMs": 1787
+        },
+        {
+          "text": "still",
+          "startMs": 1798,
+          "endMs": 2094
+        },
+        {
+          "text": "waiting",
+          "startMs": 2105,
+          "endMs": 2379
+        },
+        {
+          "text": "for",
+          "startMs": 2390,
+          "endMs": 2489
+        },
+        {
+          "text": "GTA",
+          "startMs": 2489,
+          "endMs": 3004
+        },
+        {
+          "text": "Six",
+          "startMs": 3004,
+          "endMs": 3333
+        },
+        {
+          "text": "on",
+          "startMs": 3333,
+          "endMs": 3432
+        },
+        {
+          "text": "PC",
+          "startMs": 3443,
+          "endMs": 3980
+        }
+      ],
+      "durationMs": 4240
+    }
+  ]
+}
