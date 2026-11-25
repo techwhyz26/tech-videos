@@ -1,0 +1,30 @@
+# Manual: check that INSTAGRAM_TOKEN works and which account it posts as. Posts nothing.
+name: Check Instagram
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Which account does the token post as?
+        run: |
+          python -c "
+          from pipeline import instagram
+          print('Token type:', 'Instagram login (60 days)' if instagram.needs_refresh() else 'system user (never expires)')
+          print('Posts as:', instagram.me())
+          "

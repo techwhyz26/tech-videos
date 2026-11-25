@@ -1,8 +1,12 @@
-"""Post Reels straight to Instagram through Meta's own API ("Instagram API with Instagram Login").
+"""Post Reels straight to Instagram through Meta's own API.
 
 Free, no monthly limit (Instagram allows up to 100 API posts a day). Needs:
-  INSTAGRAM_TOKEN   long-lived token from the Meta app dashboard (valid 60 days, refreshed weekly by the
-                    "Refresh Instagram token" workflow)
+  INSTAGRAM_TOKEN    either
+                       - a system-user token from the app's "API setup with Unified login" (starts with
+                         "EAA", never expires; uses graph.facebook.com), or
+                       - an Instagram-login token (starts with "IG", valid 60 days, refreshed weekly by the
+                         "Refresh Instagram token" workflow; uses graph.instagram.com)
+  INSTAGRAM_USER_ID  optional: the Instagram account id to post as. Found from the token when not set.
 
 Instagram downloads the video itself from a public link, so the video must be at a public URL: the
 GitHub release asset of this (public) repository. The API has no scheduling, so the posting job calls
@@ -15,7 +19,7 @@ import time
 
 import httpx
 
-API = "https://graph.instagram.com/v27.0"
+VERSION = "v27.0"
 
 
 class InstagramError(RuntimeError):
@@ -29,33 +33,66 @@ def token() -> str:
     return tok
 
 
+def _instagram_login() -> bool:
+    """True for an Instagram-login token, False for a Facebook (system-user) token."""
+    return token().startswith("IG")
+
+
+def _api() -> str:
+    host = "graph.instagram.com" if _instagram_login() else "graph.facebook.com"
+    return f"https://{host}/{VERSION}"
+
+
 def _call(method: str, path: str, **params) -> dict:
     params["access_token"] = token()
     for attempt in range(4):
         try:
-            r = httpx.request(method, f"{API}/{path}", params=params if method == "GET" else None,
+            r = httpx.request(method, f"{_api()}/{path}", params=params if method == "GET" else None,
                               data=params if method != "GET" else None, timeout=120)
             break
         except httpx.TransportError:
             if attempt == 3:
                 raise
             time.sleep(5 * (attempt + 1))
-    body = r.json()
+    try:
+        body = r.json()
+    except ValueError:
+        raise InstagramError(f"Instagram {path}: HTTP {r.status_code} {r.text[:300]}")
     if r.status_code >= 400 or "error" in body:
         err = body.get("error", {})
         raise InstagramError(f"Instagram {path}: {err.get('message') or r.text[:300]}")
     return body
 
 
+def _user_id() -> str:
+    """Id of the Instagram account to post as."""
+    if os.environ.get("INSTAGRAM_USER_ID", "").strip():
+        return os.environ["INSTAGRAM_USER_ID"].strip()
+    if _instagram_login():
+        body = _call("GET", "me", fields="user_id")
+        return str((body["data"][0] if "data" in body else body)["user_id"])
+    # System-user token: the Instagram account it was given is listed in its granular scopes.
+    info = _call("GET", "debug_token", input_token=token()).get("data", {})
+    for scope in info.get("granular_scopes", []):
+        if scope.get("scope") == "instagram_content_publish" and scope.get("target_ids"):
+            return str(scope["target_ids"][0])
+    for scope in info.get("granular_scopes", []):
+        if scope.get("scope") == "instagram_basic" and scope.get("target_ids"):
+            return str(scope["target_ids"][0])
+    raise InstagramError("Could not find the Instagram account for this token. "
+                         "Set the INSTAGRAM_USER_ID secret.")
+
+
 def me() -> dict:
-    """{'user_id': ..., 'username': ...} of the account the token belongs to."""
-    body = _call("GET", "me", fields="user_id,username")
-    return body["data"][0] if "data" in body else body
+    """{'user_id': ..., 'username': ...} of the account the token posts as."""
+    uid = _user_id()
+    body = _call("GET", uid, fields="username")
+    return {"user_id": uid, "username": body.get("username", "")}
 
 
 def publish_reel(video_url: str, caption: str, wait_minutes: int = 15) -> str:
     """Post a Reel (also shown in the feed) and return its link."""
-    user = me()["user_id"]
+    user = _user_id()
     # GitHub release links redirect to a temporary storage address (valid about an hour); give Instagram
     # that final address so it does not have to follow the redirect itself.
     try:
@@ -83,8 +120,13 @@ def publish_reel(video_url: str, caption: str, wait_minutes: int = 15) -> str:
         return f"posted (id {media})"
 
 
+def needs_refresh() -> bool:
+    """Only Instagram-login tokens expire; system-user tokens never do."""
+    return _instagram_login()
+
+
 def refresh() -> str:
-    """A fresh 60-day token. The token must be at least a day old."""
+    """A fresh 60-day Instagram-login token. The token must be at least a day old."""
     r = httpx.get("https://graph.instagram.com/refresh_access_token",
                   params={"grant_type": "ig_refresh_token", "access_token": token()}, timeout=60)
     body = r.json()
