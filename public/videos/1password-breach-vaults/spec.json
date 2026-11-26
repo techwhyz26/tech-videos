@@ -1,0 +1,1240 @@
+{
+  "slug": "1password-breach-vaults",
+  "title": "Hackers got into 1Password. Your passwords weren't there",
+  "theme": "gold",
+  "caption": "Hackers broke into 1Password's systems and took names and emails, but not a single vault. The key that opens your vault is built on your own device, and 1Password never gets a copy.\n\n#tech #cybersecurity #1password #passwords #technews",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
+    "link": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Hackers just broke into 1Password, the password manager trusted by millions.",
+      "emphasis": [
+        "Hackers"
+      ],
+      "props": {
+        "art": "breach"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Hackers just broke into 1Password, the password manager trusted by millions.",
+      "audio": "videos/1password-breach-vaults/scene-01.mp3",
+      "words": [
+        {
+          "text": "Hackers",
+          "startMs": 77,
+          "endMs": 406
+        },
+        {
+          "text": "just",
+          "startMs": 406,
+          "endMs": 570
+        },
+        {
+          "text": "broke",
+          "startMs": 581,
+          "endMs": 932
+        },
+        {
+          "text": "into",
+          "startMs": 998,
+          "endMs": 1195
+        },
+        {
+          "text": "1Password",
+          "startMs": 1206,
+          "endMs": 2138
+        },
+        {
+          "text": "the",
+          "startMs": 2390,
+          "endMs": 2478
+        },
+        {
+          "text": "password",
+          "startMs": 2478,
+          "endMs": 2895
+        },
+        {
+          "text": "manager",
+          "startMs": 2906,
+          "endMs": 3311
+        },
+        {
+          "text": "trusted",
+          "startMs": 3333,
+          "endMs": 3761
+        },
+        {
+          "text": "by",
+          "startMs": 3761,
+          "endMs": 3871
+        },
+        {
+          "text": "millions",
+          "startMs": 3871,
+          "endMs": 4583
+        }
+      ],
+      "durationMs": 4843
+    },
+    {
+      "type": "art",
+      "narration": "So why are everyone's passwords still safe?",
+      "emphasis": [
+        "safe"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So why are everyone's passwords still safe?",
+      "audio": "videos/1password-breach-vaults/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "why",
+          "startMs": 208,
+          "endMs": 340
+        },
+        {
+          "text": "are",
+          "startMs": 340,
+          "endMs": 439
+        },
+        {
+          "text": "everyone's",
+          "startMs": 450,
+          "endMs": 768
+        },
+        {
+          "text": "passwords",
+          "startMs": 768,
+          "endMs": 1371
+        },
+        {
+          "text": "still",
+          "startMs": 1491,
+          "endMs": 1732
+        },
+        {
+          "text": "safe",
+          "startMs": 1732,
+          "endMs": 2182
+        }
+      ],
+      "durationMs": 2442
+    },
+    {
+      "type": "art",
+      "narration": "Because 1Password never had the keys to read them.",
+      "emphasis": [
+        "never"
+      ],
+      "props": {
+        "art": "nokeys"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because 1Password never had the keys to read them.",
+      "audio": "videos/1password-breach-vaults/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 373
+        },
+        {
+          "text": "1Password",
+          "startMs": 373,
+          "endMs": 1228
+        },
+        {
+          "text": "never",
+          "startMs": 1436,
+          "endMs": 1678
+        },
+        {
+          "text": "had",
+          "startMs": 1678,
+          "endMs": 1809
+        },
+        {
+          "text": "the",
+          "startMs": 1809,
+          "endMs": 1853
+        },
+        {
+          "text": "keys",
+          "startMs": 1853,
+          "endMs": 2314
+        },
+        {
+          "text": "to",
+          "startMs": 2325,
+          "endMs": 2423
+        },
+        {
+          "text": "read",
+          "startMs": 2434,
+          "endMs": 2653
+        },
+        {
+          "text": "them",
+          "startMs": 2654,
+          "endMs": 2840
+        }
+      ],
+      "durationMs": 3100
+    },
+    {
+      "type": "art",
+      "narration": "The attacker took over one employee's GitHub account and pushed malicious code to the company's servers.",
+      "emphasis": [
+        "malicious"
+      ],
+      "props": {
+        "art": "github"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The attacker took over one employee's GitHub account and pushed malicious code to the company's servers.",
+      "audio": "videos/1password-breach-vaults/scene-04.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "attacker",
+          "startMs": 164,
+          "endMs": 724
+        },
+        {
+          "text": "took",
+          "startMs": 735,
+          "endMs": 943
+        },
+        {
+          "text": "over",
+          "startMs": 954,
+          "endMs": 1184
+        },
+        {
+          "text": "one",
+          "startMs": 1184,
+          "endMs": 1382
+        },
+        {
+          "text": "employee's",
+          "startMs": 1382,
+          "endMs": 1875
+        },
+        {
+          "text": "GitHub",
+          "startMs": 1886,
+          "endMs": 2204
+        },
+        {
+          "text": "account",
+          "startMs": 2204,
+          "endMs": 2566
+        },
+        {
+          "text": "and",
+          "startMs": 2928,
+          "endMs": 3026
+        },
+        {
+          "text": "pushed",
+          "startMs": 3037,
+          "endMs": 3300
+        },
+        {
+          "text": "malicious",
+          "startMs": 3300,
+          "endMs": 3805
+        },
+        {
+          "text": "code",
+          "startMs": 3805,
+          "endMs": 4178
+        },
+        {
+          "text": "to",
+          "startMs": 4189,
+          "endMs": 4276
+        },
+        {
+          "text": "the",
+          "startMs": 4276,
+          "endMs": 4364
+        },
+        {
+          "text": "company's",
+          "startMs": 4375,
+          "endMs": 4737
+        },
+        {
+          "text": "servers",
+          "startMs": 4737,
+          "endMs": 5252
+        }
+      ],
+      "durationMs": 5512
+    },
+    {
+      "type": "art",
+      "narration": "They walked away with names, email addresses and sign-in times.",
+      "emphasis": [
+        "names"
+      ],
+      "props": {
+        "art": "stolen"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|They walked away with names, email addresses and sign-in times.",
+      "audio": "videos/1password-breach-vaults/scene-05.mp3",
+      "words": [
+        {
+          "text": "They",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "walked",
+          "startMs": 143,
+          "endMs": 384
+        },
+        {
+          "text": "away",
+          "startMs": 384,
+          "endMs": 603
+        },
+        {
+          "text": "with",
+          "startMs": 603,
+          "endMs": 735
+        },
+        {
+          "text": "names",
+          "startMs": 735,
+          "endMs": 1228
+        },
+        {
+          "text": "email",
+          "startMs": 1535,
+          "endMs": 1853
+        },
+        {
+          "text": "addresses",
+          "startMs": 1864,
+          "endMs": 2456
+        },
+        {
+          "text": "and",
+          "startMs": 2555,
+          "endMs": 2675
+        },
+        {
+          "text": "sign-in",
+          "startMs": 2675,
+          "endMs": 3092
+        },
+        {
+          "text": "times",
+          "startMs": 3103,
+          "endMs": 3629
+        }
+      ],
+      "durationMs": 3889
+    },
+    {
+      "type": "art",
+      "narration": "But every vault on those servers is locked with a key only you hold.",
+      "emphasis": [
+        "locked"
+      ],
+      "props": {
+        "art": "vaults"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But every vault on those servers is locked with a key only you hold.",
+      "audio": "videos/1password-breach-vaults/scene-06.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 99,
+          "endMs": 186
+        },
+        {
+          "text": "every",
+          "startMs": 197,
+          "endMs": 395
+        },
+        {
+          "text": "vault",
+          "startMs": 395,
+          "endMs": 702
+        },
+        {
+          "text": "on",
+          "startMs": 702,
+          "endMs": 778
+        },
+        {
+          "text": "those",
+          "startMs": 778,
+          "endMs": 954
+        },
+        {
+          "text": "servers",
+          "startMs": 954,
+          "endMs": 1316
+        },
+        {
+          "text": "is",
+          "startMs": 1316,
+          "endMs": 1425
+        },
+        {
+          "text": "locked",
+          "startMs": 1436,
+          "endMs": 1875
+        },
+        {
+          "text": "with",
+          "startMs": 1875,
+          "endMs": 1985
+        },
+        {
+          "text": "a",
+          "startMs": 1996,
+          "endMs": 2028
+        },
+        {
+          "text": "key",
+          "startMs": 2039,
+          "endMs": 2467
+        },
+        {
+          "text": "only",
+          "startMs": 2599,
+          "endMs": 2807
+        },
+        {
+          "text": "you",
+          "startMs": 2807,
+          "endMs": 2906
+        },
+        {
+          "text": "hold",
+          "startMs": 2906,
+          "endMs": 3257
+        }
+      ],
+      "durationMs": 3517
+    },
+    {
+      "type": "art",
+      "narration": "That key is built from two pieces. Your account password, and a Secret Key.",
+      "emphasis": [
+        "two"
+      ],
+      "props": {
+        "art": "twopieces"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That key is built from two pieces. Your account password, and a Secret Key.",
+      "audio": "videos/1password-breach-vaults/scene-07.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 88,
+          "endMs": 208
+        },
+        {
+          "text": "key",
+          "startMs": 208,
+          "endMs": 526
+        },
+        {
+          "text": "is",
+          "startMs": 581,
+          "endMs": 724
+        },
+        {
+          "text": "built",
+          "startMs": 735,
+          "endMs": 987
+        },
+        {
+          "text": "from",
+          "startMs": 987,
+          "endMs": 1195
+        },
+        {
+          "text": "two",
+          "startMs": 1206,
+          "endMs": 1447
+        },
+        {
+          "text": "pieces",
+          "startMs": 1447,
+          "endMs": 1996
+        },
+        {
+          "text": "Your",
+          "startMs": 2357,
+          "endMs": 2467
+        },
+        {
+          "text": "account",
+          "startMs": 2478,
+          "endMs": 2774
+        },
+        {
+          "text": "password",
+          "startMs": 2774,
+          "endMs": 3344
+        },
+        {
+          "text": "and",
+          "startMs": 3684,
+          "endMs": 3739
+        },
+        {
+          "text": "a",
+          "startMs": 3739,
+          "endMs": 3772
+        },
+        {
+          "text": "Secret",
+          "startMs": 3783,
+          "endMs": 4210
+        },
+        {
+          "text": "Key",
+          "startMs": 4222,
+          "endMs": 4528
+        }
+      ],
+      "durationMs": 4788
+    },
+    {
+      "type": "art",
+      "narration": "The Secret Key is thirty-four letters and numbers, made on your own device and never sent to 1Password.",
+      "emphasis": [
+        "never"
+      ],
+      "props": {
+        "art": "secretkey"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The Secret Key is thirty-four letters and numbers, made on your own device and never sent to 1Password.",
+      "audio": "videos/1password-breach-vaults/scene-08.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "Secret",
+          "startMs": 175,
+          "endMs": 504
+        },
+        {
+          "text": "Key",
+          "startMs": 515,
+          "endMs": 910
+        },
+        {
+          "text": "is",
+          "startMs": 921,
+          "endMs": 1096
+        },
+        {
+          "text": "thirty-four",
+          "startMs": 1107,
+          "endMs": 1700
+        },
+        {
+          "text": "letters",
+          "startMs": 1700,
+          "endMs": 2160
+        },
+        {
+          "text": "and",
+          "startMs": 2171,
+          "endMs": 2281
+        },
+        {
+          "text": "numbers",
+          "startMs": 2281,
+          "endMs": 2796
+        },
+        {
+          "text": "made",
+          "startMs": 3125,
+          "endMs": 3333
+        },
+        {
+          "text": "on",
+          "startMs": 3344,
+          "endMs": 3443
+        },
+        {
+          "text": "your",
+          "startMs": 3454,
+          "endMs": 3575
+        },
+        {
+          "text": "own",
+          "startMs": 3586,
+          "endMs": 3750
+        },
+        {
+          "text": "device",
+          "startMs": 3750,
+          "endMs": 4287
+        },
+        {
+          "text": "and",
+          "startMs": 4397,
+          "endMs": 4572
+        },
+        {
+          "text": "never",
+          "startMs": 4583,
+          "endMs": 4846
+        },
+        {
+          "text": "sent",
+          "startMs": 4846,
+          "endMs": 5143
+        },
+        {
+          "text": "to",
+          "startMs": 5154,
+          "endMs": 5263
+        },
+        {
+          "text": "1Password",
+          "startMs": 5274,
+          "endMs": 6184
+        }
+      ],
+      "durationMs": 6444
+    },
+    {
+      "type": "art",
+      "narration": "Together they form the encryption key that scrambles everything you store.",
+      "emphasis": [
+        "scrambles"
+      ],
+      "props": {
+        "art": "encrypt"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Together they form the encryption key that scrambles everything you store.",
+      "audio": "videos/1password-breach-vaults/scene-09.mp3",
+      "words": [
+        {
+          "text": "Together",
+          "startMs": 88,
+          "endMs": 537
+        },
+        {
+          "text": "they",
+          "startMs": 669,
+          "endMs": 822
+        },
+        {
+          "text": "form",
+          "startMs": 833,
+          "endMs": 1173
+        },
+        {
+          "text": "the",
+          "startMs": 1173,
+          "endMs": 1228
+        },
+        {
+          "text": "encryption",
+          "startMs": 1228,
+          "endMs": 1776
+        },
+        {
+          "text": "key",
+          "startMs": 1776,
+          "endMs": 2171
+        },
+        {
+          "text": "that",
+          "startMs": 2259,
+          "endMs": 2379
+        },
+        {
+          "text": "scrambles",
+          "startMs": 2379,
+          "endMs": 3059
+        },
+        {
+          "text": "everything",
+          "startMs": 3191,
+          "endMs": 3596
+        },
+        {
+          "text": "you",
+          "startMs": 3596,
+          "endMs": 3673
+        },
+        {
+          "text": "store",
+          "startMs": 3684,
+          "endMs": 4134
+        }
+      ],
+      "durationMs": 4394
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. An average password has an estimated forty bits of randomness. The Secret Key has one hundred twenty-eight.",
+      "emphasis": [
+        "miss"
+      ],
+      "props": {
+        "art": "bits"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. An average password has an estimated forty bits of randomness. The Secret Key has one hundred twenty-eight.",
+      "audio": "videos/1password-breach-vaults/scene-10.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 154,
+          "endMs": 340
+        },
+        {
+          "text": "the",
+          "startMs": 351,
+          "endMs": 428
+        },
+        {
+          "text": "part",
+          "startMs": 428,
+          "endMs": 680
+        },
+        {
+          "text": "most",
+          "startMs": 691,
+          "endMs": 976
+        },
+        {
+          "text": "people",
+          "startMs": 976,
+          "endMs": 1206
+        },
+        {
+          "text": "miss",
+          "startMs": 1217,
+          "endMs": 1623
+        },
+        {
+          "text": "An",
+          "startMs": 1974,
+          "endMs": 2083
+        },
+        {
+          "text": "average",
+          "startMs": 2094,
+          "endMs": 2423
+        },
+        {
+          "text": "password",
+          "startMs": 2423,
+          "endMs": 2982
+        },
+        {
+          "text": "has",
+          "startMs": 3158,
+          "endMs": 3311
+        },
+        {
+          "text": "an",
+          "startMs": 3311,
+          "endMs": 3432
+        },
+        {
+          "text": "estimated",
+          "startMs": 3443,
+          "endMs": 3904
+        },
+        {
+          "text": "forty",
+          "startMs": 3904,
+          "endMs": 4331
+        },
+        {
+          "text": "bits",
+          "startMs": 4331,
+          "endMs": 4616
+        },
+        {
+          "text": "of",
+          "startMs": 4616,
+          "endMs": 4682
+        },
+        {
+          "text": "randomness",
+          "startMs": 4682,
+          "endMs": 5307
+        },
+        {
+          "text": "The",
+          "startMs": 5669,
+          "endMs": 5724
+        },
+        {
+          "text": "Secret",
+          "startMs": 5724,
+          "endMs": 6042
+        },
+        {
+          "text": "Key",
+          "startMs": 6042,
+          "endMs": 6360
+        },
+        {
+          "text": "has",
+          "startMs": 6371,
+          "endMs": 6612
+        },
+        {
+          "text": "one",
+          "startMs": 6612,
+          "endMs": 6798
+        },
+        {
+          "text": "hundred",
+          "startMs": 6809,
+          "endMs": 7050
+        },
+        {
+          "text": "twenty-eight",
+          "startMs": 7061,
+          "endMs": 7467
+        }
+      ],
+      "durationMs": 7727
+    },
+    {
+      "type": "art",
+      "narration": "Guessing your password alone gets an attacker nowhere.",
+      "emphasis": [
+        "nowhere"
+      ],
+      "props": {
+        "art": "brute"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Guessing your password alone gets an attacker nowhere.",
+      "audio": "videos/1password-breach-vaults/scene-11.mp3",
+      "words": [
+        {
+          "text": "Guessing",
+          "startMs": 88,
+          "endMs": 329
+        },
+        {
+          "text": "your",
+          "startMs": 329,
+          "endMs": 428
+        },
+        {
+          "text": "password",
+          "startMs": 428,
+          "endMs": 910
+        },
+        {
+          "text": "alone",
+          "startMs": 910,
+          "endMs": 1327
+        },
+        {
+          "text": "gets",
+          "startMs": 1502,
+          "endMs": 1634
+        },
+        {
+          "text": "an",
+          "startMs": 1634,
+          "endMs": 1689
+        },
+        {
+          "text": "attacker",
+          "startMs": 1689,
+          "endMs": 2127
+        },
+        {
+          "text": "nowhere",
+          "startMs": 2127,
+          "endMs": 2654
+        }
+      ],
+      "durationMs": 2914
+    },
+    {
+      "type": "art",
+      "narration": "The real risk is those stolen emails. Expect fake messages pretending to be 1Password.",
+      "emphasis": [
+        "fake"
+      ],
+      "props": {
+        "art": "phishing"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The real risk is those stolen emails. Expect fake messages pretending to be 1Password.",
+      "audio": "videos/1password-breach-vaults/scene-12.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 77,
+          "endMs": 143
+        },
+        {
+          "text": "real",
+          "startMs": 143,
+          "endMs": 406
+        },
+        {
+          "text": "risk",
+          "startMs": 417,
+          "endMs": 800
+        },
+        {
+          "text": "is",
+          "startMs": 1053,
+          "endMs": 1162
+        },
+        {
+          "text": "those",
+          "startMs": 1173,
+          "endMs": 1414
+        },
+        {
+          "text": "stolen",
+          "startMs": 1425,
+          "endMs": 1798
+        },
+        {
+          "text": "emails",
+          "startMs": 1798,
+          "endMs": 2336
+        },
+        {
+          "text": "Expect",
+          "startMs": 2686,
+          "endMs": 3026
+        },
+        {
+          "text": "fake",
+          "startMs": 3026,
+          "endMs": 3322
+        },
+        {
+          "text": "messages",
+          "startMs": 3333,
+          "endMs": 3882
+        },
+        {
+          "text": "pretending",
+          "startMs": 3893,
+          "endMs": 4298
+        },
+        {
+          "text": "to",
+          "startMs": 4298,
+          "endMs": 4342
+        },
+        {
+          "text": "be",
+          "startMs": 4353,
+          "endMs": 4474
+        },
+        {
+          "text": "1Password",
+          "startMs": 4474,
+          "endMs": 5340
+        }
+      ],
+      "durationMs": 5600
+    },
+    {
+      "type": "art",
+      "narration": "1Password will never ask for your password or Secret Key.",
+      "emphasis": [
+        "never"
+      ],
+      "props": {
+        "art": "neverask"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|1Password will never ask for your password or Secret Key.",
+      "audio": "videos/1password-breach-vaults/scene-13.mp3",
+      "words": [
+        {
+          "text": "1Password",
+          "startMs": 99,
+          "endMs": 789
+        },
+        {
+          "text": "will",
+          "startMs": 910,
+          "endMs": 1031
+        },
+        {
+          "text": "never",
+          "startMs": 1031,
+          "endMs": 1436
+        },
+        {
+          "text": "ask",
+          "startMs": 1436,
+          "endMs": 1656
+        },
+        {
+          "text": "for",
+          "startMs": 1667,
+          "endMs": 1754
+        },
+        {
+          "text": "your",
+          "startMs": 1754,
+          "endMs": 1842
+        },
+        {
+          "text": "password",
+          "startMs": 1842,
+          "endMs": 2434
+        },
+        {
+          "text": "or",
+          "startMs": 2544,
+          "endMs": 2632
+        },
+        {
+          "text": "Secret",
+          "startMs": 2643,
+          "endMs": 2971
+        },
+        {
+          "text": "Key",
+          "startMs": 2982,
+          "endMs": 3257
+        }
+      ],
+      "durationMs": 3517
+    },
+    {
+      "type": "art",
+      "narration": "So the hackers got into the building, but the safe was locked with a key they never had.",
+      "emphasis": [
+        "locked"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So the hackers got into the building, but the safe was locked with a key they never had.",
+      "audio": "videos/1password-breach-vaults/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 252
+        },
+        {
+          "text": "the",
+          "startMs": 252,
+          "endMs": 351
+        },
+        {
+          "text": "hackers",
+          "startMs": 351,
+          "endMs": 702
+        },
+        {
+          "text": "got",
+          "startMs": 702,
+          "endMs": 844
+        },
+        {
+          "text": "into",
+          "startMs": 844,
+          "endMs": 954
+        },
+        {
+          "text": "the",
+          "startMs": 954,
+          "endMs": 1020
+        },
+        {
+          "text": "building",
+          "startMs": 1020,
+          "endMs": 1425
+        },
+        {
+          "text": "but",
+          "startMs": 1612,
+          "endMs": 1710
+        },
+        {
+          "text": "the",
+          "startMs": 1711,
+          "endMs": 1776
+        },
+        {
+          "text": "safe",
+          "startMs": 1776,
+          "endMs": 2083
+        },
+        {
+          "text": "was",
+          "startMs": 2094,
+          "endMs": 2226
+        },
+        {
+          "text": "locked",
+          "startMs": 2226,
+          "endMs": 2632
+        },
+        {
+          "text": "with",
+          "startMs": 2643,
+          "endMs": 2741
+        },
+        {
+          "text": "a",
+          "startMs": 2741,
+          "endMs": 2774
+        },
+        {
+          "text": "key",
+          "startMs": 2785,
+          "endMs": 3158
+        },
+        {
+          "text": "they",
+          "startMs": 3169,
+          "endMs": 3278
+        },
+        {
+          "text": "never",
+          "startMs": 3278,
+          "endMs": 3531
+        },
+        {
+          "text": "had",
+          "startMs": 3531,
+          "endMs": 3893
+        }
+      ],
+      "durationMs": 4153
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who still keeps their passwords in a notes app.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the notes-app person"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who still keeps their passwords in a notes app.",
+      "audio": "videos/1password-breach-vaults/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 526
+        },
+        {
+          "text": "and",
+          "startMs": 724,
+          "endMs": 833
+        },
+        {
+          "text": "send",
+          "startMs": 844,
+          "endMs": 1053
+        },
+        {
+          "text": "this",
+          "startMs": 1053,
+          "endMs": 1173
+        },
+        {
+          "text": "to",
+          "startMs": 1173,
+          "endMs": 1250
+        },
+        {
+          "text": "someone",
+          "startMs": 1261,
+          "endMs": 1502
+        },
+        {
+          "text": "who",
+          "startMs": 1502,
+          "endMs": 1579
+        },
+        {
+          "text": "still",
+          "startMs": 1579,
+          "endMs": 1875
+        },
+        {
+          "text": "keeps",
+          "startMs": 1886,
+          "endMs": 2138
+        },
+        {
+          "text": "their",
+          "startMs": 2138,
+          "endMs": 2248
+        },
+        {
+          "text": "passwords",
+          "startMs": 2259,
+          "endMs": 2961
+        },
+        {
+          "text": "in",
+          "startMs": 3092,
+          "endMs": 3191
+        },
+        {
+          "text": "a",
+          "startMs": 3202,
+          "endMs": 3224
+        },
+        {
+          "text": "notes",
+          "startMs": 3224,
+          "endMs": 3509
+        },
+        {
+          "text": "app.",
+          "startMs": 3509,
+          "endMs": 3816
+        }
+      ],
+      "durationMs": 4076
+    }
+  ]
+}
