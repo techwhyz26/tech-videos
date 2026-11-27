@@ -54,7 +54,11 @@ jobs:
           pip install -r requirements.txt
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          npm install -g @google/gemini-cli
+          # Backup AI: Google's Antigravity CLI (agy), which replaced Gemini CLI. In the cloud it runs on a
+          # Gemini API key from Google AI Studio.
+          curl -fsSL https://antigravity.google/cli/install.sh | bash
+          mkdir -p ~/.gemini/antigravity-cli
+          echo '{"modelProvider": "gemini"}' > ~/.gemini/antigravity-cli/settings.json
 
       - name: Decide what to make
         env:
@@ -91,8 +95,8 @@ jobs:
             --output-format text
           test -f output/last.json || { echo "Claude did not finish the video (no output/last.json)"; exit 1; }
 
-      # Backup: Google's Gemini CLI follows the same CLAUDE.md when Claude is not available (for example
-      # when the Claude subscription has ended). Needs the GEMINI_API_KEY secret (free from Google AI Studio).
+      # Backup: Google's Antigravity CLI follows the same CLAUDE.md when Claude is not available (for example
+      # when the Claude subscription has ended). Needs the GEMINI_API_KEY secret (from Google AI Studio).
       - name: Gemini makes the video (backup)
         if: ${{ (inputs.engine || 'auto') == 'gemini' || ((inputs.engine || 'auto') == 'auto' && steps.claude.outcome == 'failure') }}
         env:
@@ -106,7 +110,7 @@ jobs:
           # Start clean: drop anything a failed Claude run left behind.
           git checkout -- . && git clean -fdq -- public/videos tools data
           rm -f output/last.json
-          gemini --yolo -p "You are making one short video for the TechWhyz channel in this repository. \
+          agy --dangerously-skip-permissions --output-format text -p "You are making one short video for the TechWhyz channel in this repository. \
           First read CLAUDE.md completely, then read tools/art_qr.py, tools/art_microwave.py, tools/artlib.py and \
           public/videos/microwave-wifi/spec.json. $TASK Follow the section 'Making one video' in CLAUDE.md exactly, \
           step by step: choose a trending subject with web search, write tools/art_<slug>.py and run it, write the \
