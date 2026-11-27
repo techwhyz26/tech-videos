@@ -1,0 +1,1320 @@
+{
+  "slug": "iphone-duo-folding-glass",
+  "title": "How the iPhone Duo folds glass without snapping",
+  "theme": "ocean",
+  "caption": "Apple's first folding iPhone bends its screen in half every time you open it. The trick is a stack of layers, held by glue that lets them shift as it bends.\n\n#iphoneduo #apple #foldable #iphone #tech",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "iPhone Duo's foldable screen is special, but Apple won't say much about the crease or durability",
+    "link": "https://www.digitaltrends.com/phones/iphone-duos-foldable-screen-is-special-but-apple-wont-say-much-about-the-crease-or-durability/"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "Apple's first folding iPhone, the iPhone Duo, bends its screen in half every time you open it.",
+      "emphasis": [
+        "half"
+      ],
+      "props": {
+        "art": "hook"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Apple's first folding iPhone, the iPhone Duo, bends its screen in half every time you open it.",
+      "audio": "videos/iphone-duo-folding-glass/scene-01.mp3",
+      "words": [
+        {
+          "text": "Apple's",
+          "startMs": 88,
+          "endMs": 362
+        },
+        {
+          "text": "first",
+          "startMs": 373,
+          "endMs": 702
+        },
+        {
+          "text": "folding",
+          "startMs": 702,
+          "endMs": 1020
+        },
+        {
+          "text": "iPhone",
+          "startMs": 1031,
+          "endMs": 1502
+        },
+        {
+          "text": "the",
+          "startMs": 1700,
+          "endMs": 1798
+        },
+        {
+          "text": "iPhone",
+          "startMs": 1809,
+          "endMs": 2182
+        },
+        {
+          "text": "Duo",
+          "startMs": 2193,
+          "endMs": 2675
+        },
+        {
+          "text": "bends",
+          "startMs": 2906,
+          "endMs": 3147
+        },
+        {
+          "text": "its",
+          "startMs": 3158,
+          "endMs": 3257
+        },
+        {
+          "text": "screen",
+          "startMs": 3257,
+          "endMs": 3673
+        },
+        {
+          "text": "in",
+          "startMs": 3673,
+          "endMs": 3761
+        },
+        {
+          "text": "half",
+          "startMs": 3761,
+          "endMs": 4145
+        },
+        {
+          "text": "every",
+          "startMs": 4287,
+          "endMs": 4485
+        },
+        {
+          "text": "time",
+          "startMs": 4496,
+          "endMs": 4715
+        },
+        {
+          "text": "you",
+          "startMs": 4726,
+          "endMs": 4836
+        },
+        {
+          "text": "open",
+          "startMs": 4836,
+          "endMs": 5055
+        },
+        {
+          "text": "it",
+          "startMs": 5055,
+          "endMs": 5219
+        }
+      ],
+      "durationMs": 5479
+    },
+    {
+      "type": "art",
+      "narration": "So how does glass fold without snapping?",
+      "emphasis": [
+        "snapping"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how does glass fold without snapping?",
+      "audio": "videos/iphone-duo-folding-glass/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "how",
+          "startMs": 197,
+          "endMs": 285
+        },
+        {
+          "text": "does",
+          "startMs": 296,
+          "endMs": 406
+        },
+        {
+          "text": "glass",
+          "startMs": 406,
+          "endMs": 757
+        },
+        {
+          "text": "fold",
+          "startMs": 768,
+          "endMs": 1086
+        },
+        {
+          "text": "without",
+          "startMs": 1086,
+          "endMs": 1371
+        },
+        {
+          "text": "snapping",
+          "startMs": 1371,
+          "endMs": 1831
+        }
+      ],
+      "durationMs": 2091
+    },
+    {
+      "type": "art",
+      "narration": "Because the screen isn't one sheet. It's a stack of layers.",
+      "emphasis": [
+        "stack"
+      ],
+      "props": {
+        "art": "layers"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Because the screen isn't one sheet. It's a stack of layers.",
+      "audio": "videos/iphone-duo-folding-glass/scene-03.mp3",
+      "words": [
+        {
+          "text": "Because",
+          "startMs": 88,
+          "endMs": 285
+        },
+        {
+          "text": "the",
+          "startMs": 285,
+          "endMs": 362
+        },
+        {
+          "text": "screen",
+          "startMs": 373,
+          "endMs": 778
+        },
+        {
+          "text": "isn't",
+          "startMs": 844,
+          "endMs": 1042
+        },
+        {
+          "text": "one",
+          "startMs": 1042,
+          "endMs": 1206
+        },
+        {
+          "text": "sheet",
+          "startMs": 1217,
+          "endMs": 1634
+        },
+        {
+          "text": "It's",
+          "startMs": 1974,
+          "endMs": 2039
+        },
+        {
+          "text": "a",
+          "startMs": 2039,
+          "endMs": 2083
+        },
+        {
+          "text": "stack",
+          "startMs": 2094,
+          "endMs": 2379
+        },
+        {
+          "text": "of",
+          "startMs": 2379,
+          "endMs": 2456
+        },
+        {
+          "text": "layers",
+          "startMs": 2456,
+          "endMs": 2950
+        }
+      ],
+      "durationMs": 3210
+    },
+    {
+      "type": "art",
+      "narration": "On top, a polymer cover. Apple says it's up to forty percent stiffer than others use.",
+      "emphasis": [
+        "stiffer"
+      ],
+      "props": {
+        "art": "cover"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|On top, a polymer cover. Apple says it's up to forty percent stiffer than others use.",
+      "audio": "videos/iphone-duo-folding-glass/scene-04.mp3",
+      "words": [
+        {
+          "text": "On",
+          "startMs": 77,
+          "endMs": 175
+        },
+        {
+          "text": "top",
+          "startMs": 175,
+          "endMs": 482
+        },
+        {
+          "text": "a",
+          "startMs": 691,
+          "endMs": 746
+        },
+        {
+          "text": "polymer",
+          "startMs": 746,
+          "endMs": 1096
+        },
+        {
+          "text": "cover",
+          "startMs": 1096,
+          "endMs": 1436
+        },
+        {
+          "text": "Apple",
+          "startMs": 1776,
+          "endMs": 2028
+        },
+        {
+          "text": "says",
+          "startMs": 2028,
+          "endMs": 2292
+        },
+        {
+          "text": "it's",
+          "startMs": 2292,
+          "endMs": 2401
+        },
+        {
+          "text": "up",
+          "startMs": 2412,
+          "endMs": 2533
+        },
+        {
+          "text": "to",
+          "startMs": 2544,
+          "endMs": 2643
+        },
+        {
+          "text": "forty",
+          "startMs": 2654,
+          "endMs": 3015
+        },
+        {
+          "text": "percent",
+          "startMs": 3026,
+          "endMs": 3355
+        },
+        {
+          "text": "stiffer",
+          "startMs": 3366,
+          "endMs": 3761
+        },
+        {
+          "text": "than",
+          "startMs": 3772,
+          "endMs": 3893
+        },
+        {
+          "text": "others",
+          "startMs": 3893,
+          "endMs": 4112
+        },
+        {
+          "text": "use",
+          "startMs": 4112,
+          "endMs": 4485
+        }
+      ],
+      "durationMs": 4745
+    },
+    {
+      "type": "art",
+      "narration": "It also holds high-strength glass, the display, and a titanium plate.",
+      "emphasis": [
+        "titanium"
+      ],
+      "props": {
+        "art": "titanium"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It also holds high-strength glass, the display, and a titanium plate.",
+      "audio": "videos/iphone-duo-folding-glass/scene-05.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "also",
+          "startMs": 154,
+          "endMs": 417
+        },
+        {
+          "text": "holds",
+          "startMs": 417,
+          "endMs": 658
+        },
+        {
+          "text": "high-strength",
+          "startMs": 669,
+          "endMs": 1173
+        },
+        {
+          "text": "glass",
+          "startMs": 1173,
+          "endMs": 1678
+        },
+        {
+          "text": "the",
+          "startMs": 1875,
+          "endMs": 1952
+        },
+        {
+          "text": "display",
+          "startMs": 1952,
+          "endMs": 2566
+        },
+        {
+          "text": "and",
+          "startMs": 2818,
+          "endMs": 2950
+        },
+        {
+          "text": "a",
+          "startMs": 2950,
+          "endMs": 2993
+        },
+        {
+          "text": "titanium",
+          "startMs": 2993,
+          "endMs": 3487
+        },
+        {
+          "text": "plate",
+          "startMs": 3487,
+          "endMs": 3849
+        }
+      ],
+      "durationMs": 4109
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss. The glue between the layers lets them shift as it bends.",
+      "emphasis": [
+        "shift"
+      ],
+      "props": {
+        "art": "glue"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss. The glue between the layers lets them shift as it bends.",
+      "audio": "videos/iphone-duo-folding-glass/scene-06.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 143,
+          "endMs": 318
+        },
+        {
+          "text": "the",
+          "startMs": 329,
+          "endMs": 406
+        },
+        {
+          "text": "part",
+          "startMs": 406,
+          "endMs": 658
+        },
+        {
+          "text": "most",
+          "startMs": 669,
+          "endMs": 965
+        },
+        {
+          "text": "people",
+          "startMs": 965,
+          "endMs": 1206
+        },
+        {
+          "text": "miss",
+          "startMs": 1217,
+          "endMs": 1634
+        },
+        {
+          "text": "The",
+          "startMs": 1985,
+          "endMs": 2061
+        },
+        {
+          "text": "glue",
+          "startMs": 2061,
+          "endMs": 2325
+        },
+        {
+          "text": "between",
+          "startMs": 2336,
+          "endMs": 2610
+        },
+        {
+          "text": "the",
+          "startMs": 2610,
+          "endMs": 2686
+        },
+        {
+          "text": "layers",
+          "startMs": 2686,
+          "endMs": 3246
+        },
+        {
+          "text": "lets",
+          "startMs": 3366,
+          "endMs": 3553
+        },
+        {
+          "text": "them",
+          "startMs": 3564,
+          "endMs": 3673
+        },
+        {
+          "text": "shift",
+          "startMs": 3684,
+          "endMs": 4167
+        },
+        {
+          "text": "as",
+          "startMs": 4397,
+          "endMs": 4507
+        },
+        {
+          "text": "it",
+          "startMs": 4507,
+          "endMs": 4583
+        },
+        {
+          "text": "bends",
+          "startMs": 4583,
+          "endMs": 5022
+        }
+      ],
+      "durationMs": 5282
+    },
+    {
+      "type": "art",
+      "narration": "Bend a stack of paper and the pages slide. Glue them solid, and it fights back.",
+      "emphasis": [
+        "slide"
+      ],
+      "props": {
+        "art": "paper"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Bend a stack of paper and the pages slide. Glue them solid, and it fights back.",
+      "audio": "videos/iphone-duo-folding-glass/scene-07.mp3",
+      "words": [
+        {
+          "text": "Bend",
+          "startMs": 77,
+          "endMs": 186
+        },
+        {
+          "text": "a",
+          "startMs": 186,
+          "endMs": 219
+        },
+        {
+          "text": "stack",
+          "startMs": 230,
+          "endMs": 504
+        },
+        {
+          "text": "of",
+          "startMs": 515,
+          "endMs": 592
+        },
+        {
+          "text": "paper",
+          "startMs": 603,
+          "endMs": 1031
+        },
+        {
+          "text": "and",
+          "startMs": 1272,
+          "endMs": 1338
+        },
+        {
+          "text": "the",
+          "startMs": 1338,
+          "endMs": 1403
+        },
+        {
+          "text": "pages",
+          "startMs": 1414,
+          "endMs": 1787
+        },
+        {
+          "text": "slide",
+          "startMs": 1798,
+          "endMs": 2270
+        },
+        {
+          "text": "Glue",
+          "startMs": 2632,
+          "endMs": 2818
+        },
+        {
+          "text": "them",
+          "startMs": 2818,
+          "endMs": 2928
+        },
+        {
+          "text": "solid",
+          "startMs": 2928,
+          "endMs": 3311
+        },
+        {
+          "text": "and",
+          "startMs": 3575,
+          "endMs": 3640
+        },
+        {
+          "text": "it",
+          "startMs": 3640,
+          "endMs": 3695
+        },
+        {
+          "text": "fights",
+          "startMs": 3706,
+          "endMs": 4013
+        },
+        {
+          "text": "back",
+          "startMs": 4013,
+          "endMs": 4397
+        }
+      ],
+      "durationMs": 4657
+    },
+    {
+      "type": "art",
+      "narration": "The hinge underneath is built from more than one hundred parts.",
+      "emphasis": [
+        "hundred"
+      ],
+      "props": {
+        "art": "hinge"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The hinge underneath is built from more than one hundred parts.",
+      "audio": "videos/iphone-duo-folding-glass/scene-08.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 99,
+          "endMs": 143
+        },
+        {
+          "text": "hinge",
+          "startMs": 143,
+          "endMs": 373
+        },
+        {
+          "text": "underneath",
+          "startMs": 373,
+          "endMs": 866
+        },
+        {
+          "text": "is",
+          "startMs": 1184,
+          "endMs": 1294
+        },
+        {
+          "text": "built",
+          "startMs": 1305,
+          "endMs": 1535
+        },
+        {
+          "text": "from",
+          "startMs": 1535,
+          "endMs": 1732
+        },
+        {
+          "text": "more",
+          "startMs": 1743,
+          "endMs": 2105
+        },
+        {
+          "text": "than",
+          "startMs": 2105,
+          "endMs": 2237
+        },
+        {
+          "text": "one",
+          "startMs": 2237,
+          "endMs": 2325
+        },
+        {
+          "text": "hundred",
+          "startMs": 2325,
+          "endMs": 2588
+        },
+        {
+          "text": "parts",
+          "startMs": 2588,
+          "endMs": 3059
+        }
+      ],
+      "durationMs": 3319
+    },
+    {
+      "type": "art",
+      "narration": "Shut, you get a five point four inch screen. Open, seven point six inches.",
+      "emphasis": [
+        "Open"
+      ],
+      "props": {
+        "art": "sizes"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Shut, you get a five point four inch screen. Open, seven point six inches.",
+      "audio": "videos/iphone-duo-folding-glass/scene-09.mp3",
+      "words": [
+        {
+          "text": "Shut",
+          "startMs": 77,
+          "endMs": 417
+        },
+        {
+          "text": "you",
+          "startMs": 625,
+          "endMs": 669
+        },
+        {
+          "text": "get",
+          "startMs": 680,
+          "endMs": 789
+        },
+        {
+          "text": "a",
+          "startMs": 789,
+          "endMs": 822
+        },
+        {
+          "text": "five",
+          "startMs": 822,
+          "endMs": 1129
+        },
+        {
+          "text": "point",
+          "startMs": 1129,
+          "endMs": 1371
+        },
+        {
+          "text": "four",
+          "startMs": 1382,
+          "endMs": 1623
+        },
+        {
+          "text": "inch",
+          "startMs": 1634,
+          "endMs": 1743
+        },
+        {
+          "text": "screen",
+          "startMs": 1754,
+          "endMs": 2050
+        },
+        {
+          "text": "Open",
+          "startMs": 2412,
+          "endMs": 2708
+        },
+        {
+          "text": "seven",
+          "startMs": 2939,
+          "endMs": 3213
+        },
+        {
+          "text": "point",
+          "startMs": 3213,
+          "endMs": 3454
+        },
+        {
+          "text": "six",
+          "startMs": 3465,
+          "endMs": 3794
+        },
+        {
+          "text": "inches",
+          "startMs": 3794,
+          "endMs": 4232
+        }
+      ],
+      "durationMs": 4492
+    },
+    {
+      "type": "art",
+      "narration": "There's still a crease. A nano-texture finish cuts reflections, so it's harder to spot.",
+      "emphasis": [
+        "crease"
+      ],
+      "props": {
+        "art": "crease"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|There's still a crease. A nano-texture finish cuts reflections, so it's harder to spot.",
+      "audio": "videos/iphone-duo-folding-glass/scene-10.mp3",
+      "words": [
+        {
+          "text": "There's",
+          "startMs": 77,
+          "endMs": 175
+        },
+        {
+          "text": "still",
+          "startMs": 175,
+          "endMs": 395
+        },
+        {
+          "text": "a",
+          "startMs": 395,
+          "endMs": 439
+        },
+        {
+          "text": "crease",
+          "startMs": 439,
+          "endMs": 987
+        },
+        {
+          "text": "A",
+          "startMs": 1338,
+          "endMs": 1371
+        },
+        {
+          "text": "nano-texture",
+          "startMs": 1382,
+          "endMs": 2007
+        },
+        {
+          "text": "finish",
+          "startMs": 2007,
+          "endMs": 2292
+        },
+        {
+          "text": "cuts",
+          "startMs": 2292,
+          "endMs": 2511
+        },
+        {
+          "text": "reflections",
+          "startMs": 2511,
+          "endMs": 3191
+        },
+        {
+          "text": "so",
+          "startMs": 3410,
+          "endMs": 3553
+        },
+        {
+          "text": "it's",
+          "startMs": 3553,
+          "endMs": 3640
+        },
+        {
+          "text": "harder",
+          "startMs": 3651,
+          "endMs": 4013
+        },
+        {
+          "text": "to",
+          "startMs": 4024,
+          "endMs": 4068
+        },
+        {
+          "text": "spot",
+          "startMs": 4068,
+          "endMs": 4529
+        }
+      ],
+      "durationMs": 4789
+    },
+    {
+      "type": "art",
+      "narration": "One tester folded it eleven thousand five hundred times, and the crease got more noticeable.",
+      "emphasis": [
+        "noticeable"
+      ],
+      "props": {
+        "art": "foldtest"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|One tester folded it eleven thousand five hundred times, and the crease got more noticeable.",
+      "audio": "videos/iphone-duo-folding-glass/scene-11.mp3",
+      "words": [
+        {
+          "text": "One",
+          "startMs": 88,
+          "endMs": 340
+        },
+        {
+          "text": "tester",
+          "startMs": 340,
+          "endMs": 800
+        },
+        {
+          "text": "folded",
+          "startMs": 800,
+          "endMs": 1239
+        },
+        {
+          "text": "it",
+          "startMs": 1239,
+          "endMs": 1305
+        },
+        {
+          "text": "eleven",
+          "startMs": 1316,
+          "endMs": 1678
+        },
+        {
+          "text": "thousand",
+          "startMs": 1689,
+          "endMs": 2072
+        },
+        {
+          "text": "five",
+          "startMs": 2072,
+          "endMs": 2336
+        },
+        {
+          "text": "hundred",
+          "startMs": 2336,
+          "endMs": 2522
+        },
+        {
+          "text": "times",
+          "startMs": 2533,
+          "endMs": 3048
+        },
+        {
+          "text": "and",
+          "startMs": 3388,
+          "endMs": 3465
+        },
+        {
+          "text": "the",
+          "startMs": 3465,
+          "endMs": 3531
+        },
+        {
+          "text": "crease",
+          "startMs": 3531,
+          "endMs": 3893
+        },
+        {
+          "text": "got",
+          "startMs": 3904,
+          "endMs": 4068
+        },
+        {
+          "text": "more",
+          "startMs": 4079,
+          "endMs": 4287
+        },
+        {
+          "text": "noticeable",
+          "startMs": 4287,
+          "endMs": 4912
+        }
+      ],
+      "durationMs": 5172
+    },
+    {
+      "type": "art",
+      "narration": "But the hinge stayed smooth, and opened just like day one.",
+      "emphasis": [
+        "smooth"
+      ],
+      "props": {
+        "art": "smooth"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But the hinge stayed smooth, and opened just like day one.",
+      "audio": "videos/iphone-duo-folding-glass/scene-12.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 99,
+          "endMs": 164
+        },
+        {
+          "text": "the",
+          "startMs": 164,
+          "endMs": 219
+        },
+        {
+          "text": "hinge",
+          "startMs": 219,
+          "endMs": 526
+        },
+        {
+          "text": "stayed",
+          "startMs": 526,
+          "endMs": 822
+        },
+        {
+          "text": "smooth",
+          "startMs": 822,
+          "endMs": 1393
+        },
+        {
+          "text": "and",
+          "startMs": 1612,
+          "endMs": 1787
+        },
+        {
+          "text": "opened",
+          "startMs": 1798,
+          "endMs": 2028
+        },
+        {
+          "text": "just",
+          "startMs": 2028,
+          "endMs": 2149
+        },
+        {
+          "text": "like",
+          "startMs": 2160,
+          "endMs": 2259
+        },
+        {
+          "text": "day",
+          "startMs": 2259,
+          "endMs": 2390
+        },
+        {
+          "text": "one",
+          "startMs": 2401,
+          "endMs": 2686
+        }
+      ],
+      "durationMs": 2946
+    },
+    {
+      "type": "art",
+      "narration": "Apple hasn't said how many folds the screen is rated for.",
+      "emphasis": [
+        "folds"
+      ],
+      "props": {
+        "art": "rating"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Apple hasn't said how many folds the screen is rated for.",
+      "audio": "videos/iphone-duo-folding-glass/scene-13.mp3",
+      "words": [
+        {
+          "text": "Apple",
+          "startMs": 88,
+          "endMs": 329
+        },
+        {
+          "text": "hasn't",
+          "startMs": 329,
+          "endMs": 625
+        },
+        {
+          "text": "said",
+          "startMs": 636,
+          "endMs": 866
+        },
+        {
+          "text": "how",
+          "startMs": 866,
+          "endMs": 1020
+        },
+        {
+          "text": "many",
+          "startMs": 1020,
+          "endMs": 1195
+        },
+        {
+          "text": "folds",
+          "startMs": 1195,
+          "endMs": 1502
+        },
+        {
+          "text": "the",
+          "startMs": 1502,
+          "endMs": 1568
+        },
+        {
+          "text": "screen",
+          "startMs": 1568,
+          "endMs": 2007
+        },
+        {
+          "text": "is",
+          "startMs": 2160,
+          "endMs": 2259
+        },
+        {
+          "text": "rated",
+          "startMs": 2259,
+          "endMs": 2456
+        },
+        {
+          "text": "for",
+          "startMs": 2456,
+          "endMs": 2829
+        }
+      ],
+      "durationMs": 3089
+    },
+    {
+      "type": "art",
+      "narration": "And it starts at one thousand nine hundred ninety nine dollars.",
+      "emphasis": [
+        "starts"
+      ],
+      "props": {
+        "art": "price"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|And it starts at one thousand nine hundred ninety nine dollars.",
+      "audio": "videos/iphone-duo-folding-glass/scene-14.mp3",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "it",
+          "startMs": 143,
+          "endMs": 208
+        },
+        {
+          "text": "starts",
+          "startMs": 208,
+          "endMs": 526
+        },
+        {
+          "text": "at",
+          "startMs": 537,
+          "endMs": 680
+        },
+        {
+          "text": "one",
+          "startMs": 789,
+          "endMs": 1107
+        },
+        {
+          "text": "thousand",
+          "startMs": 1118,
+          "endMs": 1623
+        },
+        {
+          "text": "nine",
+          "startMs": 1886,
+          "endMs": 2083
+        },
+        {
+          "text": "hundred",
+          "startMs": 2094,
+          "endMs": 2335
+        },
+        {
+          "text": "ninety",
+          "startMs": 2336,
+          "endMs": 2632
+        },
+        {
+          "text": "nine",
+          "startMs": 2632,
+          "endMs": 2840
+        },
+        {
+          "text": "dollars",
+          "startMs": 2840,
+          "endMs": 3355
+        }
+      ],
+      "durationMs": 3615
+    },
+    {
+      "type": "art",
+      "narration": "So the iPhone Duo's screen doesn't fight the fold. Its layers shift, every time you open it.",
+      "emphasis": [
+        "shift"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So the iPhone Duo's screen doesn't fight the fold. Its layers shift, every time you open it.",
+      "audio": "videos/iphone-duo-folding-glass/scene-15.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 164
+        },
+        {
+          "text": "the",
+          "startMs": 164,
+          "endMs": 252
+        },
+        {
+          "text": "iPhone",
+          "startMs": 263,
+          "endMs": 636
+        },
+        {
+          "text": "Duo's",
+          "startMs": 636,
+          "endMs": 965
+        },
+        {
+          "text": "screen",
+          "startMs": 976,
+          "endMs": 1447
+        },
+        {
+          "text": "doesn't",
+          "startMs": 1557,
+          "endMs": 1853
+        },
+        {
+          "text": "fight",
+          "startMs": 1864,
+          "endMs": 2281
+        },
+        {
+          "text": "the",
+          "startMs": 2281,
+          "endMs": 2346
+        },
+        {
+          "text": "fold",
+          "startMs": 2346,
+          "endMs": 2741
+        },
+        {
+          "text": "Its",
+          "startMs": 3103,
+          "endMs": 3191
+        },
+        {
+          "text": "layers",
+          "startMs": 3191,
+          "endMs": 3498
+        },
+        {
+          "text": "shift",
+          "startMs": 3498,
+          "endMs": 3958
+        },
+        {
+          "text": "every",
+          "startMs": 4211,
+          "endMs": 4353
+        },
+        {
+          "text": "time",
+          "startMs": 4364,
+          "endMs": 4572
+        },
+        {
+          "text": "you",
+          "startMs": 4572,
+          "endMs": 4660
+        },
+        {
+          "text": "open",
+          "startMs": 4660,
+          "endMs": 4879
+        },
+        {
+          "text": "it",
+          "startMs": 4879,
+          "endMs": 5033
+        }
+      ],
+      "durationMs": 5293
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who swears folding phones always break.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to a foldable doubter"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who swears folding phones always break.",
+      "audio": "videos/iphone-duo-folding-glass/scene-16.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 548
+        },
+        {
+          "text": "and",
+          "startMs": 888,
+          "endMs": 1206
+        },
+        {
+          "text": "send",
+          "startMs": 1371,
+          "endMs": 1634
+        },
+        {
+          "text": "this",
+          "startMs": 1634,
+          "endMs": 1765
+        },
+        {
+          "text": "to",
+          "startMs": 1765,
+          "endMs": 1842
+        },
+        {
+          "text": "someone",
+          "startMs": 1842,
+          "endMs": 2160
+        },
+        {
+          "text": "who",
+          "startMs": 2160,
+          "endMs": 2292
+        },
+        {
+          "text": "swears",
+          "startMs": 2303,
+          "endMs": 2785
+        },
+        {
+          "text": "folding",
+          "startMs": 2796,
+          "endMs": 3147
+        },
+        {
+          "text": "phones",
+          "startMs": 3147,
+          "endMs": 3684
+        },
+        {
+          "text": "always",
+          "startMs": 3783,
+          "endMs": 4090
+        },
+        {
+          "text": "break",
+          "startMs": 4101,
+          "endMs": 4485
+        }
+      ],
+      "durationMs": 4745
+    }
+  ]
+}
