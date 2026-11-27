@@ -63,7 +63,7 @@ def channel() -> dict:
 
 
 def upload_short(video: Path, title: str, description: str, tags: list[str],
-                 publish_at: dt.datetime | None = None) -> str:
+                 publish_at: dt.datetime | None = None, private: bool = False) -> str:
     """Upload a Short. With `publish_at` it stays private until then and YouTube makes it public by
     itself. Returns the video's link."""
     status: dict = {"selfDeclaredMadeForKids": False, "embeddable": True}
@@ -71,7 +71,7 @@ def upload_short(video: Path, title: str, description: str, tags: list[str],
         status["privacyStatus"] = "private"
         status["publishAt"] = publish_at.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     else:
-        status["privacyStatus"] = "public"
+        status["privacyStatus"] = "private" if private else "public"
     meta = {"snippet": {"title": title[:100], "description": description[:4900],
                         "tags": [t for t in tags if t][:30], "categoryId": "28"},  # Science & Technology
             "status": status}

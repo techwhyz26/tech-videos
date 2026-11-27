@@ -142,16 +142,28 @@ def _direct_instagram() -> bool:
 
 
 def _direct_youtube() -> bool:
+    """Upload to YouTube through Google's API first. Only once the Google project has passed YouTube's
+    API audit (automation.youtube_audited); before that its uploads are locked private, so Upload-Post
+    goes first and Google's API is only the fallback when Upload-Post is used up."""
+    auto = config().get("automation", {})
+    return bool(auto.get("youtube_direct")) and bool(auto.get("youtube_audited")) and youtube.configured()
+
+
+def _youtube_fallback() -> bool:
     return bool(config().get("automation", {}).get("youtube_direct")) and youtube.configured()
 
 
 def _youtube_upload(video: Path, spec: dict, when: dt.datetime | None) -> str:
     caption = spec.get("caption", spec["title"])
+    audited = bool(config().get("automation", {}).get("youtube_audited"))
     try:
         link = youtube.upload_short(video, youtube.short_title(spec["title"]), f"{caption}\n\n#Shorts",
-                                    _hashtags(caption) + ["shorts"], publish_at=when)
+                                    _hashtags(caption) + ["shorts"], publish_at=when if audited else None,
+                                    private=not audited)
     except (youtube.YouTubeError, httpx.HTTPError) as err:
         return f"FAILED: {err}"
+    if not audited:
+        return f"private {link}"
     return f"scheduled {link}" if when else link
 
 
@@ -206,6 +218,8 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
         else:
             reason = "Upload-Post's monthly uploads are used up" if keys else "no Upload-Post key"
             results.update({p: f"FAILED: {reason}" for p in via_upload_post})
+            if "youtube" in via_upload_post and _youtube_fallback():
+                results["youtube"] = _youtube_upload(video, spec, when)
     if results and all(str(v).startswith("FAILED") for v in results.values()):
         raise RuntimeError("Every platform failed: " + "; ".join(f"{p}: {v}" for p, v in results.items()))
     spec["status"] = "published"
