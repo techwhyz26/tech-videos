@@ -1,6 +1,7 @@
 """One-time YouTube sign-in. Run it on your own PC:
 
     python tools/youtube_auth.py path\\to\\client_secret.json
+    python tools/youtube_auth.py          (asks you to paste the Client ID and secret instead)
 
 It opens Google's sign-in page in your browser. Choose the TechWhyz channel and allow uploads. The
 script then saves YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET and YOUTUBE_REFRESH_TOKEN as GitHub secrets of
@@ -36,11 +37,14 @@ def save_secret(name: str, value: str) -> None:
 
 
 def main() -> None:
-    if len(sys.argv) != 2:
-        sys.exit(__doc__)
-    data = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
-    client = data.get("installed") or data.get("web") or {}
-    client_id, client_secret = client.get("client_id"), client.get("client_secret")
+    if len(sys.argv) == 2 and Path(sys.argv[1]).is_file():
+        data = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+        client = data.get("installed") or data.get("web") or {}
+        client_id, client_secret = client.get("client_id"), client.get("client_secret")
+    else:  # no JSON file: paste the two values from the Google Cloud client page
+        import getpass
+        client_id = input("Paste the Client ID and press Enter: ").strip()
+        client_secret = getpass.getpass("Paste the Client secret (it stays hidden) and press Enter: ").strip()
     if not client_id or not client_secret:
         sys.exit("That file has no client_id/client_secret. Download the OAuth client JSON (Desktop app).")
 
