@@ -161,6 +161,23 @@ def _fetch_video(slug: str) -> Path:
     return video
 
 
+def _youtube_kit(slug: str, results: dict, reply_to: int | None = None) -> None:
+    """When YouTube is posted by hand, send the upload kit to Telegram."""
+    if results.get("youtube") != "by hand":
+        return
+    spec = common.load_spec(slug)
+    when_text = ""
+    if spec.get("scheduled_for"):
+        when = datetime.datetime.fromisoformat(spec["scheduled_for"])
+        sched = common.config()["automation"]["schedule"]
+        your = sched.get("your_timezone") or sched.get("timezone", "UTC")
+        when_text = (f"{when.astimezone(ZoneInfo(your)):%a %d %b, %I:%M %p} your time "
+                     f"({when.astimezone(ZoneInfo(sched.get('timezone', 'UTC'))):%I:%M %p} New York), "
+                     "the same time it goes live on Instagram")
+    title, description, tags = publisher.youtube_fields(spec)
+    notify.send_youtube_kit(spec, _fetch_video(slug), title, description, tags, when_text, reply_to=reply_to)
+
+
 def _posted_text(spec: dict, results: dict) -> str:
     """The Telegram reply after posting: says plainly whether it is live, scheduled (and when) or failed."""
     lines = []
@@ -180,6 +197,8 @@ def _posted_text(spec: dict, results: dict) -> str:
     for p, u in results.items():
         if str(u).startswith("FAILED"):
             lines.append(f"❌ {p}: {u[8:] or 'failed'}")
+        elif u == "by hand":
+            lines.append(f"📋 {p}: post it yourself. The upload kit follows below.")
         elif str(u).startswith("private "):
             lines.append(f"🔒 {p}: uploaded PRIVATE (Google's audit is pending). Make it public in YouTube "
                          f"Studio: {str(u)[8:].replace('www.youtube.com/shorts/', 'studio.youtube.com/video/')}/edit")
@@ -203,6 +222,14 @@ def cmd_post(args: argparse.Namespace) -> None:
     print(text)
     if os.environ.get("TELEGRAM_BOT_TOKEN"):
         notify.send_message(f"{spec['title']}\n{text}")
+        _youtube_kit(args.slug, results)
+
+
+def cmd_youtube_kit(args: argparse.Namespace) -> None:
+    """Send the YouTube upload kit (video file, title, description, tags) to Telegram."""
+    common.load_spec(args.slug)
+    _youtube_kit(args.slug, {"youtube": "by hand"})
+    print("YouTube upload kit sent to Telegram.")
 
 
 def cmd_review(_: argparse.Namespace) -> None:
@@ -231,6 +258,7 @@ def cmd_review(_: argparse.Namespace) -> None:
                                         "is missing), so nothing was posted.")
             else:
                 notify.acknowledge(tap, _posted_text(common.load_spec(slug), results))
+                _youtube_kit(slug, results, reply_to=tap["message_id"])
         except (Exception, SystemExit) as err:  # keep the buttons so you can tap again
             print(f"  failed: {err}")
             notify.send_message(f"Could not post {slug}: {err}\nTap ✅ again to retry.",
@@ -343,6 +371,9 @@ def main() -> None:
     send = sub.add_parser("send-review", help="send a rendered video to Telegram for review")
     send.add_argument("slug")
     send.set_defaults(fn=cmd_send_review)
+    kit = sub.add_parser("youtube-kit", help="send the YouTube upload kit of a video to Telegram")
+    kit.add_argument("slug")
+    kit.set_defaults(fn=cmd_youtube_kit)
     note = sub.add_parser("notify", help="send yourself a Telegram message")
     note.add_argument("text")
     note.set_defaults(fn=cmd_notify)

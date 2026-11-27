@@ -153,13 +153,18 @@ def _youtube_fallback() -> bool:
     return bool(config().get("automation", {}).get("youtube_direct")) and youtube.configured()
 
 
-def _youtube_upload(video: Path, spec: dict, when: dt.datetime | None) -> str:
+def youtube_fields(spec: dict) -> tuple[str, str, list[str]]:
+    """YouTube title, description and tags for a video."""
     caption = spec.get("caption", spec["title"])
+    return youtube.short_title(spec["title"]), f"{caption}\n\n#Shorts", _hashtags(caption) + ["shorts"]
+
+
+def _youtube_upload(video: Path, spec: dict, when: dt.datetime | None) -> str:
     audited = bool(config().get("automation", {}).get("youtube_audited"))
+    title, description, tags = youtube_fields(spec)
     try:
-        link = youtube.upload_short(video, youtube.short_title(spec["title"]), f"{caption}\n\n#Shorts",
-                                    _hashtags(caption) + ["shorts"], publish_at=when if audited else None,
-                                    private=not audited)
+        link = youtube.upload_short(video, title, description, tags,
+                                    publish_at=when if audited else None, private=not audited)
     except (youtube.YouTubeError, httpx.HTTPError) as err:
         return f"FAILED: {err}"
     if not audited:
@@ -185,10 +190,14 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
 
     platforms = only or config().get("automation", {}).get("platforms") or []
     direct = [p for p in platforms if p == "instagram" and _direct_instagram()]
-    direct_yt = [p for p in platforms if p == "youtube" and _direct_youtube()]
-    via_upload_post = [p for p in platforms if p not in direct and p not in direct_yt]
+    # automation.youtube_mode "manual": you upload to YouTube yourself from the kit Telegram sends you
+    # (until Google's API audit passes; then set it to "auto").
+    by_hand = [p for p in platforms if p == "youtube"
+               and config().get("automation", {}).get("youtube_mode") == "manual"]
+    direct_yt = [p for p in platforms if p == "youtube" and not by_hand and _direct_youtube()]
+    via_upload_post = [p for p in platforms if p not in direct and p not in direct_yt and p not in by_hand]
     keys = _keys()
-    if not keys and not direct and not direct_yt:
+    if not keys and not direct and not direct_yt and not by_hand:
         ready = OUTPUT / "ready"
         ready.mkdir(parents=True, exist_ok=True)
         shutil.copy2(video, ready / video.name)
@@ -207,6 +216,8 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
                 results["instagram"] = f"FAILED: {err}"
     if direct_yt:
         results["youtube"] = _youtube_upload(video, spec, when)
+    if by_hand:
+        results["youtube"] = "by hand"
     if via_upload_post:
         for number, key in enumerate(keys, 1):  # use the accounts in turn; move on when one is used up
             try:

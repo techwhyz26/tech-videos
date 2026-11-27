@@ -1,0 +1,31 @@
+# Manual: send the YouTube upload kit (video file, title, description, tags) of a video to Telegram.
+name: Send YouTube kit
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Video name (the folder name under public/videos, e.g. touchscreen-gloves)"
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_TOKEN: ${{ github.token }}
+      SLUG: ${{ inputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python run.py youtube-kit "$SLUG"

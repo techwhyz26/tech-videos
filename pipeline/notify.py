@@ -77,6 +77,26 @@ def send_for_review(spec: dict, video: Path) -> int:
     return msg["message_id"]
 
 
+def send_youtube_kit(spec: dict, video: Path, title: str, description: str, tags: list[str],
+                     when_text: str, reply_to: int | None = None) -> None:
+    """Everything needed to upload a video to YouTube by hand, one message per field so each can be
+    copied with a long press: the original video file, the title, the description and the tags."""
+    send_message(f"📋 YouTube upload kit for '{spec['title']}'\n\n"
+                 "1. Save the video file below and upload it in the YouTube app or studio.youtube.com\n"
+                 "2. Copy the title, description and tags from the next messages\n"
+                 f"3. Visibility: Schedule it for {when_text}" if when_text else
+                 f"📋 YouTube upload kit for '{spec['title']}'\n\n"
+                 "1. Save the video file below and upload it in the YouTube app or studio.youtube.com\n"
+                 "2. Copy the title, description and tags from the next messages\n"
+                 "3. Visibility: Public", reply_to=reply_to)
+    with video.open("rb") as f:  # as a file, so Telegram does not shrink the quality
+        _call("sendDocument", timeout=300, files={"document": (video.name, f, "video/mp4")},
+              chat_id=_chat(), caption="Video file (full quality)")
+    send_message(title)
+    send_message(description)
+    send_message(", ".join(tags))
+
+
 def poll() -> list[dict]:
     """Return the button taps since the last poll: [{action, slug, message_id}], oldest first.
     Only taps from TELEGRAM_CHAT_ID count; anyone else who finds the bot is ignored."""
