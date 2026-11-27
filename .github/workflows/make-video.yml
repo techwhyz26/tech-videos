@@ -16,6 +16,11 @@ on:
         description: "Optional - your own idea, for example How does Bluetooth work?"
         type: string
         required: false
+      engine:
+        description: "Which AI makes it (auto = Claude first, Gemini if Claude fails)"
+        type: choice
+        options: [auto, claude, gemini]
+        default: auto
 
 permissions:
   contents: write   # commit the script and drawings, create the release that holds the video
@@ -49,6 +54,7 @@ jobs:
           pip install -r requirements.txt
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          npm install -g @google/gemini-cli
 
       - name: Decide what to make
         env:
@@ -71,6 +77,9 @@ jobs:
           echo "$TASK"
 
       - name: Claude Code makes the video
+        id: claude
+        if: ${{ (inputs.engine || 'auto') != 'gemini' }}
+        continue-on-error: ${{ (inputs.engine || 'auto') == 'auto' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
@@ -81,6 +90,34 @@ jobs:
             --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(python run.py *),Bash(python tools/*)" \
             --output-format text
           test -f output/last.json || { echo "Claude did not finish the video (no output/last.json)"; exit 1; }
+
+      # Backup: Google's Gemini CLI follows the same CLAUDE.md when Claude is not available (for example
+      # when the Claude subscription has ended). Needs the GEMINI_API_KEY secret (free from Google AI Studio).
+      - name: Gemini makes the video (backup)
+        if: ${{ (inputs.engine || 'auto') == 'gemini' || ((inputs.engine || 'auto') == 'auto' && steps.claude.outcome == 'failure') }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # The AI gets no access to the GitHub, Telegram or posting keys.
+          GH_TOKEN: ""
+          TELEGRAM_BOT_TOKEN: ""
+          TELEGRAM_CHAT_ID: ""
+        run: |
+          test -n "$GEMINI_API_KEY" || { echo "Claude failed and there is no GEMINI_API_KEY secret for the backup."; exit 1; }
+          # Start clean: drop anything a failed Claude run left behind.
+          git checkout -- . && git clean -fdq -- public/videos tools data
+          rm -f output/last.json
+          gemini --yolo -p "You are making one short video for the TechWhyz channel in this repository. \
+          First read CLAUDE.md completely, then read tools/art_qr.py, tools/art_microwave.py, tools/artlib.py and \
+          public/videos/microwave-wifi/spec.json. $TASK Follow the section 'Making one video' in CLAUDE.md exactly, \
+          step by step: choose a trending subject with web search, write tools/art_<slug>.py and run it, write the \
+          spec.json, run 'python run.py build <slug>', then 'python run.py frames <slug>' and look at the contact sheet \
+          image, fixing the art at most twice. The visual standard in CLAUDE.md is non-negotiable. Do not commit, push \
+          or send anything. Finish by writing output/last.json."
+          test -f output/last.json || { echo "Gemini did not finish the video (no output/last.json)"; exit 1; }
+
+      - name: Which video was made
+        run: |
+          test -f output/last.json || { echo "No video was made."; exit 1; }
           echo "SLUG=$(python -c "import json; print(json.load(open('output/last.json'))['slug'])")" >> "$GITHUB_ENV"
 
       - name: Save the script and drawings to the repository
