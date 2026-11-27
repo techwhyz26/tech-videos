@@ -33,9 +33,21 @@ def token() -> str:
     return tok
 
 
+_HOST: dict[str, str] = {}
+
+
 def _instagram_login() -> bool:
-    """True for an Instagram-login token, False for a Facebook (system-user) token."""
-    return token().startswith("IG")
+    """True when the token works with graph.instagram.com (Instagram login), False when it is a
+    Facebook-style token for graph.facebook.com. Tried once, then remembered."""
+    if "host" not in _HOST:
+        try:
+            r = httpx.get(f"https://graph.instagram.com/{VERSION}/me",
+                          params={"fields": "user_id,username", "access_token": token()}, timeout=60)
+            ok = r.status_code == 200 and "user_id" in r.json()
+        except (httpx.HTTPError, ValueError):
+            ok = token().startswith("IG")
+        _HOST["host"] = "graph.instagram.com" if ok else "graph.facebook.com"
+    return _HOST["host"] == "graph.instagram.com"
 
 
 def _api() -> str:
@@ -68,11 +80,21 @@ def _user_id() -> str:
     """Id of the Instagram account to post as."""
     if os.environ.get("INSTAGRAM_USER_ID", "").strip():
         return os.environ["INSTAGRAM_USER_ID"].strip()
+    try:
+        from .common import config
+        configured = str(config().get("automation", {}).get("instagram_user_id", "")).strip()
+    except Exception:
+        configured = ""
     if _instagram_login():
         body = _call("GET", "me", fields="user_id")
         return str((body["data"][0] if "data" in body else body)["user_id"])
     # System-user token: the Instagram account it was given is listed in its granular scopes.
-    info = _call("GET", "debug_token", input_token=token()).get("data", {})
+    if configured:
+        return configured
+    try:
+        info = _call("GET", "debug_token", input_token=token()).get("data", {})
+    except InstagramError:
+        info = {}
     for scope in info.get("granular_scopes", []):
         if scope.get("scope") == "instagram_content_publish" and scope.get("target_ids"):
             return str(scope["target_ids"][0])
@@ -122,7 +144,7 @@ def publish_reel(video_url: str, caption: str, wait_minutes: int = 15) -> str:
 
 def needs_refresh() -> bool:
     """Only Instagram-login tokens expire; system-user tokens never do."""
-    return _instagram_login()
+    return _instagram_login() and token().startswith("IG")
 
 
 def refresh() -> str:
