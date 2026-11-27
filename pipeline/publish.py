@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 
 import httpx
 
-from . import instagram
+from . import instagram, youtube
 from .common import OUTPUT, all_specs, config, save_spec
 
 UPLOAD_URL = "https://api.upload-post.com/api/upload"
@@ -141,6 +141,20 @@ def _direct_instagram() -> bool:
     return bool(config().get("automation", {}).get("instagram_direct")) and bool(os.environ.get("INSTAGRAM_TOKEN"))
 
 
+def _direct_youtube() -> bool:
+    return bool(config().get("automation", {}).get("youtube_direct")) and youtube.configured()
+
+
+def _youtube_upload(video: Path, spec: dict, when: dt.datetime | None) -> str:
+    caption = spec.get("caption", spec["title"])
+    try:
+        link = youtube.upload_short(video, youtube.short_title(spec["title"]), f"{caption}\n\n#Shorts",
+                                    _hashtags(caption) + ["shorts"], publish_at=when)
+    except (youtube.YouTubeError, httpx.HTTPError) as err:
+        return f"FAILED: {err}"
+    return f"scheduled {link}" if when else link
+
+
 def publish(spec: dict, video: Path | None = None, now: bool = False,
             only: list[str] | None = None) -> dict[str, str]:
     """Post an approved video. It goes into the next free slot of the posting schedule unless `now`.
@@ -159,9 +173,10 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
 
     platforms = only or config().get("automation", {}).get("platforms") or []
     direct = [p for p in platforms if p == "instagram" and _direct_instagram()]
-    via_upload_post = [p for p in platforms if p not in direct]
+    direct_yt = [p for p in platforms if p == "youtube" and _direct_youtube()]
+    via_upload_post = [p for p in platforms if p not in direct and p not in direct_yt]
     keys = _keys()
-    if not keys and not direct:
+    if not keys and not direct and not direct_yt:
         ready = OUTPUT / "ready"
         ready.mkdir(parents=True, exist_ok=True)
         shutil.copy2(video, ready / video.name)
@@ -178,6 +193,8 @@ def publish(spec: dict, video: Path | None = None, now: bool = False,
                 results["instagram"] = instagram.publish_reel(video_url(spec["slug"]), spec.get("caption", spec["title"]))
             except instagram.InstagramError as err:
                 results["instagram"] = f"FAILED: {err}"
+    if direct_yt:
+        results["youtube"] = _youtube_upload(video, spec, when)
     if via_upload_post:
         for number, key in enumerate(keys, 1):  # use the accounts in turn; move on when one is used up
             try:

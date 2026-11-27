@@ -164,21 +164,24 @@ def _fetch_video(slug: str) -> Path:
 def _posted_text(spec: dict, results: dict) -> str:
     """The Telegram reply after posting: says plainly whether it is live, scheduled (and when) or failed."""
     lines = []
-    if spec.get("scheduled_for") and any(u in ("scheduled", "queued") for u in results.values()):
+    def waiting(u) -> bool:
+        return str(u).split(" ")[0] in ("scheduled", "queued")
+
+    if spec.get("scheduled_for") and any(waiting(u) for u in results.values()):
         when = datetime.datetime.fromisoformat(spec["scheduled_for"])
         sched = common.config()["automation"]["schedule"]
         times = [f"{when.astimezone(ZoneInfo(tz)):%a %d %b, %H:%M} {label}"
                  for tz, label in ((sched.get("timezone", "UTC"), "New York time"
                                     if sched.get("timezone") == "America/New_York" else sched.get("timezone", "UTC")),
                                    (sched.get("your_timezone"), "your time")) if tz]
-        if set(results.values()) <= {"scheduled", "queued"}:
+        if all(waiting(u) for u in results.values()):
             return f"🕒 Scheduled, not live yet: {', '.join(results)}\nGoes live " + "\n= ".join(times)
         lines.append("Goes live " + "\n= ".join(times))
     for p, u in results.items():
         if str(u).startswith("FAILED"):
             lines.append(f"❌ {p}: {u[8:] or 'failed'}")
-        elif u in ("scheduled", "queued"):
-            lines.append(f"🕒 {p}: scheduled")
+        elif waiting(u):
+            lines.append(f"🕒 {p}: scheduled {str(u)[10:]}".rstrip())
         else:
             lines.append(f"✅ {p}: live {u}")
     return "\n".join(lines)

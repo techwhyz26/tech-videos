@@ -7,6 +7,7 @@
     "platforms": ["instagram", "youtube"],
     "instagram_direct": true,
     "instagram_user_id": "17841454266463531",
+    "youtube_direct": true,
     "schedule": {"timezone": "America/New_York", "times": ["18:00"], "days_between": 1,
                  "your_timezone": "Asia/Colombo"}
   },
