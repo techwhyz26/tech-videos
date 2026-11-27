@@ -1,0 +1,46 @@
+# Manual: upload one already-made video to YouTube through Google's API as a PRIVATE video
+# (for the API audit screencast, or to test the connection). Nothing is made public.
+name: YouTube test upload (private)
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Video name (the folder name under public/videos, e.g. signal-blocks-ai-screenshots)"
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      SLUG: ${{ inputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Upload privately
+        run: |
+          gh release download "video-$SLUG" --pattern "$SLUG.mp4" --dir output --clobber
+          python - <<'EOF'
+          import os
+          from pathlib import Path
+          from pipeline import common, publish, youtube
+          slug = os.environ["SLUG"]
+          spec = common.load_spec(slug)
+          title, description, tags = publish.youtube_fields(spec)
+          print("Channel:", youtube.channel())
+          link = youtube.upload_short(Path("output") / f"{slug}.mp4", title, description, tags, private=True)
+          print("Uploaded (private):", link)
+          EOF
