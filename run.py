@@ -182,7 +182,7 @@ def _posted_text(spec: dict, results: dict) -> str:
             lines.append(f"❌ {p}: {u[8:] or 'failed'}")
         elif str(u).startswith("private "):
             lines.append(f"🔒 {p}: uploaded PRIVATE (Google's audit is pending). Make it public in YouTube "
-                         f"Studio: {str(u)[8:].replace('youtube.com/shorts/', 'studio.youtube.com/video/')}/edit")
+                         f"Studio: {str(u)[8:].replace('www.youtube.com/shorts/', 'studio.youtube.com/video/')}/edit")
         elif waiting(u):
             lines.append(f"🕒 {p}: scheduled {str(u)[10:]}".rstrip())
         else:
