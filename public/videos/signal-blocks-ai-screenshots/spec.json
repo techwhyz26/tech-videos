@@ -3,7 +3,7 @@
   "title": "Signal is hiding your chats from your phone's AI",
   "theme": "matrix",
   "caption": "Signal now blocks screenshots on Android and iPhone. Not to stop your friends, but to stop the AI assistant built into your own phone from reading your chats.\n\n#signal #privacy #ai #tech #android #iphone",
-  "status": "rendered",
+  "status": "published",
   "brand": {
     "name": "TechWhyz"
   },
@@ -1310,5 +1310,8 @@
       ],
       "durationMs": 4098
     }
-  ]
+  ],
+  "posts": {
+    "instagram": "https://www.instagram.com/reel/DgO5wD2NEVn/"
+  }
 }
