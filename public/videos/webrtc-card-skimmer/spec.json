@@ -1,0 +1,1295 @@
+{
+  "slug": "webrtc-card-skimmer",
+  "title": "Black Friday card thieves hid inside a video call",
+  "theme": "crimson",
+  "caption": "In the week before Black Friday, a card skimmer hidden on five shopping sites smuggled card details out through WebRTC, the tech your browser uses for video calls, slipping past the stores' server lists.\n\n#blackfriday #cybersecurity #onlineshopping #tech #explained",
+  "status": "rendered",
+  "brand": {
+    "name": "TechWhyz"
+  },
+  "source": {
+    "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+    "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer"
+  },
+  "scenes": [
+    {
+      "type": "art",
+      "narration": "This Black Friday week, hidden code on five shopping sites was built to copy your card.",
+      "emphasis": [
+        "hidden"
+      ],
+      "props": {
+        "art": "hook"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|This Black Friday week, hidden code on five shopping sites was built to copy your card.",
+      "audio": "videos/webrtc-card-skimmer/scene-01.mp3",
+      "words": [
+        {
+          "text": "This",
+          "startMs": 88,
+          "endMs": 296
+        },
+        {
+          "text": "Black",
+          "startMs": 296,
+          "endMs": 548
+        },
+        {
+          "text": "Friday",
+          "startMs": 559,
+          "endMs": 921
+        },
+        {
+          "text": "week",
+          "startMs": 932,
+          "endMs": 1305
+        },
+        {
+          "text": "hidden",
+          "startMs": 1513,
+          "endMs": 1689
+        },
+        {
+          "text": "code",
+          "startMs": 1689,
+          "endMs": 1886
+        },
+        {
+          "text": "on",
+          "startMs": 1886,
+          "endMs": 1996
+        },
+        {
+          "text": "five",
+          "startMs": 1996,
+          "endMs": 2325
+        },
+        {
+          "text": "shopping",
+          "startMs": 2336,
+          "endMs": 2708
+        },
+        {
+          "text": "sites",
+          "startMs": 2708,
+          "endMs": 3015
+        },
+        {
+          "text": "was",
+          "startMs": 3026,
+          "endMs": 3158
+        },
+        {
+          "text": "built",
+          "startMs": 3169,
+          "endMs": 3399
+        },
+        {
+          "text": "to",
+          "startMs": 3399,
+          "endMs": 3487
+        },
+        {
+          "text": "copy",
+          "startMs": 3487,
+          "endMs": 3783
+        },
+        {
+          "text": "your",
+          "startMs": 3794,
+          "endMs": 3893
+        },
+        {
+          "text": "card",
+          "startMs": 3904,
+          "endMs": 4276
+        }
+      ],
+      "durationMs": 4536
+    },
+    {
+      "type": "art",
+      "narration": "So how did it get stolen cards past the stores' security?",
+      "emphasis": [
+        "security"
+      ],
+      "props": {
+        "art": "question"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So how did it get stolen cards past the stores' security?",
+      "audio": "videos/webrtc-card-skimmer/scene-02.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "how",
+          "startMs": 186,
+          "endMs": 274
+        },
+        {
+          "text": "did",
+          "startMs": 285,
+          "endMs": 373
+        },
+        {
+          "text": "it",
+          "startMs": 373,
+          "endMs": 439
+        },
+        {
+          "text": "get",
+          "startMs": 450,
+          "endMs": 559
+        },
+        {
+          "text": "stolen",
+          "startMs": 559,
+          "endMs": 921
+        },
+        {
+          "text": "cards",
+          "startMs": 921,
+          "endMs": 1250
+        },
+        {
+          "text": "past",
+          "startMs": 1250,
+          "endMs": 1700
+        },
+        {
+          "text": "the",
+          "startMs": 1700,
+          "endMs": 1765
+        },
+        {
+          "text": "stores'",
+          "startMs": 1776,
+          "endMs": 2105
+        },
+        {
+          "text": "security",
+          "startMs": 2116,
+          "endMs": 2544
+        }
+      ],
+      "durationMs": 2804
+    },
+    {
+      "type": "art",
+      "narration": "It smuggled them out through the tech your browser uses for video calls.",
+      "emphasis": [
+        "video"
+      ],
+      "props": {
+        "art": "smuggle"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It smuggled them out through the tech your browser uses for video calls.",
+      "audio": "videos/webrtc-card-skimmer/scene-03.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 88,
+          "endMs": 153
+        },
+        {
+          "text": "smuggled",
+          "startMs": 164,
+          "endMs": 559
+        },
+        {
+          "text": "them",
+          "startMs": 570,
+          "endMs": 680
+        },
+        {
+          "text": "out",
+          "startMs": 680,
+          "endMs": 965
+        },
+        {
+          "text": "through",
+          "startMs": 976,
+          "endMs": 1096
+        },
+        {
+          "text": "the",
+          "startMs": 1096,
+          "endMs": 1173
+        },
+        {
+          "text": "tech",
+          "startMs": 1173,
+          "endMs": 1404
+        },
+        {
+          "text": "your",
+          "startMs": 1414,
+          "endMs": 1491
+        },
+        {
+          "text": "browser",
+          "startMs": 1491,
+          "endMs": 1919
+        },
+        {
+          "text": "uses",
+          "startMs": 1919,
+          "endMs": 2270
+        },
+        {
+          "text": "for",
+          "startMs": 2270,
+          "endMs": 2368
+        },
+        {
+          "text": "video",
+          "startMs": 2368,
+          "endMs": 2653
+        },
+        {
+          "text": "calls",
+          "startMs": 2654,
+          "endMs": 3114
+        }
+      ],
+      "durationMs": 3374
+    },
+    {
+      "type": "art",
+      "narration": "That feature lets a web page open a channel to someone else and pass data.",
+      "emphasis": [
+        "channel"
+      ],
+      "props": {
+        "art": "video-call"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That feature lets a web page open a channel to someone else and pass data.",
+      "audio": "videos/webrtc-card-skimmer/scene-04.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 88,
+          "endMs": 197
+        },
+        {
+          "text": "feature",
+          "startMs": 197,
+          "endMs": 493
+        },
+        {
+          "text": "lets",
+          "startMs": 504,
+          "endMs": 625
+        },
+        {
+          "text": "a",
+          "startMs": 625,
+          "endMs": 680
+        },
+        {
+          "text": "web",
+          "startMs": 680,
+          "endMs": 943
+        },
+        {
+          "text": "page",
+          "startMs": 943,
+          "endMs": 1283
+        },
+        {
+          "text": "open",
+          "startMs": 1371,
+          "endMs": 1557
+        },
+        {
+          "text": "a",
+          "startMs": 1557,
+          "endMs": 1590
+        },
+        {
+          "text": "channel",
+          "startMs": 1590,
+          "endMs": 1908
+        },
+        {
+          "text": "to",
+          "startMs": 1908,
+          "endMs": 1952
+        },
+        {
+          "text": "someone",
+          "startMs": 1952,
+          "endMs": 2270
+        },
+        {
+          "text": "else",
+          "startMs": 2281,
+          "endMs": 2643
+        },
+        {
+          "text": "and",
+          "startMs": 2840,
+          "endMs": 2950
+        },
+        {
+          "text": "pass",
+          "startMs": 2961,
+          "endMs": 3311
+        },
+        {
+          "text": "data",
+          "startMs": 3322,
+          "endMs": 3673
+        }
+      ],
+      "durationMs": 3933
+    },
+    {
+      "type": "art",
+      "narration": "It slipped in through a cookie banner, an ad pixel, or the store's own files.",
+      "emphasis": [
+        "cookie"
+      ],
+      "props": {
+        "art": "ways-in"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It slipped in through a cookie banner, an ad pixel, or the store's own files.",
+      "audio": "videos/webrtc-card-skimmer/scene-05.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 77,
+          "endMs": 143
+        },
+        {
+          "text": "slipped",
+          "startMs": 143,
+          "endMs": 428
+        },
+        {
+          "text": "in",
+          "startMs": 428,
+          "endMs": 559
+        },
+        {
+          "text": "through",
+          "startMs": 570,
+          "endMs": 702
+        },
+        {
+          "text": "a",
+          "startMs": 702,
+          "endMs": 746
+        },
+        {
+          "text": "cookie",
+          "startMs": 757,
+          "endMs": 1031
+        },
+        {
+          "text": "banner",
+          "startMs": 1042,
+          "endMs": 1371
+        },
+        {
+          "text": "an",
+          "startMs": 1765,
+          "endMs": 1875
+        },
+        {
+          "text": "ad",
+          "startMs": 1875,
+          "endMs": 2105
+        },
+        {
+          "text": "pixel",
+          "startMs": 2116,
+          "endMs": 2610
+        },
+        {
+          "text": "or",
+          "startMs": 3004,
+          "endMs": 3048
+        },
+        {
+          "text": "the",
+          "startMs": 3048,
+          "endMs": 3114
+        },
+        {
+          "text": "store's",
+          "startMs": 3114,
+          "endMs": 3454
+        },
+        {
+          "text": "own",
+          "startMs": 3454,
+          "endMs": 3586
+        },
+        {
+          "text": "files",
+          "startMs": 3586,
+          "endMs": 4145
+        }
+      ],
+      "durationMs": 4405
+    },
+    {
+      "type": "art",
+      "narration": "It only woke up on phones, and on one site, only at checkout.",
+      "emphasis": [
+        "phones"
+      ],
+      "props": {
+        "art": "phones-only"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|It only woke up on phones, and on one site, only at checkout.",
+      "audio": "videos/webrtc-card-skimmer/scene-06.mp3",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 88,
+          "endMs": 143
+        },
+        {
+          "text": "only",
+          "startMs": 143,
+          "endMs": 296
+        },
+        {
+          "text": "woke",
+          "startMs": 296,
+          "endMs": 482
+        },
+        {
+          "text": "up",
+          "startMs": 493,
+          "endMs": 570
+        },
+        {
+          "text": "on",
+          "startMs": 570,
+          "endMs": 713
+        },
+        {
+          "text": "phones",
+          "startMs": 724,
+          "endMs": 1294
+        },
+        {
+          "text": "and",
+          "startMs": 1349,
+          "endMs": 1469
+        },
+        {
+          "text": "on",
+          "startMs": 1480,
+          "endMs": 1601
+        },
+        {
+          "text": "one",
+          "startMs": 1612,
+          "endMs": 1842
+        },
+        {
+          "text": "site",
+          "startMs": 1853,
+          "endMs": 2248
+        },
+        {
+          "text": "only",
+          "startMs": 2456,
+          "endMs": 2675
+        },
+        {
+          "text": "at",
+          "startMs": 2675,
+          "endMs": 2741
+        },
+        {
+          "text": "checkout",
+          "startMs": 2741,
+          "endMs": 3235
+        }
+      ],
+      "durationMs": 3495
+    },
+    {
+      "type": "art",
+      "narration": "Card number, expiry, security code: all copied before the payment was even checked.",
+      "emphasis": [
+        "copied"
+      ],
+      "props": {
+        "art": "copied"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Card number, expiry, security code: all copied before the payment was even checked.",
+      "audio": "videos/webrtc-card-skimmer/scene-07.mp3",
+      "words": [
+        {
+          "text": "Card",
+          "startMs": 88,
+          "endMs": 296
+        },
+        {
+          "text": "number",
+          "startMs": 296,
+          "endMs": 647
+        },
+        {
+          "text": "expiry",
+          "startMs": 1096,
+          "endMs": 1579
+        },
+        {
+          "text": "security",
+          "startMs": 1754,
+          "endMs": 2182
+        },
+        {
+          "text": "code",
+          "startMs": 2193,
+          "endMs": 2522
+        },
+        {
+          "text": "all",
+          "startMs": 2939,
+          "endMs": 3125
+        },
+        {
+          "text": "copied",
+          "startMs": 3136,
+          "endMs": 3498
+        },
+        {
+          "text": "before",
+          "startMs": 3498,
+          "endMs": 3750
+        },
+        {
+          "text": "the",
+          "startMs": 3761,
+          "endMs": 3827
+        },
+        {
+          "text": "payment",
+          "startMs": 3838,
+          "endMs": 4167
+        },
+        {
+          "text": "was",
+          "startMs": 4178,
+          "endMs": 4331
+        },
+        {
+          "text": "even",
+          "startMs": 4342,
+          "endMs": 4561
+        },
+        {
+          "text": "checked",
+          "startMs": 4572,
+          "endMs": 5000
+        }
+      ],
+      "durationMs": 5260
+    },
+    {
+      "type": "art",
+      "narration": "But here's the part most people miss: a store can block every server except the ones it lists.",
+      "emphasis": [
+        "block"
+      ],
+      "props": {
+        "art": "the-list"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|But here's the part most people miss: a store can block every server except the ones it lists.",
+      "audio": "videos/webrtc-card-skimmer/scene-08.mp3",
+      "words": [
+        {
+          "text": "But",
+          "startMs": 77,
+          "endMs": 143
+        },
+        {
+          "text": "here's",
+          "startMs": 143,
+          "endMs": 307
+        },
+        {
+          "text": "the",
+          "startMs": 318,
+          "endMs": 395
+        },
+        {
+          "text": "part",
+          "startMs": 395,
+          "endMs": 647
+        },
+        {
+          "text": "most",
+          "startMs": 724,
+          "endMs": 1053
+        },
+        {
+          "text": "people",
+          "startMs": 1064,
+          "endMs": 1316
+        },
+        {
+          "text": "miss",
+          "startMs": 1316,
+          "endMs": 1689
+        },
+        {
+          "text": "a",
+          "startMs": 2083,
+          "endMs": 2138
+        },
+        {
+          "text": "store",
+          "startMs": 2138,
+          "endMs": 2434
+        },
+        {
+          "text": "can",
+          "startMs": 2434,
+          "endMs": 2533
+        },
+        {
+          "text": "block",
+          "startMs": 2533,
+          "endMs": 2950
+        },
+        {
+          "text": "every",
+          "startMs": 3070,
+          "endMs": 3289
+        },
+        {
+          "text": "server",
+          "startMs": 3289,
+          "endMs": 3662
+        },
+        {
+          "text": "except",
+          "startMs": 3673,
+          "endMs": 4079
+        },
+        {
+          "text": "the",
+          "startMs": 4079,
+          "endMs": 4156
+        },
+        {
+          "text": "ones",
+          "startMs": 4167,
+          "endMs": 4353
+        },
+        {
+          "text": "it",
+          "startMs": 4353,
+          "endMs": 4419
+        },
+        {
+          "text": "lists",
+          "startMs": 4419,
+          "endMs": 4890
+        }
+      ],
+      "durationMs": 5150
+    },
+    {
+      "type": "art",
+      "narration": "That list doesn't cover video call channels, and security tools often watch them less closely.",
+      "emphasis": [
+        "doesn't"
+      ],
+      "props": {
+        "art": "not-covered"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|That list doesn't cover video call channels, and security tools often watch them less closely.",
+      "audio": "videos/webrtc-card-skimmer/scene-09.mp3",
+      "words": [
+        {
+          "text": "That",
+          "startMs": 88,
+          "endMs": 230
+        },
+        {
+          "text": "list",
+          "startMs": 241,
+          "endMs": 439
+        },
+        {
+          "text": "doesn't",
+          "startMs": 504,
+          "endMs": 768
+        },
+        {
+          "text": "cover",
+          "startMs": 778,
+          "endMs": 1031
+        },
+        {
+          "text": "video",
+          "startMs": 1031,
+          "endMs": 1349
+        },
+        {
+          "text": "call",
+          "startMs": 1360,
+          "endMs": 1579
+        },
+        {
+          "text": "channels",
+          "startMs": 1579,
+          "endMs": 2094
+        },
+        {
+          "text": "and",
+          "startMs": 2325,
+          "endMs": 2467
+        },
+        {
+          "text": "security",
+          "startMs": 2467,
+          "endMs": 2950
+        },
+        {
+          "text": "tools",
+          "startMs": 2961,
+          "endMs": 3465
+        },
+        {
+          "text": "often",
+          "startMs": 3607,
+          "endMs": 3925
+        },
+        {
+          "text": "watch",
+          "startMs": 3925,
+          "endMs": 4200
+        },
+        {
+          "text": "them",
+          "startMs": 4200,
+          "endMs": 4386
+        },
+        {
+          "text": "less",
+          "startMs": 4386,
+          "endMs": 4583
+        },
+        {
+          "text": "closely",
+          "startMs": 4583,
+          "endMs": 5208
+        }
+      ],
+      "durationMs": 5468
+    },
+    {
+      "type": "art",
+      "narration": "The script needed just two ordinary requests to set up the call.",
+      "emphasis": [
+        "two"
+      ],
+      "props": {
+        "art": "two-requests"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|The script needed just two ordinary requests to set up the call.",
+      "audio": "videos/webrtc-card-skimmer/scene-10.mp3",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 88,
+          "endMs": 132
+        },
+        {
+          "text": "script",
+          "startMs": 132,
+          "endMs": 406
+        },
+        {
+          "text": "needed",
+          "startMs": 406,
+          "endMs": 724
+        },
+        {
+          "text": "just",
+          "startMs": 932,
+          "endMs": 1162
+        },
+        {
+          "text": "two",
+          "startMs": 1173,
+          "endMs": 1414
+        },
+        {
+          "text": "ordinary",
+          "startMs": 1480,
+          "endMs": 1908
+        },
+        {
+          "text": "requests",
+          "startMs": 1908,
+          "endMs": 2325
+        },
+        {
+          "text": "to",
+          "startMs": 2325,
+          "endMs": 2412
+        },
+        {
+          "text": "set",
+          "startMs": 2412,
+          "endMs": 2599
+        },
+        {
+          "text": "up",
+          "startMs": 2599,
+          "endMs": 2675
+        },
+        {
+          "text": "the",
+          "startMs": 2686,
+          "endMs": 2741
+        },
+        {
+          "text": "call",
+          "startMs": 2752,
+          "endMs": 3070
+        }
+      ],
+      "durationMs": 3330
+    },
+    {
+      "type": "art",
+      "narration": "Then everything flowed through Cloudflare's relay, looking like a normal video call.",
+      "emphasis": [
+        "relay"
+      ],
+      "props": {
+        "art": "relay"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Then everything flowed through Cloudflare's relay, looking like a normal video call.",
+      "audio": "videos/webrtc-card-skimmer/scene-11.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "startMs": 88,
+          "endMs": 186
+        },
+        {
+          "text": "everything",
+          "startMs": 197,
+          "endMs": 559
+        },
+        {
+          "text": "flowed",
+          "startMs": 570,
+          "endMs": 1129
+        },
+        {
+          "text": "through",
+          "startMs": 1140,
+          "endMs": 1502
+        },
+        {
+          "text": "Cloudflare's",
+          "startMs": 1513,
+          "endMs": 2193
+        },
+        {
+          "text": "relay",
+          "startMs": 2204,
+          "endMs": 2675
+        },
+        {
+          "text": "looking",
+          "startMs": 3037,
+          "endMs": 3235
+        },
+        {
+          "text": "like",
+          "startMs": 3246,
+          "endMs": 3344
+        },
+        {
+          "text": "a",
+          "startMs": 3344,
+          "endMs": 3366
+        },
+        {
+          "text": "normal",
+          "startMs": 3377,
+          "endMs": 3706
+        },
+        {
+          "text": "video",
+          "startMs": 3706,
+          "endMs": 4013
+        },
+        {
+          "text": "call",
+          "startMs": 4024,
+          "endMs": 4331
+        }
+      ],
+      "durationMs": 4591
+    },
+    {
+      "type": "art",
+      "narration": "Even the skimmer's own code arrived in chunks over that channel.",
+      "emphasis": [
+        "chunks"
+      ],
+      "props": {
+        "art": "chunks"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Even the skimmer's own code arrived in chunks over that channel.",
+      "audio": "videos/webrtc-card-skimmer/scene-12.mp3",
+      "words": [
+        {
+          "text": "Even",
+          "startMs": 77,
+          "endMs": 230
+        },
+        {
+          "text": "the",
+          "startMs": 230,
+          "endMs": 296
+        },
+        {
+          "text": "skimmer's",
+          "startMs": 307,
+          "endMs": 757
+        },
+        {
+          "text": "own",
+          "startMs": 877,
+          "endMs": 1096
+        },
+        {
+          "text": "code",
+          "startMs": 1096,
+          "endMs": 1502
+        },
+        {
+          "text": "arrived",
+          "startMs": 1623,
+          "endMs": 2061
+        },
+        {
+          "text": "in",
+          "startMs": 2061,
+          "endMs": 2160
+        },
+        {
+          "text": "chunks",
+          "startMs": 2171,
+          "endMs": 2664
+        },
+        {
+          "text": "over",
+          "startMs": 2807,
+          "endMs": 3004
+        },
+        {
+          "text": "that",
+          "startMs": 3004,
+          "endMs": 3169
+        },
+        {
+          "text": "channel",
+          "startMs": 3180,
+          "endMs": 3531
+        }
+      ],
+      "durationMs": 3791
+    },
+    {
+      "type": "art",
+      "narration": "Researchers at InfoHawk caught it, and all five stores removed it by November twenty fifth.",
+      "emphasis": [
+        "removed"
+      ],
+      "props": {
+        "art": "caught"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Researchers at InfoHawk caught it, and all five stores removed it by November twenty fifth.",
+      "audio": "videos/webrtc-card-skimmer/scene-13.mp3",
+      "words": [
+        {
+          "text": "Researchers",
+          "startMs": 77,
+          "endMs": 669
+        },
+        {
+          "text": "at",
+          "startMs": 680,
+          "endMs": 800
+        },
+        {
+          "text": "InfoHawk",
+          "startMs": 811,
+          "endMs": 1371
+        },
+        {
+          "text": "caught",
+          "startMs": 1382,
+          "endMs": 1612
+        },
+        {
+          "text": "it",
+          "startMs": 1612,
+          "endMs": 1710
+        },
+        {
+          "text": "and",
+          "startMs": 2061,
+          "endMs": 2193
+        },
+        {
+          "text": "all",
+          "startMs": 2204,
+          "endMs": 2357
+        },
+        {
+          "text": "five",
+          "startMs": 2368,
+          "endMs": 2632
+        },
+        {
+          "text": "stores",
+          "startMs": 2632,
+          "endMs": 2928
+        },
+        {
+          "text": "removed",
+          "startMs": 2928,
+          "endMs": 3311
+        },
+        {
+          "text": "it",
+          "startMs": 3311,
+          "endMs": 3421
+        },
+        {
+          "text": "by",
+          "startMs": 3432,
+          "endMs": 3520
+        },
+        {
+          "text": "November",
+          "startMs": 3520,
+          "endMs": 3882
+        },
+        {
+          "text": "twenty",
+          "startMs": 3882,
+          "endMs": 4068
+        },
+        {
+          "text": "fifth",
+          "startMs": 4068,
+          "endMs": 4507
+        }
+      ],
+      "durationMs": 4767
+    },
+    {
+      "type": "art",
+      "narration": "So your card didn't leave through the web. It left on a video call nobody was watching.",
+      "emphasis": [
+        "nobody"
+      ],
+      "props": {
+        "art": "payoff"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|So your card didn't leave through the web. It left on a video call nobody was watching.",
+      "audio": "videos/webrtc-card-skimmer/scene-14.mp3",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 88,
+          "endMs": 175
+        },
+        {
+          "text": "your",
+          "startMs": 175,
+          "endMs": 274
+        },
+        {
+          "text": "card",
+          "startMs": 274,
+          "endMs": 537
+        },
+        {
+          "text": "didn't",
+          "startMs": 548,
+          "endMs": 778
+        },
+        {
+          "text": "leave",
+          "startMs": 778,
+          "endMs": 1195
+        },
+        {
+          "text": "through",
+          "startMs": 1272,
+          "endMs": 1480
+        },
+        {
+          "text": "the",
+          "startMs": 1480,
+          "endMs": 1557
+        },
+        {
+          "text": "web",
+          "startMs": 1557,
+          "endMs": 1853
+        },
+        {
+          "text": "It",
+          "startMs": 2215,
+          "endMs": 2314
+        },
+        {
+          "text": "left",
+          "startMs": 2314,
+          "endMs": 2522
+        },
+        {
+          "text": "on",
+          "startMs": 2522,
+          "endMs": 2588
+        },
+        {
+          "text": "a",
+          "startMs": 2588,
+          "endMs": 2621
+        },
+        {
+          "text": "video",
+          "startMs": 2621,
+          "endMs": 3026
+        },
+        {
+          "text": "call",
+          "startMs": 3026,
+          "endMs": 3355
+        },
+        {
+          "text": "nobody",
+          "startMs": 3454,
+          "endMs": 3827
+        },
+        {
+          "text": "was",
+          "startMs": 3838,
+          "endMs": 3969
+        },
+        {
+          "text": "watching",
+          "startMs": 3980,
+          "endMs": 4463
+        }
+      ],
+      "durationMs": 4723
+    },
+    {
+      "type": "title",
+      "narration": "Follow, and send this to someone who does all their shopping on their phone.",
+      "emphasis": [
+        "Follow"
+      ],
+      "props": {
+        "headline": "Follow for more",
+        "highlight": [
+          "Follow"
+        ],
+        "sub": "Send it to the phone shopper"
+      },
+      "voiced": "en-US-AndrewMultilingualNeural|+14%|+2Hz|Follow, and send this to someone who does all their shopping on their phone.",
+      "audio": "videos/webrtc-card-skimmer/scene-15.mp3",
+      "words": [
+        {
+          "text": "Follow",
+          "startMs": 121,
+          "endMs": 559
+        },
+        {
+          "text": "and",
+          "startMs": 888,
+          "endMs": 1031
+        },
+        {
+          "text": "send",
+          "startMs": 1042,
+          "endMs": 1316
+        },
+        {
+          "text": "this",
+          "startMs": 1316,
+          "endMs": 1491
+        },
+        {
+          "text": "to",
+          "startMs": 1491,
+          "endMs": 1568
+        },
+        {
+          "text": "someone",
+          "startMs": 1568,
+          "endMs": 1831
+        },
+        {
+          "text": "who",
+          "startMs": 1831,
+          "endMs": 1919
+        },
+        {
+          "text": "does",
+          "startMs": 1919,
+          "endMs": 2215
+        },
+        {
+          "text": "all",
+          "startMs": 2314,
+          "endMs": 2511
+        },
+        {
+          "text": "their",
+          "startMs": 2522,
+          "endMs": 2643
+        },
+        {
+          "text": "shopping",
+          "startMs": 2643,
+          "endMs": 3059
+        },
+        {
+          "text": "on",
+          "startMs": 3059,
+          "endMs": 3136
+        },
+        {
+          "text": "their",
+          "startMs": 3136,
+          "endMs": 3224
+        },
+        {
+          "text": "phone",
+          "startMs": 3224,
+          "endMs": 3575
+        }
+      ],
+      "durationMs": 3835
+    }
+  ]
+}
